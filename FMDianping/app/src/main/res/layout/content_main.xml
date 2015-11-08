@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main" tools:context=".MainActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <TextView android:text="Hello World!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</RelativeLayout>
+    <FrameLayout
+        android:id="@+id/fl_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbtn_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/main_index_home"
+            android:drawablePadding="@dimen/main_rdbtn_drawable_padding"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@drawable/main_text_color_selector"
+            android:text="@string/main_home"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_tuan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/main_index_tuan"
+            android:drawablePadding="@dimen/main_rdbtn_drawable_padding"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@drawable/main_text_color_selector"
+            android:text="@string/main_tuan"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/main_index_search"
+            android:drawablePadding="@dimen/main_rdbtn_drawable_padding"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@drawable/main_text_color_selector"
+            android:text="@string/main_search"/>
+
+        <RadioButton
+            android:id="@+id/rbtn_my"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:button="@null"
+            android:drawableTop="@drawable/main_index_my"
+            android:drawablePadding="@dimen/main_rdbtn_drawable_padding"
+            android:paddingLeft="0dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:textColor="@drawable/main_text_color_selector"
+            android:text="@string/main_my"/>
+
+    </RadioGroup>
+</LinearLayout>
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_main" tools:context=".MainActivity">-->
