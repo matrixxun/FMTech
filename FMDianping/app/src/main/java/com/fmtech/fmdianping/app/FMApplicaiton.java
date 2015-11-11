@@ -1,8 +1,9 @@
-package com.fmtech.fmdianping;
+package com.fmtech.fmdianping.app;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
-import com.fmtech.fmdianping.utils.FMSharedPres;
+import com.fmtech.fmdianping.util.FMSharedPres;
 
 import org.xutils.x;
 /**
@@ -21,9 +22,25 @@ import org.xutils.x;
  * 2015/11/8 15:18  Drew.Chiang       v1.0.0          create
  * <p/>
  * ==================================================================
+ * What we have done in FMApplication:
+ *
  */
 
-public class FMApplicaiton extends Application {
+public class FMApplicaiton extends MultiDexApplication {
+
+    private static FMApplicaiton instance;
+
+    public FMApplicaiton(){
+        instance = this;
+    }
+
+    static FMApplicaiton _instance(){
+        return instance;
+    }
+
+    private void checkCrashReport(){
+
+    }
 
     @Override
     public void onCreate() {
