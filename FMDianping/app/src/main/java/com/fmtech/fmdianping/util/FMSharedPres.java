@@ -1,4 +1,4 @@
-package com.fmtech.fmdianping.utils;
+package com.fmtech.fmdianping.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
