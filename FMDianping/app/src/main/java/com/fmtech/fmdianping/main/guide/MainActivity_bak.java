@@ -1,4 +1,4 @@
-package com.fmtech.fmdianping.ui.activity;
+package com.fmtech.fmdianping.main.guide;
 
 import android.app.FragmentTransaction;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import com.fmtech.fmdianping.R;
 import com.fmtech.fmdianping.ui.fragment.HomeFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_bak extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
