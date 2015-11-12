@@ -22,7 +22,7 @@ import org.xutils.x;
  * 2015/11/8 15:18  Drew.Chiang       v1.0.0          create
  * <p/>
  * ==================================================================
- * What we have done in FMApplication:
+ * What have we done in FMApplication:
  *
  */
 
@@ -38,15 +38,17 @@ public class FMApplicaiton extends MultiDexApplication {
         return instance;
     }
 
-    private void checkCrashReport(){
-
-    }
-
     @Override
     public void onCreate() {
         super.onCreate();
         x.Ext.init(this);
         //SharedPreference util init
         FMSharedPres.init(this);
+
+        checkCrashReport();
+    }
+
+    private void checkCrashReport(){
+
     }
 }
