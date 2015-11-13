@@ -1,6 +1,5 @@
 package com.fmtech.fmdianping.app;
 
-import android.app.Application;
 import android.support.multidex.MultiDexApplication;
 
 import com.fmtech.fmdianping.util.FMSharedPres;
@@ -26,15 +25,15 @@ import org.xutils.x;
  *
  */
 
-public class FMApplicaiton extends MultiDexApplication {
+public class FMApplication extends MultiDexApplication {
 
-    private static FMApplicaiton instance;
+    private static FMApplication instance;
 
-    public FMApplicaiton(){
+    public FMApplication(){
         instance = this;
     }
 
-    static FMApplicaiton _instance(){
+    public static FMApplication _instance(){
         return instance;
     }
 

@@ -11,8 +11,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.fmtech.fmdianping.R;
-import com.fmtech.fmdianping.utils.Constants;
-import com.fmtech.fmdianping.utils.FMSharedPres;
+import com.fmtech.fmdianping.main.guide.MainActivity_bak;
+import com.fmtech.fmdianping.util.Constants;
+import com.fmtech.fmdianping.util.FMSharedPres;
 
 import org.xutils.view.annotation.Event;
 import org.xutils.view.annotation.ViewInject;
@@ -102,7 +103,7 @@ public class GuideActivity extends AppCompatActivity {
 
     private void toMainPage(){
         Intent intent = new Intent();
-        intent.setClass(GuideActivity.this, MainActivity.class);
+        intent.setClass(GuideActivity.this, MainActivity_bak.class);
         startActivity(intent);
         finish();
         FMSharedPres.shareInstance().putBoolean(Constants.IS_FIRST_LOGIN, false).commit();

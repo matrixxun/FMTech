@@ -20,4 +20,9 @@ package com.fmtech.fmdianping.util;
 
 public class Constants {
     public static final String IS_FIRST_LOGIN="IS_FIRST_LOGIN";
+    public static final String PREF_KEY_GUIDANCE_VERSION_CODE= "guidanceShowVersion";
+    public static final String PREF_KEY_SPLASH_DURATION = "splash_duration";
+    public static final String URI_GUIDANCE_ACTIVITY = "fmdianping://guidance";
+    public static final String URI_GUIDANCE_NEW_COMER_ACTIVITY = "fmdianping://guidancenewcomer";
+    public static final String URI_MAIN_ACTIVITY= "fmdianping://home";
 }
