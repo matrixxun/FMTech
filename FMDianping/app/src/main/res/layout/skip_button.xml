@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_gravity="center|top|right"
+	android:layout_marginRight="15.0dp"
+	android:layout_marginTop="15.0dp"
+	android:background="@drawable/screen_skip"
+	android:drawableRight="@drawable/detail_icon_arrow"
+	android:textColor="@color/deep_gray"
+	android:textSize="@dimen/text_size_18"
+	android:text="@string/skip_guidance"
+	android:visiblility="visible"/>

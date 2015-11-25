@@ -20,4 +20,5 @@
         android:paddingRight="30dp"
         android:visibility="gone"
         android:background="@mipmap/guide_button"/>
+
 </RelativeLayout>

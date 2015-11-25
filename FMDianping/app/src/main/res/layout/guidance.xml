@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/guidance"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@id/iv_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.9" />
+
+        <ImageView
+            android:id="@id/iv_fg"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="7.0"
+            android:scaleType="fitCenter"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="2.1" />
+    </LinearLayout>
+
+    <include
+        android:id="@id/guidance_skip"
+        layout="@layout/skip_button" />
+
+    <ImageView
+        android:id="@id/iv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="45.0dip"
+        android:scaleType="center"
+        android:src="@drawable/guidance_skip" />
+
+</FrameLayout>

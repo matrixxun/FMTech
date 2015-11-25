@@ -3,6 +3,7 @@ package com.fmtech.fmdianping.app;
 import android.support.multidex.MultiDexApplication;
 
 import com.fmtech.fmdianping.util.FMSharedPres;
+import com.squareup.leakcanary.LeakCanary;
 
 import org.xutils.x;
 /**
@@ -40,6 +41,7 @@ public class FMApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        LeakCanary.install(this);
         x.Ext.init(this);
         //SharedPreference util init
         FMSharedPres.init(this);

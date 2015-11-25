@@ -1,5 +1,7 @@
 package com.fmtech.fmdianping.app;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v4.app.FragmentActivity;
@@ -48,5 +50,9 @@ public class BaseActivity extends FragmentActivity{
     @Override
     protected void onDestroy() {
         super.onDestroy();
+    }
+
+    public void startActivity(String uri) {
+        startActivity(new Intent("android.intent.action.VIEW", Uri.parse(uri)));
     }
 }

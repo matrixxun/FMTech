@@ -5,5 +5,6 @@
     <string name="main_tuan">闪惠团购</string>
     <string name="main_search">发现</string>
     <string name="main_my">我的</string>
+	<string name="skip_guidance">跳过</string>
 
 </resources>
