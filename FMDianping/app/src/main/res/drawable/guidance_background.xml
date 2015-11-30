@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/guidance_bg_tile" android:dither="false" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

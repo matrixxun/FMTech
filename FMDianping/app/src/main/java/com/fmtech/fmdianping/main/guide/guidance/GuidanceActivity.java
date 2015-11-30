@@ -41,11 +41,39 @@ public class GuidanceActivity extends BaseActivity{
     int[] mBackgrounds = GuidanceDrawable.backgroundImages;
     protected GuidanceFlipper mFlipper;
     int[] mForgrounds = GuidanceDrawable.foregroundImages;
-
+    protected ImageAdapter mImageAdapter;
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guide);
+        mFlipper = new GuidanceFlipper(this);
+        mFlipper.setBackgroundResource(R.drawable.guidance_background);
+        setupViews();
+        if(null != mImageAdapter){
+            mFlipper.setAdapter(mImageAdapter);
+        }
+
+        setContentView(mFlipper);
+        mFlipper.setCurrentItem(Integer.valueOf(0));
+        mFlipper.update();
+        mFlipper.enableNavigationDotView(mViewCount);
+    }
+
+    public void setupViews(){
+        int[] backgrounds = new int[4];
+        backgrounds[0] = R.drawable.new_comer_guide_bg;
+        backgrounds[1] = R.drawable.new_comer_guide_bg;
+        backgrounds[2] = R.drawable.new_comer_guide_bg;
+        backgrounds[3] = R.drawable.new_comer_guide_bg;
+        this.mBackgrounds = backgrounds;
+        int[] forgrounds = new int[4];
+        forgrounds[0] = R.drawable.new_comer_guide_fg_1;
+        forgrounds[1] = R.drawable.new_comer_guide_fg_2;
+        forgrounds[2] = R.drawable.new_comer_guide_fg_3;
+        forgrounds[3] = R.drawable.new_comer_guide_fg_4;
+        this.mForgrounds = forgrounds;
+        mViewCount = mBackgrounds.length;
+        mImageAdapter = new ImageAdapter(this);
     }
 
     protected void gotoMainActivity(){

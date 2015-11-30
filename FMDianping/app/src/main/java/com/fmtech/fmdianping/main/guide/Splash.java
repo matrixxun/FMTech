@@ -14,7 +14,8 @@ import com.fmtech.fmdianping.app.BaseActivity;
 import com.fmtech.fmdianping.app.FMEnvironment;
 import com.fmtech.fmdianping.base.util.BluetoothHelper;
 import com.fmtech.fmdianping.configservice.impl.ConfigHelper;
-import com.fmtech.fmdianping.ui.activity.GuideActivity;
+//import com.fmtech.fmdianping.ui.activity.GuideActivity;
+import com.fmtech.fmdianping.main.guide.guidance.GuidanceActivity;
 import com.fmtech.fmdianping.util.BitmapUtils;
 import com.fmtech.fmdianping.util.Constants;
 import com.fmtech.fmdianping.util.FMSharedPres;
@@ -67,12 +68,12 @@ public class Splash extends BaseActivity {
 
                     break;
             }
-            if(FMSharedPres.shareInstance().getBoolean(Constants.IS_FIRST_LOGIN, true)){
-                toGuidePage();
+//            if(FMSharedPres.shareInstance().getBoolean(Constants.IS_FIRST_LOGIN, true)){
+//                toGuidePage();
 //                FMSharedPres.shareInstance().putBoolean(Constants.IS_FIRST_LOGIN, false).commit();
-            }else {
-                toMainPage();
-            }
+//            }else {
+//                toMainPage();
+//            }
         }
     };
 
@@ -127,7 +128,7 @@ public class Splash extends BaseActivity {
 
     private void toGuidePage(){
         Intent intent = new Intent();
-        intent.setClass(Splash.this, GuideActivity.class);
+        intent.setClass(Splash.this, GuidanceActivity.class);
         startActivity(intent);
         finish();
     }

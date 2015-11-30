@@ -57,7 +57,7 @@ public class NavigationDot extends View {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.NavigationDot);
         mDotNormalResId = typedArray.getResourceId(R.styleable.NavigationDot_navigationDotNormal, -1);
         mDotSelectedResId =typedArray.getResourceId(R.styleable.NavigationDot_navigationDotSelected, -1);
-        mDotCount = typedArray.getResourceId(R.styleable.NavigationDot_navigationDotCount, 4);
+        mDotCount = typedArray.getResourceId(R.styleable.NavigationDot_navigationDotCount, 0);
         typedArray.recycle();
 
         if(mDotNormalResId != -1){

@@ -10,4 +10,4 @@
 	android:textColor="@color/deep_gray"
 	android:textSize="@dimen/text_size_18"
 	android:text="@string/skip_guidance"
-	android:visiblility="visible"/>
+	android:visibility="visible"/>
