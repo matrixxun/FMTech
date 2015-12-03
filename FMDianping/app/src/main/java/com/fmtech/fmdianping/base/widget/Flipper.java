@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 
 import com.fmtech.fmdianping.R;
@@ -42,9 +43,9 @@ public class Flipper<T> extends FrameLayout{
     protected FlipperAdapter<T> mAdapter;
     private int mAnimDuration;
     private int mAnimMode = 0;
-    private long mAnimStartMs;
-    private int mAnimX1;
-    private int mAnimX2;
+    private long mAnimStartTimeMs;
+    private int mAnimStartX;
+    private int mAnimEndX;
     private int mWidth;
     private T mCurrentItem;
     protected View mCurrentView;
@@ -80,6 +81,7 @@ public class Flipper<T> extends FrameLayout{
         @Override
         public void onShowPress(MotionEvent e) {
             System.out.println("-------OnGestureListener:onShowPress()");
+            mAnimMode = 0;
             super.onShowPress(e);
         }
 
@@ -147,6 +149,12 @@ public class Flipper<T> extends FrameLayout{
     @Override
     protected void dispatchDraw(Canvas canvas) {
         System.out.println("-------dispatchDraw");
+        long currentTimeMs = AnimationUtils.currentAnimationTimeMillis();
+        if(currentTimeMs <= (mAnimStartTimeMs + mAnimDuration)){
+            float scrollPercent = (float)(currentTimeMs - mAnimStartTimeMs)/mAnimDuration;
+            mScrolledDistance = mAnimStartX + (scrollPercent*(mAnimEndX - mAnimStartX));
+            invalidate();
+        }
         super.dispatchDraw(canvas);
     }
 
@@ -230,7 +238,20 @@ public class Flipper<T> extends FrameLayout{
     }
 
     public boolean moveToNext(boolean restore){
-
+        mPreviousView = mCurrentView;
+        mPreviousItem = mCurrentItem;
+        mCurrentView = mNextView;
+        mCurrentItem = mNextItem;
+        mNextItem = mAdapter.getNextItem(mCurrentItem);
+        mNextView = mAdapter.getView(mNextItem, null);
+        if(null != mNextView){
+            addView(mNextView);
+            mAnimStartX = (int)(mWidth - mScrolledDistance);
+            mAnimEndX = 0;
+            mAnimStartTimeMs = AnimationUtils.currentAnimationTimeMillis();
+            mAnimDuration = (30 + (int)(120.0F * (Math.abs(mScrolledDistance) / mWidth)));
+            invalidate();
+        }
         if(null != mNavigationDot){
             mNavigationDot.moveToNext();
         }
