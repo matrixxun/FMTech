@@ -44,9 +44,9 @@ public class Flipper<T> extends FrameLayout{
     private int mAnimDuration;
     private int mAnimMode = 0;
     private long mAnimStartTimeMs;
-    private int mAnimStartX;
-    private int mAnimEndX;
-    private int mWidth;
+    private float mAnimStartX;
+    private float mAnimEndX;
+    private float mWidth;
     private T mCurrentItem;
     protected View mCurrentView;
     private float mScrolledDistance = 0.0F;
@@ -60,15 +60,16 @@ public class Flipper<T> extends FrameLayout{
     private GestureDetector.OnGestureListener mGestureListener = new GestureDetector.SimpleOnGestureListener(){
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-            System.out.println("-------OnGestureListener:onFling()");
+//            System.out.println("-------OnGestureListener:onFling()");
+            Flipper.this.onFling(velocityX);
             return super.onFling(e1, e2, velocityX, velocityY);
         }
 
         @Override
         public boolean onScroll(MotionEvent event1, MotionEvent event2, float distanceX, float distanceY) {
-            System.out.println("-------OnGestureListener:onScroll()");
+//            System.out.println("-------OnGestureListener:onScroll()");
 			if(mPreviousView == null && mNextView == null){
-                System.out.println("-------OnGestureListener:mPreviousView == null && mNextView == null");
+//                System.out.println("-------OnGestureListener:mPreviousView == null && mNextView == null");
 				isScrolling = false;
 				return true;
 			}
@@ -80,7 +81,7 @@ public class Flipper<T> extends FrameLayout{
 
         @Override
         public void onShowPress(MotionEvent e) {
-            System.out.println("-------OnGestureListener:onShowPress()");
+//            System.out.println("-------OnGestureListener:onShowPress()");
             mAnimMode = 0;
             super.onShowPress(e);
         }
@@ -95,7 +96,8 @@ public class Flipper<T> extends FrameLayout{
          */
         @Override
         public boolean onSingleTapUp(MotionEvent e) {
-            System.out.println("-------OnGestureListener:onSingleTapUp()");
+//            System.out.println("-------OnGestureListener:onSingleTapUp()");
+            Flipper.this.onSingleTap();
             return super.onSingleTapUp(e);
         }
     };
@@ -112,7 +114,7 @@ public class Flipper<T> extends FrameLayout{
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-        System.out.println("-------dispatchTouchEvent");
+//        System.out.println("-------dispatchTouchEvent");
 		if(event.getAction() == MotionEvent.ACTION_DOWN){
 			
 		}
@@ -121,7 +123,7 @@ public class Flipper<T> extends FrameLayout{
 
     @Override
     public boolean onTouchEvent(MotionEvent event){
-        System.out.println("-------onTouchEvent");
+//        System.out.println("-------onTouchEvent");
         /**
          * Analyzes the given motion event and if applicable triggers the
          * appropriate callbacks on the {@link OnGestureListener} supplied.
@@ -148,13 +150,25 @@ public class Flipper<T> extends FrameLayout{
 
     @Override
     protected void dispatchDraw(Canvas canvas) {
-        System.out.println("-------dispatchDraw");
-        long currentTimeMs = AnimationUtils.currentAnimationTimeMillis();
-        if(currentTimeMs <= (mAnimStartTimeMs + mAnimDuration)){
-            float scrollPercent = (float)(currentTimeMs - mAnimStartTimeMs)/mAnimDuration;
-            mScrolledDistance = mAnimStartX + (scrollPercent*(mAnimEndX - mAnimStartX));
-            invalidate();
+//        System.out.println("-------dispatchDraw");
+        if(mAnimMode == ANIM_TRANS_TO_NEXT || mAnimMode == ANIM_TRANS_TO_PREVIOUS || mAnimMode == ANIM_TRANS) {
+            long currentTimeMs = AnimationUtils.currentAnimationTimeMillis();
+            if (currentTimeMs <= (mAnimStartTimeMs + mAnimDuration)) {
+                float scrollPercent = (float) (currentTimeMs - mAnimStartTimeMs) / mAnimDuration;
+//                System.out.println("-------scrollPercent:"+scrollPercent);
+                if(mAnimMode == ANIM_TRANS){
+                    mScrolledDistance = mAnimStartX - (scrollPercent * (mAnimStartX - mAnimEndX));
+                }else{
+                    mScrolledDistance = mAnimStartX + (scrollPercent * (mAnimStartX - mAnimEndX));
+                }
+                System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
+                invalidate();
+            }else{
+                mScrolledDistance = 0.0f;
+                mAnimMode = ANIM_NONE;
+            }
         }
+        System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
         super.dispatchDraw(canvas);
     }
 
@@ -163,7 +177,7 @@ public class Flipper<T> extends FrameLayout{
 	*/
     @Override
     protected boolean drawChild(Canvas canvas, View child, long drawingTime) {
-        System.out.println("-------drawChild");
+//        System.out.println("-------drawChild");
 		boolean invalidateIssued = false;
 		if(child instanceof NavigationDot){
 //            System.out.println("-------NavigationDot, NavigationDot.getTop: "+child.getTop());
@@ -195,7 +209,7 @@ public class Flipper<T> extends FrameLayout{
 
     public void enableNavigationDotView(int viewCount){
         if(viewCount > 1){
-            System.out.println("-------null == mNavigationDot: "+(null == mNavigationDot));
+//            System.out.println("-------null == mNavigationDot: "+(null == mNavigationDot));
             if(null == mNavigationDot){
                 mNavigationDot = (NavigationDot)View.inflate(getContext(), R.layout.navigation_dots, null);
                 addView(mNavigationDot);
@@ -205,24 +219,44 @@ public class Flipper<T> extends FrameLayout{
     }
 
     public void onFling(float velocityX){
+//        System.out.println("-------velocityX: "+velocityX);
+        mWidth = getWidth();
+        if(velocityX < -FLING_VELOCITY || mScrolledDistance > mWidth/2){
+            moveToNext(true);
+        }else if(velocityX > FLING_VELOCITY || mScrolledDistance < -mWidth/2){
+            moveToPrevious(true);
+        }else{
+            restorePosition(true);
+        }
+    }
 
+    public void onSingleTap(){
+        mAdapter.onTap(mCurrentItem);
     }
 
     public void onScrollX(MotionEvent e1, MotionEvent e2, float distanceX){
-        System.out.println("-------onScrollX, distanceX:　"+ distanceX);
-		mScrolledDistance = (mScrolledDistance + distanceX);
+//        System.out.println("-------onScrollX, distanceX:　"+ distanceX);
+        if((distanceX <0 &&  null == mPreviousView && mScrolledDistance <= 0)|| (distanceX >0 && null == mNextView && mScrolledDistance >= 0)){
+            distanceX = 0.0f;
+        }
+        mScrolledDistance = (mScrolledDistance + distanceX);
 		invalidate();
     }
 
     public void onScrollXEnd(){
+        System.out.println("-------onScrollXEnd, mScrolledDistance:　"+ mScrolledDistance);
         mWidth = getWidth();
         if(mScrolledDistance > mWidth/2.0F){
             moveToNext(true);
+            return;
         }
 
         if(mScrolledDistance <-mWidth/2.0F){
             moveToPrevious(true);
+            return;
         }
+
+        restorePosition(true);
     }
 
     public void onTap(){
@@ -234,36 +268,89 @@ public class Flipper<T> extends FrameLayout{
 	}
 	
     public void restorePosition(boolean restore){
-
+        if(mScrolledDistance == 0.0f){
+            return;
+        }
+        if(restore){
+            mAnimStartX = mScrolledDistance;
+            System.out.println("-------mAnimStartX:"+mAnimStartX);
+            mAnimEndX = 0;
+            mAnimMode = ANIM_TRANS;
+            mAnimStartTimeMs = AnimationUtils.currentAnimationTimeMillis();
+            mAnimDuration = (ANIM_TRANS_DURATION1 + (int)(120.0F * (Math.abs(mAnimStartX) / mWidth)));
+            invalidate();
+            return;
+        }
+        mScrolledDistance = 0.0f;
+        mAnimMode = ANIM_NONE;
+        invalidate();
     }
 
+    /**
+     * moveing direction left.
+     * @param restore
+     * @return
+     */
     public boolean moveToNext(boolean restore){
-        mPreviousView = mCurrentView;
-        mPreviousItem = mCurrentItem;
-        mCurrentView = mNextView;
-        mCurrentItem = mNextItem;
-        mNextItem = mAdapter.getNextItem(mCurrentItem);
-        mNextView = mAdapter.getView(mNextItem, null);
-        if(null != mNextView){
-            addView(mNextView);
-            mAnimStartX = (int)(mWidth - mScrolledDistance);
+        if(null != mNextView) {
+            if(null != mPreviousView){
+                removeView(mPreviousView);
+            }
+            mPreviousView = mCurrentView;
+            mPreviousItem = mCurrentItem;
+            mCurrentView = mNextView;
+            mCurrentItem = mNextItem;
+            mNextItem = mAdapter.getNextItem(mCurrentItem);
+            mNextView = mAdapter.getView(mNextItem, null);
+            if (null != mNextView) {
+                addView(mNextView);
+            }
+            mAnimStartX = mWidth - mScrolledDistance;
             mAnimEndX = 0;
+            mAnimMode = ANIM_TRANS_TO_NEXT;
             mAnimStartTimeMs = AnimationUtils.currentAnimationTimeMillis();
-            mAnimDuration = (30 + (int)(120.0F * (Math.abs(mScrolledDistance) / mWidth)));
+            mAnimDuration = (ANIM_TRANS_DURATION1 + (int) (120.0F * (Math.abs(mAnimStartX) / mWidth)));
             invalidate();
+            if(null != mNavigationDot){
+                mNavigationDot.moveToNext();
+            }
+            return true;
         }
-        if(null != mNavigationDot){
-            mNavigationDot.moveToNext();
-        }
+
         return false;
     }
 
+    /**
+     * moving direction right
+     * @param restore
+     * @return
+     */
     public boolean moveToPrevious(boolean restore){
+        if(null != mPreviousView) {
+            if(null != mNextView){
+                removeView(mNextView);
+            }
+            mNextItem = mCurrentItem;
+            mNextView = mCurrentView;
+            mCurrentItem = mPreviousItem;
+            mCurrentView = mPreviousView;
+            mPreviousItem = mAdapter.getPreviousItem(mCurrentItem);
+            mPreviousView = mAdapter.getView(mPreviousItem, null);
+            if (null != mPreviousView) {
+                addView(mPreviousView);
+            }
+            mAnimStartX = mWidth + mScrolledDistance;
+            mAnimEndX = 0;
+            mAnimMode = ANIM_TRANS_TO_PREVIOUS;
+            mAnimStartTimeMs = AnimationUtils.currentAnimationTimeMillis();
+            mAnimDuration = (ANIM_TRANS_DURATION1 + (int) (120.0F * (Math.abs(mAnimStartX) / mWidth)));
+            invalidate();
 
-        if(null != mNavigationDot){
-            mNavigationDot.moveToPrevious();
+            if (null != mNavigationDot) {
+                mNavigationDot.moveToPrevious();
+            }
         }
-        return true;
+        return false;
     }
 
     public void setAdapter(FlipperAdapter<T> adapter){

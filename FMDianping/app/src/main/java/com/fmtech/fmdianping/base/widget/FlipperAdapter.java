@@ -21,9 +21,9 @@ import android.view.View;
  */
 
 public interface FlipperAdapter<T> {
-    public abstract T getNextItem(T param);
+    public abstract T getNextItem(T currentItem);
 
-    public abstract T getPreviousItem(T param);
+    public abstract T getPreviousItem(T currentItem);
 
     public abstract View getView(T param, View view);
 

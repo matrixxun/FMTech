@@ -121,6 +121,15 @@ public class GuidanceActivity extends BaseActivity{
 
         @Override
         public Integer getPreviousItem(Integer index) {
+            if(null == index){
+                return null;
+            }
+            if(index.intValue() == 0){
+                return null;
+            }
+            if(index.intValue() -1 >=0){
+                return Integer.valueOf(index.intValue() -1);
+            }
             return null;
         }
 
