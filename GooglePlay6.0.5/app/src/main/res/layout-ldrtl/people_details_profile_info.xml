@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PeopleDetailsProfileInfoView android:id="@id/people_details_profile_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.CardLinearLayout android:orientation="vertical" android:id="@id/profile_block" android:paddingTop="24.0dip" android:paddingBottom="@dimen/play_profile_buttons_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StreamIntroCard">
+        <TextView android:id="@id/display_name" android:paddingBottom="@dimen/play_profile_title_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayEntityTitle" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.finsky.layout.play.PlayCirclesButton android:id="@id/gplus_circle_status" android:visibility="gone" finsky:is_flat="true" style="@style/ProfileActionButton" />
+            <com.google.android.finsky.layout.play.ProfileButton android:id="@id/gplus_view_profile" style="@style/ProfileActionButton" />
+        </LinearLayout>
+    </com.google.android.play.layout.CardLinearLayout>
+    <com.google.android.play.image.FifeImageView android:id="@id/avatar" android:layout_width="@dimen/play_profile_avatar_size" android:layout_height="@dimen/play_profile_avatar_size" android:scaleType="fitStart" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+</com.google.android.finsky.layout.play.PeopleDetailsProfileInfoView>

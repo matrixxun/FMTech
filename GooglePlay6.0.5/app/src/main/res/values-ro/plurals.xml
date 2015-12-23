@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s de cercuri</item>
+        <item quantity="one">%1$s cerc</item>
+        <item quantity="few">%1$s cercuri</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ați evaluat cu: %1$s de stele</item>
+        <item quantity="one">Ați evaluat cu: %1$s stea</item>
+        <item quantity="few">Ați evaluat cu: %1$s stele</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d de recenzii</item>
+        <item quantity="one">%1$d recenzie</item>
+        <item quantity="few">%1$d recenzii</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d de recenzii pentru evaluare cu %2$d stele</item>
+        <item quantity="one">%1$d recenzie pentru evaluare cu %2$d stele</item>
+        <item quantity="few">%1$d recenzii pentru evaluare cu %2$d stele</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s din %2$s de recenzii</item>
+        <item quantity="one">%1$s din %2$s recenzie</item>
+        <item quantity="few">%1$s din %2$s recenzii</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">%1$d selectată</item>
+        <item quantity="few">%1$d selectate</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d de actualizări necesită aprobare</item>
+        <item quantity="one">%1$d actualizare necesită aprobare</item>
+        <item quantity="few">%1$d actualizări necesită aprobare</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d de actualizări noi</item>
+        <item quantity="one">%1$d actualizare nouă</item>
+        <item quantity="few">%1$d actualizări noi</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d de actualizări disponibile</item>
+        <item quantity="one">%1$d actualizare disponibilă</item>
+        <item quantity="few">%1$d actualizări disponibile</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Actualizați tot</item>
+        <item quantity="one">Actualizați</item>
+        <item quantity="few">Actualizați tot</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d de aplicații actualizate</item>
+        <item quantity="one">%1$d aplicație actualizată</item>
+        <item quantity="few">%1$d aplicații actualizate</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s de stele</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stea</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s stele</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s de stele – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stea – %3$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s stele – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s de stele – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stea – %3$s – %4$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s stele – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d de utilizatori au considerat această recenzie utilă. Marcați comentariul ca util</item>
+        <item quantity="one">%1$d utilizator a considerat această recenzie utilă. Marcați comentariul ca util</item>
+        <item quantity="few">%1$d utilizatori au considerat această recenzie utilă. Marcați comentariul ca util</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d de utilizatori au considerat această recenzie utilă. Anulați marcarea comentariului ca util</item>
+        <item quantity="one">%1$d utilizator a considerat această recenzie utilă. Anulați marcarea comentariului ca util</item>
+        <item quantity="few">%1$d utilizatori au considerat această recenzie utilă. Anulați marcarea comentariului ca util</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Evaluat cu &amp;lt;b>%1$s de stele&amp;lt;/b></item>
+        <item quantity="one">A evaluat cu &amp;lt;b>%1$s stea&amp;lt;/b></item>
+        <item quantity="few">A evaluat cu &amp;lt;b>%1$s stele&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">în %1$s de recenzii</item>
+        <item quantity="one">în %1$s recenzie</item>
+        <item quantity="few">în %1$s recenzii</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s de stele&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s stea&amp;lt;/b> %2$s</item>
+        <item quantity="few">&amp;lt;b>%1$s stele&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Nu se pot încărca articole. Încercați alt backup.</item>
+        <item quantity="one">Nu se pot încărca articole. Încercați din nou mai târziu.</item>
+        <item quantity="few">Nu se pot încărca articole. Încercați alt backup.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Folosit cel mai recent cu %1$d de zile în urmă</item>
+        <item quantity="one">Folosit cel mai recent cu %1$d zi în urmă</item>
+        <item quantity="few">Folosit cel mai recent cu %1$d zile în urmă</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Aplicații selectate</item>
+        <item quantity="one">Aplicație selectată</item>
+        <item quantity="few">Aplicații selectate</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">de stele</item>
+        <item quantity="one">stea</item>
+        <item quantity="few">stele</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s de persoane spun acest lucru</item>
+        <item quantity="one">%1$s persoană spune acest lucru</item>
+        <item quantity="few">%1$s persoane spun acest lucru</item>
+    </plurals>
+</resources>

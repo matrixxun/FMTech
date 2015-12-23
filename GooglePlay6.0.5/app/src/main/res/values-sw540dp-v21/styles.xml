@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.InstrumentManager.SetupWizard" parent="@style/Theme.InstrumentManager.SetupWizardCommon">
+        <item name="android:colorAccent">@color/setup_wizard_color_accent_dark</item>
+        <item name="imHideNegativeButtonText">true</item>
+        <item name="imNegativeButtonBarStyle">@style/FinskyInstrumentManagerNegativeButtonSetupWizard</item>
+        <item name="imPositiveButtonBarAlphaWhenDisabled">@dimen/setup_wizard_navbar_positive_button_disabled_alpha</item>
+        <item name="imPositiveButtonBarStyle">@style/FinskyInstrumentManagerPositiveButtonSetupWizard</item>
+        <item name="imTitleImageBackground">@drawable/setup_wizard_illustration_bg_tablet</item>
+        <item name="imTitleSeparatorStartEndMargin">0.0dip</item>
+        <item name="imTitleTextBackground">@drawable/setup_wizard_header_bg</item>
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_dark</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_dark</item>
+    </style>
+    <style name="Theme.InstrumentManager.SetupWizard.Light" parent="@style/Theme.InstrumentManager.SetupWizardCommon.Light">
+        <item name="android:colorAccent">@color/setup_wizard_color_accent_light</item>
+        <item name="imHideNegativeButtonText">true</item>
+        <item name="imNegativeButtonBarStyle">@style/FinskyInstrumentManagerNegativeButtonSetupWizard</item>
+        <item name="imPositiveButtonBarAlphaWhenDisabled">@dimen/setup_wizard_navbar_positive_button_disabled_alpha</item>
+        <item name="imPositiveButtonBarStyle">@style/FinskyInstrumentManagerPositiveButtonSetupWizard</item>
+        <item name="imTitleIconType">light</item>
+        <item name="imTitleImageBackground">@drawable/setup_wizard_illustration_bg_tablet</item>
+        <item name="imTitleSeparatorStartEndMargin">0.0dip</item>
+        <item name="imTitleTextBackground">@drawable/setup_wizard_header_bg</item>
+        <item name="setup_wizard_navbar_bg_color">@color/setup_wizard_navbar_bg_light</item>
+        <item name="setup_wizard_navbar_text_color">@color/setup_wizard_navbar_text_light</item>
+    </style>
+</resources>

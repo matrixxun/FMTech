@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s кръга</item>
+        <item quantity="one">%1$s кръг</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Вашата оценка: %1$s звезди</item>
+        <item quantity="one">Вашата оценка: %1$s звезда</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d отзива</item>
+        <item quantity="one">%1$d отзив</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d отзива за %2$d-звездната оценка</item>
+        <item quantity="one">%1$d отзив за %2$d-звездната оценка</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s от %2$s отзива</item>
+        <item quantity="one">%1$s от %2$s отзив</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Избрахте %1$d</item>
+        <item quantity="one">Избрахте %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Нужно е одобрение за %1$d актуал.</item>
+        <item quantity="one">Нужно е одобрение за %1$d актуал.</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d нови актуализации</item>
+        <item quantity="one">%1$d нова актуализация</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Налице са %1$d актуализации</item>
+        <item quantity="one">Налице е %1$d актуализация</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Актуализ. на всички</item>
+        <item quantity="one">Актуализиране</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d приложения са актуализирани</item>
+        <item quantity="one">%1$d приложение е актуализирано</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезди</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезда</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезди – „%3$s“</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезда – „%3$s“</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезди – „%3$s“ – „%4$s“</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звезда – „%3$s“ – „%4$s“</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d потребители са сметнали този отзив за полезен. Означаване на коментара като полезен</item>
+        <item quantity="one">%1$d потребител е сметнал този отзив за полезен. Означаване на коментара като полезен</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d потребители са сметнали този отзив за полезен. Премахване на означаването на коментара като полезен</item>
+        <item quantity="one">%1$d потребител е сметнал този отзив за полезен. Премахване на означаването на коментара като полезен</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Оценено с &amp;lt;b>%1$s звезди&amp;lt;/b></item>
+        <item quantity="one">Оценено с &amp;lt;b>%1$s звезда&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">в %1$s отзива</item>
+        <item quantity="one">в %1$s отзив</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s звезди&amp;lt;/b> „%2$s“</item>
+        <item quantity="one">&amp;lt;b>%1$s звезда&amp;lt;/b> „%2$s“</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Елем. не могат да се заредят. Опитайте с друго рез. копие.</item>
+        <item quantity="one">Елементите не могат да се заредят. Опитайте отново по-късно.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Последно използване преди %1$d дни</item>
+        <item quantity="one">Последно използване преди %1$d ден</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Избрани приложения</item>
+        <item quantity="one">Избрано приложение</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">звезди</item>
+        <item quantity="one">звезда</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s души казват това</item>
+        <item quantity="one">%1$s човек казва това</item>
+    </plurals>
+</resources>

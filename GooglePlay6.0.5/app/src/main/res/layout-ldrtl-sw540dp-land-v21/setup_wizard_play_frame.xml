@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/navigation_bar">
+        <com.google.android.finsky.layout.SetupWizardIllustration android:orientation="vertical" android:id="@id/illustration" android:background="@drawable/setup_wizard_header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_header_graphic" android:layout_width="fill_parent" android:layout_height="256.0dip" />
+        </com.google.android.finsky.layout.SetupWizardIllustration>
+        <LinearLayout android:gravity="start|center|top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="8.0">
+            <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_marginTop="256.0dip" android:layout_weight="3.0" style="@style/SetupWizardCardTitle" />
+            <ScrollView android:id="@id/bottom_scroll_view" android:background="?android:colorBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="128.0dip" android:layout_weight="4.0" android:elevation="5.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/setup_wizard_divider_and_progress" />
+                    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+                    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SetupWizardContentFrame" />
+                </FrameLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+    <fragment android:name="com.google.android.finsky.setup.SetupWizardNavBar" android:id="@id/navigation_bar" style="@style/SetupWizardNavbar" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.PreregistrationDialogView android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <include layout="@layout/details_summary_thumbnail" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.play.layout.PlayTextView android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preregistration_dialog_supertitle" android:drawablePadding="4.0dip" style="@style/Play_DetailsPage_Subtitle" />
+            <com.google.android.play.layout.PlayTextView android:id="@id/title_title" android:layout_width="wrap_content" android:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@style/PlayDetailTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preregistration_dialog_message" />
+</com.google.android.finsky.layout.PreregistrationDialogView>

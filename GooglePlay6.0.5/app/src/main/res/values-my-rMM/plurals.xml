@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s အသိုင်းအဝိုင်းများ</item>
+        <item quantity="one">%1$s အသိုင်းအဝိုင်း</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">သင့် အဆင့်သတ်မှတ်မှု ကြယ်ပွင့် - %1$s ပွင့်</item>
+        <item quantity="one">သင့် အဆင့်သတ်မှတ်မှု ကြယ်ပွင့် - %1$s ပွင့်</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">သုံးသပ်ချက် %1$d ခု</item>
+        <item quantity="one">သုံးသပ်ချက် %1$d ခု</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">သုံးသပ်ချက် %1$d ခုသည် ကြယ်ပွင့် %2$d ပွင့်အတွက်ဖြစ်၏</item>
+        <item quantity="one">သုံးသပ်ချက် %1$d ခုသည် ကြယ်ပွင့် %2$d ပွင့်အတွက်ဖြစ်၏</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$sထဲမှ သုံးသပ်ချက် %1$sခု</item>
+        <item quantity="one">from %2$s ထဲမှ သုံးသပ်ချက် %1$sခု</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ရွေးချယ်ထားခဲ့သည်</item>
+        <item quantity="one">%1$d ရွေးချယ်ထားခဲ့သည်</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ခုခွင့်ပြုချက်လိုအပ်သည်</item>
+        <item quantity="one">%1$dအသစ်မွမ်းမံမှု ခုခွင့်ပြုချက်လိုအပ်သည်</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">အသစ်မွမ်းမံမှု %1$d ခု</item>
+        <item quantity="one">အသစ်မွမ်းမံမှု %1$d ခု</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d ခုရရှိနိုင်</item>
+        <item quantity="one">အသစ်မွမ်းမံမှု %1$d ခုခွင့်ပြုချက်လိုအပ်သည်</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">အားလုံး အသစ်မွမ်းမံပါ</item>
+        <item quantity="one">အသစ်မွမ်းမံပါ</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d အပ္ပလီကေးရှင်း မွမ်းမံပြီး</item>
+        <item quantity="one">%1$d အပ္ပလီကေးရှင်း မွမ်းမံပြီး</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့်</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့်</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့် - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့် - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့် - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ကြယ်ပွင့် %2$s ပွင့် - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">အသုံးပြုသူ %1$d ဦး မှ ဤသုံးသပ်ချက်သည် အသုံးဝင်ကြောင်း တွေ့ရ၏ အကြောင်းအရာကို အသုံးဝင်သည်ဟု မှတ်ချက်ပေးရန်</item>
+        <item quantity="one">အသုံးပြုသူ %1$d ဦး မှ ဤသုံးသပ်ချက်သည် အသုံးဝင်ကြောင်း တွေ့ရ၏ အကြောင်းအရာကို အသုံးဝင်သည်ဟု မှတ်ချက်ပေးရန်</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d အသုံးပြုသူတို့က ဒီဆန်းစစ်ချက်မှာ အသုံးဝင်တယ်လို့ ဆိုတယ် အသုံးဝင်တဲ့ သုံးသပ်ချက်ကို မှတ်ထားမှုဖျက်ရန်</item>
+        <item quantity="one">အသုံးပြုသူ %1$d ဦးက ဒီဆန်းစစ်ချက်မှာ အသုံးဝင်တယ်လို့ ဆိုတယ် အသုံးဝင်တဲ့ သုံးသပ်ချက်ကို မှတ်ထားမှုဖျက်ရန်</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">ကြယ်ပွင့် &amp;lt;b>%1$s ပွင့် သတ်မှတ်ခဲ့၏ &amp;lt;/b></item>
+        <item quantity="one">ကြယ်ပွင့် &amp;lt;b>%1$s ပွင့် သတ်မှတ်ခဲ့၏ &amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">သုံးသပ်ချက် %1$s ထဲတွင်</item>
+        <item quantity="one">သုံးသပ်ချက် %1$s ထဲတွင်</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b> ကြယ်ပွင့် %1$s ပွင့် &amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b> ကြယ်ပွင့် %1$s ပွင့် &amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">ရယူနိုင်ခြင်း မရှိပါ။ အခြားနည်းဖြင့် အရံသိမ်းပါ။</item>
+        <item quantity="one">ရယူနိုင်ခြင်း မရှိပါ။ နောင်တွင် ထပ်မံကြိုးစားပါ</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">ရက် %1$d ရက်အကြာက သုံးခဲ့၏</item>
+        <item quantity="one">ရက် %1$d ရက်အကြာက သုံးခဲ့၏</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">ရွေးချယ်ထားသော app များ</item>
+        <item quantity="one">ရွေးချယ်ထားသော app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other"></item>
+        <item quantity="one">ကြယ်ပွင့်</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s ယောက် ဤအကြောင်း ပြောနေ၏</item>
+        <item quantity="one">%1$s ယောက် ဤအကြောင်း ပြောနေ၏</item>
+    </plurals>
+</resources>

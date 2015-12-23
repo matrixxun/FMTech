@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsExpandedExtraCreditsView android:orientation="vertical" android:background="@drawable/play_highlight_overlay_light" android:paddingBottom="20.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_primary" android:id="@id/extra_credit" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayPlainText" />
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:id="@id/extra_names" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayPlainText" />
+</com.google.android.finsky.layout.DetailsExpandedExtraCreditsView>

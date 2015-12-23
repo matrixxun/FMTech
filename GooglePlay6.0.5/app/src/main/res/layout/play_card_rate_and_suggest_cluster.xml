@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardRateAndSuggestClusterView android:paddingTop="@dimen/play_cluster_vpadding" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <include layout="@layout/play_card_cluster_header" />
+    <TextView android:id="@id/empty_sadface" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quick_suggestions_skipped" android:drawableTop="@drawable/ic_empty_rate" android:drawablePadding="12.0dip" style="@style/PlayEmptyTitle" />
+    <com.google.android.finsky.layout.play.PlayCardRateAndSuggestContentScroller android:id="@id/content_scroller" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.finsky.layout.play.PlayCardRateAndSuggestClusterViewContent android:id="@id/cluster_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.google.android.finsky.layout.play.PlayCardRateAndSuggestContentScroller>
+</com.google.android.finsky.layout.play.PlayCardRateAndSuggestClusterView>

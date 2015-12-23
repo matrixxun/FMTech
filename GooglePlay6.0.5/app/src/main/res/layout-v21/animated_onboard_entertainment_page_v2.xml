@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.activities.onboard.AnimatedEntertainmentOnboardPage android:id="@id/onboard_page" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:play="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom" android:id="@id/splash_logo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/play_onboard__onboard_nav_footer_height" android:src="@drawable/lockups_play_dark20_color" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.3" />
+        <com.google.android.finsky.layout.SizingLayout android:id="@id/image_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboard_margin" android:layout_marginRight="@dimen/onboard_margin" play:heightSource="WIDTH" play:playMaxWidth="@dimen/onboard_image_size">
+            <ImageView android:id="@id/apps_games_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <ImageView android:id="@id/entertainment_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <com.google.android.finsky.layout.SizingLayout android:layout_gravity="center|top" android:id="@id/splash_height_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" play:heightSource="WIDTH" play:heightMultiplier="@dimen/onboard_image_splash_horizon_ratio">
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/splash_image" android:layout_width="@dimen/onboard_splash_size" android:layout_height="@dimen/onboard_splash_size" android:src="@drawable/quantum_logo_play_store_color" android:scaleType="fitCenter" android:contentDescription="@null" />
+            </com.google.android.finsky.layout.SizingLayout>
+            <com.google.android.finsky.layout.SizingLayout android:layout_gravity="bottom" android:id="@id/tab_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" play:heightSource="WIDTH" play:heightMultiplier="@dimen/onboard_image_horizon_ratio_bottom">
+                <com.google.android.finsky.layout.ControlsContainerBackground android:layout_gravity="top" android:id="@id/tab_background" android:layout_width="fill_parent" android:layout_height="@dimen/onboard_tab_height" android:elevation="@dimen/onboard_tab_elevation" />
+                <View android:layout_gravity="top" android:id="@id/shadow" android:background="@drawable/play_header_list_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/play_header_list_header_shadow_height" android:layout_marginTop="@dimen/onboard_tab_height" />
+                <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/tab_row" android:layout_width="fill_parent" android:layout_height="@dimen/onboard_tab_height" android:weightSum="1.0" android:elevation="@dimen/onboard_tab_elevation">
+                    <TextView android:id="@id/apps_games_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/onboard_apps_tab" android:layout_weight="0.5" style="@style/OnboardTab" />
+                    <TextView android:id="@id/entertainment_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/onboard_entertainment_tab" android:layout_weight="0.5" style="@style/OnboardTab" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/onboard_tab_height" android:weightSum="1.0" android:elevation="@dimen/onboard_tab_elevation">
+                    <View android:layout_gravity="bottom" android:id="@id/tab_strip" android:background="@color/play_white" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="@dimen/finsky_fixed_tab_underline_thickness" android:layout_weight="0.5" />
+                </LinearLayout>
+            </com.google.android.finsky.layout.SizingLayout>
+        </com.google.android.finsky.layout.SizingLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/onboard_margin" android:layout_marginRight="@dimen/onboard_margin">
+            <TextView android:layout_gravity="center" android:id="@id/apps_games_welcome_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onboard_apps_games_text" style="@style/OnboardText" />
+            <TextView android:layout_gravity="center" android:id="@id/entertainment_welcome_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/OnboardText" />
+        </FrameLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.3" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/open_button_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <com.google.android.play.onboard.OnboardCenterButton android:padding="@dimen/play_onboard__onboard_v2_touch_extension" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6">
+                <Button android:layout_gravity="center" android:id="@id/play_onboard_center_button" android:text="@string/onboard_center_button_label" android:contentDescription="@string/onboard_center_button_content_description" style="@style/OnboardButton" />
+            </com.google.android.play.onboard.OnboardCenterButton>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+    </LinearLayout>
+</com.google.android.finsky.activities.onboard.AnimatedEntertainmentOnboardPage>

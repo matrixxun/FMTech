@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FinskyInstrumentManagerExpandButton">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:background">@drawable/play_highlight_overlay_light</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:drawableStart">@drawable/ic_more_details_light</item>
+    </style>
+    <style name="OnboardTab" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PlayOnboardNavFooterButton">
+        <item name="android:textAppearance">@style/PlayCardAction</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/play_onboard_dark_button_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetupWizardAppsRowEntry">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeightSmall</item>
+        <item name="android:drawablePadding">10.0dip</item>
+        <item name="android:drawableStart">?android:listChoiceIndicatorMultiple</item>
+    </style>
+    <style name="SetupWizardNavbarButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?setup_wizard_navbar_text_color</item>
+        <item name="android:background">@drawable/setup_wizard_navbar_btn_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PlayDrawerDownloadToggle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textOn">" "</item>
+        <item name="android:textOff">" "</item>
+        <item name="android:switchMinWidth">56.0dip</item>
+    </style>
+</resources>

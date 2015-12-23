@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.WarningMessageSection android:orientation="horizontal" android:id="@id/warning_message_panel" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/details_special_row_min_height" android:paddingStart="@dimen/details_new_content_margin" android:paddingEnd="@dimen/details_new_content_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/details_warning_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:paddingEnd="24.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/details_warning_info_first_line" style="@style/WarningMessageText" />
+        <TextView android:textStyle="bold" android:id="@id/details_warning_info_second_line" android:paddingTop="2.0dip" style="@style/WarningMessageText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.WarningMessageSection>

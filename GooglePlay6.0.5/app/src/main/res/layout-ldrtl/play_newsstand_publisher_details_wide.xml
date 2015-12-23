@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:id="@id/publisher_icon" android:layout_width="@dimen/newsstand_cluster_publisher_image_size" android:layout_height="@dimen/newsstand_cluster_publisher_image_size" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/newsstand_cluster_publisher_details_text_size" android:textColor="@color/play_fg_primary" android:id="@id/publisher_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayMediumPlainText" />
+        <TextView android:textSize="@dimen/newsstand_cluster_publisher_details_text_size" android:textColor="@color/play_fg_secondary" android:id="@id/published_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayMediumPlainText" />
+    </LinearLayout>
+</LinearLayout>

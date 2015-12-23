@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:playcommon="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.layout.StarRatingBar android:id="@id/star_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" playcommon:star_height="@dimen/play_star_height_default" playcommon:star_color="@color/play_apps_primary" playcommon:star_bg_color="@color/play_disabled_grey" playcommon:gap="2.0dip" />
+    <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_secondary_text_set" android:id="@id/rating_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_user_rating" android:contentDescription="@null" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/divider_and_progress" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" style="@style/SetupWizardDivider" />
+    <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setup_wizard_progress_bar_margin_top" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal" />
+</FrameLayout>

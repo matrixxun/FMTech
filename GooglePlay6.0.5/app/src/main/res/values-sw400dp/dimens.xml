@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="play_happiness_survey_v2_card_radius">2.0dip</dimen>
+    <dimen name="play_collection_edge_padding">12.0dip</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">8.0dip</dimen>
+    <dimen name="card_list_vpadding">8.0dip</dimen>
+</resources>

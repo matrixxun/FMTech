@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsFlagItemSection android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/flag_row" android:background="@drawable/play_highlight_overlay_light" android:paddingLeft="4.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/details_new_content_margin" android:layout_marginRight="@dimen/details_new_content_margin" android:minHeight="48.0dip" android:layout_weight="1.0" finsky:mark_as_button="true" finsky:hide_separator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_flagcontent" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_primary" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flagging_title" style="@style/PlayPlainText" />
+</com.google.android.finsky.layout.DetailsFlagItemSection>

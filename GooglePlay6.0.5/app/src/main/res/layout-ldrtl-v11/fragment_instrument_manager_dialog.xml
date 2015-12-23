@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="420.0dip" im:maxWidth="?imMaxWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wallet.ui.common.FifeNetworkImageView android:id="@id/title_image" android:background="?imTitleImageBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="200.0dip">
+        <FrameLayout android:background="?imTitleTextBackground" android:paddingTop="?imTitleTopMargin" android:paddingBottom="?imTitleBottomMargin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/top_bar" android:visibility="invisible" layout="@layout/view_top_bar" />
+            <include android:id="@id/progress_top_bar" android:visibility="invisible" layout="@layout/view_top_bar" />
+        </FrameLayout>
+        <View android:id="@id/title_separator" android:background="?imTitleSeparatorBackground" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?imTitleSeparatorHeight" />
+        <com.google.android.wallet.ui.common.FocusedViewToTopScrollView android:id="@id/main_content" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="?uicFormTopMargin" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/sub_form_holder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageTextView android:id="@id/top_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wallet_im_info_message_bottom_margin" style="?attr/imInfoMessageTextAppearance" />
+                <TextView android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="?attr/uicDialogMessageTextAppearance" />
+                <TextView android:id="@id/details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textIsSelectable="true" style="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+        </com.google.android.wallet.ui.common.FocusedViewToTopScrollView>
+        <include android:id="@id/button_bar" android:visibility="invisible" layout="@layout/view_button_bar" />
+        <View android:id="@id/steal_focus_and_hide_keyboard" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <View android:id="@id/focus_stealer" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?attr/imProgressBarStyle" />
+        <TextView android:id="@id/progress_text" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="5" android:layout_centerVertical="true" style="?attr/imProgressBarTextAppearance" />
+    </RelativeLayout>
+</com.google.android.wallet.instrumentmanager.ui.InstrumentManagerRootFrameLayout>

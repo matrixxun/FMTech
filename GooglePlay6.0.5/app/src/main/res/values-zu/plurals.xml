@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s imibuthano</item>
+        <item quantity="one">%1$s imibuthano</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Isilinganiso sakho: %1$s izinkanyezi</item>
+        <item quantity="one">Isilinganiso sakho: %1$s izinkanyezi</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d izibuyekezo</item>
+        <item quantity="one">%1$d izibuyekezo</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d izibuyekezo zesilinganiso senkanyezi %2$d</item>
+        <item quantity="one">%1$d izibuyekezo zesilinganiso senkanyezi %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s kusukela kuzibuyekezo ezingu-%2$s</item>
+        <item quantity="one">%1$s kusukela kuzibuyekezo ezingu-%2$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d okukhethiwe</item>
+        <item quantity="one">%1$d okukhethiwe</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d izibuyekezo zidinga imvume</item>
+        <item quantity="one">%1$d izibuyekezo zidinga imvume</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d izibuyekezo</item>
+        <item quantity="one">%1$d izibuyekezo</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d izibuyekezo ziyatholakala</item>
+        <item quantity="one">%1$d izibuyekezo ziyatholakala</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Buyekeza konke</item>
+        <item quantity="one">Buyekeza konke</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d izinhlelo zokusebenza zibuyekeziwe</item>
+        <item quantity="one">%1$d izinhlelo zokusebenza zibuyekeziwe</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s izinkanyezi - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d abasebenzis bathole lesi sibuyekezo silusizo. Maka amazwana njengalusizo</item>
+        <item quantity="one">%1$d abasebenzis bathole lesi sibuyekezo silusizo. Maka amazwana njengalusizo</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d abasebenzis bathole lesi sibuyekezo silusizo. Susa ukumaka amazwana njengalusizo</item>
+        <item quantity="one">%1$d abasebenzis bathole lesi sibuyekezo silusizo. Susa ukumaka amazwana njengalusizo</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Uyilinganisele &amp;lt;b>%1$s izinkanyezi&amp;lt;/b></item>
+        <item quantity="one">Uyilinganisele &amp;lt;b>%1$s izinkanyezi&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">kuzibuyekezo ezingu-%1$s</item>
+        <item quantity="one">kuzibuyekezo ezingu-%1$s</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s izinkanyezi&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s izinkanyezi&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Ayikwai ukulayisha izinto. Zama esinye isipele.</item>
+        <item quantity="one">Ayikwai ukulayisha izinto. Zama esinye isipele.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Kusetshenziswe kokugcina izinsuku ezingu-%1$d ezedlule</item>
+        <item quantity="one">Kusetshenziswe kokugcina izinsuku ezingu-%1$d ezedlule</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Izinhlelo zokusebenza ezikhethiwe</item>
+        <item quantity="one">Izinhlelo zokusebenza ezikhethiwe</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">izinkanyezi</item>
+        <item quantity="one">izinkanyezi</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s abantu basho lokhu</item>
+        <item quantity="one">%1$s abantu basho lokhu</item>
+    </plurals>
+</resources>

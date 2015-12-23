@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayBundleContainerViewRow android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_round_overlay_light" android:paddingStart="@dimen/play_card_content_horizontal_inset" android:paddingEnd="@dimen/play_card_content_horizontal_inset" finsky:card_supports_subtitle_and_rating="true" style="@style/PlayCardViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" xmlns:playcommon="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_margin="@dimen/play_regular_grid_image_margin">
+        <include android:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView android:ellipsize="end" android:id="@id/li_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/play_card_content_vertical_inset" android:lines="1" android:singleLine="true" android:layout_marginStart="@dimen/play_card_content_horizontal_inset" android:layout_toEndOf="@id/li_thumbnail_frame" style="@style/PlayCardTitle" />
+    <include android:id="@id/li_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_below="@id/li_title" android:layout_marginStart="@dimen/play_card_content_horizontal_inset" android:layout_toEndOf="@id/li_thumbnail_frame" layout="@layout/play_card_subtitle" />
+    <com.google.android.finsky.layout.DecoratedTextView android:ellipsize="end" android:id="@id/li_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:lines="2" android:minLines="2" android:layout_below="@id/li_subtitle" android:layout_marginStart="@dimen/play_card_content_horizontal_inset" android:layout_toEndOf="@id/li_thumbnail_frame" style="@style/PlayCardDescription" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/li_description" android:layout_marginStart="@dimen/play_card_content_horizontal_inset" android:layout_toEndOf="@id/li_thumbnail_frame">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_row" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingEnd="8.0dip">
+            <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.play.layout.StarRatingBar android:id="@id/li_rating" android:numStars="5" android:stepSize="0.5" android:isIndicator="true" style="@style/PlayRatingBarSmall" />
+            </FrameLayout>
+            <com.google.android.play.layout.PlayActionButton android:layout_gravity="center_vertical" android:id="@id/install_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" playcommon:use_all_caps_in_label_mode="true" style="@style/DetailsPage_SmallActionButton" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/loading_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" android:layout_marginEnd="10.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </FrameLayout>
+</com.google.android.finsky.layout.play.PlayBundleContainerViewRow>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s kringen</item>
+        <item quantity="one">%1$s kring</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Je beoordeling: %1$s sterren</item>
+        <item quantity="one">Je beoordeling: %1$s ster</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d recensies</item>
+        <item quantity="one">%1$d recensie</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d recensies met sterbeoordeling %2$d</item>
+        <item quantity="one">%1$d recensie met sterbeoordeling %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s volgens %2$s recensies</item>
+        <item quantity="one">%1$s volgens %2$s recensie</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Goedkeuring vereist voor %1$d updates</item>
+        <item quantity="one">Goedkeuring vereist voor %1$d update</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nieuwe updates</item>
+        <item quantity="one">%1$d nieuwe update</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d updates beschikbaar</item>
+        <item quantity="one">%1$d update bschikbaar</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Alles updaten</item>
+        <item quantity="one">Updaten</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d apps geüpdatet</item>
+        <item quantity="one">%1$d app geüpdatet</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sterren</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ster</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sterren - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ster - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sterren - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ster - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d gebruikers vonden deze recensie nuttig. Reactie markeren als nuttig</item>
+        <item quantity="one">%1$d gebruiker vond deze recensie nuttig. Reactie markeren als nuttig</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d gebruikers vonden deze recensie nuttig. Markering van reactie als nuttig ongedaan maken.</item>
+        <item quantity="one">%1$d gebruiker vond deze recensie nuttig. Markering van reactie als nuttig ongedaan maken.</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Heeft dit een beoordeling van &amp;lt;b>%1$s sterren&amp;lt;/b> gegeven</item>
+        <item quantity="one">Heeft dit een beoordeling van &amp;lt;b>%1$s ster&amp;lt;/b> gegeven</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">in %1$s recensies</item>
+        <item quantity="one">in %1$s recensie</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s sterren&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s ster&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Kan items niet laden. Probeer een ander back-upapparaat.</item>
+        <item quantity="one">Kan items niet laden. Probeer het later opnieuw.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Voor het laatst %1$d dagen geleden gebruikt</item>
+        <item quantity="one">Voor het laatst %1$d dag geleden gebruikt</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Geselecteerde apps</item>
+        <item quantity="one">Geselecteerde app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">sterren</item>
+        <item quantity="one">ster</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s mensen zeggen dit</item>
+        <item quantity="one">%1$s persoon zegt dit</item>
+    </plurals>
+</resources>

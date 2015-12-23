@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="editorial_bucket_columns">2</integer>
+    <integer name="num_items_per_list_column">11</integer>
+    <integer name="related_items_per_row">4</integer>
+    <integer name="warm_welcome_card_columns">2</integer>
+    <integer name="max_review_length">1200</integer>
+</resources>

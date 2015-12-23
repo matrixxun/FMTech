@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="play_banner_large_size">38.0sp</dimen>
+    <dimen name="play_banner_medium_size">21.0sp</dimen>
+    <dimen name="setup_wizard_button_min_width">208.0dip</dimen>
+</resources>

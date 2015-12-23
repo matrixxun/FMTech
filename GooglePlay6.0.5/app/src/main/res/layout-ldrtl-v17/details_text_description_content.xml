@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.DetailsTextView android:id="@id/callout" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_text_callout_padding" android:paddingEnd="@dimen/details_text_callout_padding" finsky:lastLineOverdrawColor="@color/white" style="@style/PlayDetailDescriptionCallout" />
+    <View android:id="@id/spacer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <include android:id="@id/body_container" layout="@layout/details_text_block" />
+    <com.google.android.finsky.layout.DetailsTextIconContainer android:layout_gravity="center" android:orientation="horizontal" android:id="@id/icon_container" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_text_section_padding" android:paddingEnd="@dimen/details_text_section_padding" />
+    <com.google.android.finsky.layout.DecoratedTextView android:layout_gravity="center" android:id="@id/top_developer_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:paddingStart="@dimen/details_text_section_padding" android:paddingEnd="@dimen/details_text_section_padding" finsky:allowsCompactLineSpacing="true" finsky:decoration_position="start" style="@style/Play_DetailsPage_Subtitle" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="center" android:id="@id/footer_message" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_text_section_padding" android:paddingEnd="@dimen/details_text_section_padding" style="@style/PlayMediumPlainText" />
+</merge>

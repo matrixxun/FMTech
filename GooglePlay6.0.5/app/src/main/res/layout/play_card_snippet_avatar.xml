@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.image.FifeImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitStart" finsky:fixed_bounds="true" finsky:is_avatar="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" />

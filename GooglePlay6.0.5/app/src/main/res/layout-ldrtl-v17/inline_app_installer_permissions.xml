@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/light_purchase_dialog_width" android:minHeight="@dimen/light_purchase_dialog_small_height" finsky:max_width="@dimen/light_purchase_dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="vertical" android:id="@id/contents" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="14.0dip" android:paddingBottom="@dimen/permissions_header_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+            <com.google.android.play.image.FifeImageView android:id="@id/application_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_weight="1.0" android:paddingStart="10.0dip">
+                <com.google.android.play.layout.PlayTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LightPurchase_TitleText" />
+                <TextView android:id="@id/subheader" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="16.0dip" style="@style/LightPurchase_SubtitleText" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.finsky.layout.ObservableScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+            <com.google.android.finsky.layout.AppSecurityPermissions android:orientation="vertical" android:id="@id/app_permissions" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.google.android.finsky.layout.ObservableScrollView>
+    </LinearLayout>
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s loki</item>
+        <item quantity="zero">%1$s loki</item>
+        <item quantity="one">%1$s loks</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Jūsu vērtējums: %1$s zvaigznītes</item>
+        <item quantity="zero">Jūsu vērtējums: %1$s zvaigznītes</item>
+        <item quantity="one">Jūsu vērtējums: %1$s zvaigznīte</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d atsauksmes</item>
+        <item quantity="zero">%1$d atsauksmes</item>
+        <item quantity="one">%1$d atsauksme</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d atsauksmes ar šādu vērtējumu zvaigznītēs: %2$d</item>
+        <item quantity="zero">%1$d atsauksmes ar šādu vērtējumu zvaigznītēs: %2$d</item>
+        <item quantity="one">%1$d atsauksme ar šādu vērtējumu zvaigznītēs: %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s no %2$s atsauksmēm</item>
+        <item quantity="zero">%1$s no %2$s atsauksmēm</item>
+        <item quantity="one">%1$s no %2$s atsauksmes</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Atlasīts: %1$d</item>
+        <item quantity="zero">Atlasīts: %1$d</item>
+        <item quantity="one">Atlasīts: %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Jāapstiprina %1$d atjauninājumi</item>
+        <item quantity="zero">Jāapstiprina %1$d atjauninājumi</item>
+        <item quantity="one">Jāapstiprina %1$d atjauninājums</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d jauni atjauninājumi</item>
+        <item quantity="zero">%1$d jauni atjauninājumi</item>
+        <item quantity="one">%1$d jauns atjauninājums</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Pieejami %1$d atjauninājumi</item>
+        <item quantity="zero">Pieejami %1$d atjauninājumi</item>
+        <item quantity="one">Pieejams %1$d atjauninājums</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Atjaunināt visas</item>
+        <item quantity="zero">Atjaunināt visas</item>
+        <item quantity="one">Atjaunināt visas</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Atjauninātas %1$d lietojumprogrammas</item>
+        <item quantity="zero">Atjauninātas %1$d lietojumprogrammas</item>
+        <item quantity="one">Atjaunināta %1$d lietojumprogramma</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes</item>
+        <item quantity="zero">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznīte</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes — %3$s</item>
+        <item quantity="zero">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes — %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznīte — %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes — %3$s — %4$s</item>
+        <item quantity="zero">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznītes — %3$s — %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvaigznīte — %3$s — %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d lietotājiem šī atsauksme šķita noderīga. Atzīmēt komentāru kā noderīgu.</item>
+        <item quantity="zero">%1$d lietotājiem šī atsauksme šķita noderīga. Atzīmēt komentāru kā noderīgu.</item>
+        <item quantity="one">%1$d lietotājam šī atsauksme šķita noderīga. Atzīmēt komentāru kā noderīgu.</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d lietotājiem šī atsauksme šķita noderīga. Noņemiet noderīga komentāra atzīmi.</item>
+        <item quantity="zero">%1$d lietotājiem šī atsauksme šķita noderīga. Noņemiet noderīga komentāra atzīmi.</item>
+        <item quantity="one">%1$d lietotājam šī atsauksme šķita noderīga. Noņemiet noderīga komentāra atzīmi.</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>%1$s zvaigznītes&amp;lt;/b></item>
+        <item quantity="zero">&amp;lt;b>%1$s zvaigznītes&amp;lt;/b></item>
+        <item quantity="one">&amp;lt;b>%1$s zvaigznīte&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">Šādā skaitā atsauksmju: %1$s</item>
+        <item quantity="zero">Šādā skaitā atsauksmju: %1$s</item>
+        <item quantity="one">Šādā skaitā atsauksmju: %1$s</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s zvaigznītes&amp;lt;/b> %2$s</item>
+        <item quantity="zero">&amp;lt;b>%1$s zvaigznītes&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s zvaigznīte&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Nevar ielādēt vienumus. Izmēģiniet citu rezerves ierīci.</item>
+        <item quantity="zero">Nevar ielādēt vienumus. Izmēģiniet citu rezerves ierīci.</item>
+        <item quantity="one">Nevar ielādēt vienumus. Izmēģiniet citu rezerves ierīci.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Pēdējoreiz izmantota pirms %1$d dienām.</item>
+        <item quantity="zero">Pēdējoreiz izmantota pirms %1$d dienām.</item>
+        <item quantity="one">Pēdējoreiz izmantota pirms %1$d dienas.</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Atlasītās lietotnes</item>
+        <item quantity="zero">Atlasītās lietotnes</item>
+        <item quantity="one">Atlasītās lietotnes</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">zvaigznītes</item>
+        <item quantity="zero">zvaigznītes</item>
+        <item quantity="one">zvaigznīte</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s lietotāji apgalvo šo:</item>
+        <item quantity="zero">%1$s lietotāji apgalvo šo:</item>
+        <item quantity="one">%1$s lietotājs apgalvo šo:</item>
+    </plurals>
+</resources>

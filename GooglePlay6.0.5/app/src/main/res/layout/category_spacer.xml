@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CategorySpacer android:orientation="vertical" android:id="@id/category_spacer" android:background="@color/play_white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/category_list_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

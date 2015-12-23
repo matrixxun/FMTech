@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s օղակ</item>
+        <item quantity="one">%1$s circles</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ձեր գնահատականը՝ %1$s աստղ</item>
+        <item quantity="one">Your rating: %1$s stars</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d կարծիք</item>
+        <item quantity="one">%1$d reviews</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d կարծիք %2$d գնահատականով</item>
+        <item quantity="one">%1$d reviews for star rating %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s-ից %1$s կարծիք</item>
+        <item quantity="one">%1$s from %2$s reviews</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d-ն ընտրված է</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Անհրաժեշտ է հաստատել %1$d թարմացում</item>
+        <item quantity="one">%1$d updates need approval</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d նոր թարմացում</item>
+        <item quantity="one">%1$d new updates</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Հասանելի է %1$d թարմացում</item>
+        <item quantity="one">%1$d updates available</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Թարմացնել բոլորը</item>
+        <item quantity="one">Update all</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Թարմացվել է %1$d հավելված</item>
+        <item quantity="one">%1$d applications updated</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s աստղ</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s աստղ - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;/b>%1$s %2$s աստղ - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d օգտվող այս կարծիքն օգտակար է համարել: Նշել մեկնաբանությունը որպես օգտակար</item>
+        <item quantity="one">%1$d users found this review helpful. Նշել մեկնաբանությունը որպես օգտակար</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d օգտվող այս կարծիքն օգտակար է համարել: Հեռացնել «օգտակար» նշումը</item>
+        <item quantity="one">%1$d users found this review helpful. Unmark comment as helpful</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Գնահատական՝ &amp;lt;b>%1$s աստղ&amp;lt;/b></item>
+        <item quantity="one">Rated it &amp;lt;b>%1$s stars&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s կարծիք</item>
+        <item quantity="one">in %1$s reviews</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">%1$s աստղ&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s stars&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Հնարավոր չէ բեռնել տարրերը: Ընտրեք մեկ այլ սարք:</item>
+        <item quantity="one">Հնարավոր չէ բեռնել տարրերը: Try another backup.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Վերջին անգամ օգտագործվել է %1$d օր առաջ</item>
+        <item quantity="one">Last used %1$d days ago</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Ընտրված հավելվածներ</item>
+        <item quantity="one">Selected apps</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">աստղ</item>
+        <item quantity="one">stars</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s օգտվող ասում է</item>
+        <item quantity="one">%1$s people are saying this</item>
+    </plurals>
+</resources>

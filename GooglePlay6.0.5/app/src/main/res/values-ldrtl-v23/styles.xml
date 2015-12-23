@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Theme.InstrumentManager.Light.Dialog" parent="@style/Theme.Common.InstrumentManager.Light.Dialog" />
+    <style name="Theme.InstrumentManager" parent="@style/Theme.Common.InstrumentManager">
+        <item name="imCardLogoGridToggleButtonStartMargin">-8.0dip</item>
+        <item name="imCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Button.Borderless.Colored</item>
+        <item name="imCardLogoGridToggleButtonTopMargin">0.0dip</item>
+        <item name="imProgressBarTopMargin">-5.0dip</item>
+        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24.0dip</item>
+        <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
+    </style>
+    <style name="Theme.InstrumentManager.Light" parent="@style/Theme.Common.InstrumentManager.Light">
+        <item name="imCardLogoGridToggleButtonStartMargin">-8.0dip</item>
+        <item name="imCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Light.Button.Borderless.Colored</item>
+        <item name="imCardLogoGridToggleButtonTopMargin">0.0dip</item>
+        <item name="imProgressBarTopMargin">-5.0dip</item>
+        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24.0dip</item>
+        <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner.Underlined</item>
+    </style>
+</resources>

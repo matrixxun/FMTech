@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SetupWizardDetails">
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textColorLink">?android:textColorSecondary</item>
+    </style>
+    <style name="SetupWizardDivider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="SetupWizardLightText" parent="@style/SetupWizardPlainText" />
+    <style name="SetupWizardPlainText">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/setup_wizard_content_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorLink">?android:textColorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.InstrumentManager.Light.Dialog" parent="@style/Theme.Common.InstrumentManager.Light.Dialog">
+        <item name="uicFormSpinnerStyle">@style/Widget.AppCompat.Spinner</item>
+    </style>
+    <style name="SetupWizardButtonContainer" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:measureWithLargestChild">true</item>
+        <item name="android:elevation">8.0dip</item>
+    </style>
+    <style name="FinskyInstrumentManagerButtonBarContainerSetupWizard" parent="@style/SetupWizardNavbar" />
+    <style name="Theme.InstrumentManager" parent="@style/Theme.Common.InstrumentManager">
+        <item name="imCardLogoGridToggleButtonStartMargin">-8.0dip</item>
+        <item name="imCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Button.Borderless.Colored</item>
+        <item name="imCardLogoGridToggleButtonTopMargin">0.0dip</item>
+        <item name="imProgressBarTopMargin">-5.0dip</item>
+        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24.0dip</item>
+        <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner</item>
+    </style>
+    <style name="Theme.InstrumentManager.Light" parent="@style/Theme.Common.InstrumentManager.Light">
+        <item name="imCardLogoGridToggleButtonStartMargin">-8.0dip</item>
+        <item name="imCardLogoGridToggleButtonStyle">@android:style/Widget.Material.Light.Button.Borderless.Colored</item>
+        <item name="imCardLogoGridToggleButtonTopMargin">0.0dip</item>
+        <item name="imProgressBarTopMargin">-5.0dip</item>
+        <item name="uicClickableBackground">?android:selectableItemBackground</item>
+        <item name="uicDialogBodyStartEndMargin">24.0dip</item>
+        <item name="uicDialogBodyTopBottomMargin">24.0dip</item>
+        <item name="uicFormSpinnerStyle">@android:style/Widget.Material.Spinner</item>
+    </style>
+    <style name="FinskyInstrumentManagerNegativeButtonSetupWizard" parent="@style/SetupWizardNavbarButton">
+        <item name="android:contentDescription">@string/setup_wizard_back_button_label</item>
+        <item name="android:drawableStart">@drawable/setup_wizard_navbar_ic_back</item>
+    </style>
+    <style name="FinskyInstrumentManagerPositiveButtonSetupWizard" parent="@style/SetupWizardNavbarButton">
+        <item name="android:drawableEnd">@drawable/setup_wizard_navbar_ic_next</item>
+    </style>
+</resources>

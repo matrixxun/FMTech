@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.common.ButtonBar android:orientation="horizontal" im:capitalizeButtonText="?imButtonBarTextCapitalized" im:showNegativeButton="?imShowNegativeButton" im:hideNegativeButtonText="?imHideNegativeButtonText" style="?attr/imButtonBarContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <Button android:id="@id/expand_btn" android:visibility="gone" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?attr/imExpandButtonBarStyle" />
+    <Button android:id="@id/negative_btn" android:visibility="gone" android:text="@android:string/cancel" android:freezesText="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?attr/imNegativeButtonBarStyle" />
+    <Button android:id="@id/positive_btn" android:text="@android:string/ok" android:freezesText="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?attr/imPositiveButtonBarStyle" />
+</com.google.android.wallet.instrumentmanager.ui.common.ButtonBar>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardSubtitleLabel android:id="@id/li_subtitle_label" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/li_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/play_card_subtitle" />
+    <com.google.android.play.layout.PlayCardLabelView android:id="@id/li_label" style="@style/PlayCardLabel" />
+</com.google.android.finsky.layout.play.PlayCardSubtitleLabel>

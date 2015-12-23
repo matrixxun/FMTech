@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/account" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SetupWizardPlainText" />
+    <EditText android:id="@id/pin_entry" android:layout_marginTop="12.0dip" android:hint="@string/gift_card_code_hint" android:lines="1" android:inputType="textCapCharacters|textNoSuggestions" android:imeOptions="actionDone" style="@style/RedeemCodeEditText" />
+    <TextView android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LightPurchase_ErrorByline" />
+    <TextView android:id="@id/footer" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LightPurchase_Footer" />
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s Kreise</item>
+        <item quantity="one">%1$s Kreis</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Meine Bewertung: %1$s Sterne</item>
+        <item quantity="one">Meine Bewertung: %1$s Stern</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d Bewertungen</item>
+        <item quantity="one">%1$d Bewertung</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d Bewertungen mit %2$d Stern(en)</item>
+        <item quantity="one">%1$d Bewertung mit %2$d Stern(en)</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s von %2$s Bewertungen</item>
+        <item quantity="one">%1$s von %2$s Bewertung</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d Updates müssen genehmigt werden.</item>
+        <item quantity="one">%1$d Update muss genehmigt werden.</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d neue Updates</item>
+        <item quantity="one">%1$d neues Update</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d Updates verfügbar</item>
+        <item quantity="one">%1$d Update verfügbar</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Alle aktualisieren</item>
+        <item quantity="one">Aktualisieren</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d Apps aktualisiert</item>
+        <item quantity="one">%1$d App aktualisiert</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s Sterne</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s Stern</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s Sterne – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s Stern – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s Sterne – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s Stern – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d Nutzer fanden diese Bewertung hilfreich. Kommentar als hilfreich markieren</item>
+        <item quantity="one">%1$d Nutzer fand diese Bewertung hilfreich. Kommentar als hilfreich markieren</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d Nutzer fanden diese Bewertung hilfreich. Markierung des Kommentars als hilfreich aufheben</item>
+        <item quantity="one">%1$d Nutzer fand diese Bewertung hilfreich. Markierung des Kommentars als hilfreich aufheben</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Mit &amp;lt;b>%1$s Sternen&amp;lt;/b> bewertet</item>
+        <item quantity="one">Mit &amp;lt;b>%1$s Stern&amp;lt;/b> bewertet</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">in %1$s Bewertungen</item>
+        <item quantity="one">in %1$s Bewertung</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s Sterne&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s Stern&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Fehler beim Laden. Bitte wählen Sie eine andere Sicherung.</item>
+        <item quantity="one">Fehler beim Laden. Versuchen Sie es später erneut.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Zuletzt vor %1$d Tagen verwendet</item>
+        <item quantity="one">Zuletzt vor %1$d Tag verwendet</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Ausgewählte Apps</item>
+        <item quantity="one">Ausgewählte App</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">Sterne</item>
+        <item quantity="one">Stern</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s Personen sagen dies</item>
+        <item quantity="one">%1$s Person sagt dies</item>
+    </plurals>
+</resources>

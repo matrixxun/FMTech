@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="addinstrument_content_padding">14.0dip</dimen>
+    <dimen name="setup_wizard_button_vertical_spacing">16.0dip</dimen>
+    <dimen name="setup_wizard_im_title_icon_size">80.0dip</dimen>
+    <dimen name="setup_wizard_subtitle_text_size">54.0sp</dimen>
+    <dimen name="setup_wizard_title_text_size">60.0sp</dimen>
+</resources>

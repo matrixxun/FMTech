@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.WarmWelcomeV2Card android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.CardLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/warm_welcome_v2_card_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayCardViewGroup">
+        <FrameLayout android:id="@id/warm_welcome_v2_graphic_box" android:paddingTop="32.0dip" android:paddingBottom="32.0dip" android:layout_width="0.0dip" android:layout_height="198.0dip" android:layout_weight="1.0">
+            <com.google.android.play.image.FifeImageView android:id="@id/warm_welcome_v2_graphic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/warm_welcome_v2_card_details" />
+        </LinearLayout>
+    </com.google.android.play.layout.CardLinearLayout>
+</com.google.android.finsky.layout.play.WarmWelcomeV2Card>

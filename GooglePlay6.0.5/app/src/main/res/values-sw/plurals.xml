@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">Miduara %1$s</item>
+        <item quantity="one">Mduara %1$s</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ukadiriaji wako: nyota %1$s</item>
+        <item quantity="one">Ukadiriaji wako: nyota %1$s</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">Maoni %1$d</item>
+        <item quantity="one">Maoni %1$d</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">Maoni %1$d ya ukadiriaji wa nyota %2$d</item>
+        <item quantity="one">Maoni %1$d ya ukadiriaji wa nyota %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s kutokana na maoni %2$s</item>
+        <item quantity="one">%1$s kutokana na maoni %2$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d zimechaguliwa</item>
+        <item quantity="one">%1$d imechaguliwa</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Masasisho %1$d yanahitaji kuidhinishwa</item>
+        <item quantity="one">Sasisho %1$d linahitaji kuidhinishwa</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">Masasisho %1$d mapya</item>
+        <item quantity="one">Sasisho %1$d jipya</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Masasisho %1$d yanapatikana</item>
+        <item quantity="one">Sasisho %1$d linapatikana</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Sasisha zote</item>
+        <item quantity="one">Sasisha</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Programu %1$d zimesasishwa</item>
+        <item quantity="one">Programu %1$d imesasishwa</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> nyota %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> nyota %2$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> nyota %2$s - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> nyota %2$s - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s nyota - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s nyota - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">Watumiaji %1$d walisema maoni haya yaliwasaidia. Wekea maoni alama kuwa yanasaidia</item>
+        <item quantity="one">Mtumiaji %1$d alisema maoni haya yalimsaidia. Wekea maoni alama kuwa yanasaidia</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">Watumiaji %1$d walisema kuwa maoni haya yaliwafaa. Ondoa alama ya kuonyesha kuwa maoni yanafaa</item>
+        <item quantity="one">Mtumiaji %1$d alisema kuwa maoni haya yalimfaa. Ondoa alama ya kuonyesha kuwa maoni yanafaa</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Waliikadiria nyota &amp;lt;b>%1$s &amp;lt;/b></item>
+        <item quantity="one">Aliikadiria nyota &amp;lt;b>%1$s &amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">katika maoni %1$s</item>
+        <item quantity="one">katika maoni %1$s</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b> nyota %1$s &amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b> nyota %1$s &amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Haiwezi kupakia vipengee. Jaribu nakala nyingine.</item>
+        <item quantity="one">Haiwezi kupakia vipengee. Jaribu tena baadaye.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Mara ya mwisho kilitumiwa siku %1$d zilizopita</item>
+        <item quantity="one">Mara ya mwisho kilitumiwa siku %1$d iliyopita</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Programu zilizochaguliwa</item>
+        <item quantity="one">Programu iliyochaguliwa</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">nyota</item>
+        <item quantity="one">nyota</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">Watu %1$s wanasema hivi</item>
+        <item quantity="one">Mtu %1$s anasema hivi</item>
+    </plurals>
+</resources>

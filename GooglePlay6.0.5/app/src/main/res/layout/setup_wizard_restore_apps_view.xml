@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="?android:textColorPrimary" android:id="@id/setup_wizard_device_selection_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_wizard_restore_apps_title" />
+    <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="?android:textColorPrimary" android:id="@id/setup_wizard_device_selection_snippet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:text="@string/setup_wizard_restore_apps_snippet" />
+    <TextView android:id="@id/setup_wizard_device_selection_title" android:layout_marginTop="36.0dip" android:text="@string/setup_wizard_device_prompt" style="@style/SetupWizardRestoreSectionTitle" />
+    <include android:id="@id/setup_wizard_device_list_selector" layout="@layout/setup_wizard_restore_apps_selector" />
+    <TextView android:id="@id/setup_wizard_apps_selection_title" android:text="@string/setup_wizard_apps_selection_title" style="@style/SetupWizardRestoreSectionTitle" />
+    <include android:id="@id/setup_wizard_apps_list_selector" layout="@layout/setup_wizard_restore_apps_selector" />
+</LinearLayout>

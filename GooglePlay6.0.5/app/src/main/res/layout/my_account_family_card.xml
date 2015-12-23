@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountFamilyManagementCard style="@style/MyAccountCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/title" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/base_row_height" android:text="@string/my_family" style="@style/PlayClusterTitle" />
+    <include layout="@layout/my_account_separator" />
+    <LinearLayout android:orientation="vertical" android:id="@id/family_management_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.play.layout.ForegroundRelativeLayout android:id="@id/manage_my_family_row" style="@style/MyAccountFamilyCardRow">
+            <ImageView android:id="@id/manage_my_family_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/ic_manage_family_account" android:layout_centerVertical="true" />
+            <TextView android:id="@id/manage_my_family_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/manage_my_family_icon" android:layout_centerVertical="true" style="@style/PlayCardTitle" />
+        </com.google.android.play.layout.ForegroundRelativeLayout>
+        <include android:id="@id/my_family_card_separator" layout="@layout/my_account_separator" />
+        <com.google.android.play.layout.ForegroundRelativeLayout android:id="@id/my_family_library_settings_row" style="@style/MyAccountFamilyCardRow">
+            <ImageView android:id="@id/my_family_library_settings_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/ic_developer_privacy" android:layout_centerVertical="true" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_family_library_settings" android:layout_toRightOf="@id/my_family_library_settings_icon" android:layout_centerVertical="true" style="@style/PlayCardTitle" />
+        </com.google.android.play.layout.ForegroundRelativeLayout>
+        <com.google.android.play.layout.ForegroundRelativeLayout android:id="@id/family_card_learn_more" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" style="@style/MyAccountFamilyCardRow">
+            <TextView android:gravity="center_vertical" android:id="@id/family_card_learn_more_text" android:layout_width="wrap_content" style="@style/MyAccountAction" />
+        </com.google.android.play.layout.ForegroundRelativeLayout>
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+</com.google.android.finsky.layout.MyAccountFamilyManagementCard>

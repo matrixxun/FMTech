@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s 个圈子</item>
+        <item quantity="one">%1$s 个圈子</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">您的评分：%1$s 颗星</item>
+        <item quantity="one">您的评分：%1$s 颗星</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d 条评价</item>
+        <item quantity="one">%1$d 条评价</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d 条 %2$d 颗星的评价</item>
+        <item quantity="one">%1$d 条 %2$d 颗星的评价</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s 条评价认为此应用%1$s</item>
+        <item quantity="one">%2$s 条评价认为此应用%1$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">已选择 %1$d 项</item>
+        <item quantity="one">已选择 %1$d 项</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d 项更新需要批准</item>
+        <item quantity="one">%1$d 项更新需要批准</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">有 %1$d 项更新</item>
+        <item quantity="one">有 %1$d 项更新</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">有 %1$d 项更新</item>
+        <item quantity="one">有 %1$d 项更新</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">全部更新</item>
+        <item quantity="one">更新</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">已更新 %1$d 个应用</item>
+        <item quantity="one">已更新 %1$d 个应用</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星 - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星 - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星 - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>，%2$s 颗星 - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d 位用户认为此评价有用。将该评论标记为有用</item>
+        <item quantity="one">%1$d 位用户认为此评价有用。将该评论标记为有用</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d 位用户认为此评价有用。取消该评论的有用标记</item>
+        <item quantity="one">%1$d 位用户认为此评价有用。取消该评论的有用标记</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">为它评了 &amp;lt;b>%1$s 颗星&amp;lt;/b></item>
+        <item quantity="one">为它评了 &amp;lt;b>%1$s 颗星&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">根据 %1$s 条评价</item>
+        <item quantity="one">根据 %1$s 条评价</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s 颗星&amp;lt;/b>，%2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s 颗星&amp;lt;/b>，%2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">无法加载列表内容，请尝试使用其他备份设备。</item>
+        <item quantity="one">无法加载列表内容，请稍后重试。</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">上次使用：%1$d 天前</item>
+        <item quantity="one">上次使用：%1$d 天前</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">选定的应用</item>
+        <item quantity="one">选定的应用</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">颗星</item>
+        <item quantity="one">颗星</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s 个人对此发表了评论</item>
+        <item quantity="one">%1$s 个人对此发表了评论</item>
+    </plurals>
+</resources>

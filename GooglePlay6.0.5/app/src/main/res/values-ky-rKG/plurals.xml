@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s чөйрө</item>
+        <item quantity="one">%1$s чөйрө</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Рейтингиңиз: %1$s жылдыз</item>
+        <item quantity="one">Рейтингиңиз: %1$s жылдыз</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d сын-пикир</item>
+        <item quantity="one">%1$d сын-пикир</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d жылдыз рейтингине %1$d сын-пикир</item>
+        <item quantity="one">%2$d жылдыз рейтингине %1$d сын-пикир</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s ичинен %1$s сын-пикир</item>
+        <item quantity="one">%2$s ичинен %1$s сын-пикир</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d тандалды</item>
+        <item quantity="one">%1$d тандалды</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d жаңыртууну ырастоо керек</item>
+        <item quantity="one">%1$d жаңыртууну ырастоо керек</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d жаңы жаңыртуу</item>
+        <item quantity="one">%1$d жаңы жаңыртуу</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d жаңыртуу бар</item>
+        <item quantity="one">%1$d жаңыртуу бар</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Баарын жаңыртуу</item>
+        <item quantity="one">Жаңыртуу</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d колдонмо жаңыртылды</item>
+        <item quantity="one">%1$d колдонмо жаңыртылды</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жылдыз - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d колдонуучу бул сын-пикирди пайдалуу деп ойлойт. Жорумду пайдалуу деп белгилөө</item>
+        <item quantity="one">%1$d колдонуучу бул сын-пикирди пайдалуу деп ойлойт. Жорумду пайдалуу деп белгилөө</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d колдонуучу бул сын-пикирди пайдалуу деп ойлойт. Жорумдун пайдалуу деген белгисин алып салуу</item>
+        <item quantity="one">%1$d колдонуучу бул сын-пикирди пайдалуу деп ойлойт. Жорумдун пайдалуу деген белгисин алып салуу</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Бул &amp;lt;b>%1$s жылдыз&amp;lt;/b> менен бааланды</item>
+        <item quantity="one">Бул &amp;lt;b>%1$s жылдыз&amp;lt;/b> менен бааланды</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s сын-пикирде</item>
+        <item quantity="one">%1$s сын-пикирде</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s жылдыз&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s жылдыз&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Нерселер жүктөлбөй жатат. Башка камдык көчүрмөнү байкап көрүңүз.</item>
+        <item quantity="one">Нерселер жүктөлбөй жатат. Кийинчерээк кайра кайталаңыз.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Акыркы жолу %1$d күн мурун колдонулган</item>
+        <item quantity="one">Акыркы жолу %1$d күн мурун колдонулган</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Тандалган колдонмолор</item>
+        <item quantity="one">Тандалган колдонмо</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">жылдыздар</item>
+        <item quantity="one">жылдыз</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s киши ушинтип айтып жатат</item>
+        <item quantity="one">%1$s киши ушинтип айтып жатат</item>
+    </plurals>
+</resources>

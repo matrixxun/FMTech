@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s cirkler</item>
+        <item quantity="one">%1$s cirkler</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Din bedømmelse: %1$s stjerner</item>
+        <item quantity="one">Din bedømmelse: %1$s stjerner</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d anmeldelser</item>
+        <item quantity="one">%1$d anmeldelser</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d anmeldelser for stjernebedømmelsen %2$d</item>
+        <item quantity="one">%1$d anmeldelser for stjernebedømmelsen %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s fra %2$s anmeldelser</item>
+        <item quantity="one">%1$s fra %2$s anmeldelser</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Der er valgt %1$d</item>
+        <item quantity="one">Der er valgt %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d opdateringer skal godkendes</item>
+        <item quantity="one">%1$d opdateringer skal godkendes</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nye opdateringer</item>
+        <item quantity="one">%1$d nye opdateringer</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d tilgængelige opdateringer</item>
+        <item quantity="one">%1$d tilgængelige opdateringer</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Opdater alle</item>
+        <item quantity="one">Opdater alle</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d applikationer blev opdateret</item>
+        <item quantity="one">%1$d applikationer blev opdateret</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjerner – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d brugere fandt denne anmeldelse nyttig. Markér kommentaren som nyttig</item>
+        <item quantity="one">%1$d brugere fandt denne anmeldelse nyttig. Markér kommentaren som nyttig</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d brugere fandt denne anmeldelse nyttig. Fjern markeringen af kommentaren som nyttig</item>
+        <item quantity="one">%1$d brugere fandt denne anmeldelse nyttig. Fjern markeringen af kommentaren som nyttig</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Har givet &amp;lt;b>%1$s stjerner&amp;lt;/b></item>
+        <item quantity="one">Har givet &amp;lt;b>%1$s stjerner&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">i %1$s anmeldelser</item>
+        <item quantity="one">i %1$s anmeldelse</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s stjerner&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s stjerner&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Elementerne kan ikke indlæses. Prøv en anden sikkerhedskopi.</item>
+        <item quantity="one">Elementerne kan ikke indlæses. Prøv en anden sikkerhedskopi.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Sidst brugt for %1$d dage siden</item>
+        <item quantity="one">Sidst brugt for %1$d dage siden</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Valgte apps</item>
+        <item quantity="one">Valgte apps</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stjerner</item>
+        <item quantity="one">stjerner</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s personer siger dette</item>
+        <item quantity="one">%1$s personer siger dette</item>
+    </plurals>
+</resources>

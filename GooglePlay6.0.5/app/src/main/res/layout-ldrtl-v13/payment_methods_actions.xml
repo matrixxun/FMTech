@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="vertical" android:id="@id/instruments_switcher" android:paddingTop="@dimen/my_account_separator_ypadding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:text="@string/payment_methods" android:drawableStart="@drawable/ic_myaccount_back" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_im_form_start_end_margin">96.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">96.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">96.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">24.0dip</dimen>
+    <dimen name="play_header_list_tab_floating_padding">36.0dip</dimen>
+    <dimen name="play_header_list_tab_padding_side">24.0dip</dimen>
+    <dimen name="play_collection_edge_padding">80.0dip</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">74.0dip</dimen>
+    <dimen name="highlights_banner_wide_layout_height">384.0dip</dimen>
+    <dimen name="play_onboard__onboard_v2_tutorial_page_side_margin">24.0dip</dimen>
+    <dimen name="searchbox_padding_from_highlight">24.0dip</dimen>
+</resources>

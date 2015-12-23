@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardBannerWithContentClusterView android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <include layout="@layout/play_card_cluster_header" />
+    <com.google.android.finsky.layout.play.PlayCardBannerWithContentClusterViewContent android:id="@id/cluster_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/play_merch_content_vmargin" android:layout_marginBottom="@dimen/play_merch_content_vmargin" finsky:card_content_padding_top="@dimen/play_merch_content_vpadding" finsky:card_content_padding_bottom="@dimen/play_merch_content_vpadding">
+        <com.google.android.play.image.FifeImageView android:id="@id/banner_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_dark" android:scaleType="centerCrop" finsky:fixed_bounds="true" />
+        <TextView android:textColor="@android:color/white" android:ellipsize="marquee" android:id="@id/title" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/PlayClusterTitle" />
+        <TextView android:id="@id/more_button" android:background="@drawable/more_button_shape" android:paddingLeft="@dimen/play_cluster_header_more_xpadding" android:paddingRight="@dimen/play_cluster_header_more_xpadding" style="@style/PlayClusterMore" />
+    </com.google.android.finsky.layout.play.PlayCardBannerWithContentClusterViewContent>
+</com.google.android.finsky.layout.play.PlayCardBannerWithContentClusterView>

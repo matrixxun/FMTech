@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="now_playing_widgets_enabled">true</bool>
+    <bool name="play_text_compact_mode_enable">true</bool>
+    <bool name="recommendation_widgets_enabled">true</bool>
+</resources>

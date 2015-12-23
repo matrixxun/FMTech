@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.common.TopBarView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.wallet.ui.common.FifeNetworkImageView android:id="@id/title_icon" android:visibility="gone" android:layout_width="?imTitleIconSize" android:layout_height="?imTitleIconSize" android:layout_marginEnd="?imTitleIconMargin" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="?imTitleTextLineSpacingExtra" style="?attr/imTitleTextAppearance" />
+</com.google.android.wallet.instrumentmanager.ui.common.TopBarView>

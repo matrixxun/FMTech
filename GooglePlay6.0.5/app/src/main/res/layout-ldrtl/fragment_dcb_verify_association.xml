@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto">
+    <com.google.android.wallet.instrumentmanager.ui.common.ImInfoMessageTextView android:id="@id/required_message_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" im:internalUicInlineExpandLabel="false" style="?attr/uicLegalMessagesTextAppearance" />
+</LinearLayout>

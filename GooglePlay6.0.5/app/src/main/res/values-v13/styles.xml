@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OnboardTab" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PlayOnboardNavFooterButton">
+        <item name="android:textAppearance">@style/PlayCardAction</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/play_onboard_dark_button_bg</item>
+        <item name="android:paddingLeft">@dimen/play_onboard__onboard_nav_footer_button_padding</item>
+        <item name="android:paddingRight">@dimen/play_onboard__onboard_nav_footer_button_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetupWizardNavbarButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?setup_wizard_navbar_text_color</item>
+        <item name="android:background">@drawable/setup_wizard_navbar_btn_bg</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

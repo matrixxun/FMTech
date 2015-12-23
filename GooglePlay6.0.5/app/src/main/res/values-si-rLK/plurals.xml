@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">කව %1$s</item>
+        <item quantity="one">කව %1$s</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">ඔබේ ඇගයීම: තරු %1$s</item>
+        <item quantity="one">ඔබේ ඇගයීම: තරු %1$s</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">සමාලෝචන %1$d</item>
+        <item quantity="one">සමාලෝචන %1$d</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">තරු ඇගයීම %2$d සඳහා සමාලෝචන %1$d</item>
+        <item quantity="one">තරු ඇගයීම %2$d සඳහා සමාලෝචන %1$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">සමාලෝචන %2$sක් වෙතින් %1$s</item>
+        <item quantity="one">සමාලෝචන %2$sක් වෙතින් %1$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d තෝරා ගන්නා ලදී</item>
+        <item quantity="one">%1$d තෝරා ගන්නා ලදී</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">යාවත්කාලීන %1$d ට අනුමැතිය අවශ්‍යයි</item>
+        <item quantity="one">යාවත්කාලීන %1$d ට අනුමැතිය අවශ්‍යයි</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">නව යාවත්කාලීන %1$d</item>
+        <item quantity="one">නව යාවත්කාලීන %1$d</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">යාවත්කාලීන %1$d ඇත</item>
+        <item quantity="one">යාවත්කාලීන %1$d ඇත</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">සියල්ල යාවත්කාලීන කරන්න</item>
+        <item quantity="one">සියල්ල යාවත්කාලීන කරන්න</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">යෙදුම් %1$d යාවත්කාලීන කරන ලදි</item>
+        <item quantity="one">යෙදුම් %1$d යාවත්කාලීන කරන ලදි</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s තරු - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">පරිශීලකයන් %1$d කට මෙම සමාලෝචනය ප්‍රයෝජනවත් විය. අදහස ප්‍රයෝජනවත් ලෙස ලකුණු කරන්න</item>
+        <item quantity="one">පරිශීලකයන් %1$d කට මෙම සමාලෝචනය ප්‍රයෝජනවත් විය. අදහස ප්‍රයෝජනවත් ලෙස ලකුණු කරන්න</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">පරිශීලකයන් %1$dකට මෙම සමාලෝචනය ප්‍රයෝජනවත් විය. අදහස ප්‍රයෝජනවත් ලෙස ලකුණු ‍නොකරන්න</item>
+        <item quantity="one">පරිශීලකයන් %1$dකට මෙම සමාලෝචනය ප්‍රයෝජනවත් විය. අදහස ප්‍රයෝජනවත් ලෙස ලකුණු ‍නොකරන්න</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">එය තරු &amp;lt;/b>%1$s ලෙස අගයන ලදී&amp;lt;/b></item>
+        <item quantity="one">එය තරු &amp;lt;b>%1$s ලෙස අගයන ලදී&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">සමාලෝචන %1$sක</item>
+        <item quantity="one">සමාලෝචන %1$sක</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s තරු &amp;lt;b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s තරු &amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">අයිතම පූරණය කළ නොහැකිය. වෙනත් උපස්ථයක් උත්සාහ කරන්න.</item>
+        <item quantity="one">අයිතම පූරණය කළ නොහැකිය. වෙනත් උපස්ථයක් උත්සාහ කරන්න.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">දින %1$d කට ඉහතදී අවසන් වරට භාවිත කරන ලදී</item>
+        <item quantity="one">දින %1$d කට ඉහතදී අවසන් වරට භාවිත කරන ලදී</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">තෝරා ගන්නා ලද යෙදුම්</item>
+        <item quantity="one">තෝරා ගන්නා ලද යෙදුම්</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">තරු</item>
+        <item quantity="one">තරු</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">පුද්ගලයන් %1$s ක් මෙය පවසයි</item>
+        <item quantity="one">පුද්ගලයන් %1$s ක් මෙය පවසයි</item>
+    </plurals>
+</resources>

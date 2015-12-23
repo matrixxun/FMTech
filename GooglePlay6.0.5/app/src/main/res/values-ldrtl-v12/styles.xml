@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlaySearchPlate.SearchText" parent="@style/PlaySearchPlate.SearchTextBase">
+        <item name="android:textCursorDrawable">@drawable/play_search_cursor</item>
+    </style>
+</resources>

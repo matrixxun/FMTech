@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.play.PersonAvatarView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/friend_review_reviewer_avatar_size" android:layout_height="@dimen/friend_review_reviewer_avatar_size" android:layout_marginTop="@dimen/friend_review_reviewer_avatar_top_margin" android:scaleType="fitStart" android:layout_centerHorizontal="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <TextView android:textSize="@dimen/friend_review_card_reviewer_name_text_size" android:textColor="@color/play_fg_primary" android:layout_gravity="center" android:id="@id/reviewer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/friend_review_card_reviewer_name_margin_top" style="@style/PlayMediumPlainText" />
+    <TextView android:textSize="@dimen/friend_review_card_review_read_more_text_size" android:textColor="@color/play_fg_secondary" android:layout_gravity="center" android:id="@id/review_date" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

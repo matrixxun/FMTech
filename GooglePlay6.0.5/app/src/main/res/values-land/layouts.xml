@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="play_card_promo_cluster">@layout/play_card_promo_cluster_wide</item>
+    <item type="layout" name="play_newsstand_publisher_details">@layout/play_newsstand_publisher_details_wide</item>
+</resources>

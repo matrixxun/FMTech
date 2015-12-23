@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s ਸਰਕਲ</item>
+        <item quantity="one">%1$s ਸਰਕਲ</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">ਤੁਹਾਡੀ ਰੇਟਿੰਗ: %1$s ਸਟਾਰ</item>
+        <item quantity="one">ਤੁਹਾਡੀ ਰੇਟਿੰਗ: %1$s ਸਟਾਰ</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d ਸਮੀਖਿਆਵਾਂ</item>
+        <item quantity="one">%1$d ਸਮੀਖਿਆਵਾਂ</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">ਸਟਾਰ ਰੇਟਿੰਗ %2$d ਲਈ %1$d ਸਮੀਖਿਆਵਾਂ</item>
+        <item quantity="one">ਸਟਾਰ ਰੇਟਿੰਗ %2$d ਲਈ %1$d ਸਮੀਖਿਆਵਾਂ</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s %2$s ਤੋਂ ਸਮੀਖਿਆਵਾਂ</item>
+        <item quantity="one">%1$s %2$s ਤੋਂ ਸਮੀਖਿਆਵਾਂ</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ਚੁਣੇ ਗਏ</item>
+        <item quantity="one">%1$d ਚੁਣਿਆ ਗਿਆ</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ਅਪਡੇਟਾਂ ਲਈ ਮਨਜ਼ੂਰੀ ਦੀ ਲੋੜ ਹੈ</item>
+        <item quantity="one">%1$d ਅਪਡੇਟਾਂ ਲਈ ਮਨਜ਼ੂਰੀ ਦੀ ਲੋੜ ਹੈ</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d ਨਵੀਆਂ ਅਪਡੇਟਾਂ</item>
+        <item quantity="one">%1$d ਨਵੀਆਂ ਅਪਡੇਟਾਂ</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d ਅਪਡੇਟਾਂ ਉਪਲਬਧ</item>
+        <item quantity="one">%1$d ਅਪਡੇਟਾਂ ਉਪਲਬਧ</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">ਸਾਰਿਆਂ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</item>
+        <item quantity="one">ਸਾਰਿਆਂ ਨੂੰ ਅਪਡੇਟ ਕਰੋ</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d ਐਪਲੀਕੇਸ਼ਨਾਂ ਅਪਡੇਟ ਕੀਤੀਆਂ</item>
+        <item quantity="one">%1$d ਐਪਲੀਕੇਸ਼ਨਾਂ ਅਪਡੇਟ ਕੀਤੀਆਂ</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ਸਟਾਰ - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d ਉਪਭੋਗਤਾਵਾਂ ਨੇ ਇਸ ਸਮੀਖਿਆ ਨੂੰ ਉਪਯੋਗੀ ਪਾਇਆ। ਟਿੱਪਣੀ ਨੂੰ ਉਪਯੋਗੀ ਦੇ ਤੌਰ ਤੇ ਚਿੰਨ੍ਹਿਤ ਕਰੋ</item>
+        <item quantity="one">%1$d ਉਪਭੋਗਤਾਵਾਂ ਨੇ ਇਸ ਸਮੀਖਿਆ ਨੂੰ ਉਪਯੋਗੀ ਪਾਇਆ। ਟਿੱਪਣੀ ਨੂੰ ਉਪਯੋਗੀ ਦੇ ਤੌਰ ਤੇ ਚਿੰਨ੍ਹਿਤ ਕਰੋ</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d ਉਪਭੋਗਤਾਵਾਂ ਨੇ ਇਸ ਸਮੀਖਿਆ ਨੂੰ ਉਪਯੋਗੀ ਪਾਇਆ। ਟਿੱਪਣੀ ਨੂੰ ਉਪਯੋਗੀ ਦੇ ਤੌਰ ਤੇ ਅਚਿੰਨ੍ਹਿਤ ਕਰੋ</item>
+        <item quantity="one">%1$d ਉਪਭੋਗਤਾਵਾਂ ਨੇ ਇਸ ਸਮੀਖਿਆ ਨੂੰ ਉਪਯੋਗੀ ਪਾਇਆ। ਟਿੱਪਣੀ ਨੂੰ ਉਪਯੋਗੀ ਦੇ ਤੌਰ ਤੇ ਅਚਿੰਨ੍ਹਿਤ ਕਰੋ</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">ਇਸਨੂੰ ਦਰਜਾ ਦਿੱਤਾ &amp;lt;b>%1$s ਸਟਾਰ&amp;lt;/b></item>
+        <item quantity="one">ਇਸਨੂੰ ਦਰਜਾ ਦਿੱਤਾ &amp;lt;b>%1$s ਸਟਾਰ&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s ਸਮੀਖਿਆਵਾਂ ਵਿੱਚ</item>
+        <item quantity="one">%1$s ਸਮੀਖਿਆਵਾਂ ਵਿੱਚ</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s ਸਟਾਰ&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s ਸਟਾਰ&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">ਆਈਟਮਾਂ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕਦਾ। ਦੂਜਾ ਬੈਕਅਪ ਅਜ਼ਮਾਓ।</item>
+        <item quantity="one">ਆਈਟਮਾਂ ਲੋਡ ਨਹੀਂ ਕਰ ਸਕਦਾ। ਦੂਜਾ ਬੈਕਅਪ ਅਜ਼ਮਾਓ।</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">ਪਿਛਲੀ ਵਾਰ %1$d ਦਿਨ ਪਹਿਲਾਂ ਵਰਤਿਆ</item>
+        <item quantity="one">ਪਿਛਲੀ ਵਾਰ %1$d ਦਿਨ ਪਹਿਲਾਂ ਵਰਤਿਆ</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">ਚੁਣੇ ਗਏ ਐਪਸ</item>
+        <item quantity="one">ਚੁਣੇ ਗਏ ਐਪਸ</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ਸਟਾਰ</item>
+        <item quantity="one">ਸਟਾਰ</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s ਵਿਅਕਤੀ ਇਸਦੀ ਚਰਚਾ ਕਰ ਰਹੇ ਹਨ</item>
+        <item quantity="one">%1$s ਵਿਅਕਤੀ ਇਸਦੀ ਚਰਚਾ ਕਰ ਰਹੇ ਹਨ</item>
+    </plurals>
+</resources>

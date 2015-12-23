@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s ta davra</item>
+        <item quantity="one">%1$s ta davra</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Siz qo‘ygan baho: %1$s</item>
+        <item quantity="one">Siz qo‘ygan baho: %1$s</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d ta sharh</item>
+        <item quantity="one">%1$d ta sharh</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d baholi sharhlar soni %1$d ta</item>
+        <item quantity="one">%2$d baholi sharhlar soni %1$d ta</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s (%2$s ta sharh)</item>
+        <item quantity="one">%1$s (%2$s ta sharh)</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ta belgilandi</item>
+        <item quantity="one">%1$d ta belgilandi</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ta yangilanish tasdiqni kutmoqda</item>
+        <item quantity="one">%1$d ta yangilanish tasdiqni kutmoqda</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d ta yangilanish mavjud</item>
+        <item quantity="one">%1$d ta yangilanish mavjud</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d ta yangilanish mavjud</item>
+        <item quantity="one">%1$d ta yangilanish mavjud</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Barchasini yangilash</item>
+        <item quantity="one">Yangilash</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d ta ilova yangilandi</item>
+        <item quantity="one">%1$d ta ilova yangilandi</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> Baho – %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> Baho – %2$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s baho – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s baho – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s baho – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s baho – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d ta foydalanuvchi bu sharhni foydali deb topdi. Foydali deb belgilash</item>
+        <item quantity="one">%1$d ta foydalanuvchi bu sharhni foydali deb topdi. Foydali deb belgilash</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d ta foydalanuvchi bu sharhni foydali deb topdi. Amalni bekor qilish</item>
+        <item quantity="one">%1$d ta foydalanuvchi bu sharhni foydali deb topdi. Amalni bekor qilish</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>Baho – %1$s&amp;lt;/b></item>
+        <item quantity="one">&amp;lt;b>Baho – %1$s&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s ta sharhda</item>
+        <item quantity="one">%1$s ta sharhda</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>Baho – %1$s&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>Baho – %1$s&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Ma’lumotlar yuklanmadi. Boshqa qurilmani tanlang.</item>
+        <item quantity="one">Ma’lumotlar yuklanmadi. Keyinroq qayta urinib ko‘ring.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">So‘nggi foydalanish: %1$d kun oldin</item>
+        <item quantity="one">So‘nggi foydalanish: %1$d kun oldin</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Tanlangan ilovalar</item>
+        <item quantity="one">Tanlangan ilova</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s kishi fikr bildirgan</item>
+        <item quantity="one">%1$s kishi fikr bildirgan</item>
+    </plurals>
+</resources>

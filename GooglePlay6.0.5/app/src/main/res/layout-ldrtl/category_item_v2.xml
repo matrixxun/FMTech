@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CategoryRowV2 android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/play_white_with_highlight" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/category_row_height_v2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:id="@id/category_item_image" android:layout_width="@dimen/category_icon_size" android:layout_height="@dimen/category_icon_size" android:scaleType="fitCenter" />
+    <com.google.android.finsky.layout.AccessibleTextView android:textSize="@dimen/content_generic_medium_size" android:gravity="center_vertical" android:id="@id/category_item_title" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/PlayCardTitle" />
+</com.google.android.finsky.layout.CategoryRowV2>

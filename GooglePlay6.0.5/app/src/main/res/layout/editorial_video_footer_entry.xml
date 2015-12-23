@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.CardLinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/PlayCardViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/videoimage" layout="@layout/hero_graphic" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/video_text" android:paddingLeft="@dimen/play_card_content_horizontal_inset" android:paddingTop="@dimen/play_card_content_vertical_inset" android:paddingRight="@dimen/play_card_content_horizontal_inset" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayCardTitle" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/video_description" android:paddingLeft="@dimen/play_card_content_horizontal_inset" android:paddingRight="@dimen/play_card_content_horizontal_inset" android:paddingBottom="@dimen/play_card_content_vertical_inset" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayCardDescription" />
+</com.google.android.play.layout.CardLinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ClearFamilySafeSearchButton">
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:layout_width">568.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="DiscoveryBarScroller">
+        <item name="android:fadingEdgeLength">12.0dip</item>
+        <item name="android:requiresFadingEdge">horizontal</item>
+    </style>
+    <style name="Play_DetailsPage_ActionButton" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/play_price_small_size</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+        <item name="android:minWidth">@dimen/standard_button_minwidth</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="action_xpadding">24.0dip</item>
+        <item name="action_top_padding">7.0dip</item>
+        <item name="action_bottom_padding">8.0dip</item>
+    </style>
+    <style name="ProfileActionButton" parent="@style/ProfileActionButtonBase">
+        <item name="android:layout_width">220.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+</resources>

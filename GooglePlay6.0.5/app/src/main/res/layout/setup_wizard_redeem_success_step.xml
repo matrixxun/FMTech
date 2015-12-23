@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayTextView android:textSize="24.0sp" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@style/SetupWizardLightText"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" />

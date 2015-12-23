@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:gravity="center_vertical" android:background="@drawable/focus_overlay" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:id="@id/image_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_gravity="start|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/BillingProfile_Disabled_Entry" />
+        <TextView android:id="@id/subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/BillingProfile_Entry_Subtitle" />
+        <TextView android:layout_gravity="start|center" android:id="@id/byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/BillingProfile_Disabled_Entry_Byline" />
+    </LinearLayout>
+    <TextView android:layout_gravity="end|center" android:id="@id/edit_button" android:visibility="gone" style="@style/PaymentMethodsRowEditButton" />
+</com.google.android.finsky.layout.SeparatorLinearLayout>

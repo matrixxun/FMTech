@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.PlayCardThumbnail android:id="@id/title_thumbnail_frame" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" finsky:thumbnail_id="@id/title_thumbnail" finsky:app_thumbnail_padding="@dimen/details_title_cover_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <include android:id="@id/title_thumbnail" layout="@layout/play_card_thumbnail" />
+</com.google.android.play.layout.PlayCardThumbnail>

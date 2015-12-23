@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DiscoveryBar android:orientation="vertical" android:id="@id/discovery_bar" android:background="@color/play_white" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/content_description_discovery_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/content_scroller" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" style="@style/DiscoveryBarScroller">
+        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/badge_container" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/discovery_bar_left_padding" android:paddingEnd="8.0dip" />
+    </HorizontalScrollView>
+</com.google.android.finsky.layout.DiscoveryBar>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s ವಲಯಗಳು</item>
+        <item quantity="one">%1$s ವಲಯಗಳು</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">ನಿಮ್ಮ ರೇಟಿಂಗ್: %1$s ನಕ್ಷತ್ರಗಳು</item>
+        <item quantity="one">ನಿಮ್ಮ ರೇಟಿಂಗ್: %1$s ನಕ್ಷತ್ರಗಳು</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d ಅಭಿಪ್ರಾಯಗಳು</item>
+        <item quantity="one">%1$d ಅಭಿಪ್ರಾಯಗಳು</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d ನಕ್ಷತ್ರ ರೇಟಿಂಗ್ ಮಾಡಿರುವುದಕ್ಕೆ %1$d ಅಭಿಪ್ರಾಯಗಳು</item>
+        <item quantity="one">%2$d ನಕ್ಷತ್ರ ರೇಟಿಂಗ್ ಮಾಡಿರುವುದಕ್ಕೆ %1$d ಅಭಿಪ್ರಾಯಗಳು</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s ರಿಂದ %1$s ಪರಿಶೀಲನೆಗಳು</item>
+        <item quantity="one">%2$s ರಿಂದ %1$s ಪರಿಶೀಲನೆಗಳು</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ಅಪ್‌ಡೇಟ್‌ಗಳಿಗೆ ಅನುಮೋದನೆ ಅಗತ್ಯವಿದೆ</item>
+        <item quantity="one">%1$d ಅಪ್‌ಡೇಟ್‌ಗಳಿಗೆ ಅನುಮೋದನೆ ಅಗತ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d ಹೊಸ ಅಪ್‌ಡೇಟ್‌‌ಗಳು</item>
+        <item quantity="one">%1$d ಹೊಸ ಅಪ್‌ಡೇಟ್‌‌ಗಳು</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d ಅಪ್‌ಡೇಟ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+        <item quantity="one">%1$d ಅಪ್‌ಡೇಟ್‌ಗಳು ಲಭ್ಯವಿದೆ</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">ಎಲ್ಲವನ್ನೂ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</item>
+        <item quantity="one">ಎಲ್ಲವನ್ನೂ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ನಕ್ಷತ್ರಗಳು - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d ಬಳಕೆದಾರರು ಈ ಅಭಿಪ್ರಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆ ಎಂಬುದನ್ನು ಕಂಡುಕೊಂಡಿದ್ದಾರೆ. ಕಾಮೆಂಟ್‌ ಸಹಾಯಕವಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</item>
+        <item quantity="one">%1$d ಬಳಕೆದಾರರು ಈ ಅಭಿಪ್ರಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆ ಎಂಬುದನ್ನು ಕಂಡುಕೊಂಡಿದ್ದಾರೆ. ಕಾಮೆಂಟ್‌ ಸಹಾಯಕವಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d ಬಳಕೆದಾರರು ಈ ಅಭಿಪ್ರಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆ ಎಂಬುದನ್ನು ಕಂಡುಕೊಂಡಿದ್ದಾರೆ. ಸಹಾಯಕವಾಗಿದೆ ಎಂಬ ಕಾಮೆಂಟ್‌ ಗುರುತು ರದ್ದುಮಾಡಿ</item>
+        <item quantity="one">%1$d ಬಳಕೆದಾರರು ಈ ಅಭಿಪ್ರಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆ ಎಂಬುದನ್ನು ಕಂಡುಕೊಂಡಿದ್ದಾರೆ. ಸಹಾಯಕವಾಗಿದೆ ಎಂಬ ಕಾಮೆಂಟ್‌ ಗುರುತು ರದ್ದುಮಾಡಿ</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>%1$s ನಕ್ಷತ್ರಗಳು&amp;lt;/b> ರೇಟ್</item>
+        <item quantity="one">&amp;lt;b>%1$s ನಕ್ಷತ್ರಗಳು&amp;lt;/b> ರೇಟ್</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s ಅಭಿಪ್ರಾಯಗಳಲ್ಲಿ</item>
+        <item quantity="one">%1$s ಅಭಿಪ್ರಾಯಗಳಲ್ಲಿ</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s ನಕ್ಷತ್ರಗಳು&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s ನಕ್ಷತ್ರಗಳು&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">ಐಟಂಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮತ್ತೊಂದು ಬ್ಯಾಕ್ಅಪ್ ಪ್ರಯತ್ನಿಸಿ.</item>
+        <item quantity="one">ಐಟಂಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಮತ್ತೊಂದು ಬ್ಯಾಕ್ಅಪ್ ಪ್ರಯತ್ನಿಸಿ.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">ಕೊನೆಯದಾಗಿ %1$d ದಿನಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಕೊನೆಯದಾಗಿ %1$d ದಿನಗಳ ಹಿಂದೆ ಬಳಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">ಆಯ್ಕೆಮಾಡಿದ ಅಪ್ಲಿ.ಗಳು</item>
+        <item quantity="one">ಆಯ್ಕೆಮಾಡಿದ ಅಪ್ಲಿ.ಗಳು</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ನಕ್ಷತ್ರಗಳು</item>
+        <item quantity="one">ನಕ್ಷತ್ರಗಳು</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s ಜನರು ಇದನ್ನು ಹೇಳುತ್ತಿದ್ದಾರೆ</item>
+        <item quantity="one">%1$s ಜನರು ಇದನ್ನು ಹೇಳುತ್ತಿದ್ದಾರೆ</item>
+    </plurals>
+</resources>

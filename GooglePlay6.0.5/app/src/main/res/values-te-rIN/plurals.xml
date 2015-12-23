@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s సర్కిల్‌లు</item>
+        <item quantity="one">%1$s సర్కిల్</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">మీ రేటింగ్: %1$s నక్షత్రాలు</item>
+        <item quantity="one">మీ రేటింగ్: %1$s నక్షత్రం</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d సమీక్షలు</item>
+        <item quantity="one">%1$d సమీక్ష</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d నక్షత్ర రేటింగ్‌తో %1$d సమీక్షలు</item>
+        <item quantity="one">%2$d నక్షత్ర రేటింగ్‌తో %1$d సమీక్ష</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s సమీక్షల నుండి %1$s</item>
+        <item quantity="one">%2$s సమీక్ష నుండి %1$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ఎంచుకోబడ్డాయి</item>
+        <item quantity="one">%1$d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d నవీకరణలకు ఆమోదం అవసరం</item>
+        <item quantity="one">%1$d నవీకరణకు ఆమోదం అవసరం</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d కొత్త తాజా విషయాలు</item>
+        <item quantity="one">%1$d కొత్త తాజా విషయం</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d నవీకరణలు అందుబాటులో ఉన్నాయి</item>
+        <item quantity="one">%1$d నవీకరణ అందుబాటులో ఉంది</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">అన్నీ నవీకరించు</item>
+        <item quantity="one">నవీకరించు</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d అనువర్తనాలు నవీకరించబడ్డాయి</item>
+        <item quantity="one">%1$d అనువర్తనం నవీకరించబడింది</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రాలు</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రం</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రాలు - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రం - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రాలు - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s నక్షత్రం - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d మంది వినియోగదారులు ఈ సమీక్ష సహాయకరంగా ఉందని కనుగొన్నారు. వ్యాఖ్య సహాయకరంగా ఉన్నట్లు గుర్తు పెడుతుంది</item>
+        <item quantity="one">%1$d వినియోగదారు ఈ సమీక్ష సహాయకరంగా ఉందని కనుగొన్నారు. వ్యాఖ్య సహాయకరంగా ఉన్నట్లు గుర్తు పెడుతుంది</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d మంది వినియోగదారులు ఈ సమీక్ష సహాయకరంగా ఉందని కనుగొన్నారు. సహాయకరంగా ఉందనే వ్యాఖ్యను తీసివేయండి</item>
+        <item quantity="one">%1$d వినియోగదారు ఈ సమీక్ష సహాయకరంగా ఉన్నట్లు కనుగొన్నారు. సహాయకరంగా ఉందనే వ్యాఖ్యను తీసివేయండి</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>%1$s నక్ష.&amp;lt;/b>గా రేట్ చేసారు</item>
+        <item quantity="one">&amp;lt;b>%1$s నక్షత్రం&amp;lt;/b>గా రేట్ చేసారు</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s సమీక్షల్లో</item>
+        <item quantity="one">%1$s సమీక్షలో</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s నక్షత్రాలు&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s నక్షత్రం&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">అంశాలను లోడ్ చేయడం సాధ్యపడదు. మరొక బ్యాకప్‌ను ప్రయత్నించండి.</item>
+        <item quantity="one">అంశాలను లోడ్ చేయడం సాధ్యపడదు. తర్వాత మళ్లీ ప్రయత్నించండి.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">చివరిగా %1$d రోజుల క్రితం ఉపయోగించబడింది</item>
+        <item quantity="one">చివరిగా %1$d రోజు క్రితం ఉపయోగించబడింది</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">ఎంచుకు. అనువర్తనాలు</item>
+        <item quantity="one">ఎంచుకున్న అనువర్తనం</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">నక్షత్రాలు</item>
+        <item quantity="one">నక్షత్రం</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s మంది వ్యక్తులు ఇలా చెబుతున్నారు</item>
+        <item quantity="one">%1$s వ్యక్తి ఇలా చెబుతున్నారు</item>
+    </plurals>
+</resources>

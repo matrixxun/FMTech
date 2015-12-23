@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="common_full_open_on_phone">false</item>
+    <item type="drawable" name="common_google_signin_btn_icon_light_disabled">false</item>
+    <item type="drawable" name="common_google_signin_btn_icon_light_focused">false</item>
+    <item type="drawable" name="common_google_signin_btn_icon_light_normal">false</item>
+    <item type="drawable" name="common_google_signin_btn_icon_light_pressed">false</item>
+    <item type="drawable" name="common_google_signin_btn_text_light_disabled">false</item>
+    <item type="drawable" name="common_google_signin_btn_text_light_focused">false</item>
+    <item type="drawable" name="common_google_signin_btn_text_light_normal">false</item>
+    <item type="drawable" name="common_google_signin_btn_text_light_pressed">false</item>
+    <item type="drawable" name="common_plus_signin_btn_icon_light_disabled">false</item>
+    <item type="drawable" name="common_plus_signin_btn_icon_light_focused">false</item>
+    <item type="drawable" name="common_plus_signin_btn_icon_light_normal">false</item>
+    <item type="drawable" name="common_plus_signin_btn_icon_light_pressed">false</item>
+    <item type="drawable" name="common_plus_signin_btn_text_light_disabled">false</item>
+    <item type="drawable" name="common_plus_signin_btn_text_light_focused">false</item>
+    <item type="drawable" name="common_plus_signin_btn_text_light_normal">false</item>
+    <item type="drawable" name="common_plus_signin_btn_text_light_pressed">false</item>
+</resources>

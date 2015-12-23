@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s круга</item>
+        <item quantity="one">%1$s круг</item>
+        <item quantity="few">%1$s круга</item>
+        <item quantity="many">%1$s кругов</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ваша оценка – %1$s</item>
+        <item quantity="one">Ваша оценка – %1$s</item>
+        <item quantity="few">Ваша оценка – %1$s</item>
+        <item quantity="many">Ваша оценка – %1$s</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d отзыва</item>
+        <item quantity="one">%1$d отзыв</item>
+        <item quantity="few">%1$d отзыва</item>
+        <item quantity="many">%1$d отзывов</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d отзыва с оценкой %2$d</item>
+        <item quantity="one">%1$d отзыв с оценкой %2$d</item>
+        <item quantity="few">%1$d отзыва с оценкой %2$d</item>
+        <item quantity="many">%1$d отзывов с оценкой %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s (%2$s отзыва)</item>
+        <item quantity="one">%1$s (%2$s отзыв)</item>
+        <item quantity="few">%1$s (%2$s отзыва)</item>
+        <item quantity="many">%1$s (%2$s отзывов)</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано: %1$d</item>
+        <item quantity="many">Выбрано: %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Подтверждения ожидает %1$d обновления</item>
+        <item quantity="one">Подтверждения ожидает %1$d обновление</item>
+        <item quantity="few">Подтверждения ожидает %1$d обновления</item>
+        <item quantity="many">Подтверждения ожидает %1$d обновлений</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">Доступно %1$d обновления</item>
+        <item quantity="one">Доступно %1$d обновление</item>
+        <item quantity="few">Доступно %1$d обновления</item>
+        <item quantity="many">Доступно %1$d обновлений</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Доступно %1$d обновления</item>
+        <item quantity="one">Доступно %1$d обновление</item>
+        <item quantity="few">Доступно %1$d обновления</item>
+        <item quantity="many">Доступно %1$d обновлений</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Обновить все</item>
+        <item quantity="one">Обновить все</item>
+        <item quantity="few">Обновить все</item>
+        <item quantity="many">Обновить все</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Обновлено %1$d приложения</item>
+        <item quantity="one">Обновлено %1$d приложение</item>
+        <item quantity="few">Обновлено %1$d приложения</item>
+        <item quantity="many">Обновлено %1$d приложений</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s:&amp;lt;/b> \"Оценка – %2$s\".</item>
+        <item quantity="one">&amp;lt;b>%1$s:&amp;lt;/b> \"Оценка – %2$s\".</item>
+        <item quantity="few">&amp;lt;b>%1$s:&amp;lt;/b> \"Оценка – %2$s\".</item>
+        <item quantity="many">&amp;lt;b>%1$s:&amp;lt;/b> \"Оценка – %2$s\".</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s Оценка – %2$s\".</item>
+        <item quantity="one">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s Оценка – %2$s\".</item>
+        <item quantity="few">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s Оценка – %2$s\".</item>
+        <item quantity="many">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s Оценка – %2$s\".</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s. %4$s Оценка – %2$s\".</item>
+        <item quantity="one">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s. %4$s Оценка – %2$s\".</item>
+        <item quantity="few">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s. %4$s Оценка – %2$s\".</item>
+        <item quantity="many">&amp;lt;b>%1$s:&amp;lt;/b> \"%3$s. %4$s Оценка – %2$s\".</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d пользователя считают этот отзыв полезным. Чтобы присоединиться к ним, нажмите на значок.</item>
+        <item quantity="one">%1$d пользователь считает этот отзыв полезным. Чтобы присоединиться к ним, нажмите на значок.</item>
+        <item quantity="few">%1$d пользователя считают этот отзыв полезным. Чтобы присоединиться к ним, нажмите на значок.</item>
+        <item quantity="many">%1$d пользователей считают этот отзыв полезным. Чтобы присоединиться к ним, нажмите на значок.</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d пользователя считают этот отзыв полезным. Отменить действие</item>
+        <item quantity="one">%1$d пользователь считает этот отзыв полезным. Отменить действие</item>
+        <item quantity="few">%1$d пользователя считают этот отзыв полезным. Отменить действие</item>
+        <item quantity="many">%1$d пользователей считают этот отзыв полезным. Отменить действие</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>Оценка – %1$s&amp;lt;/b></item>
+        <item quantity="one">&amp;lt;b>Оценка – %1$s&amp;lt;/b></item>
+        <item quantity="few">&amp;lt;b>Оценка – %1$s&amp;lt;/b></item>
+        <item quantity="many">&amp;lt;b>Оценка – %1$s&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">в %1$s отзыва</item>
+        <item quantity="one">в %1$s отзыве</item>
+        <item quantity="few">в %1$s отзывах</item>
+        <item quantity="many">в %1$s отзывах</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>Оценка – %1$s.&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>Оценка – %1$s.&amp;lt;/b> %2$s</item>
+        <item quantity="few">&amp;lt;b>Оценка – %1$s.&amp;lt;/b> %2$s</item>
+        <item quantity="many">&amp;lt;b>Оценка – %1$s.&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Ошибка загрузки. Выберите другое устройство.</item>
+        <item quantity="one">Ошибка загрузки. Выберите другое устройство.</item>
+        <item quantity="few">Ошибка загрузки. Выберите другое устройство.</item>
+        <item quantity="many">Ошибка загрузки. Выберите другое устройство.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Последнее использование: %1$d дня назад</item>
+        <item quantity="one">Последнее использование: %1$d день назад</item>
+        <item quantity="few">Последнее использование: %1$d дня назад</item>
+        <item quantity="many">Последнее использование: %1$d дней назад</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Выбранные приложения</item>
+        <item quantity="one">Выбранные приложения</item>
+        <item quantity="few">Выбранные приложения</item>
+        <item quantity="many">Выбранные приложения</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other"></item>
+        <item quantity="one"></item>
+        <item quantity="few"></item>
+        <item quantity="many"></item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">Мнение %1$s пользователя</item>
+        <item quantity="one">Мнение %1$s пользователя</item>
+        <item quantity="few">Мнение %1$s пользователей</item>
+        <item quantity="many">Мнение %1$s пользователей</item>
+    </plurals>
+</resources>

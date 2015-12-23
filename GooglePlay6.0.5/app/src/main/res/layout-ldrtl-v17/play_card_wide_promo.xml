@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardViewListingSmall android:id="@id/play_card" android:focusable="true" android:nextFocusRight="@id/li_overflow" android:layout_width="fill_parent" android:layout_height="@dimen/play_listing_card_height" android:foreground="@drawable/play_highlight_round_overlay_light" android:paddingStart="@dimen/play_card_default_inset" finsky:card_show_inline_creator_badge="true" finsky:card_supports_subtitle_and_rating="true" playcommon:card_text_only_snippet_margin_left="@dimen/play_card_content_horizontal_inset" finsky:card_owned_status_rendering_type="icon|text" style="@style/PlayFlatCardViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" xmlns:playcommon="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/play_card_wide_content" />
+</com.google.android.finsky.layout.play.PlayCardViewListingSmall>

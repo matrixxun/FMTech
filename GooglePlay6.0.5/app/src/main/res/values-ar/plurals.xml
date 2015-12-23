@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s من الدوائر</item>
+        <item quantity="zero">ليست هناك أية دوائر (%1$s)</item>
+        <item quantity="one">دائرة واحدة (%1$s)</item>
+        <item quantity="two">دائرتان (%1$s)</item>
+        <item quantity="few">%1$s دوائر</item>
+        <item quantity="many">%1$s دائرة</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">تقييمك: %1$s من النجوم</item>
+        <item quantity="zero">تقييمك: %1$s نجمة</item>
+        <item quantity="one">تقييمك: نجمة واحدة (%1$s)</item>
+        <item quantity="two">تقييمك: نجمتان (%1$s)</item>
+        <item quantity="few">تقييمك: %1$s نجوم</item>
+        <item quantity="many">تقييمك: %1$s نجمة</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d من المراجعات</item>
+        <item quantity="zero">ليست هناك مراجعات (%1$d)</item>
+        <item quantity="one">مراجعة واحدة (%1$d)</item>
+        <item quantity="two">مراجعتان (%1$d)</item>
+        <item quantity="few">%1$d مراجعات</item>
+        <item quantity="many">%1$d مراجعة</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d من المراجعات للتقييم بالنجوم %2$d</item>
+        <item quantity="zero">ليست هناك أية مراجعة (%1$d) للتقييم بالنجوم %2$d</item>
+        <item quantity="one">مراجعة واحدة (%1$d) للتقييم بالنجوم %2$d</item>
+        <item quantity="two">مراجعتان (%1$d) للتقييم بالنجوم %2$d</item>
+        <item quantity="few">%1$d مراجعات للتقييم بالنجوم %2$d</item>
+        <item quantity="many">%1$d مراجعة للتقييم بالنجوم %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s من %2$s من التعليقات</item>
+        <item quantity="zero">%1$s من %2$s من التعليقات</item>
+        <item quantity="one">%1$s من %2$s تعليق</item>
+        <item quantity="two">%1$s من تعليقين (%2$s)</item>
+        <item quantity="few">%1$s من %2$s تعليقات</item>
+        <item quantity="many">%1$s من %2$s تعليقًا</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">تم تحديد %1$d من التطبيقات</item>
+        <item quantity="zero">تم تحديد %1$d من التطبيقات</item>
+        <item quantity="one">تم تحديد %1$d تطبيق</item>
+        <item quantity="two">تم تحديد تطبيقين (%1$d)</item>
+        <item quantity="few">تم تحديد %1$d تطبيقات</item>
+        <item quantity="many">تم تحديد %1$d تطبيقًا</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d من التحديثات تحتاج الى موافقة</item>
+        <item quantity="zero">%1$d لا توجد تحديثات تحتاج إلى موافقة</item>
+        <item quantity="one">تحديث %1$d يحتاج إلى موافقة</item>
+        <item quantity="two">تحديثان (%1$d) يحتاجان إلى موافقة</item>
+        <item quantity="few">%1$d تحديثات تحتاج الى موافقة</item>
+        <item quantity="many">%1$d تحديثًا يحتاج الى موافقة</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d من التحديثات الجديدة</item>
+        <item quantity="zero">ليست هناك أية تحديثات جديدة (%1$d)</item>
+        <item quantity="one">تحديث جديد (%1$d)</item>
+        <item quantity="two">تحديثان جديدان (%1$d)</item>
+        <item quantity="few">%1$d تحديثات جديدة</item>
+        <item quantity="many">%1$d تحديثًا جديدًا</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d من التحديثات متاحة</item>
+        <item quantity="zero">%1$d لا توجد تحديثات متاحة</item>
+        <item quantity="one">تحديث %1$d متاح</item>
+        <item quantity="two">تحديثان (%1$d) متاحان</item>
+        <item quantity="few">%1$d تحديثات متاحة</item>
+        <item quantity="many">%1$d تحديثًا متاحًا</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">تحديث الكل</item>
+        <item quantity="zero">لا تحديثات</item>
+        <item quantity="one">تحديث واحد</item>
+        <item quantity="two">تحديث الكل</item>
+        <item quantity="few">تحديث الكل</item>
+        <item quantity="many">تحديث الكل</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">تم تحديث %1$d من التطبيقات</item>
+        <item quantity="zero">%1$d لم يتم تحديث أية تطبيقات</item>
+        <item quantity="one">تم تحديث تطبيق %1$d</item>
+        <item quantity="two">تم تحديث تطبيقين (%1$d)</item>
+        <item quantity="few">تم تحديث %1$d تطبيقات</item>
+        <item quantity="many">تم تحديث %1$d تطبيقًا</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+        <item quantity="zero">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+        <item quantity="two">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s</item>
+        <item quantity="zero">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم - %3$s</item>
+        <item quantity="two">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s</item>
+        <item quantity="few">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s</item>
+        <item quantity="many">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+        <item quantity="zero">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+        <item quantity="two">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+        <item quantity="few">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+        <item quantity="many">&lt;b>%1$s&lt;/b> %2$s من النجوم - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">استفاد %1$d من المستخدمين من هذه المراجعة. وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+        <item quantity="zero">لم يستفد أي مستخدم (%1$d) من هذه المراجعة. وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+        <item quantity="one">استفاد مستخدم واحد (%1$d) من هذه المراجعة. وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+        <item quantity="two">استفاد مستخدمان (%1$d) من هذه المراجعة وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+        <item quantity="few">استفاد %1$d مستخدمين من هذه المراجعة. وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+        <item quantity="many">استفاد %1$d مستخدمًا من هذه المراجعة. وضع علامة تشير إلى أن هذه المراجعة مفيدة</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">استفاد %1$d من المستخدمين من هذه المراجعة. إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+        <item quantity="zero">لم يستفد أي مستخدم (%1$d) من هذه المراجعة. إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+        <item quantity="one">استفاد مستخدم واحد (%1$d) من هذه المراجعة. إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+        <item quantity="two">استفاد مستخدمان (%1$d) من هذه المراجعة إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+        <item quantity="few">استفاد %1$d مستخدمين من هذه المراجعة. إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+        <item quantity="many">استفاد %1$d مستخدمًا من هذه المراجعة. إزالة العلامة التي تشير إلى أن التعليق مفيد</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">تم تقييمه بعدد &lt;b>%1$s من النجوم&lt;/b></item>
+        <item quantity="zero">تم تقييمه بعدد &lt;b>%1$s من النجوم&lt;/b></item>
+        <item quantity="one">تم تقييمه بعدد &amp;lt;b>%1$s من النجوم&amp;lt;/b></item>
+        <item quantity="two">تم تقييمه بعدد &lt;b>%1$s من النجوم&lt;/b></item>
+        <item quantity="few">تم تقييمه بعدد &lt;b>%1$s من النجوم&lt;/b></item>
+        <item quantity="many">تم تقييمه بعدد &lt;b>%1$s من النجوم&lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">في %1$s تعليق</item>
+        <item quantity="zero">في %1$s تعليق</item>
+        <item quantity="one">في %1$s تعليق</item>
+        <item quantity="two">في تعليقين (%1$s)</item>
+        <item quantity="few">في %1$s تعليقات</item>
+        <item quantity="many">في %1$s تعليقًا</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&lt;b>%1$s من النجوم&lt;/b> %2$s</item>
+        <item quantity="zero">&lt;b>%1$s من النجوم&lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s من النجوم&amp;lt;/b> %2$s</item>
+        <item quantity="two">&lt;b>%1$s من النجوم&lt;/b> %2$s</item>
+        <item quantity="few">&lt;b>%1$s من النجوم&lt;/b> %2$s</item>
+        <item quantity="many">&lt;b>%1$s من النجوم&lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">يتعذر تحميل العناصر. يمكنك تجربة نسخة احتياطية أخرى.</item>
+        <item quantity="zero">يتعذر تحميل العناصر. يمكنك تجربة نسخة احتياطية أخرى.</item>
+        <item quantity="one">يتعذر تحميل العناصر. أعد المحاولة لاحقًا.</item>
+        <item quantity="two">يتعذر تحميل العناصر. يمكنك تجربة نسخة احتياطية أخرى.</item>
+        <item quantity="few">يتعذر تحميل العناصر. يمكنك تجربة نسخة احتياطية أخرى.</item>
+        <item quantity="many">يتعذر تحميل العناصر. يمكنك تجربة نسخة احتياطية أخرى.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">تم الاستخدام آخر مرة قبل %1$d من الأيام</item>
+        <item quantity="zero">تم الاستخدام آخر مرة قبل أقل من يوم (%1$d)</item>
+        <item quantity="one">تم الاستخدام آخر مرة قبل %1$d من الأيام</item>
+        <item quantity="two">تم الاستخدام آخر مرة قبل يومين (%1$d)</item>
+        <item quantity="few">تم الاستخدام آخر مرة قبل %1$d أيام</item>
+        <item quantity="many">تم الاستخدام آخر مرة قبل %1$d يومًا</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">التطبيقات المحددة</item>
+        <item quantity="zero">ليست هناك تطبيقات محددة</item>
+        <item quantity="one">التطبيق المحدد</item>
+        <item quantity="two">التطبيقان المحددان</item>
+        <item quantity="few">التطبيقات المحددة</item>
+        <item quantity="many">التطبيقات المحددة</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">من النجوم</item>
+        <item quantity="zero">بدون نجوم</item>
+        <item quantity="one">نجمة</item>
+        <item quantity="two">نجمتان</item>
+        <item quantity="few">نجوم</item>
+        <item quantity="many">نجمة</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">هذا رأي %1$s من الأشخاص</item>
+        <item quantity="zero">ليس هناك أي شخص (%1$s) يرى ذلك</item>
+        <item quantity="one">هذا رأي شخص واحد (%1$s)</item>
+        <item quantity="two">هذا رأي شخصين (%1$s)</item>
+        <item quantity="few">هذا رأي %1$s أشخاص</item>
+        <item quantity="many">هذا رأي %1$s شخصًا</item>
+    </plurals>
+</resources>

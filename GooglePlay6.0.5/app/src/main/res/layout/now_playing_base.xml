@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_background_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:id="@id/widget_background_top_overlay" android:background="@color/now_playing_widget_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <include layout="@layout/now_playing_title" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/widget_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/message_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <ImageView android:id="@id/message_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/now_playing_widget_empty_bg" />
+                    <TextView android:textSize="@dimen/library_widget_empty_state_size" android:textStyle="bold" android:textColor="@color/now_playing_widget_empty_fg" android:gravity="center" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_welcome_empty_legend" android:drawableTop="@drawable/flo_widget_empty_logo" android:drawablePadding="16.0dip" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <include layout="@layout/now_playing_widget_hotseat" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/widget_background_accessibility" android:visibility="gone" layout="@layout/widget_accessibility_overlay" />
+</FrameLayout>

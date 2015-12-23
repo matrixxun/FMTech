@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardFriendReviewClusterView android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/play_card" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/play_card_friend_review_header" />
+    <include android:id="@id/reviewer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/play_card_friend_review_reviewer" />
+</com.google.android.finsky.layout.play.PlayCardFriendReviewClusterView>

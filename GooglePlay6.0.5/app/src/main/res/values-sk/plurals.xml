@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s kruhov</item>
+        <item quantity="one">%1$s kruh</item>
+        <item quantity="few">%1$s kruhy</item>
+        <item quantity="many">%1$s kruhu</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Vaše hodnotenie: %1$s hviezdičiek</item>
+        <item quantity="one">Vaše hodnotenie: %1$s hviezdička</item>
+        <item quantity="few">Vaše hodnotenie: %1$s hviezdičky</item>
+        <item quantity="many">Vaše hodnotenie: %1$s hviezdičky</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d recenzií</item>
+        <item quantity="one">%1$d recenzia</item>
+        <item quantity="few">%1$d recenzie</item>
+        <item quantity="many">%1$d recenzie</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d recenzií s %2$d-hviezdičkovým hodnotením</item>
+        <item quantity="one">%1$d recenzia s %2$d-hviezdičkovým hodnotením</item>
+        <item quantity="few">%1$d recenzie s %2$d-hviezdičkovým hodnotením</item>
+        <item quantity="many">%1$d recenzie s %2$d-hviezdičkovým hodnotením</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s z %2$s recenzií</item>
+        <item quantity="one">%1$s z %2$s recenzie</item>
+        <item quantity="few">%1$s z %2$s recenzií</item>
+        <item quantity="many">%1$s z %2$s recenzie</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Vybrané: %1$d</item>
+        <item quantity="one">Vybrané: %1$d</item>
+        <item quantity="few">Vybrané: %1$d</item>
+        <item quantity="many">Vybrané: %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Treba schváliť %1$d aktualizácií</item>
+        <item quantity="one">Treba schváliť %1$d aktualizáciu</item>
+        <item quantity="few">Treba schváliť %1$d aktualizácie</item>
+        <item quantity="many">Treba schváliť %1$d aktualizácie</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nových aktualizácií</item>
+        <item quantity="one">%1$d nová aktualizácia</item>
+        <item quantity="few">%1$d nové aktualizácie</item>
+        <item quantity="many">%1$d novej aktualizácie</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d dostupných aktualizácií</item>
+        <item quantity="one">%1$d dostupná aktualizácia</item>
+        <item quantity="few">%1$d dostupné aktualizácie</item>
+        <item quantity="many">%1$d dostupnej aktualizácie</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Aktualizovať všetky</item>
+        <item quantity="one">Aktualizovať</item>
+        <item quantity="few">Aktualizovať všetky</item>
+        <item quantity="many">Aktualizovať všetky</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d aktualizovaných aplikácií</item>
+        <item quantity="one">%1$d aktualizovaná aplikácia</item>
+        <item quantity="few">%1$d aktualizované aplikácie</item>
+        <item quantity="many">%1$d aktualizovanej aplikácie</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičiek</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdička</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičiek – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdička – %3$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky – %3$s</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičiek – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdička – %3$s – %4$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky – %3$s – %4$s</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b> %2$s hviezdičky – %3$s \u0098– %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d používateľov považuje túto recenziu za užitočnú. Označiť komentár ako užitočný</item>
+        <item quantity="one">%1$d používateľ považoval túto recenziu za užitočnú. Označiť komentár ako užitočný</item>
+        <item quantity="few">%1$d používatelia považovali túto recenziu za užitočnú. Označiť komentár ako užitočný</item>
+        <item quantity="many">%1$d používateľa považovalo túto recenziu za užitočnú. Označiť komentár ako užitočný</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d používateľov považovalo túto recenziu za užitočnú. Zrušiť označenie komentára ako užitočného</item>
+        <item quantity="one">%1$d používateľ považoval túto recenziu za užitočnú. Zrušiť označenie komentára ako užitočného</item>
+        <item quantity="few">%1$d používatelia považovali túto recenziu za užitočnú. Zrušiť označenie komentára ako užitočného</item>
+        <item quantity="many">%1$d používateľa považovalo túto recenziu za užitočnú. Zrušiť označenie komentára ako užitočného</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Ohodnotené: &amp;lt;b>%1$s hviezd.&amp;lt;/b></item>
+        <item quantity="one">Ohodnotené: &amp;lt;b>%1$s hviezd.&amp;lt;/b></item>
+        <item quantity="few">Ohodnotené: &amp;lt;b>%1$s hviezd. &amp;lt;/b></item>
+        <item quantity="many">Ohodnotené &amp;lt;b>%1$s hviezd.&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">v %1$s recenziách</item>
+        <item quantity="one">v %1$s recenzii</item>
+        <item quantity="few">v %1$s recenziách</item>
+        <item quantity="many">v %1$s recenzie</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s hviezdičiek&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s hviezdička&amp;lt;/b> %2$s</item>
+        <item quantity="few">&amp;lt;b>%1$s hviezdičky&amp;lt;/b> %2$s</item>
+        <item quantity="many">&amp;lt;b>%1$s hviezdičky&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Položky sa nedajú načítať. Skúste iné záložné zariadenie.</item>
+        <item quantity="one">Položky sa nedajú načítať. Skúste to znova neskôr.</item>
+        <item quantity="few">Položky sa nedajú načítať. Skúste iné záložné zariadenie.</item>
+        <item quantity="many">Položky sa nedajú načítať. Skúste iné záložné zariadenie.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Naposledy použité pred %1$d dňami</item>
+        <item quantity="one">Naposledy použité pred %1$d dňom</item>
+        <item quantity="few">Naposledy použité pred %1$d dňami</item>
+        <item quantity="many">Naposledy použité pred %1$d dňom</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Vybrané aplikácie</item>
+        <item quantity="one">Vybraná aplikácia</item>
+        <item quantity="few">Vybrané aplikácie</item>
+        <item quantity="many">Vybrané aplikácie</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">hviezdičiek</item>
+        <item quantity="one">hviezdička</item>
+        <item quantity="few">hviezdičky</item>
+        <item quantity="many">hviezdičky</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">Tvrdí to %1$s ľudí</item>
+        <item quantity="one">Tvrdí to %1$s osoba</item>
+        <item quantity="few">Tvrdia to %1$s ľudia</item>
+        <item quantity="many">Tvrdí to %1$s osoby</item>
+    </plurals>
+</resources>

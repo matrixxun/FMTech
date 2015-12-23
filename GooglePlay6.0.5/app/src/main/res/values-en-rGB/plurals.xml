@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s circles</item>
+        <item quantity="one">%1$s circle</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Your rating: %1$s stars</item>
+        <item quantity="one">Your rating: %1$s star</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d reviews</item>
+        <item quantity="one">%1$d review</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d reviews for star rating %2$d</item>
+        <item quantity="one">%1$d review for star rating %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s from %2$s reviews</item>
+        <item quantity="one">%1$s from %2$s review</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d updates need approval</item>
+        <item quantity="one">%1$d update needs approval</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d new updates</item>
+        <item quantity="one">%1$d new update</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d updates available</item>
+        <item quantity="one">%1$d update available</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Update all</item>
+        <item quantity="one">Update</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d applications updated</item>
+        <item quantity="one">%1$d application updated</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stars - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d users found this review helpful. Mark comment as helpful</item>
+        <item quantity="one">%1$d user found this review helpful. Mark comment as helpful</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d users found this review helpful. Unmark comment as helpful</item>
+        <item quantity="one">%1$d user found this review helpful. Unmark comment as helpful</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Rated it &amp;lt;b>%1$s stars&amp;lt;/b></item>
+        <item quantity="one">Rated it &amp;lt;b>%1$s star&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">in %1$s reviews</item>
+        <item quantity="one">in %1$s review</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s stars&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s star&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">"Can't load items. Try another backup."</item>
+        <item quantity="one">"Can't load items. Try again later."</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Last used %1$d days ago</item>
+        <item quantity="one">Last used %1$d day ago</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Selected apps</item>
+        <item quantity="one">Selected app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stars</item>
+        <item quantity="one">star</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s people are saying this</item>
+        <item quantity="one">%1$s person is saying this</item>
+    </plurals>
+</resources>

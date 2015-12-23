@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardViewAvatar android:id="@id/play_card" android:paddingTop="@dimen/play_person_card_primary_padding" android:paddingBottom="@dimen/play_person_card_secondary_padding" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/person_card_overlay_light"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" android:padding="@dimen/play_person_card_avatar_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <com.google.android.finsky.layout.DocImageView android:id="@id/li_thumbnail" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView android:textColor="@color/play_primary_text_set" android:ellipsize="marquee" android:gravity="center|top" android:id="@id/li_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:lines="2" style="@style/PlayCardTitle" />
+    <ProgressBar android:id="@id/loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</com.google.android.finsky.layout.play.PlayCardViewAvatar>

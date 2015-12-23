@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardClusterViewHeader android:id="@id/cluster_header" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light" finsky:min_header_height="@dimen/play_cluster_header_height" finsky:header_xpadding="@dimen/play_cluster_header_xpadding"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.play.CircularBackgroundView android:id="@id/cluster_image" android:visibility="gone" android:layout_width="@dimen/play_cluster_header_icon_size" android:layout_height="@dimen/play_cluster_header_icon_size" android:layout_marginRight="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cluster_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:ellipsize="marquee" android:id="@id/header_title_main" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/PlayClusterTitle" />
+        <TextView android:ellipsize="marquee" android:id="@id/header_title_secondary" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="-3.0dip" android:maxLines="1" android:singleLine="true" style="@style/PlayClusterSubtitle" />
+    </LinearLayout>
+    <com.google.android.finsky.layout.play.CardTextView android:id="@id/header_more" style="@style/PlayClusterMore" />
+</com.google.android.finsky.layout.play.PlayCardClusterViewHeader>

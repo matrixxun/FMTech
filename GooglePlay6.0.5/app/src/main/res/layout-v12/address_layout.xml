@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AddressFieldsLayoutHoneycomb android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/address_inner_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/address_progress_bar" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+    <ProgressBar android:layout_gravity="end|center|top" android:id="@id/upper_right_progress_bar" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="8.0dip" />
+</com.google.android.finsky.layout.AddressFieldsLayoutHoneycomb>

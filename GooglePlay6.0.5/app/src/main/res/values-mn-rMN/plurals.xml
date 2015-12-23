@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s хүрээлэл</item>
+        <item quantity="one">%1$s хүрээлэл</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Taны үнэлгээ: %1$s од</item>
+        <item quantity="one">Таны үнэлгээ: %1$s од</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d сэтгэгдэл</item>
+        <item quantity="one">%1$d сэтгэгдэл</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d одоор үнэлсэн %2$d сэтгэгдэл</item>
+        <item quantity="one">%1$dодоор үнэлсэн %2$d сэтгэгдэл</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s-ээс %2$s шүүмж</item>
+        <item quantity="one">%1$s -ээс %2$s шүүмж</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d сонгосон</item>
+        <item quantity="one">%1$d сонгосон</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d шинэчлэл зөвшөөрөл хүссэн</item>
+        <item quantity="one">%1$d шинэчлэл зөвшөөрөл хүссэн</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d шинэ шинэчлэл</item>
+        <item quantity="one">%1$d шинэ шинэчлэл</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d шинэчлэл боломжтой</item>
+        <item quantity="one">%1$d шинэчлэл боломжтой</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Бүгдийг шинэчлэх</item>
+        <item quantity="one">Шинэчлэх</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d апп-д шинэчлэл хийсэн</item>
+        <item quantity="one">%1$d апп-д шинэчлэл хийсэн</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s од</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s од</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s од - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s од - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s од - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s од - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">Энэ сэтгэгдлийг %1$d хэрэглэгч хэрэгтэй гэж үзсэн. Хэрэгтэй сэтгэгдлээ тэмдэглэнэ үү</item>
+        <item quantity="one">Энэ сэтгэгдлийг %1$d хэрэглэгч хэрэгтэй гэж үзсэн. Хэрэгтэй сэтгэгдлээ тэмдэглэнэ үү</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d хэрэглэгч энэ шүүмжийг хэрэгтэй гэж үзсэн. Сэтгэгдлийг хэрэгтэй гэж тэмдэглэхээ болих</item>
+        <item quantity="one">%1$d хэрэглэгч энэ шүүмжийг хэрэгтэй гэж үзсэн. Сэтгэгдлийг хэрэгтэй гэж тэмдэглэх</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Үүнийг &amp;lt;b>%1$s одоор&amp;lt;/b&amp;amp;gt үнэлсэн;</item>
+        <item quantity="one">Үүнийг &amp;lt;b>%1$s одоор&amp;lt;/b&amp;amp;gt үнэлсэн;</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s шүүмжид</item>
+        <item quantity="one">%1$s шүүмжид</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s од&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s од&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Зүйлийг ачаалж чадахгүй байна. Өөр нөөцлөлтийг оролдож үзнэ үү.</item>
+        <item quantity="one">Зүйлийг ачаалж чадахгүй байна. Дараа дахин оролдоно уу.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Хамгийн сүүлд %1$d өдрийн өмнө ашигласан</item>
+        <item quantity="one">Хамгийн сүүлд %1$d өдрийн өмнө ашигласан</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Сонгосон апп</item>
+        <item quantity="one">Сонгосон апп</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">од</item>
+        <item quantity="one">од</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s хүн үүнийг хэлж байна</item>
+        <item quantity="one">%1$s хүн үүнийг хэлж байна</item>
+    </plurals>
+</resources>

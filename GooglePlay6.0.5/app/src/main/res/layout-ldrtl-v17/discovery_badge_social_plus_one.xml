@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne style="@style/DiscoveryBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/icon_container" android:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView android:id="@id/icon" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_alignParentBottom="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+        <LinearLayout android:gravity="center" android:id="@id/plus_one_container" android:layout_width="@dimen/discovery_badge_download_count_magnitude_height" android:layout_height="@dimen/discovery_badge_download_count_magnitude_height" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/discovery_badge_plus_one_size" android:textStyle="bold" android:textColor="@color/play_white" android:gravity="center" android:id="@id/plus_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plusone_sign" android:includeFontPadding="false" android:textDirection="ltr" style="@style/PlayPlainText" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeSocialPlusOne>

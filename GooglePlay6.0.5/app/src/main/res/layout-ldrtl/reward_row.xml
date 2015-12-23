@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.RewardRowView android:id="@id/reward_row" style="@style/MyAccountListRow"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" finsky:app_thumbnail_padding="0.0dip" style="@style/MyAccountThumbnail">
+        <include android:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:singleLine="true" android:layout_alignWithParentIfMissing="true" style="@style/PlayCardTitle" />
+    <TextView android:id="@id/expiration_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:maxLines="1" android:layout_below="@id/title" android:layout_alignWithParentIfMissing="true" style="@style/PlayCardSubtitle" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/reward_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_above="@id/redeem_button" android:layout_below="@id/expiration_description" finsky:lastLineOverdrawColor="@color/play_white" style="@style/PlayCardDescription" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/redeem_button" android:visibility="gone" android:layout_alignParentBottom="true" style="@style/MyAccountRowButton" />
+</com.google.android.finsky.layout.RewardRowView>

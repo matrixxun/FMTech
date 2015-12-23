@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_title_cover_padding">0.0dip</dimen>
+    <dimen name="stream_intro_card_hmargin">0.0dip</dimen>
+    <dimen name="stream_intro_card_radius">0.0dip</dimen>
+    <dimen name="summary_thumbnail_app_size">48.0dip</dimen>
+    <dimen name="summary_thumbnail_app_size_three_lines">70.0dip</dimen>
+</resources>

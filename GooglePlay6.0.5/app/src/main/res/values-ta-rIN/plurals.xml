@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s வட்டங்கள்</item>
+        <item quantity="one">%1$s வட்டம்</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">உங்கள் மதிப்பீடு: %1$s நட்சத்திரங்கள்</item>
+        <item quantity="one">உங்கள் மதிப்பீடு: %1$s நட்சத்திரம்</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d மதிப்புரைகள்</item>
+        <item quantity="one">%1$d மதிப்புரை</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d நட்சத்திர மதிப்பீட்டிற்கு %1$d மதிப்புரைகள்</item>
+        <item quantity="one">%2$d நட்சத்திர மதிப்பீட்டிற்கு %1$d மதிப்புரை</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s மதிப்புரைகள்: %1$s</item>
+        <item quantity="one">%2$s மதிப்புரை: %1$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d தேர்ந்தெடுக்கப்பட்டன</item>
+        <item quantity="one">%1$d தேர்ந்தெடுக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d புதுப்பிப்புகளுக்கு அனுமதி தேவை</item>
+        <item quantity="one">%1$d புதுப்பிப்பிற்கு அனுமதி தேவை</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d புதிய புதுப்பிப்புகள்</item>
+        <item quantity="one">%1$d புதிய புதுப்பிப்பு</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d புதுப்பிப்புகள் உள்ளன</item>
+        <item quantity="one">%1$d புதுப்பிப்பு உள்ளது</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">எல்லாம் புதுப்பி</item>
+        <item quantity="one">புதுப்பி</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d பயன்பாடுகள் புதுப்பிக்கப்பட்டன</item>
+        <item quantity="one">%1$d பயன்பாடு புதுப்பிக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரங்கள்</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரம்</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரங்கள் - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரம் - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரங்கள் - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s நட்சத்திரம் - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d பயனர்கள் இதை உதவிகரமானதாகக் குறித்துள்ளனர். கருத்தை உதவிகரமானதாகக் குறி</item>
+        <item quantity="one">%1$d பயனர் இதை உதவிகரமானதாகக் குறித்துள்ளார். கருத்தை உதவிகரமானதாகக் குறி</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d பயனர்கள் இதை உதவிகரமானதாகக் குறித்துள்ளனர். அதைக் குறி நீக்கவும்</item>
+        <item quantity="one">%1$d பயனர் இதை உதவிகரமானதாகக் குறித்துள்ளார். அதைக் குறி நீக்கவும்</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>%1$s நட்சத்திரங்கள்&amp;lt;/b> என மதிப்பிடப்பட்டது</item>
+        <item quantity="one">&amp;lt;b>%1$s நட்சத்திரம்&amp;lt;/b> என மதிப்பிடப்பட்டது</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s மதிப்புரைகளில்</item>
+        <item quantity="one">%1$s மதிப்புரையில்</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s நட்சத்திரங்கள்&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s நட்சத்திரம்&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">ஏற்ற முடியவில்லை. மற்றொரு காப்புப் பிரதியை முயற்சிக்கவும்.</item>
+        <item quantity="one">ஏற்ற முடியவில்லை. பிறகு முயற்சிக்கவும்.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">கடைசியாகப் பயன்படுத்தியது: %1$d நாட்களுக்கு முன்பு</item>
+        <item quantity="one">கடைசியாகப் பயன்படுத்தியது: %1$d நாள் முன்பு</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">தேர்ந்தெடுத்த பயன்பாடுகள்</item>
+        <item quantity="one">தேர்ந்தெடுத்த பயன்பாடு</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">நட்சத்திரங்கள்</item>
+        <item quantity="one">நட்சத்திரம்</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">இதுதொடர்பாக %1$s பேரின் கருத்து:</item>
+        <item quantity="one">இதுதொடர்பாக %1$s நபரின் கருத்து:</item>
+    </plurals>
+</resources>

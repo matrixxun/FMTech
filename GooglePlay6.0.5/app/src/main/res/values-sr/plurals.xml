@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s кругова</item>
+        <item quantity="one">%1$s круг</item>
+        <item quantity="few">%1$s круга</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Оцена: %1$s звездица</item>
+        <item quantity="one">Оцена: %1$s звездица</item>
+        <item quantity="few">Оцена: %1$s звездице</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d коментара</item>
+        <item quantity="one">%1$d коментар</item>
+        <item quantity="few">%1$d коментара</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d рецензија за оцену у звездицама %2$d</item>
+        <item quantity="one">%1$d рецензија за оцену у звездицама %2$d</item>
+        <item quantity="few">%1$d рецензије за оцену у звездицама %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s од %2$s рецензија</item>
+        <item quantity="one">%1$s од %2$s рецензије</item>
+        <item quantity="few">%1$s од %2$s рецензије</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Изабрано је %1$d</item>
+        <item quantity="one">Изабран је %1$d</item>
+        <item quantity="few">Изабрана су %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ажурирања тражи одобрење</item>
+        <item quantity="one">%1$d ажурирање тражи одобрење</item>
+        <item quantity="few">%1$d ажурирања траже одобрење</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d нових ажурирања</item>
+        <item quantity="one">%1$d ново ажурирање</item>
+        <item quantity="few">%1$d нова ажурирања</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d ажурирања је доступно</item>
+        <item quantity="one">%1$d ажурирање је доступно</item>
+        <item quantity="few">%1$d ажурирања су доступна</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Ажурирај све</item>
+        <item quantity="one">Ажурирај све</item>
+        <item quantity="few">Ажурирај све</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d апликација је ажурирано</item>
+        <item quantity="one">%1$d апликација је ажурирана</item>
+        <item quantity="few">%1$d апликација су ажуриране</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездице</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица – %3$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездице – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездица – %3$s -– %4$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s звездице – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d корисника сматра да је ова рецензија корисна. Означи коментар као користан</item>
+        <item quantity="one">%1$d корисник сматра да је ова рецензија корисна. Означи коментар као користан</item>
+        <item quantity="few">%1$d корисника сматрају да је ова рецензија корисна. Означи коментар као користан</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d корисника сматра да је ова рецензија корисна. Уклоните ознаку да је коментар користан</item>
+        <item quantity="one">%1$d корисник сматра да је ова рецензија корисна. Уклоните ознаку да је коментар користан</item>
+        <item quantity="few">%1$d корисника сматрају да је ова рецензија корисна. Уклоните ознаку да је коментар користан</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Дао/ла је оцену од &amp;lt;b>%1$s звездица&amp;lt;/b></item>
+        <item quantity="one">Дао/ла је оцену од &amp;lt;b>%1$s звездице&amp;lt;/b></item>
+        <item quantity="few">Дао/ла је оцену од &amp;lt;b>%1$s звездице&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">у %1$s рецензија</item>
+        <item quantity="one">у %1$s рецензији</item>
+        <item quantity="few">у %1$s рецензије</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s звездица&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s звездица&amp;lt;/b> %2$s</item>
+        <item quantity="few">&amp;lt;b>%1$s звездице&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Учитавање ставки није успело. Користите други уређај за резервне копије.</item>
+        <item quantity="one">Учитавање ставки није успело. Користите други уређај за резервне копије.</item>
+        <item quantity="few">Учитавање ставки није успело. Користите други уређај за резервне копије.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Последњи пут је коришћен пре %1$d дана</item>
+        <item quantity="one">Последњи пут је коришћен пре %1$d дан</item>
+        <item quantity="few">Последњи пут је коришћен пре %1$d дана</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Изабране апликације</item>
+        <item quantity="one">Изабране апликације</item>
+        <item quantity="few">Изабране апликације</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">звездица</item>
+        <item quantity="one">звездица</item>
+        <item quantity="few">звездице</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s особа каже ово</item>
+        <item quantity="one">%1$s особа каже ово</item>
+        <item quantity="few">%1$s особе кажу ово</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" style="@style/MyAccountCardTitle" />
+    <include layout="@layout/my_account_separator" />
+    <LinearLayout android:orientation="vertical" android:id="@id/my_account_card_holder" android:paddingTop="@dimen/my_account_separator_ypadding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/my_account_row_ypadding" android:layout_marginBottom="@dimen/my_account_row_ypadding" layout="@layout/error_indicator" />
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="vertical" android:id="@id/more_footer" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/my_account_separator_ypadding" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:text="@string/section_more_results" android:drawableStart="@drawable/ic_myaccount_more" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</merge>

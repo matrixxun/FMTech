@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_results_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.image.FifeImageView android:id="@id/empty_list_image" android:visibility="gone" android:layout_width="@dimen/play_empty_page_graphic_size" android:layout_height="@dimen/play_empty_page_graphic_size" android:layout_marginBottom="12.0dip" android:scaleType="fitCenter" finsky:fixed_bounds="true" />
+    <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_secondary_text" android:gravity="center" android:id="@id/no_results_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_results" android:paddingStart="@dimen/details_content_margin" android:paddingEnd="@dimen/details_content_margin" />
+</LinearLayout>

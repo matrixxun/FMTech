@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_im_form_start_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">56.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">56.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">12.0dip</dimen>
+    <dimen name="setup_wizard_im_title_icon_size">48.0dip</dimen>
+    <dimen name="setup_wizard_subtitle_text_size">30.0sp</dimen>
+    <dimen name="setup_wizard_title_text_size">34.0sp</dimen>
+    <dimen name="setup_wizard_im_form_top_margin">36.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_bottom_margin">24.0dip</dimen>
+</resources>

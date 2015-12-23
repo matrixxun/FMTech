@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeSocialRating style="@style/DiscoveryBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/icon_container" android:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView android:id="@id/icon" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" android:layout_alignParentBottom="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+        <LinearLayout android:id="@id/user_rating_bar_container" android:paddingLeft="8.0dip" android:paddingTop="3.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <com.google.android.play.layout.StarRatingBar android:id="@id/user_rating_bar" style="@style/DiscoveryRatingBar" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeSocialRating>

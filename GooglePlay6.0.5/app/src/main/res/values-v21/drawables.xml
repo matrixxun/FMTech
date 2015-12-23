@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="person_card_overlay_light">@drawable/play_highlight_overlay_light</item>
+</resources>

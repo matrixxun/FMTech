@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.HistogramView android:id="@id/reviews_statistics_panel" android:paddingTop="18.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_new_content_margin" android:paddingEnd="@dimen/details_new_content_margin" finsky:shows_bottom_separator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <TextView android:textSize="56.0sp" android:textColor="@color/play_fg_primary" android:layout_gravity="start" android:id="@id/average_value" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingEnd="8.0dip" android:layout_marginStart="56.0dip" style="@style/PlayLightText" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/average_value" android:layout_toEndOf="@id/average_value" layout="@layout/ratings_summary" />
+    <com.google.android.finsky.layout.HistogramTable android:id="@id/histogram" android:paddingTop="18.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:layout_below="@id/average_value" android:layout_marginStart="5.0dip" finsky:labels_on="true" finsky:bar_height="16.0dip" finsky:max_bar_width="160.0dip" finsky:bar_margin="2.0dip" />
+</com.google.android.finsky.layout.HistogramView>

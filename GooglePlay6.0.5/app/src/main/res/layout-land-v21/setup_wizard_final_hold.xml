@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:id="@id/setup_wizard_restore_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <TextView android:gravity="start|center" android:id="@id/setup_wizard_title_content" android:layout_width="wrap_content" android:layout_height="110.0dip" android:text="@string/setup_wizard_restore_title" android:layout_alignParentBottom="true" android:paddingStart="@dimen/setup_wizard_content_xpadding" android:paddingEnd="0.0dip" style="@style/SetupWizardTitle" />
+    <TextView android:gravity="start|center" android:id="@id/setup_wizard_title_ellipse" android:layout_width="wrap_content" android:layout_height="110.0dip" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/setup_wizard_title_content" style="@style/SetupWizardTitle" />
+</RelativeLayout>

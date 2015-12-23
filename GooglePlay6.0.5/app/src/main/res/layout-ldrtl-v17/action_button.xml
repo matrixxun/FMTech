@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AccessibleTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/play_white" android:layout_gravity="center_horizontal" android:id="@id/action_button" android:background="@drawable/explore_button_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" finsky:playAccessibilityClassOverride="android.widget.Button" style="@style/PlayPlainText"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" />

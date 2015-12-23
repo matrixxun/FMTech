@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/challenge_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LightPurchase_TitleText" />
+        <com.google.android.finsky.layout.AccessibleTextView android:gravity="end" android:id="@id/ask_to_buy_item_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="3.0dip" style="@style/LightPurchase_Price" />
+    </LinearLayout>
+    <TextView android:id="@id/account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" style="@style/LightPurchase_AccountName" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/challenge_context" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:id="@id/application_icon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="2.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/challenge_context_text" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.finsky.layout.AuthChallengeDialogDocumentInfoLayout android:id="@id/item_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:flexibleChildId="@id/item_title">
+                <com.google.android.play.layout.PlayTextView android:ellipsize="end" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/LightPurchase_ItemTitle" />
+                <TextView android:id="@id/item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LightPurchase_ItemPrice" />
+            </com.google.android.finsky.layout.AuthChallengeDialogDocumentInfoLayout>
+            <com.google.android.play.layout.PlayTextView android:id="@id/ask_to_buy_item_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LightPurchase_ItemTitle" />
+            <TextView android:ellipsize="end" android:layout_gravity="start" android:id="@id/instrument_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:maxLines="1" style="@style/LightPurchase_InstrumentTitle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

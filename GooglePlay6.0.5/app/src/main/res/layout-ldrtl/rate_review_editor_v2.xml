@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.RateReviewEditor2 android:gravity="center" android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:max_width="@dimen/light_purchase_dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/rate_review_subtitle_size" android:textColor="@color/rate_review_title_text" android:id="@id/rating_description" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" style="@style/PlayLightText" />
+    <include android:id="@id/rating_setter" android:layout_width="240.0dip" android:layout_height="wrap_content" layout="@layout/rating_bar" />
+    <EditText android:gravity="top" android:id="@id/review_comment" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/review_dialog_content_hint" android:freezesText="true" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="flagNoFullscreen" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="start" android:id="@id/review_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.finsky.layout.ButtonBar android:gravity="center" android:orientation="horizontal" android:id="@id/rate_review_buttonbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/buttonBarStyle">
+        <Button android:id="@id/negative_button" android:background="@drawable/play_highlight_overlay_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="?attr/buttonBarNegativeButtonStyle" />
+        <Button android:id="@id/positive_button" android:background="@drawable/play_highlight_overlay_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" style="?attr/buttonBarPositiveButtonStyle" />
+    </com.google.android.finsky.layout.ButtonBar>
+</com.google.android.finsky.layout.RateReviewEditor2>

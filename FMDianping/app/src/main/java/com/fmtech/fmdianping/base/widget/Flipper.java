@@ -62,7 +62,7 @@ public class Flipper<T> extends FrameLayout{
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
 //            System.out.println("-------OnGestureListener:onFling()");
             Flipper.this.onFling(velocityX);
-            return super.onFling(e1, e2, velocityX, velocityY);
+            return true;
         }
 
         @Override
@@ -161,14 +161,14 @@ public class Flipper<T> extends FrameLayout{
                 }else{
                     mScrolledDistance = mAnimStartX + (scrollPercent * (mAnimStartX - mAnimEndX));
                 }
-                System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
+//                System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
                 invalidate();
             }else{
                 mScrolledDistance = 0.0f;
                 mAnimMode = ANIM_NONE;
             }
         }
-        System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
+//        System.out.println("-------dispatchDraw， mScrolledDistance: " + mScrolledDistance);
         super.dispatchDraw(canvas);
     }
 
@@ -219,7 +219,7 @@ public class Flipper<T> extends FrameLayout{
     }
 
     public void onFling(float velocityX){
-//        System.out.println("-------velocityX: "+velocityX);
+        System.out.println("-------velocityX: "+velocityX);
         mWidth = getWidth();
         if(velocityX < -FLING_VELOCITY || mScrolledDistance > mWidth/2){
             moveToNext(true);
@@ -244,7 +244,7 @@ public class Flipper<T> extends FrameLayout{
     }
 
     public void onScrollXEnd(){
-        System.out.println("-------onScrollXEnd, mScrolledDistance:　"+ mScrolledDistance);
+//        System.out.println("-------onScrollXEnd, mScrolledDistance:　"+ mScrolledDistance);
         mWidth = getWidth();
         if(mScrolledDistance > mWidth/2.0F){
             moveToNext(true);
@@ -273,7 +273,6 @@ public class Flipper<T> extends FrameLayout{
         }
         if(restore){
             mAnimStartX = mScrolledDistance;
-            System.out.println("-------mAnimStartX:"+mAnimStartX);
             mAnimEndX = 0;
             mAnimMode = ANIM_TRANS;
             mAnimStartTimeMs = AnimationUtils.currentAnimationTimeMillis();

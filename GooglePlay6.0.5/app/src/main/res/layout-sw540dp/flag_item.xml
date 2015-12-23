@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/play_main_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/details_summary" />
+    <View android:id="@id/item_summary_trailing" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <include layout="@layout/flag_item_content" />
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

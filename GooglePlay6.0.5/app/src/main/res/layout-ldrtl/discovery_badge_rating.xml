@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeRating style="@style/DiscoveryBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_container" style="@style/DiscoveryBadgeIconContainer">
+        <TextView android:textSize="@dimen/play_details_discovery_badge_rate_size" android:textStyle="bold" android:textColor="@color/play_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/average_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.play.layout.StarRatingBar android:id="@id/discovery_summary_rating_bar" android:layout_marginBottom="4.0dip" style="@style/DiscoveryRatingBar" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="@dimen/discovery_badge_title_width" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" style="@style/DiscoveryBadgeTitle" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_user_rating" android:baselineAlignBottom="true" android:layout_alignBaseline="@id/title" android:contentDescription="@null" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.play.DiscoveryBadgeRating>

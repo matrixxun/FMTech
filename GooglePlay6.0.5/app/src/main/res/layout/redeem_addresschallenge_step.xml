@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/instrument_details" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/addinstrument_content_padding" android:paddingRight="@dimen/addinstrument_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.play.layout.PlayTextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/redeem_screen_title" android:singleLine="true" style="@style/LightPurchase_TitleText" />
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="6.0dip" style="@style/LightPurchase_InstrumentSetupMessage" />
+            <com.google.android.finsky.layout.BillingAddress android:orientation="vertical" android:id="@id/billing_address" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

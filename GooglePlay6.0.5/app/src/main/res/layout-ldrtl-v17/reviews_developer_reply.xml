@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.ReviewReplyLayout android:orientation="vertical" android:id="@id/review_reply_container" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="16.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_new_content_margin" android:paddingEnd="@dimen/details_new_content_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/review_reply_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayDetailDescription" />
+    <TextView android:id="@id/review_reply_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/PlayDetailDescription" />
+    <ImageView android:layout_gravity="end" android:id="@id/review_reply_toggle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" />
+</com.google.android.finsky.layout.ReviewReplyLayout>

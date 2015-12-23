@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.setup.SetupWizardRestoreAppsSelector android:orientation="horizontal" android:focusable="true" android:clickable="true" style="@style/SetupWizardMenuSelector"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/sw_menu_selector_main_text" style="@style/SetupWizardMenuSelectorText" />
+    <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="?android:textColorSecondary" android:id="@id/sw_menu_selector_secondary_text" android:paddingTop="2.0dip" android:layout_marginLeft="8.0dip" style="@style/SetupWizardMenuSelectorText" />
+</com.google.android.finsky.setup.SetupWizardRestoreAppsSelector>

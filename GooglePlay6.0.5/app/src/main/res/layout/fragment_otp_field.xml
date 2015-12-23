@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?uicFormVerticalMargin" android:layout_marginBottom="?uicFormVerticalMargin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.wallet.ui.common.CountdownButton android:layout_gravity="center_vertical" android:id="@id/otp_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="45.0" style="?attr/uicFormButtonStyle" />
+    <com.google.android.wallet.ui.common.FormEditText android:layout_gravity="center_vertical" android:id="@id/otp_field" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:minHeight="?uicFormItemHeight" android:layout_weight="55.0" style="?attr/uicFormInputTextAppearance" />
+</LinearLayout>

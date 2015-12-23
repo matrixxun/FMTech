@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s çevrə</item>
+        <item quantity="one">%1$s çevrə</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Reytinqiniz: %1$s ulduz</item>
+        <item quantity="one">Reytinqiniz: %1$s ulduz</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d rəy</item>
+        <item quantity="one">%1$d rəy</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d ulduz reytinqi üçün %1$d rəy</item>
+        <item quantity="one">%2$d ulduz reytinqi üçün %1$d rəy</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s / %2$s rəy</item>
+        <item quantity="one">%1$s / %2$s rəy</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d seçilib</item>
+        <item quantity="one">%1$d seçilib</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d güncəlləşməsinə təsdiq lazımdır</item>
+        <item quantity="one">%1$d güncəlləşməsinə təsdiq lazımdır</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d yeni güncəlləşmə</item>
+        <item quantity="one">%1$d yeni güncəlləşmə</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d güncəlləşməsi mövcuddur</item>
+        <item quantity="one">%1$d güncəlləşməsi mövcuddur</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Hamısını güncəlləşdirin</item>
+        <item quantity="one">Güncəlləşdirin</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d tətbiq güncəlləşdi</item>
+        <item quantity="one">%1$d tətbiq güncəlləşdi</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ulduz - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d istifadəçi bu rəyi faydalı hesab edir. Şərhi faydalı kimi işarələyin</item>
+        <item quantity="one">%1$d istifadəçi bu rəyi faydalı hesab edir. Şərhi faydalı kimi işarələyin</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d istifadəçi bu rəyi faydalı hesab edir. Rəyin faydalı kimi işarələnməsini ləğv edin</item>
+        <item quantity="one">%1$d istifadəçi bu rəyi faydalı hesab edir. Rəyin faydalı kimi işarələnməsini ləğv edin</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Buna &amp;lt;b>%1$s ulduz verib&amp;lt;/b></item>
+        <item quantity="one">Buna &amp;lt;b>%1$s ulduz verib&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s rəy</item>
+        <item quantity="one">%1$s rəy</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s ulduz&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s ulduz&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Elementləri yükləmək olmur. Başqa rezervi sınayın.</item>
+        <item quantity="one">Elementləri yükləmək olmur. Sonra yenidən cəhd edin.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Son dəfə %1$d gün əvvəl istifadə edilmişdir</item>
+        <item quantity="one">Son dəfə %1$d gün əvvəl istifadə edilmişdir</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Seçilmiş tətbiqlər</item>
+        <item quantity="one">Seçilmiş tətbiq</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ulduz</item>
+        <item quantity="one">ulduz</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s nəfər bunu deyir</item>
+        <item quantity="one">%1$s nəfər bunu deyir</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/play_translucent_separator_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/button_primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/warm_welcome_card_button" />
+        <View android:layout_gravity="center_vertical" android:id="@id/button_separator" android:background="@color/play_translucent_separator_line" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="24.0dip" />
+        <include android:id="@id/button_secondary" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/warm_welcome_card_button" />
+    </LinearLayout>
+</merge>

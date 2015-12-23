@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s na circle</item>
+        <item quantity="one">%1$s circle</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ang iyong rating: %1$s na star</item>
+        <item quantity="one">Ang iyong rating: %1$s star</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d na review</item>
+        <item quantity="one">%1$d review</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d review para sa star rating na %2$d</item>
+        <item quantity="one">%1$d review para sa star rating na %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s mula sa %2$s na review</item>
+        <item quantity="one">%1$s mula sa %2$s review</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d ang napili</item>
+        <item quantity="one">%1$d ang napili</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Kailangang aprubahan, %1$d na update</item>
+        <item quantity="one">Kailangang aprubahan ang %1$d update</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d na bagong update</item>
+        <item quantity="one">%1$d bagong update</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d na available na update</item>
+        <item quantity="one">%1$d available na update</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">I-update lahat</item>
+        <item quantity="one">I-update lahat</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Na-update ang %1$d na application</item>
+        <item quantity="one">Na-update ang %1$d application</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s na star</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s na star - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s na star - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s star - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d na user ang natulungan ng review na ito. Markahan ang komento bilang nakatulong</item>
+        <item quantity="one">%1$d user ang natulungan ng review na ito. Markahan ang komento bilang nakatulong</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d na user ang natulungan ng review na ito. Alisan ng marka ang komento bilang nakatulong</item>
+        <item quantity="one">%1$d user ang natulungan ng review na ito. Alisan ng marka ang komento bilang nakatulong</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Na-rate ito na &amp;lt;b>%1$s na star&amp;lt;/b></item>
+        <item quantity="one">Na-rate ito na &amp;lt;b>%1$s star&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">sa %1$s na review</item>
+        <item quantity="one">sa %1$s review</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s na star&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s star&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Hindi ma-load ang mga item. Sumubok ng ibang backup.</item>
+        <item quantity="one">Hindi ma-load ang mga item. Sumubok ng ibang backup.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Huling ginamit %1$d na araw ang nakalipas</item>
+        <item quantity="one">Huling ginamit %1$d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Mga napiling app</item>
+        <item quantity="one">Mga napiling app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">na star</item>
+        <item quantity="one">star</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s na tao ang nagsasabi nito</item>
+        <item quantity="one">%1$s tao ang nagsasabi nito</item>
+    </plurals>
+</resources>

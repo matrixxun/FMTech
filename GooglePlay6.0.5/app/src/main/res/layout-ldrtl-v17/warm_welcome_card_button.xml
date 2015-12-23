@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.WarmWelcomeCardButton android:orientation="horizontal" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="@dimen/play_edu_main_content_padding" android:paddingEnd="@dimen/play_edu_main_content_padding" finsky:mark_as_button="true" finsky:hide_separator="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.image.FifeImageView android:id="@id/icon" android:focusable="false" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" android:layout_marginEnd="2.0dip" />
+    <TextView android:textColor="@color/play_multi_primary" android:id="@id/text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayCardAction" />
+</com.google.android.finsky.layout.play.WarmWelcomeCardButton>

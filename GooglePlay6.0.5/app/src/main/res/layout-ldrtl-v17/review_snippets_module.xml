@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.ReviewSnippetsModuleLayout android:orientation="vertical" android:background="@color/play_white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="center" android:id="@id/snippets_section_title" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayMediumPlainText" />
+    <TextView android:textSize="@dimen/content_generic_small_size" android:gravity="center" android:id="@id/all_reviews_footer" android:paddingTop="18.0dip" android:paddingBottom="14.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:paddingStart="@dimen/details_content_margin" android:paddingEnd="@dimen/details_content_margin" style="@style/PlayMediumPlainText" />
+</com.google.android.finsky.detailspage.ReviewSnippetsModuleLayout>

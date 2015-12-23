@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.CreatorAvatarCardClusterModuleLayout android:orientation="vertical" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/details_avatar_cluster_header" />
+    <include android:id="@id/bucket_row" layout="@layout/card_cluster_module_row" />
+</com.google.android.finsky.detailspage.CreatorAvatarCardClusterModuleLayout>

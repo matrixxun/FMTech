@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="editorial_bucket_columns">1</integer>
+    <integer name="friend_review_card_bubble_position">0</integer>
+    <integer name="related_items_per_row">3</integer>
+    <integer name="warm_welcome_card_columns">1</integer>
+    <integer name="category_tab_width_in_percent">50</integer>
+    <integer name="cluster_notice_columns">3</integer>
+    <integer name="max_library_widget_backends">3</integer>
+    <integer name="search_bucket_rows">1</integer>
+    <integer name="snippets_max_rows">3</integer>
+    <integer name="snippets_per_row">2</integer>
+</resources>

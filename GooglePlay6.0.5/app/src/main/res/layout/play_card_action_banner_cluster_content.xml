@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardActionBannerClusterViewContent android:id="@id/cluster_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/play_merch_content_vmargin" android:layout_marginBottom="@dimen/play_merch_content_vmargin"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <FrameLayout android:id="@id/profile_cover_frame" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.image.FifeImageView android:id="@id/profile_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/play_highlight_overlay_dark" android:scaleType="centerCrop" finsky:fixed_bounds="true" />
+        <View android:background="@drawable/overlay_shade_dark" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.google.android.finsky.layout.play.ProfileInfoBlock android:orientation="vertical" android:id="@id/profile_info_block" android:paddingBottom="@dimen/play_follow_cluster_button_bottom_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.finsky.layout.play.PlayAvatarPack android:id="@id/avatar_pack" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:primary_avatar_size="@dimen/play_follow_cluster_avatar_size" />
+        <TextView android:id="@id/profile_title" android:focusable="true" style="@style/PlayImageClusterTitle" />
+        <TextView android:id="@id/profile_subtitle" android:paddingBottom="@dimen/play_follow_cluster_button_top_margin" android:focusable="true" style="@style/PlayImageClusterSubtitle" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include layout="@layout/action_button" />
+    </com.google.android.finsky.layout.play.ProfileInfoBlock>
+</com.google.android.finsky.layout.play.PlayCardActionBannerClusterViewContent>

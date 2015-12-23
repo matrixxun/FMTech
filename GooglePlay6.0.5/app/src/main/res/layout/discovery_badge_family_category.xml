@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeFamilyCategory style="@style/DiscoveryBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/icon_container" android:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView android:id="@id/icon" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" finsky:is_avatar="false" />
+        <LinearLayout android:gravity="center" android:id="@id/overlay_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:gravity="center" android:id="@id/overlay_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeFamilyCategory>

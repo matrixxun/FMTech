@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayHighlightsBannerItemView android:focusable="true" android:foreground="@drawable/play_highlight_round_overlay_dark" style="@style/HighlightBannerFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.finsky.layout.DocImageView android:id="@id/li_thumbnail" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:fixed_bounds="true" />
+    <View android:layout_gravity="bottom" android:background="@drawable/editorial_bottom_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.play.layout.PlayTextView android:id="@id/li_title" style="@style/HighlightBannerTitle" />
+        <com.google.android.finsky.layout.DecoratedTextView android:id="@id/li_subtitle" style="@style/HighlightBannerSubtitle" />
+    </LinearLayout>
+</com.google.android.finsky.layout.play.PlayHighlightsBannerItemView>

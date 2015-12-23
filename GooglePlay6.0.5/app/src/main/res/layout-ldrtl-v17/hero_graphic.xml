@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.HeroGraphicView android:id="@id/hero_promo" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_dark" finsky:full_screen_on="@bool/use_wide_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <View android:id="@id/corpus_fill" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.play.image.FifeImageView android:id="@id/hero_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <View android:id="@id/hero_image_top_overlay" android:background="@drawable/action_bar_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_overlay_height" />
+    <View android:id="@id/hero_image_bottom_overlay" android:background="@drawable/editorial_bottom_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/play_icon" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_movie_play_normal" />
+    <TextView android:textSize="@dimen/play_editorial_header_size" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/hero_title" android:paddingTop="@dimen/antenna_title_vpadding" android:paddingBottom="@dimen/antenna_title_vpadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/play_collection_edge_padding" android:paddingEnd="@dimen/play_collection_edge_padding" style="@style/PlayMediumPlainText" />
+</com.google.android.finsky.layout.HeroGraphicView>

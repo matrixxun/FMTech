@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.SecondaryActionsModuleLayout android:orientation="horizontal" android:background="@color/play_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.AccessibleLinearLayout android:id="@id/wishlist_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout android:id="@id/wishlist_button_frame" style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="center" android:id="@id/wishlist_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_wish_off" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_wishlist" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.layout.AccessibleLinearLayout>
+    <com.google.android.finsky.layout.AccessibleLinearLayout android:id="@id/share_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_share" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.layout.AccessibleLinearLayout>
+    <com.google.android.finsky.layout.AccessibleLinearLayout android:id="@id/plus_one_button" style="@style/DetailsSecondaryActionButton">
+        <FrameLayout style="@style/DetailsSecondaryActionButtonIcon">
+            <TextView android:textSize="12.0dip" android:textColor="@color/play_fg_primary" android:layout_gravity="center" android:id="@id/plus_one_button_icon" android:background="@drawable/plus_one_icon_off" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayGridBoldText" />
+        </FrameLayout>
+        <TextView android:text="@string/details_secondary_action_plus_one" style="@style/DetailsSecondaryActionButtonText" />
+    </com.google.android.finsky.layout.AccessibleLinearLayout>
+</com.google.android.finsky.detailspage.SecondaryActionsModuleLayout>

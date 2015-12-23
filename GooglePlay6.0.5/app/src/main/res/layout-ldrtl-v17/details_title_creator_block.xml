@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsTitleCreatorBlock android:id="@id/title_creator_block" android:background="@drawable/play_highlight_overlay_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/details_new_content_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.image.FifeImageView android:id="@id/creator_image" android:layout_width="@dimen/review_avatar_size" android:layout_height="@dimen/review_avatar_size" android:layout_marginTop="2.0dip" android:scaleType="fitStart" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" finsky:fixed_bounds="true" finsky:request_scale_factor="@dimen/details_title_creator_scale_factor" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/creator_image">
+        <com.google.android.finsky.layout.DecoratedTextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_primary" android:ellipsize="marquee" android:id="@id/creator_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" style="@style/PlayPlainText" />
+        <TextView android:textSize="@dimen/content_generic_xsmall_size" android:textColor="@color/play_fg_secondary" android:ellipsize="marquee" android:id="@id/creator_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/PlayPlainText" />
+    </LinearLayout>
+</com.google.android.finsky.layout.DetailsTitleCreatorBlock>

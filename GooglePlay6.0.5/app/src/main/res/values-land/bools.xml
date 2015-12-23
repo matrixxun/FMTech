@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="cluster_with_notice_vertical_stack">false</bool>
+    <bool name="display_categories_in_two_columns">true</bool>
+    <bool name="stretch_happiness_survey_prompt">false</bool>
+    <bool name="use_wide_layout">true</bool>
+    <bool name="use_wide_layout_for_friend_review_cluster">true</bool>
+    <bool name="use_wide_layout_for_highlights_banner">true</bool>
+</resources>

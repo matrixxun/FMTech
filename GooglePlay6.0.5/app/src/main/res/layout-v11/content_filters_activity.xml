@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content_filter_on_off_wrapper" android:background="@color/play_content_filter_toolbar_background" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="@color/play_white" android:id="@id/content_filter_on_off_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <android.support.v7.widget.SwitchCompat android:theme="@style/Theme.AppCompat" android:id="@id/content_filter_on_off_toggle" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/content_description_parental_controls_switch" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/content_filter_splash_info_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/content_filter_on_off_wrapper">
+        <LinearLayout android:orientation="vertical" android:background="@color/play_main_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.play.image.FifeImageView android:layout_gravity="center_horizontal" android:id="@id/more_info_image" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" />
+            <TextView android:layout_gravity="center" android:id="@id/more_info" android:paddingLeft="@dimen/details_content_margin" android:paddingRight="@dimen/details_content_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="40.0dip" style="@style/PlayEmptyTitle" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/content_filter_verticals_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/content_filter_on_off_wrapper">
+        <LinearLayout android:orientation="vertical" android:background="@color/play_main_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/play_content_filter_top_info_title" android:id="@id/top_info_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/top_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/filters_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:showDividers="middle" />
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar android:id="@id/download_ratings_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

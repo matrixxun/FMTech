@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardViewPerson android:id="@id/play_card" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:nextFocusDown="@id/gplus_circle_status" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="@drawable/person_card_overlay_light" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" android:padding="@dimen/play_person_card_avatar_padding" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <com.google.android.finsky.layout.DocImageView android:id="@id/li_thumbnail" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    </com.google.android.play.layout.PlayCardThumbnail>
+    <com.google.android.play.layout.PlayTextView android:textColor="@color/play_primary_text_set" android:ellipsize="marquee" android:gravity="center" android:id="@id/li_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:maxLines="1" android:singleLine="true" style="@style/PlayCardTitle" />
+    <com.google.android.finsky.layout.DecoratedTextView android:textSize="@dimen/play_person_subtitle_size" android:textColor="@color/play_secondary_text_set" android:gravity="center" android:id="@id/circles_status" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" style="@style/PlayCardSubtitle" />
+    <ImageView android:id="@id/circles_status_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_circles_green" />
+    <com.google.android.finsky.layout.play.PlayCirclesIcon android:id="@id/gplus_circle_status" android:focusable="true" android:nextFocusUp="@id/play_card" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</com.google.android.finsky.layout.play.PlayCardViewPerson>

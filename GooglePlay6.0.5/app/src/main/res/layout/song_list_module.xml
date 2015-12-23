@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.SongListModuleLayout android:orientation="vertical" android:id="@id/song_list" android:background="@color/play_white" android:paddingLeft="@dimen/details_listing_section_extra_padding" android:paddingTop="24.0dip" android:paddingRight="@dimen/details_listing_section_extra_padding" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.PlaylistHeader android:id="@id/song_list_header" android:background="@drawable/play_highlight_overlay_light" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.finsky.layout.AccessibleTextView android:id="@id/header" android:paddingLeft="@dimen/details_new_content_margin" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Play_DetailsPage_HeaderText" />
+        <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_fg_secondary" android:id="@id/subheader" android:paddingLeft="@dimen/details_new_content_margin" android:paddingRight="@dimen/details_new_content_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.finsky.layout.PlaylistControlButtons android:id="@id/song_list_control" android:layout_marginRight="@dimen/details_new_content_margin" android:text="@string/play_all" finsky:action_style="secondary" style="@style/DetailsPage_SmallActionButton" />
+    </com.google.android.finsky.layout.PlaylistHeader>
+    <LinearLayout android:orientation="vertical" android:id="@id/songs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.detailspage.SongListModuleLayout>

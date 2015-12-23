@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CheckableLinearLayout android:orientation="vertical" android:paddingLeft="@dimen/setup_wizard_device_row_xpadding" android:paddingTop="10.0dip" android:paddingRight="@dimen/setup_wizard_device_row_xpadding" android:paddingBottom="10.0dip" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" finsky:checkableChildId="@id/setup_wizard_device_name"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/setup_wizard_device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="?android:listChoiceIndicatorSingle" android:drawablePadding="10.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:id="@id/device_usage_time" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.layout.CheckableLinearLayout>

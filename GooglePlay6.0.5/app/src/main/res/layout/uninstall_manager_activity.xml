@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxSizeLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/finsky_dialog_width" android:minHeight="500.0dip" finsky:max_width="@dimen/finsky_dialog_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <FrameLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.google.android.finsky.layout.MaxSizeLinearLayout>

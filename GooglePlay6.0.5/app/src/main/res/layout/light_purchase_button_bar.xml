@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.LightPurchaseButtonBarLayout android:id="@id/continue_button_bar" android:paddingLeft="@dimen/light_purchase_dialog_footer_left_right_padding" android:paddingTop="@dimen/light_purchase_dialog_footer_top_bottom_padding" android:paddingRight="@dimen/light_purchase_dialog_footer_left_right_padding" android:paddingBottom="@dimen/light_purchase_dialog_footer_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_googleplay" />
+    <FrameLayout android:id="@id/continue_button_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayActionButton android:id="@id/continue_button" style="@style/Play_Purchase_ActionButton" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/secondary_button_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayActionButton android:id="@id/secondary_button" android:visibility="gone" style="@style/Play_Purchase_SecondaryButton" />
+    </FrameLayout>
+</com.google.android.finsky.layout.LightPurchaseButtonBarLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_im_form_start_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">16.0dip</dimen>
+</resources>

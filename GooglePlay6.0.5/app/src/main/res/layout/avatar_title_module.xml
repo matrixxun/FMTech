@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.AvatarTitleModuleLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayTextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/title_title" android:background="@color/play_white" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@style/PlayDetailTitle" />
+    <com.google.android.play.image.FifeImageView android:layout_gravity="center_horizontal" android:id="@id/title_thumbnail" android:clipToPadding="false" android:layout_width="@dimen/play_profile_avatar_size" android:layout_height="@dimen/play_profile_avatar_size" android:scaleType="fitCenter" finsky:fixed_bounds="true" />
+</com.google.android.finsky.detailspage.AvatarTitleModuleLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.layout.PlayTextView android:id="@id/warm_welcome_v2_title" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/WarmWelcomeV2CardTitle" />
+    <com.google.android.play.layout.PlayTextView android:id="@id/warm_welcome_v2_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" style="@style/WarmWelcomeV2CardDescription" />
+    <com.google.android.play.layout.PlayEduCardButtonPanel android:id="@id/warm_welcome_v2_button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/warm_welcome_v2_card_button_margin" android:layout_marginRight="@dimen/warm_welcome_v2_card_button_margin" android:layout_marginBottom="@dimen/warm_welcome_v2_card_button_margin" style="@style/PlayEduCardButtonPanel">
+        <com.google.android.finsky.layout.AccessibleTextView android:id="@id/button_secondary" android:background="@drawable/play_highlight_overlay_action_button" style="@style/WarmWelcomeV2CardAction" />
+        <com.google.android.finsky.layout.AccessibleTextView android:id="@id/button_primary" android:background="@drawable/warm_welcome_v2_primary_button" style="@style/WarmWelcomeV2CardAction" />
+    </com.google.android.play.layout.PlayEduCardButtonPanel>
+</merge>

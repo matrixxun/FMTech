@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s حلقے</item>
+        <item quantity="one">%1$s حلقہ</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">آپ کی درجہ بندی: %1$s ستارے</item>
+        <item quantity="one">آپ کی درجہ بندی: %1$s ستارہ</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d جائزے</item>
+        <item quantity="one">%1$d جائزہ</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">ستارے کی درجہ بندی %2$d کیلئے %1$d جائزے</item>
+        <item quantity="one">ستارے کی درجہ بندی %2$d کیلئے %1$d جائزہ</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s از %2$s جائزے</item>
+        <item quantity="one">%1$s از %2$s جائزہ</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d منتخب ہیں</item>
+        <item quantity="one">%1$d منتخب ہے</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d اپ ڈیٹس کیلئے منظوری درکار ہے</item>
+        <item quantity="one">%1$d اپ ڈیٹ کیلئے منظوری درکار ہے</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d نئے اپ ڈیٹس</item>
+        <item quantity="one">%1$d نیا اپ ڈیٹ</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d اپ ڈیٹس دستیاب ہیں</item>
+        <item quantity="one">%1$d اپ ڈیٹ دستیاب ہے</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">سبھی کو اپ ڈیٹ کریں</item>
+        <item quantity="one">اپ ڈیٹ کریں</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d ایپلیکیشنز کو اپ ڈیٹ کر دیا گیا</item>
+        <item quantity="one">%1$d ایپلیکیشن کو اپ ڈیٹ کر دیا گیا</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارے</item>
+        <item quantity="one">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارہ</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارے - %3$s</item>
+        <item quantity="one">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارہ - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارے - %3$s - %4$s</item>
+        <item quantity="one">‎&amp;lt;b>%1$s&amp;lt;/b> %2$s ستارہ - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d صارفین کو یہ جائزہ مفید لگا۔ تبصرے کو مفید کے بطور نشان زد کریں</item>
+        <item quantity="one">%1$d صارف کو یہ جائزہ مفید لگا۔ تبصرے کو مفید کے بطور نشان زد کریں</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d صارفین کو یہ جائزہ مفید لگا۔ تبصرے سے مفید کا نشان ہٹائیں</item>
+        <item quantity="one">%1$d صارف کو یہ جائزہ مفید لگا۔ تبصرے سے مفید کا نشان ہٹائیں</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">اس کو ‎&amp;lt;b>%1$s‎ ستارے‎&amp;lt;/b>‎ کا درجہ دیا</item>
+        <item quantity="one">اس کو ‎&amp;lt;b>%1$s‎ ستارہ‎&amp;lt;/b>‎ کا درجہ دیا</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s جائزوں میں</item>
+        <item quantity="one">%1$s جائزہ میں</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">‎&amp;lt;b>%1$s ستارے&amp;lt;/b> %2$s</item>
+        <item quantity="one">‎&amp;lt;b>%1$s ستارہ&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">آئٹمز لوڈ نہیں کیے جا سکتے ہیں۔ کوئی دوسرا بیک اپ آزمائیں۔</item>
+        <item quantity="one">آئٹمز لوڈ نہیں کیے جا سکتے ہیں۔ بعد میں دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">آخری بار %1$d دن پہلے استعمال کیا گیا</item>
+        <item quantity="one">آخری بار %1$d دن پہلے استعمال کیا گیا</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">منتخب ایپس</item>
+        <item quantity="one">منتخب ایپ</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ستارے</item>
+        <item quantity="one">ستارہ</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s لوگ یہ کہہ رہے ہیں</item>
+        <item quantity="one">%1$s شخص یہ کہہ رہا ہے</item>
+    </plurals>
+</resources>

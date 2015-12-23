@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayActionButton android:id="@id/download_button" android:visibility="gone" android:text="@string/download" finsky:action_style="secondary" finsky:local_priority="5" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/uninstall_button" android:visibility="gone" android:text="@string/uninstall" finsky:action_style="secondary" finsky:local_priority="4" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/update_button" android:visibility="gone" android:text="@string/update" finsky:action_style="secondary" finsky:local_priority="3" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/launch_button" android:visibility="gone" android:text="@string/open" finsky:action_style="secondary" finsky:local_priority="2" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/try_button" android:visibility="gone" android:text="@string/sample" finsky:action_style="secondary" finsky:local_priority="1" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/preregister_button" android:visibility="gone" finsky:action_style="primary" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/buy_button2" android:visibility="gone" finsky:action_style="primary" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.play.layout.PlayActionButton android:id="@id/buy_button" android:visibility="gone" finsky:action_style="primary" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+    <com.google.android.finsky.layout.WishlistPlayActionButton android:id="@id/wishlist_action_button" android:visibility="gone" finsky:action_style="primary" finsky:local_priority="0" style="@style/Play_DetailsPage_ActionButton" />
+</merge>

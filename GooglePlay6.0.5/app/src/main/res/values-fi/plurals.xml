@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s piiriä</item>
+        <item quantity="one">%1$s piiri</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Arviosi: %1$s tähteä</item>
+        <item quantity="one">Arviosi: %1$s tähti</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d arvostelua</item>
+        <item quantity="one">%1$d arvostelu</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d arvostelua tähtiluokitukselle %2$d</item>
+        <item quantity="one">%1$d arvostelu tähtiluokitukselle %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s %2$s arvostelun perusteella</item>
+        <item quantity="one">%1$s %2$s arvostelun perusteella</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d päivitystä odottaa hyväksyntää.</item>
+        <item quantity="one">%1$d päivitys odottaa hyväksyntää.</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d uutta päivitystä</item>
+        <item quantity="one">%1$d uusi päivitys</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d päivitystä saatavana.</item>
+        <item quantity="one">%1$d päivitys saatavana.</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Päivitä kaikki</item>
+        <item quantity="one">Päivitä</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d sovellusta päivitetty.</item>
+        <item quantity="one">%1$d sovellus päivitetty.</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähteä</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähti</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähteä – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähti – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähteä – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s tähti – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d käyttäjän mielestä tämä arvostelu oli hyödyllinen. Merkitse kommentti hyödylliseksi</item>
+        <item quantity="one">%1$d käyttäjän mielestä tämä arvostelu oli hyödyllinen. Merkitse kommentti hyödylliseksi</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d käyttäjän mielestä tämä arvostelu oli hyödyllinen. Poista kommentin hyödyllinen-merkintä.</item>
+        <item quantity="one">%1$d käyttäjän mielestä tämä arvostelu oli hyödyllinen. Poista kommentin hyödyllinen-merkintä.</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Arvio: &amp;lt;b>%1$s tähteä&amp;lt;/b></item>
+        <item quantity="one">Arvio: &amp;lt;b>%1$s tähti&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s arvostelussa</item>
+        <item quantity="one">%1$s arvostelussa</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s tähteä&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s tähti&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Kohteiden lataaminen epäonnistui. Kokeile toista varmuuskopiota.</item>
+        <item quantity="one">Kohteiden lataaminen epäonnistui. Yritä myöhemmin uudelleen.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Käytetty viimeksi %1$d päivää sitten</item>
+        <item quantity="one">Käytetty viimeksi %1$d päivää sitten</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Valitut sovellukset</item>
+        <item quantity="one">Valittu sovellus</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">tähteä</item>
+        <item quantity="one">tähti</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s henkilöä sanoo näin</item>
+        <item quantity="one">%1$s henkilö sanoo näin</item>
+    </plurals>
+</resources>

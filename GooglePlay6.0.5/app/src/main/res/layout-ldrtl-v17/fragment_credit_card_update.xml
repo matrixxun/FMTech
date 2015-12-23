@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/wallet_uic_margin_touchable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layoutDirection="ltr">
+        <com.google.android.wallet.ui.common.ImageWithCaptionView android:id="@id/card_logo" android:layout_width="@dimen/wallet_im_credit_card_icon_width" android:layout_height="@dimen/wallet_im_credit_card_icon_height" im:internalUicDefaultImage="@drawable/wallet_im_card_unresolved" />
+        <TextView android:id="@id/credit_card_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" android:layout_marginStart="@dimen/wallet_im_credit_card_edit_exp_date_card_details_start_margin" style="?attr/uicFormInputTextAppearance" />
+    </LinearLayout>
+    <include android:id="@id/exp_date_and_cvc" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_cvc_and_exp_date" />
+</LinearLayout>

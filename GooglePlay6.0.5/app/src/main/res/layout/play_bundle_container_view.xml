@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayBundleContainerView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/play_collection_edge_padding_minus_card_half_spacing" android:paddingRight="@dimen/play_collection_edge_padding_minus_card_half_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:textColor="@color/play_white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayClusterTitle" />
+        <com.google.android.play.layout.PlayActionButton android:id="@id/bulk_install_button" android:layout_marginTop="@dimen/play_collection_card_spacing" android:layout_marginBottom="@dimen/play_collection_card_spacing" android:text="@string/install_all" style="@style/BundleActionButton.Play" />
+        <LinearLayout android:orientation="vertical" android:id="@id/install_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.google.android.finsky.layout.play.PlayBundleContainerView>

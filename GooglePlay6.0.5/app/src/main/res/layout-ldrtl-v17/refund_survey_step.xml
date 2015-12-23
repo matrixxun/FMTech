@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/play_fg_primary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <RadioGroup android:orientation="vertical" android:id="@id/reason_choices" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/remorse" android:tag="AH2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_remorse" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/accidental_purchase" android:tag="AH3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_accidental_purchase" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/undelivered" android:tag="AH4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_undelivered" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/defective" android:tag="AH5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_defective" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/friendly_fraud" android:tag="AH6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_friendly_fraud" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/fraud" android:tag="AH7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refund_reason_fraud" />
+            </RadioGroup>
+            <com.google.android.finsky.layout.MultiLineDoneButtonEditText android:id="@id/issue_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/refund_survey_comment_hint" android:minLines="1" android:maxLength="@integer/max_review_length" android:freezesText="true" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

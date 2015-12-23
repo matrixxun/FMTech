@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/content_frame_above_button" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </ScrollView>
+        <RelativeLayout android:id="@id/continue_button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/cancel_button" style="@style/SetupWizardButton" />
+            <Button android:id="@id/continue_button" style="@style/SetupWizardButton" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

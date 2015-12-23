@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/play_highlight_overlay_light" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <View android:background="@color/play_translucent_separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip">
+        <ImageView android:id="@id/check_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_purchase_check" android:layout_centerVertical="true" android:contentDescription="@string/content_description_selected_voucher_entry" />
+        <com.google.android.finsky.layout.play.SingleLineContainer android:id="@id/selected_voucher_price_and_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/check_mark" android:layout_centerVertical="true" finsky:flexibleChildId="@id/selected_voucher_title">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/selected_voucher_title" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/LightPurchase_Voucher" />
+            <TextView android:textStyle="bold" android:id="@id/selected_voucher_discount_price" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LightPurchase_Voucher" />
+        </com.google.android.finsky.layout.play.SingleLineContainer>
+    </RelativeLayout>
+    <TextView android:id="@id/selected_voucher_original_price" android:paddingLeft="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="12.0dip" android:layout_toRightOf="@id/check_mark" android:layout_below="@id/selected_voucher_price_and_title" style="@style/LightPurchase_Voucher_Byline" />
+    <View android:background="@color/play_translucent_separator_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_wizard_im_form_start_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_end_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_start_margin">40.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_top_margin">16.0dip</dimen>
+    <dimen name="setup_wizard_header_title_line_spacing_extra">3.669983sp</dimen>
+    <dimen name="setup_wizard_subtitle_text_size">20.0sp</dimen>
+    <dimen name="setup_wizard_title_text_size">24.0sp</dimen>
+    <dimen name="setup_wizard_im_form_top_margin">24.0dip</dimen>
+    <dimen name="setup_wizard_im_title_text_bottom_margin">18.0dip</dimen>
+    <dimen name="wallet_im_platform_card_number_one_card_mode_start_margin">52.0dip</dimen>
+    <dimen name="wallet_im_platform_first_credit_card_logo_start_margin">4.0dip</dimen>
+    <dimen name="wallet_uic_platform_form_non_editable_text_start_margin">4.0dip</dimen>
+    <dimen name="wallet_uic_platform_form_spinner_view_start_padding">0.0dip</dimen>
+    <dimen name="wallet_uic_platform_non_form_field_text_start_margin">4.0dip</dimen>
+    <dimen name="design_navigation_padding_top_default">24.0dip</dimen>
+    <dimen name="play_drawer_profile_info_height">172.0dip</dimen>
+    <dimen name="setup_wizard_content_text_size">16.0sp</dimen>
+</resources>

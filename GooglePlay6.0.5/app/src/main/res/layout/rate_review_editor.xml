@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.RateReviewEditor android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ff202020" android:gravity="center_horizontal" android:id="@id/item_title" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/PlayPlainText" />
+    <include android:id="@id/rating_setter" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/rating_bar" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/rating_description" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/review_dialog_unrated" android:freezesText="true" />
+    <EditText android:id="@id/review_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/review_dialog_subject_hint" android:freezesText="true" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionNext" />
+    <com.google.android.finsky.layout.MultiLineDoneButtonEditText android:gravity="top" android:id="@id/review_comment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/review_dialog_body_hint" android:minLines="3" android:maxLength="@integer/max_review_length" android:freezesText="true" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+</com.google.android.finsky.layout.RateReviewEditor>

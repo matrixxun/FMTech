@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountSubscriptionCard android:id="@id/subscription_card" style="@style/MyAccountCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/my_account_card" />
+</com.google.android.finsky.layout.MyAccountSubscriptionCard>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.CombinedTitleModuleLayout android:orientation="horizontal" android:id="@id/details_title_combined" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <include layout="@layout/details_summary_thumbnail" />
+    <com.google.android.finsky.layout.DetailsSectionStack android:orientation="vertical" android:id="@id/secondary_stack" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" finsky:separator_inset="@dimen/details_new_content_margin">
+        <com.google.android.finsky.layout.DetailsSummary android:id="@id/item_details_panel" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/title_background" android:background="@color/play_white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <include layout="@layout/details_summary_content" />
+        </com.google.android.finsky.layout.DetailsSummary>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/warning_message_module" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/discovery_bar" />
+    </com.google.android.finsky.layout.DetailsSectionStack>
+</com.google.android.finsky.detailspage.CombinedTitleModuleLayout>

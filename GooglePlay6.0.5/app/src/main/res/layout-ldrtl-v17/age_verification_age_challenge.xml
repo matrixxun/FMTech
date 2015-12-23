@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <com.google.android.play.layout.PlayTextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/LightPurchase_TitleText" />
+        <TextView android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" style="@style/LightPurchase_AccountName" />
+        <ScrollView android:scrollbarStyle="insideInset" android:orientation="vertical" android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/LightPurchase_ExtendedDetails" />
+                <EditText android:id="@id/name_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:inputType="textPersonName|textCapWords" />
+                <EditText android:id="@id/birthday" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:cursorVisible="false" android:inputType="none" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/genders" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                <EditText android:id="@id/phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:digits="0123456789-" android:inputType="phone" />
+                <RadioGroup android:orientation="horizontal" android:id="@id/carriers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/carriers_extension" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <RadioButton android:id="@id/carriers_extension_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <android.support.v7.widget.AppCompatSpinner android:id="@id/carriers_extension_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:layout_marginStart="8.0dip" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                </LinearLayout>
+                <TextView android:id="@id/carriers_help" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:paddingStart="4.0dip" />
+                <com.google.android.finsky.layout.play.SingleLineContainer android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" finsky:flexibleChildId="@id/citizenship">
+                    <CheckBox android:id="@id/citizenship" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+                    <TextView android:id="@id/citizenship_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+                </com.google.android.finsky.layout.play.SingleLineContainer>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/LightPurchase_Footer" />
+    <include layout="@layout/light_purchase_button_bar" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountNewsstandCard style="@style/MyAccountCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/my_account_card_ypadding" android:paddingBottom="@dimen/my_account_card_ypadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayCardTitle" />
+        <TextView android:textSize="@dimen/play_medium_size" android:textColor="@color/play_secondary_text" android:id="@id/description" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/my_account_row_ypadding" android:layout_below="@id/title" style="@style/PlayPlainText" />
+        <com.google.android.play.layout.PlayActionButton android:id="@id/dismiss_button" android:layout_below="@id/description" android:layout_alignParentBottom="true" style="@style/MyAccountRowButton" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.MyAccountNewsstandCard>

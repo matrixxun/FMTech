@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SetupWizardContentHeight">
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_weight">0.7</item>
+    </style>
+    <style name="SetupWizardStackedButtons">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">256.0dip</item>
+    </style>
+</resources>

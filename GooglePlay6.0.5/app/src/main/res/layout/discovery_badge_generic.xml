@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.DiscoveryBadgeGeneric style="@style/DiscoveryBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:gravity="center" android:id="@id/icon_container" android:duplicateParentState="true" style="@style/DiscoveryBadgeIconContainer">
+        <com.google.android.play.image.FifeImageView android:id="@id/icon" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" finsky:fixed_bounds="true" />
+    </RelativeLayout>
+    <TextView android:id="@id/title" android:duplicateParentState="true" android:contentDescription="@null" style="@style/DiscoveryBadgeTitle" />
+</com.google.android.finsky.layout.play.DiscoveryBadgeGeneric>

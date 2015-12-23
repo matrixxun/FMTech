@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="vertical" android:id="@id/actions_switcher" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:text="@string/add_payment_method" android:drawableLeft="@drawable/ic_myaccount_add" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="vertical" android:id="@id/edit_footer" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:text="@string/more_payment_settings" android:drawableLeft="@drawable/ic_myaccount_payments" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+    <com.google.android.finsky.layout.ForegroundLinearLayout android:orientation="vertical" android:id="@id/family_instrument_switcher" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light">
+        <include layout="@layout/my_account_separator" />
+        <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:text="@string/change_family_instrument" android:drawableLeft="@drawable/ic_change_family_method" style="@style/MyAccountAction" />
+    </com.google.android.finsky.layout.ForegroundLinearLayout>
+</merge>

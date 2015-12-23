@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s топ</item>
+        <item quantity="one">%1$s топ</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Рейтингіңіз: %1$s жұлдыз</item>
+        <item quantity="one">Рейтингіңіз: %1$s жұлдыз</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d пікір</item>
+        <item quantity="one">%1$d пікір</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%2$d жұлдыз рейтингіне %1$d пікір қалдырылған</item>
+        <item quantity="one">%2$d жұлдыз рейтингіне %1$d пікір қалдырылған</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%2$s пікірден %1$s</item>
+        <item quantity="one">%2$s пікірден %1$s</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d таңдалды</item>
+        <item quantity="one">%1$d таңдалды</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d жаңарту мақұлдауды қажет етеді</item>
+        <item quantity="one">%1$d жаңарту мақұлдауды қажет етеді</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d жаңа жаңарту файлы</item>
+        <item quantity="one">%1$d жаңа жаңарту файлы</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d жаңарту қолжетімді</item>
+        <item quantity="one">%1$d жаңарту қолжетімді</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Барлығын жаңарту</item>
+        <item quantity="one">Жаңарту</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d қолданба жаңартылды</item>
+        <item quantity="one">%1$d қолданба жаңартылды</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s жұлдыз – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d пайдаланушы осы пікірді пайдалы деп белгіледі. Пікірді пайдалы деп белгілеу</item>
+        <item quantity="one">%1$d пайдаланушы осы пікірді пайдалы деп белгіледі. Пікірді пайдалы деп белгілеу</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d пайдаланушы осы пікірді пайдалы деп белгіледі. \"Пайдалы\" белгісін алып тастау</item>
+        <item quantity="one">%1$d пайдаланушы осы пікірді пайдалы деп белгіледі. \"Пайдалы\" белгісін алып тастау</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Бұған &amp;lt;b>%1$s жұлдыз қойды&amp;lt;/b></item>
+        <item quantity="one">Бұған &amp;lt;b>%1$s жұлдыз қойды&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">%1$s пікірде</item>
+        <item quantity="one">%1$s пікірде</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s жұлдыз&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s жұлдыз&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Элементтер жүктелмейді. Басқа сақтық көшірмені пайдаланыңыз.</item>
+        <item quantity="one">Элементтер жүктелмейді. Кейінірек қайталаңыз.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Соңғы рет %1$d күн бұрын пайдаланылған</item>
+        <item quantity="one">Соңғы рет %1$d күн бұрын пайдаланылған</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Таңдалған қолданбалар</item>
+        <item quantity="one">Таңдалған қолданба</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">жұлдыз</item>
+        <item quantity="one">жұлдыз</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s адам осыны айтады</item>
+        <item quantity="one">%1$s адам осыны айтады</item>
+    </plurals>
+</resources>

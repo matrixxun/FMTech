@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.WarmWelcomeCard android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:supports_dynamic_title_top_padding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.CardLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayCardViewGroup">
+        <FrameLayout android:id="@id/warm_welcome_graphic_box" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <com.google.android.play.image.FifeImageView android:id="@id/warm_welcome_graphic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+        </FrameLayout>
+        <com.google.android.play.layout.PlayTextView android:id="@id/warm_welcome_title" android:paddingTop="@dimen/warm_welcome_title_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayEduCardTitle" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/warm_welcome_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PlayEduCardDescription" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/warm_welcome_card_buttons" />
+    </com.google.android.play.layout.CardLinearLayout>
+</com.google.android.finsky.layout.play.WarmWelcomeCard>

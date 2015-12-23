@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.image.FifeImageView android:id="@id/image" android:layout_width="75.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:scaleType="fitCenter" finsky:fixed_bounds="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/title_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true">
+        <com.google.android.play.layout.PlayTextView android:textSize="@dimen/play_purchase_primary_size" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" finsky:allowsCompactLineSpacing="true" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/title_byline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/price_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.play.layout.PlayTextView android:textSize="@dimen/play_purchase_primary_size" android:layout_gravity="end" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:maxLines="1" />
+        <com.google.android.play.layout.PlayTextView android:layout_gravity="end" android:id="@id/price_byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_wrapper" android:layout_alignWithParentIfMissing="true">
+        <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/SetupWizardLightText" />
+        <TextView android:id="@id/voucher_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/SetupWizardLightText" />
+        <TextView android:id="@id/tos_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/LightPurchase_Footer" />
+    </LinearLayout>
+</RelativeLayout>

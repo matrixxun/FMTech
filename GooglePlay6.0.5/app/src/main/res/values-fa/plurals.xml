@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">‏%1$s حلقه</item>
+        <item quantity="one">‏%1$s حلقه</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">رتبه‌بندی شما: %1$s ستاره</item>
+        <item quantity="one">رتبه‌بندی شما: %1$s ستاره</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">‏%1$d نظر</item>
+        <item quantity="one">‏%1$d نظر</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">‏%1$d نظر با رتبه‌بندی ستاره‌ای %2$d</item>
+        <item quantity="one">‏%1$d نظر با رتبه‌بندی ستاره‌ای %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s از %2$s نظر</item>
+        <item quantity="one">%1$s از %2$s نظر</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">‫%1$d مورد انتخاب شد</item>
+        <item quantity="one">‫%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">‏%1$d به‌روزرسانی به تأیید نیاز دارد</item>
+        <item quantity="one">‏%1$d به‌روزرسانی به تأیید نیاز دارد</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">‏%1$d به‌روزرسانی جدید</item>
+        <item quantity="one">‏%1$d به‌روزرسانی جدید</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">‏%1$d به‌روزرسانی موجود است</item>
+        <item quantity="one">‏%1$d به‌روزرسانی موجود است</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">به‌روزرسانی همه</item>
+        <item quantity="one">به‌روزرسانی همه</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d برنامه به‌روزرسانی شد</item>
+        <item quantity="one">%1$d برنامه به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">‏&amp;lt;b>%1$s&amp;lt;/b> ‏%2$s ستاره</item>
+        <item quantity="one">‏&amp;lt;b>%1$s&amp;lt;/b> ‏%2$s ستاره</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s ستاره - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s ستاره - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">‏&amp;lt;b>%1$s&amp;lt;/b> ‏%2$s ستاره - %3$s - ‏%4$s</item>
+        <item quantity="one">‏&amp;lt;b>%1$s&amp;lt;/b> ‏%2$s ستاره - %3$s - ‏%4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">‏%1$d کاربر این نظر را مفید می‌دانند. علامت‌گذاری نظر به عنوان مفید</item>
+        <item quantity="one">‏%1$d کاربر این نظر را مفید می‌داند. علامت‌گذاری نظر به عنوان مفید</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">‏%1$d کاربر این نظر را مفید می‌دانند. برداشتن علامت نظر به‌عنوان مفید</item>
+        <item quantity="one">‏%1$d کاربر این نظر را مفید می‌داند. برداشتن علامت نظر به‌عنوان مفید</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">به آن &amp;lt;b>‏%1$s ستاره&amp;lt;/b> داد</item>
+        <item quantity="one">به آن &amp;lt;b>‏%1$s ستاره&amp;lt;/b> داد</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">در %1$s نظر</item>
+        <item quantity="one">در %1$s نظر</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">‏&amp;lt;b>‏%1$s ستاره&amp;lt;/b> ‏%2$s</item>
+        <item quantity="one">‏&amp;lt;b>‏%1$s ستاره&amp;lt;/b> ‏%2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">بارگیری موارد ممکن نیست. نسخه پشتیبان دیگری را امتحان کنید.</item>
+        <item quantity="one">بارگیری موارد ممکن نیست. پشتیبان‌گیری دیگری را امتحان کنید.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">آخرین استفاده %1$d روز قبل</item>
+        <item quantity="one">آخرین استفاده %1$d روز قبل</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">برنامه‌های انتخاب‌شده</item>
+        <item quantity="one">برنامه انتخاب‌شده</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ستاره</item>
+        <item quantity="one">ستاره</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">‏%1$s نفر این نظر را دارند</item>
+        <item quantity="one">‏%1$s نفر این نظر را دارند</item>
+    </plurals>
+</resources>

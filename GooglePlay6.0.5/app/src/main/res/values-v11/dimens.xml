@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wallet_im_platform_card_number_one_card_mode_start_margin">60.0dip</dimen>
+    <dimen name="wallet_im_platform_first_credit_card_logo_start_margin">12.0dip</dimen>
+    <dimen name="wallet_uic_platform_form_non_editable_text_start_margin">12.0dip</dimen>
+    <dimen name="wallet_uic_platform_form_spinner_view_start_padding">8.0dip</dimen>
+    <dimen name="wallet_uic_platform_non_form_field_text_start_margin">4.0dip</dimen>
+    <dimen name="wallet_uic_spinner_row_height">48.0dip</dimen>
+</resources>

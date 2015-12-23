@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MaxWidthLinearLayout android:orientation="vertical" android:paddingLeft="@dimen/light_purchase_dialog_footer_left_right_padding" android:paddingTop="@dimen/light_purchase_dialog_footer_top_bottom_padding" android:paddingRight="@dimen/light_purchase_dialog_footer_left_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.play.layout.PlayTextView android:id="@id/approval_required_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/light_purchase_dialog_ask_to_buy_group_vertical_padding" style="@style/LightPurchase_TitleText" />
+    <com.google.android.play.layout.PlayTextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_fg_primary" android:gravity="start|center" android:id="@id/approval_required_description" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:allowsCompactLineSpacing="true" style="@style/PlayPlainText" />
+</com.google.android.finsky.layout.MaxWidthLinearLayout>

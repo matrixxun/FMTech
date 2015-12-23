@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.wallet.instrumentmanager.ui.creditcard.CreditCardImagesView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wallet_im_card_logo_grid_spacing" im:spacingBetweenCardImages="@dimen/wallet_im_card_logo_grid_spacing" im:allImagesStaticOnly="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:im="http://schemas.android.com/apk/res-auto" />

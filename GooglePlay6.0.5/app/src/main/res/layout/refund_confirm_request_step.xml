@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.play.layout.PlayTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" style="@style/LightPurchase_TitleText" />
+            <TextView android:id="@id/account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="24.0dip" style="@style/LightPurchase_AccountName" />
+            <com.google.android.play.layout.PlayTextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_fg_primary" android:gravity="start|center" android:id="@id/user_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" finsky:allowsCompactLineSpacing="true" style="@style/PlayPlainText" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

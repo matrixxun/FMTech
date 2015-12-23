@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.play.layout.CardLinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/survey_prompt" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/finsky_dialog_width" style="@style/PlayHappinessSurveyPrompt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/play_fg_primary" android:gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="8.0dip" android:singleLine="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip" />
+    <include layout="@layout/button_bar" />
+</com.google.android.play.layout.CardLinearLayout>

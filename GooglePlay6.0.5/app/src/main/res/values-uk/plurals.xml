@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s кола</item>
+        <item quantity="one">%1$s коло</item>
+        <item quantity="few">%1$s кола</item>
+        <item quantity="many">%1$s кіл</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ваша оцінка: %1$s зірочки</item>
+        <item quantity="one">Ваша оцінка: %1$s зірочка</item>
+        <item quantity="few">Ваша оцінка: %1$s зірочки</item>
+        <item quantity="many">Ваша оцінка: %1$s зірочок</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d відгуку</item>
+        <item quantity="one">%1$d відгук</item>
+        <item quantity="few">%1$d відгуки</item>
+        <item quantity="many">%1$d відгуків</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d відгуку з оцінкою %2$d</item>
+        <item quantity="one">%1$d відгук з оцінкою %2$d</item>
+        <item quantity="few">%1$d відгуки з оцінкою %2$d</item>
+        <item quantity="many">%1$d відгуків з оцінкою %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">\"%1$s\" з %2$s відгуку</item>
+        <item quantity="one">\"%1$s\" з %2$s відгуку</item>
+        <item quantity="few">\"%1$s\" з %2$s відгуків</item>
+        <item quantity="many">\"%1$s\" з %2$s відгуків</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Вибрано %1$d</item>
+        <item quantity="one">Вибрано %1$d</item>
+        <item quantity="few">Вибрано %1$d</item>
+        <item quantity="many">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">Потрібно схвалити %1$d оновлення</item>
+        <item quantity="one">Потрібно схвалити %1$d оновлення</item>
+        <item quantity="few">Потрібно схвалити %1$d оновлення</item>
+        <item quantity="many">Потрібно схвалити %1$d оновлень</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d нового оновлення</item>
+        <item quantity="one">%1$d нове оновлення</item>
+        <item quantity="few">%1$d нові оновлення</item>
+        <item quantity="many">%1$d нових оновлень</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Доступні %1$d оновлення</item>
+        <item quantity="one">Доступне %1$d оновлення</item>
+        <item quantity="few">Доступні %1$d оновлення</item>
+        <item quantity="many">Доступні %1$d оновлень</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Оновити всі</item>
+        <item quantity="one">Оновити всі</item>
+        <item quantity="few">Оновити всі</item>
+        <item quantity="many">Оновити всі</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Оновлено %1$d додатка</item>
+        <item quantity="one">Оновлено %1$d додаток</item>
+        <item quantity="few">Оновлено %1$d додатки</item>
+        <item quantity="many">Оновлено %1$d додатків</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочка</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочок</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочка – %3$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки – %3$s</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочок – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочка – %3$s – %4$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочки – %3$s – %4$s</item>
+        <item quantity="many">&amp;lt;b>%1$s&amp;lt;/b>: %2$s зірочок – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d користувача вважають цей відгук корисним. Позначити коментар як корисний</item>
+        <item quantity="one">%1$d користувач вважає цей відгук корисним. Позначити коментар як корисний</item>
+        <item quantity="few">%1$d користувачі вважають цей відгук корисним. Позначити коментар як корисний</item>
+        <item quantity="many">%1$d користувачів вважають цей відгук корисним. Позначити коментар як корисний</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d користувача вважають цей відгук корисним. Видалити позначку</item>
+        <item quantity="one">%1$d користувач вважає цей відгук корисним. Видалити позначку</item>
+        <item quantity="few">%1$d користувачі вважають цей відгук корисним. Видалити позначку</item>
+        <item quantity="many">%1$d користувачів вважають цей відгук корисним. Видалити позначку</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Оцінка: &amp;lt;b>%1$s зірочки&amp;lt;/b></item>
+        <item quantity="one">Оцінка: &amp;lt;b>%1$s зірочка&amp;lt;/b></item>
+        <item quantity="few">Оцінка: &amp;lt;b>%1$s зірочки&amp;lt;/b></item>
+        <item quantity="many">Оцінка: &amp;lt;b>%1$s зірочок&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">у %1$s відгуку</item>
+        <item quantity="one">у %1$s відгуку</item>
+        <item quantity="few">у %1$s відгуках</item>
+        <item quantity="many">у %1$s відгуках</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s зірочки&amp;lt;/b> – %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s зірочка&amp;lt;/b> – %2$s</item>
+        <item quantity="few">&amp;lt;b>%1$s зірочки&amp;lt;/b> – %2$s</item>
+        <item quantity="many">&amp;lt;b>%1$s зірочок&amp;lt;/b> – %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Не вдається завантажити список. Спробуйте інший пристрій.</item>
+        <item quantity="one">Не вдається завантажити список. Спробуйте інший пристрій.</item>
+        <item quantity="few">Не вдається завантажити список. Спробуйте інший пристрій.</item>
+        <item quantity="many">Не вдається завантажити список. Спробуйте інший пристрій.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Востаннє використовувався %1$d дня тому</item>
+        <item quantity="one">Востаннє використовувався %1$d день тому</item>
+        <item quantity="few">Востаннє використовувався %1$d дні тому</item>
+        <item quantity="many">Востаннє використовувався %1$d днів тому</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Вибрані додатки</item>
+        <item quantity="one">Вибрані додатки</item>
+        <item quantity="few">Вибрані додатки</item>
+        <item quantity="many">Вибрані додатки</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">зірочки</item>
+        <item quantity="one">зірочка</item>
+        <item quantity="few">зірочки</item>
+        <item quantity="many">зірочок</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">Так вважають %1$s користувача</item>
+        <item quantity="one">Так вважає %1$s користувач</item>
+        <item quantity="few">Так вважають %1$s користувачі</item>
+        <item quantity="many">Так вважають %1$s користувачів</item>
+    </plurals>
+</resources>

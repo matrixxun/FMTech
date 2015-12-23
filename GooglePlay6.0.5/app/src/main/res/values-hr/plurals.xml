@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s krugova</item>
+        <item quantity="one">%1$s krug</item>
+        <item quantity="few">%1$s kruga</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Vaša ocjena: %1$s zvjezdica</item>
+        <item quantity="one">Vaša ocjena: %1$s zvjezdica</item>
+        <item quantity="few">Vaša ocjena: %1$s zvjezdice</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d recenzija</item>
+        <item quantity="one">%1$d recenzija</item>
+        <item quantity="few">%1$d recenzije</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">Recenzije s ocjenom %2$d: %1$d</item>
+        <item quantity="one">Recenzije s ocjenom %2$d: %1$d</item>
+        <item quantity="few">Recenzije s ocjenom %2$d: %1$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s iz %2$s recenzija</item>
+        <item quantity="one">%1$s iz %2$s recenzije</item>
+        <item quantity="few">%1$s iz %2$s recenzije</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Odabrano: %1$d</item>
+        <item quantity="one">Odabrano: %1$d</item>
+        <item quantity="few">Odabrano: %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d ažuriranja čeka odobrenje</item>
+        <item quantity="one">%1$d ažuriranje čeka odobrenje</item>
+        <item quantity="few">%1$d ažuriranja čekaju odobrenje</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d novih ažuriranja</item>
+        <item quantity="one">%1$d novo ažuriranje</item>
+        <item quantity="few">%1$d nova ažuriranja</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Dostupno je %1$d ažuriranja</item>
+        <item quantity="one">Dostupno je %1$d ažuriranje</item>
+        <item quantity="few">Dostupna su %1$d ažuriranja</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Ažuriraj sve</item>
+        <item quantity="one">Ažuriraj sve</item>
+        <item quantity="few">Ažuriraj sve</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">Ažurirano je %1$d aplikacija</item>
+        <item quantity="one">Ažurirana je %1$d aplikacija</item>
+        <item quantity="few">Ažurirane su %1$d aplikacije</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdice</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica – %3$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdice – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdica – %3$s – %4$s</item>
+        <item quantity="few">&amp;lt;b>%1$s&amp;lt;/b> %2$s zvjezdice – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d korisnika smatra da je ta recenzija korisna. Označite komentar korisnim.</item>
+        <item quantity="one">%1$d korisnik smatra da je ta recenzija korisna. Označite komentar korisnim.</item>
+        <item quantity="few">%1$d korisnika smatraju da je ta recenzija korisna. Označite komentar korisnim.</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d korisnika smatra da je ta recenzija korisna. Uklonite oznaku komentara kao korisnog.</item>
+        <item quantity="one">%1$d korisnik smatra da je ta recenzija korisna. Uklonite oznaku komentara kao korisnog.</item>
+        <item quantity="few">%1$d korisnika smatraju da je ta recenzija korisna. Uklonite oznaku komentara kao korisnog.</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Ocijenjeno s &amp;lt;b>%1$s zvj.&amp;lt;/b></item>
+        <item quantity="one">Ocijenjeno s &amp;lt;b>%1$s zvj.&amp;lt;/b></item>
+        <item quantity="few">Ocijenjeno s &amp;lt;b>%1$s zvj.&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">u %1$s recenzija</item>
+        <item quantity="one">u %1$s recenziji</item>
+        <item quantity="few">u %1$s recenzije</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s zvjezdica&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s zvjezdica&amp;lt;/b> %2$s</item>
+        <item quantity="few">&amp;lt;b>%1$s zvjezdice&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Učitavanje stavki nije uspjelo. Pokušajte s nekom drugom sigurnosnom kopijom.</item>
+        <item quantity="one">Učitavanje stavki nije uspjelo. Pokušajte s nekom drugom sigurnosnom kopijom.</item>
+        <item quantity="few">Učitavanje stavki nije uspjelo. Pokušajte s nekom drugom sigurnosnom kopijom.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Posljednja upotreba bila je prije %1$d dana</item>
+        <item quantity="one">Posljednja upotreba bila je prije %1$d dana</item>
+        <item quantity="few">Posljednja upotreba bila je prije %1$d dana</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Odabrane aplikacije</item>
+        <item quantity="one">Odabrane aplikacije</item>
+        <item quantity="few">Odabrane aplikacije</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">zvjezdica</item>
+        <item quantity="one">zvjezdica</item>
+        <item quantity="few">zvjezdice</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">To kaže %1$s osoba</item>
+        <item quantity="one">To kaže %1$s osoba</item>
+        <item quantity="few">To kažu %1$s osobe</item>
+    </plurals>
+</resources>

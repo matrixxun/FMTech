@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.DetailsSectionStack android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" finsky:separator_inset="16.0dip">
+        <include layout="@layout/details_warning_message" />
+        <include android:id="@id/item_details_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/inline_app_details_summary" />
+        <com.google.android.play.layout.PlayTextView android:id="@id/short_description_panel" android:background="@color/play_white" android:paddingLeft="24.0dip" android:paddingTop="12.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" finsky:lastLineOverdrawColor="@color/play_white" style="@style/PlayInlineDetailDescription" />
+        <include android:id="@id/screenshots_panel" android:layout_width="fill_parent" android:layout_height="180.0dip" layout="@layout/details_screenshots" />
+        <include android:id="@id/footer" layout="@layout/inline_app_details_footer" />
+    </com.google.android.finsky.layout.DetailsSectionStack>
+</ScrollView>

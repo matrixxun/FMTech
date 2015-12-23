@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.vending" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="true"/>
+    <permission android:description="@string/perm_check_license_desc" android:label="@string/perm_check_license_label" android:name="com.android.vending.CHECK_LICENSE" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:description="@string/perm_billing_desc" android:label="@string/perm_billing_label" android:name="com.android.vending.BILLING" android:permissionGroup="android.permission-group.NETWORK" android:protectionLevel="normal"/>
+    <permission android:name="com.android.vending.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.vending.permission.C2D_MESSAGE"/>
+    <permission android:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.android.vending.billing.ADD_CREDIT_CARD" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.android.vending.TOS_ACKED" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.android.vending.setup.PLAY_SETUP_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.google.android.finsky.permission.GEARHEAD_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED"/>
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="com.android.vending.INTENT_VENDING_ONLY"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="com.android.vending.TOS_ACKED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_IMPORTANCE"/>
+    <uses-permission android:maxSdkVersion="22" android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.INSTALL_GRANT_RUNTIME_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.GRANT_RUNTIME_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.REVOKE_RUNTIME_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="com.google.android.gms.permission.CAR"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <application android:backupAgent="com.android.vending.VendingBackupAgent" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_play_store" android:killAfterRestore="false" android:label="@string/app_long_name" android:name="com.google.android.finsky.FinskyApp" android:requiredForAllUsers="true" android:restoreAnyVersion="true" android:restoreNeedsApplication="true" android:restrictedAccountType="com.google" android:supportsRtl="@bool/is_rtl_enabled">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
+        <activity android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher_play_store" android:label="@string/launcher_name" android:launchMode="singleTop" android:name="com.android.vending.AssetBrowserActivity" android:theme="@style/MainActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_MARKET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.launcher.toolbar_icon" android:resource="@drawable/ic_menu_shop_holo_dark"/>
+        </activity>
+        <activity android:label="@string/onboard_play_title" android:name="com.google.android.finsky.activities.onboard.EntertainmentOnboardHostActivity" android:theme="@style/OnboardTheme"/>
+        <activity android:exported="true" android:label="@string/launcher_name" android:launchMode="singleTask" android:name="com.google.android.finsky.activities.MainActivity" android:theme="@style/MainActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="search" android:path="" android:scheme="market"/>
+                <data android:host="market.android.com" android:path="" android:scheme="http"/>
+                <data android:host="market.android.com" android:pathPrefix="/" android:scheme="http"/>
+                <data android:host="market.android.com" android:path="" android:scheme="https"/>
+                <data android:host="market.android.com" android:pathPrefix="/" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="afwapp.android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="play.google.com" android:pathPrefix="/store" android:scheme="http"/>
+                <data android:host="play.google.com" android:pathPrefix="/store" android:scheme="https"/>
+                <data android:host="play.google.com" android:pathPrefix="/redeem" android:scheme="http"/>
+                <data android:host="play.google.com" android:pathPrefix="/redeem" android:scheme="https"/>
+                <data android:host="play.google.com" android:pathPrefix="/wishlist" android:scheme="http"/>
+                <data android:host="play.google.com" android:pathPrefix="/wishlist" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="webstoreredirect" android:scheme="market"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.finsky.DETAILS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.launcher.toolbar_icon" android:resource="@drawable/ic_menu_shop_holo_dark"/>
+        </activity>
+        <activity android:label="" android:name="com.google.android.finsky.billing.lightpurchase.PurchaseActivity" android:theme="@style/PurchaseDialog" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.download.inlineappinstaller.InlineConsumptionAppInstallerActivity" android:theme="@style/PurchaseDialog" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.billing.lightpurchase.AgeVerificationActivity" android:theme="@style/PurchaseDialog" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.google.android.finsky.billing.lightpurchase.IabV3Activity" android:theme="@style/PurchaseDialog" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/payment_methods" android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.BillingProfileActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:label="@string/setup_account_title" android:name="com.google.android.finsky.billing.promptforfop.PromptForFopActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:exported="true" android:label="@string/setup_wizard_play_add_fop_title" android:name="com.google.android.finsky.billing.promptforfop.SetupWizardPromptForFopActivity" android:permission="com.android.vending.billing.ADD_CREDIT_CARD" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.ADD_CREDIT_CARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="" android:name="com.google.android.finsky.billing.lightpurchase.LightPurchaseFlowActivity" android:theme="@style/Dialog_NoFrame">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.PURCHASE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:name="com.google.android.finsky.activities.InlineAppDetailsDialog" android:theme="@style/InlineAppDetailsDialog"/>
+        <activity android:exported="true" android:label="" android:name="com.google.android.finsky.activities.InlinePurchaseRoutingActivity" android:theme="@style/InlineDetailsRoutingTheme">
+            <intent-filter>
+                <action android:name="com.android.finsky.APP_DETAILS_DIALOG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/review_dialog_title" android:name="com.google.android.finsky.activities.RateReviewActivity" android:theme="@style/RateReviewTheme" android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:label="@string/review_dialog_title" android:name="com.google.android.finsky.activities.RateReviewActivity2" android:theme="@style/RateReviewTheme" android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:label="" android:name="com.google.android.finsky.activities.PublicReviewsActivity" android:theme="@style/RateReviewTheme" android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:label="@string/survey_prompt_title_improve" android:name="com.google.android.finsky.activities.SurveyActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:label="@string/permissions_title" android:name="com.google.android.finsky.activities.AppsPermissionsActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:label="@string/offer_resolution_dialog_title" android:name="com.google.android.finsky.billing.lightpurchase.OfferResolutionActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:label="@string/dcb_setup_title_generic" android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.SetupWizardAddDcb3Activity" android:screenOrientation="behind" android:theme="@style/SetupWizardTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/dcb_setup_title_generic" android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.AddDcb3Activity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.billing.instrumentmanager.InstrumentManagerActivity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.billing.lightpurchase.PurchaseManagerActivity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.billing.instrumentmanager.SetupWizardInstrumentManagerActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/redeem_screen_title" android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.SetupWizardRedeemCodeActivity" android:screenOrientation="behind" android:theme="@style/SetupWizardTheme" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:label="@string/redeem_screen_title" android:name="com.google.android.finsky.billing.lightpurchase.billingprofile.instruments.RedeemCodeActivity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="" android:name="com.google.android.finsky.billing.refund.RequestRefundActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:name="com.google.android.finsky.download.MimeTypeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/vnd.android.obb"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/vnd.android.package-delta"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/content_filter_title" android:name="com.google.android.finsky.activities.ContentFilterActivity" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:label="@string/content_filters2_title" android:name="com.google.android.finsky.activities.ContentFiltersActivity2" android:theme="@style/SettingsTheme"/>
+        <activity android:label="@string/purchase_auth_dialog_label" android:name="com.google.android.finsky.activities.PurchaseAuthActivity" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:name="com.google.android.finsky.activities.WebViewDialog" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:icon="@drawable/ic_locked_holo_light" android:name="com.google.android.finsky.activities.PinEntryDialog" android:theme="@style/FinskyLightDialogWithTitleTheme" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:name="com.google.android.finsky.activities.AccessRestrictedActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:label="@string/topup_choose_amount" android:name="com.google.android.finsky.billing.storedvalue.StoredValueTopUpActivity" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:label="@string/switch_family_instrument" android:name="com.google.android.finsky.billing.switchfamilyinstrument.SwitchFamilyInstrumentActivity" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:name="com.google.android.finsky.uninstall.UninstallManagerActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <provider android:authorities="com.google.android.finsky.RecentSuggestionsProvider" android:exported="false" android:name="com.google.android.finsky.providers.RecentSuggestionsProvider"/>
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.android.vending"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.vending.GCMIntentService"/>
+        <receiver android:exported="true" android:name="com.google.android.finsky.receivers.TosAckedReceiver" android:permission="com.android.vending.TOS_ACKED">
+            <intent-filter>
+                <action android:name="com.android.vending.TOS_ACKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.finsky.download.DownloadBroadcastReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETED"/>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.DownloadTickleReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="INSTALL_ASSET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.DeclineAssetReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="DECLINE_ASSET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.ConsumptionAppDataChangedReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.play.CONTENT_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.ClearCacheReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.google.android.finsky.activities.LaunchUrlHandlerActivity" android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="details" android:path="" android:scheme="market"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.google.android.finsky.receivers.ExpireLaunchUrlReceiver"/>
+        <activity android:name="com.google.android.finsky.activities.AppCrashProxy" android:noHistory="true" android:taskAffinity=":feedback" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.APP_ERROR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.android.finsky.activities.TosActivity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.google.android.finsky.activities.AddressChallengeActivity" android:theme="@style/LightDialogWhenLarge" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.google.android.finsky.activities.WebViewChallengeActivity" android:theme="@style/LightDialogWhenLarge" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.google.android.finsky.activities.GaiaAuthActivity" android:theme="@style/FinskyLightDialogTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/settings" android:name="com.google.android.finsky.activities.SettingsActivity" android:theme="@style/SettingsTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/menu_debug_settings" android:name="com.google.android.finsky.activities.DebugActivity" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:name="com.google.android.finsky.setup.SetupWizardRestoreAppsActivity" android:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" android:screenOrientation="behind" android:theme="@style/SetupWizardTheme.Light" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:name="com.google.android.finsky.setup.SetupWizardFinalHoldActivity" android:permission="com.android.vending.setup.PLAY_SETUP_SERVICE" android:screenOrientation="behind" android:theme="@style/SetupWizardTheme.Light" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.google.android.finsky.activities.ScreenshotsActivity" android:screenOrientation="behind" android:theme="@style/Fullscreen.NoBackground"/>
+        <activity android:label="@string/app_name" android:name="com.google.android.finsky.activities.ScreenshotsActivityV2" android:theme="@style/PhotoViewTheme.NoActionBar"/>
+        <activity android:name="com.google.android.finsky.activities.FlagItemDialog" android:theme="@style/LightDialogWhenLarge"/>
+        <activity android:label="@string/details_reviews" android:name="com.google.android.finsky.activities.ReviewsActivity" android:theme="@style/LightDialogWhenLarge"/>
+        <activity android:name="com.google.android.finsky.activities.MultiInstallActivity" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:exported="true" android:label="@string/family_member_settings_title" android:name="com.google.android.finsky.activities.FamilyMemberSettingsActivity" android:theme="@style/UnicornTheme"/>
+        <receiver android:enabled="false" android:name="com.google.android.finsky.receivers.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.BillingTickleReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.android.vending.billing.IN_APP_NOTIFY"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.finsky.billing.iab.PendingNotificationsService"/>
+        <service android:name="com.google.android.finsky.services.LicensingService" android:permission="com.android.vending.CHECK_LICENSE">
+            <intent-filter>
+                <action android:name="com.android.vending.licensing.ILicensingService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.RestoreService"/>
+        <service android:name="com.google.android.finsky.services.VpaService"/>
+        <service android:name="com.google.android.finsky.services.ContentSyncService"/>
+        <service android:name="com.google.android.finsky.services.DailyHygiene"/>
+        <service android:name="com.google.android.finsky.services.LoadConsumptionDataService"/>
+        <service android:name="com.google.android.finsky.services.FetchConsumptionDataService"/>
+        <service android:name="com.google.android.finsky.wear.WearSupportService"/>
+        <service android:name="com.google.android.finsky.wear.WearChangeListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="false" android:name="com.google.android.finsky.receivers.AccountsChangedReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.RemoveAssetReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="REMOVE_ASSET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.receivers.ServerNotificationReceiver" android:permission="com.android.vending.INTENT_VENDING_ONLY">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="SERVER_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.finsky.billing.iab.MarketBillingService">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.MarketBillingService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.billing.iab.InAppBillingService">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.billing.iab.FirstPartyInAppBillingService">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.FirstPartyInAppBillingService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.billing.BillingAccountService" android:permission="com.android.vending.billing.BILLING_ACCOUNT_SERVICE">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.IBillingAccountService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.setup.PlaySetupService" android:permission="com.android.vending.setup.PLAY_SETUP_SERVICE">
+            <intent-filter>
+                <action android:name="com.android.vending.setup.IPlaySetupService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.MarketCatalogService">
+            <intent-filter>
+                <action android:name="com.google.android.finsky.services.IMarketCatalogService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.ReviewsService">
+            <intent-filter>
+                <action android:name="com.android.vending.reviews.IReviewsService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.ContentFiltersService">
+            <intent-filter>
+                <action android:name="com.android.vending.contentfilters.IContentFiltersService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.DetailsService">
+            <intent-filter>
+                <action android:name="com.android.vending.details.IDetailsService.BIND"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.android.finsky.services.DismissRecommendationService"/>
+        <service android:exported="false" android:name="com.google.android.finsky.services.LoadRecommendationsService"/>
+        <receiver android:exported="false" android:name="com.google.android.finsky.receivers.FetchRecommendationsReceiver"/>
+        <service android:exported="false" android:name="com.google.android.finsky.receivers.FlushLogsReceiver$FlushLogsService"/>
+        <receiver android:exported="false" android:name="com.google.android.finsky.receivers.FlushLogsReceiver"/>
+        <receiver android:icon="@mipmap/ic_launcher_play_store" android:label="@string/widget_apps" android:name="com.android.vending.MarketWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/app_name" android:name="com.google.android.finsky.widget.WidgetConfigurationActivity" android:theme="@style/FinskyLightDialogWithTitleTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.finsky.widget.MarketWidgetTrampolineActivity" android:theme="@style/TrampolineTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="@bool/now_playing_widgets_enabled" android:icon="@mipmap/ic_launcher_play_store" android:label="@string/widget_now_playing_family" android:name="com.google.android.finsky.widget.consumption.NowPlayingWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE"/>
+                <action android:name="com.android.vending.action.APPWIDGET_UPDATE_CONSUMPTION_DATA"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/now_playing_widget_info"/>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.android.finsky.widget.consumption.EnableAppReceiver"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.finsky.widget.consumption.NowPlayingTrampoline" android:taskAffinity=":configureTrampoline" android:theme="@style/TrampolineTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.finsky.widget.consumption.MyLibraryTrampoline" android:taskAffinity=":configureTrampoline" android:theme="@style/TrampolineTheme"/>
+        <receiver android:enabled="@bool/recommendation_widgets_enabled" android:icon="@mipmap/ic_launcher_play_store" android:label="@string/widget_recommended" android:name="com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.android.launcher.action.APPWIDGET_DEFAULT_WORKSPACE_CONFIGURE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/recommendation_widget_info"/>
+        </receiver>
+        <service android:name="com.google.android.finsky.widget.recommendation.RecommendationsViewService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.finsky.widget.recommendation.RecommendedTrampoline" android:theme="@style/TrampolineTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.google.android.finsky.widget.recommendation.OpenRecommendationReceiver"/>
+        <receiver android:name="com.google.android.finsky.receivers.UpdateWidgetsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.finsky.action.TOC_SET"/>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.finsky.widget.AdvanceFlipperReceiver"/>
+        <receiver android:name="com.google.android.vending.verifier.PackageVerificationReceiver" android:permission="android.permission.BIND_PACKAGE_VERIFIER">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_NEEDS_VERIFICATION"/>
+                <action android:name="android.intent.action.PACKAGE_VERIFIED"/>
+                <data android:mimeType="application/vnd.android.package-archive"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.android.vending.verifier.VerifyInstalledPackagesReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.vending.verifier.intent.action.VERIFY_INSTALLED_PACKAGES"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.vending.verifier.intent.action.REMOVAL_REQUEST_RESPONSE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.vending.verifier.PackageVerificationService"/>
+        <service android:exported="false" android:name="com.google.android.vending.verifier.PackageVerificationLoggingService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:enabled="@bool/verification_activity_enable" android:excludeFromRecents="true" android:icon="@drawable/ic_google_settings" android:label="@string/verify_app_chooser_label" android:name="com.google.android.vending.verifier.PackageVerificationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.INSTALL_PACKAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/vnd.android.package-archive"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSTALL_PACKAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.vending.verifier.PackageWarningDialog" android:noHistory="true" android:taskAffinity="" android:theme="@style/FinskyLightDialogTheme"/>
+        <activity android:excludeFromRecents="true" android:name="com.google.android.vending.verifier.ConsentDialog" android:noHistory="true" android:taskAffinity="" android:theme="@style/FinskyLightDialogTheme"/>
+        <service android:exported="false" android:name="com.google.android.finsky.installer.MultiUserCoordinatorService" android:singleUser="true"/>
+        <service android:exported="false" android:name="com.google.android.social.api.service.PlusApiService"/>
+        <service android:exported="false" android:name="com.google.android.social.api.service.PlusInternalService">
+            <intent-filter>
+                <action android:name="com.android.vending.GOOGLE_PLUS_API"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.google.android.finsky.receivers.NotificationReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.NEW_UPDATE_CLICKED"/>
+                <action android:name="com.android.vending.SUCCESSFULLY_INSTALLED_CLICKED"/>
+                <action android:name="com.android.vending.SUCCESSFULLY_UPDATED_CLICKED"/>
+                <action android:name="com.android.vending.SUCCESSFULLY_UPDATED_DELETED"/>
+                <action android:name="com.android.vending.OUTSTANDING_UPDATE_CLICKED"/>
+                <action android:name="com.android.vending.NEW_UPDATE_NEED_APPROVAL_CLICKED"/>
+                <action android:name="com.android.vending.PREREGISTRATION_RELEASED_CLICKED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.finsky.autoupdate.ReschedulerUsingAlarmManager$CheckWifiAndAutoUpdate"/>
+        <service android:exported="false" android:name="com.google.android.finsky.autoupdate.ReschedulerUsingJobScheduler$CheckPreconditionsAndAutoUpdateJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$PowerBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$WifiBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.finsky.autoupdate.ReschedulerUsingBroadcast$AutoUpdateRecheckForBroadcast"/>
+        <service android:exported="true" android:name="com.google.android.finsky.services.PlayGearheadService" android:permission="com.google.android.finsky.permission.GEARHEAD_SERVICE"/>
+        <service android:exported="true" android:name="com.google.android.finsky.services.PlayAfwAppService">
+            <intent-filter>
+                <action android:name="com.google.android.finsky.BIND_PLAY_AFW_APP_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.android.finsky.services.AdIdListener">
+            <intent-filter>
+                <action android:name="com.google.android.gms.ads.identifier.BIND_LISTENER"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.android.finsky.utils.ExternalReferrer$ExternalReferrerService"/>
+        <service android:exported="false" android:name="com.google.android.finsky.utils.PermissionPolicies$PermissionPolicyService"/>
+        <activity android:label="RecyclerViewTestActivity" android:name="android.support.v7.widget.TestActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/>
+        <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.wallet.instrumentmanager.ui.redirect.PopupRedirectActivity" android:theme="@style/Theme.InstrumentManager.PopupRedirect.Light"/>
+    </application>
+</manifest>

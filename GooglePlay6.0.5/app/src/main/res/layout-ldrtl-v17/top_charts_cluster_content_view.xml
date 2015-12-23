@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.TopChartsClusterContentView android:id="@id/top_charts_cluster_content_id" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:finsky="http://schemas.android.com/apk/res-auto">
+    <com.google.android.play.image.FifeImageView android:id="@id/promo_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" finsky:fixed_bounds="true" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/top_charts_cluster_title_padding" android:paddingEnd="@dimen/top_charts_cluster_title_padding">
+        <TextView android:textColor="@color/play_white" android:id="@id/top_charts_content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/PlayImageClusterTitle" />
+        <TextView android:textSize="@dimen/top_charts_cluster_content_subtitle_text_size" android:textColor="@color/play_white" android:id="@id/top_charts_content_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/top_charts_cluster_content_subtitle_text_bottom_margin" style="@style/PlayImageClusterSubtitle" />
+        <include layout="@layout/action_button" />
+    </LinearLayout>
+</com.google.android.finsky.layout.play.TopChartsClusterContentView>

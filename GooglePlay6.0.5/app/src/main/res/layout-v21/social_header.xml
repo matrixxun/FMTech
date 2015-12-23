@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlaySocialHeader android:id="@id/social_header" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.play.PlayAvatarPack android:id="@id/avatar_pack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionGroup="true" finsky:primary_avatar_size="@dimen/play_profile_avatar_size" />
+</com.google.android.finsky.layout.play.PlaySocialHeader>

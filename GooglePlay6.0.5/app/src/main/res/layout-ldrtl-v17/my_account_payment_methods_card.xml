@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.MyAccountPaymentMethodsCard android:id="@id/payment_methods_card" style="@style/MyAccountCard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:text="@string/payment_methods" style="@style/MyAccountCardTitle" />
+        <ImageView android:id="@id/dot_notification" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:src="@drawable/play_dot_notification" android:layout_alignParentTop="true" android:contentDescription="@string/play_dot_notification_content_description" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/play_medium_size" android:textColor="@color/play_secondary_text" android:id="@id/dot_notification_description" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_marginBottom="12.0dip" android:text="@string/my_account_complete_account_description" android:layout_below="@id/title" android:layout_marginStart="@dimen/my_account_row_xpadding" android:layout_marginEnd="@dimen/my_account_row_xpadding" style="@style/PlayPlainText" />
+    </RelativeLayout>
+    <include layout="@layout/my_account_separator" />
+    <include android:visibility="gone" layout="@layout/page_loading_indicator" />
+    <include android:visibility="gone" layout="@layout/error_indicator" />
+    <FrameLayout android:id="@id/profile" android:paddingTop="@dimen/my_account_separator_ypadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/instruments" layout="@layout/payment_methods_instruments" />
+        <include android:id="@id/actions" android:visibility="gone" layout="@layout/payment_methods_actions" />
+    </FrameLayout>
+</com.google.android.finsky.layout.MyAccountPaymentMethodsCard>

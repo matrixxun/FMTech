@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/verbose_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true" style="@style/SetupWizardLightText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

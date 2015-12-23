@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayCardRateClusterView android:orientation="vertical" android:paddingTop="@dimen/play_cluster_vpadding" android:paddingBottom="@dimen/play_cluster_vpadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <include layout="@layout/play_card_cluster_header" />
+    <TextView android:id="@id/empty_done" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rate_all_done" android:drawableTop="@drawable/ic_empty_rate" android:drawablePadding="12.0dip" style="@style/PlayEmptyTitle" />
+    <com.google.android.finsky.layout.play.PlayCardRateClusterViewContent android:id="@id/cluster_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.google.android.finsky.layout.play.PlayCardRateClusterView>

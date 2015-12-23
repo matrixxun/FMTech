@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AddInstrumentBodyTextAddressSnippet" parent="@style/AddInstrumentBodyTextPrimary">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AddInstrumentBodyTextPrimary">
+        <item name="android:textSize">@dimen/content_generic_large_size</item>
+    </style>
+    <style name="AddInstrumentBodyTextSecondary">
+        <item name="android:textSize">@dimen/content_generic_small_size</item>
+    </style>
+    <style name="FinskyProgressSmallInverse" parent="@android:style/Widget.Holo.Light.ProgressBar.Small.Inverse" />
+    <style name="PlaySearchPlateNavigationButton">
+        <item name="android:paddingTop">13.0dip</item>
+        <item name="android:paddingBottom">13.0dip</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:transformPivotX">28.0dip</item>
+        <item name="android:transformPivotY">24.0dip</item>
+    </style>
+    <style name="SetupWizardButtonContainer" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:measureWithLargestChild">true</item>
+    </style>
+    <style name="FinskyInstrumentManagerButtonBarContainerSetupWizard">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+    </style>
+    <style name="FinskyInstrumentManagerFormInputTextAppearanceSetupWizard">
+        <item name="android:textSize">@dimen/setup_wizard_content_text_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="FinskyInstrumentManagerFormTitleTextAppearanceSetupWizard" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_purchase_secondary_size</item>
+    </style>
+    <style name="FinskyInstrumentManagerInfoMessageTextAppearanceSetupWizard">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorLink">?android:textColorPrimary</item>
+    </style>
+    <style name="FinskyInstrumentManagerLoginHelpTextAppearanceSetupWizard">
+        <item name="android:textSize">@dimen/play_purchase_secondary_size</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:textColorLink">@color/play_fg_secondary</item>
+    </style>
+</resources>

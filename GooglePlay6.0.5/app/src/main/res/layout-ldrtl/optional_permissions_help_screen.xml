@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/optional_permissions_help_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/content_entry_large_size" android:textStyle="bold" android:textColor="@color/play_fg_primary" android:paddingTop="20.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/optional_permissions_help_screen_banner_text" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/content_generic_large_size" android:textColor="@color/play_fg_secondary" android:id="@id/optional_permissions_help_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+    </ScrollView>
+    <include layout="@layout/button_bar" />
+</LinearLayout>

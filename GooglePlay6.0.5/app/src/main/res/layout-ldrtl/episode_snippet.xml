@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.EpisodeSnippet android:id="@id/episode_snippet" android:focusable="true" android:nextFocusRight="@id/buy_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/collapsed_content" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/base_new_row_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_fg_tertiary" android:gravity="center" android:id="@id/episode_number" android:layout_width="@dimen/listing_row_index_size" android:layout_height="@dimen/listing_row_index_size" android:layout_alignParentTop="true" android:layout_centerVertical="true" style="@style/PlayPlainText" />
+        <com.google.android.play.layout.PlayActionButton android:gravity="center" android:id="@id/buy_button" android:visibility="visible" android:nextFocusLeft="@id/episode_snippet" android:layout_marginTop="0.0dip" android:layout_alignBaseline="@id/episode_title" android:layout_centerVertical="true" style="@style/DetailsPage_SmallActionButton" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/episode_extra_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/buy_button" android:layout_centerVertical="true">
+            <ImageView android:id="@id/added_drawable" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_added_tv" />
+            <TextView android:textSize="@dimen/content_generic_small_size" android:textColor="@color/play_movies_secondary_text" android:id="@id/added_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/consumption_item_added" />
+        </LinearLayout>
+        <com.google.android.play.layout.PlayTextView android:textSize="@dimen/content_generic_medium_size" android:textColor="@color/play_fg_primary" android:id="@id/episode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" finsky:allowsCompactLineSpacing="true" style="@style/PlayPlainText" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/expanded_content_stub" android:layout="@layout/expanded_episode_snippet" android:inflatedId="@id/expanded_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/collapsed_content" />
+</com.google.android.finsky.layout.EpisodeSnippet>

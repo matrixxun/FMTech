@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsExpandedFrame android:id="@id/details_expanded_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/left_bar" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <com.google.android.finsky.layout.scroll.GestureScrollView android:id="@id/details_expanded_scroller" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <com.google.android.finsky.layout.DetailsExpandedContainer android:orientation="vertical" android:id="@id/details_expanded_container" android:background="@color/white" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_listing_section_extra_padding" android:paddingEnd="@dimen/details_listing_section_extra_padding">
+            <TextView android:id="@id/details_expanded_callout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:paddingStart="@dimen/details_text_callout_padding" android:paddingEnd="@dimen/details_text_callout_padding" style="@style/PlayDetailDescriptionCallout" />
+            <include android:id="@id/body_container1" layout="@layout/details_text_block" />
+            <include android:id="@id/body_container2" layout="@layout/details_text_block" />
+            <LinearLayout android:orientation="vertical" android:id="@id/details_expanded_extras" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/details_text_section_padding" android:paddingEnd="@dimen/details_text_section_padding" />
+        </com.google.android.finsky.layout.DetailsExpandedContainer>
+    </com.google.android.finsky.layout.scroll.GestureScrollView>
+    <View android:id="@id/right_bar" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+</com.google.android.finsky.layout.DetailsExpandedFrame>

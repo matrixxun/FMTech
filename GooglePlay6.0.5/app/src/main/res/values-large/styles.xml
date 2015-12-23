@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Dialog.FixedSize" />
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.Dialog.FixedSize" />
+    <style name="LightDialogWhenLarge" parent="@style/Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="uicDelegateToSupportLibAlertDialog">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

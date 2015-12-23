@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s cirklar</item>
+        <item quantity="one">%1$s cirkel</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Ditt betyg: %1$s stjärnor</item>
+        <item quantity="one">Ditt betyg: %1$s stjärna</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d recensioner</item>
+        <item quantity="one">%1$d recension</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d recensioner för betyget %2$d stjärnor</item>
+        <item quantity="one">%1$d recension för betyget %2$d stjärnor</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s enligt %2$s recensioner</item>
+        <item quantity="one">%1$s enligt %2$s recension</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d har markerats</item>
+        <item quantity="one">%1$d har markerats</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d uppdateringar måste godkännas</item>
+        <item quantity="one">%1$d uppdatering måste godkännas</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nya uppdateringar</item>
+        <item quantity="one">%1$d ny uppdatering</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Det finns %1$d uppdateringar</item>
+        <item quantity="one">Det finns %1$d uppdatering</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Uppdatera alla</item>
+        <item quantity="one">Uppdatera</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d appar uppdaterades</item>
+        <item quantity="one">%1$d app uppdaterades</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärnor</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärna</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärnor – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärna – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärnor – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjärna – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d användare tyckte att den här recensionen var till hjälp. Markera kommentaren som användbar</item>
+        <item quantity="one">%1$d användare tyckte att den här recensionen var till hjälp. Markera kommentaren som användbar</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d användare tyckte att den här recensionen var till hjälp. Ta bort markeringen att kommentaren är användbar</item>
+        <item quantity="one">%1$d användare tyckte att den här recensionen var till hjälp. Ta bort markeringen att kommentaren är användbar</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Har gett betyget &amp;lt;b>%1$s stjärnor&amp;lt;/b></item>
+        <item quantity="one">Har gett betyget &amp;lt;b>%1$s stjärna&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">I %1$s recensioner</item>
+        <item quantity="one">i %1$s recension</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s stjärnor&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s stjärna&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Det går inte att läsa in objekt. Testa en annan säkerhetskopia.</item>
+        <item quantity="one">Det går inte att läsa in objekt. Försök igen senare.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Användes senast för %1$d dagar sedan</item>
+        <item quantity="one">Användes senast för %1$d dag sedan</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Valda appar</item>
+        <item quantity="one">Vald app</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stjärnor</item>
+        <item quantity="one">stjärna</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s personer säger detta</item>
+        <item quantity="one">%1$s person säger detta</item>
+    </plurals>
+</resources>

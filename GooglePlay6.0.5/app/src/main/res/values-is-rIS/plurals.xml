@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s hringir</item>
+        <item quantity="one">%1$s hringur</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Þín einkunn: %1$s stjörnur</item>
+        <item quantity="one">Þín einkunn: %1$s stjarna</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d umsagnir</item>
+        <item quantity="one">%1$d umsögn</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d umsagnir fyrir stjörnugjöfina %2$d</item>
+        <item quantity="one">%1$d umsögn fyrir stjörnugjöfina %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s úr %2$s umsögnum</item>
+        <item quantity="one">%1$s úr %2$s umsögn</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d valin</item>
+        <item quantity="one">%1$d valið</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d uppfærslur þarfnast samþykkis</item>
+        <item quantity="one">%1$d uppfærsla þarfnast samþykkis</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d nýjar uppfærslur</item>
+        <item quantity="one">%1$d ný uppfærsla</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d uppfærslur í boði</item>
+        <item quantity="one">%1$d uppfærsla í boði</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Uppfæra allt</item>
+        <item quantity="one">Uppfæra allt</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d forrit uppfærð</item>
+        <item quantity="one">%1$d forrit uppfært</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjörnur</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjarna</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjörnur – %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjarna – %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjörnur – %3$s – %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s stjarna – %3$s – %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d notendum fannst þessi umsögn gagnleg. Merkja ummæli sem gagnleg</item>
+        <item quantity="one">%1$d notanda fannst þessi umsögn gagnleg. Merkja ummæli sem gagnleg</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d notendum fannst þessi umsögn gagnleg. Merkja ummæli sem ógagnleg</item>
+        <item quantity="one">%1$d notanda fannst þessi umsögn gagnleg. Merkja ummæli sem ógagnleg</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">&amp;lt;b>%1$s stjörnur&amp;lt;/b> í einkunn</item>
+        <item quantity="one">&amp;lt;b>%1$s stjarna&amp;lt;/b> í einkunn</item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">í %1$s umsögnum</item>
+        <item quantity="one">í %1$s umsögn</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s stjörnur&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s stjarna&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Ekki hægt að hlaða atriði. Prófaðu annað afrit.</item>
+        <item quantity="one">Ekki hægt að hlaða atriði. Prófaðu annað afrit.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Síðast notað fyrir %1$d dögum</item>
+        <item quantity="one">Síðast notað fyrir %1$d degi</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Valin forrit</item>
+        <item quantity="one">Valið forrit</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">stjörnur</item>
+        <item quantity="one">stjarna</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s aðilar hafa þetta að segja</item>
+        <item quantity="one">%1$s aðili hefur þetta að segja</item>
+    </plurals>
+</resources>

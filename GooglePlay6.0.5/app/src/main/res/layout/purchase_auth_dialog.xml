@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="18.0dip" android:paddingTop="8.0dip" android:paddingRight="18.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/always" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/purchase_auth_value_always" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/session" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/purchase_auth_value_session" />
+                <RadioButton android:textSize="@dimen/content_generic_large_size" android:id="@id/never" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/purchase_auth_value_never" />
+            </RadioGroup>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/purchase_auth_underage_disclaimer" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="end" android:id="@id/cancel" android:background="@drawable/play_highlight_overlay_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" style="?attr/buttonBarPositiveButtonStyle" />
+    </FrameLayout>
+</LinearLayout>

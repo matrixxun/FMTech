@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.play.PlayQuickLinksBannerItemCircleView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/quicklinks_banner_item_min_width" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.play.image.FifeImageView android:gravity="center" android:id="@id/li_icon" android:layout_width="@dimen/quicklinks_image_size" android:layout_height="@dimen/quicklinks_image_size" android:layout_marginTop="@dimen/quicklinks_image_vmargin" android:layout_marginBottom="@dimen/quicklinks_image_vmargin" android:scaleType="fitCenter" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/li_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" style="@style/QuicklinksCircleTitle" />
+</com.google.android.finsky.layout.play.PlayQuickLinksBannerItemCircleView>

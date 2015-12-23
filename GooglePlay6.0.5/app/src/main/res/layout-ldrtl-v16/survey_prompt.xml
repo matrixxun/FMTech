@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.CardFrameLayout android:layout_gravity="bottom" android:id="@id/survey_prompt" android:padding="@dimen/play_collection_edge_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:playCardBackgroundColor="@color/play_multi_secondary" finsky:playCardInset="@dimen/play_collection_edge_padding" style="@style/PlayCardViewGroup"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <RelativeLayout android:id="@id/take_survey" android:background="@drawable/play_highlight_round_overlay_dark" android:focusable="true" android:nextFocusRight="@id/decline_survey_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_prompt_store_bag" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/play_large_size" android:textColor="@color/survey_prompt_title_fg" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_prompt_title_search_results" android:singleLine="true" />
+            <TextView android:textSize="@dimen/play_small_title_size" android:textColor="@color/survey_prompt_subtitle_fg" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/decline_survey_button" android:background="@drawable/play_highlight_overlay_dark" android:focusable="true" android:nextFocusLeft="@id/take_survey" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_prompt_dismiss" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/content_description_decline_survey" />
+    </RelativeLayout>
+</com.google.android.finsky.layout.CardFrameLayout>

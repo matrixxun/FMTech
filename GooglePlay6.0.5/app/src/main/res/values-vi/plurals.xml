@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s vòng kết nối</item>
+        <item quantity="one">%1$s vòng kết nối</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Xếp hạng của bạn: %1$s sao</item>
+        <item quantity="one">Xếp hạng của bạn: %1$s sao</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d bài đánh giá</item>
+        <item quantity="one">%1$d bài đánh giá</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d bài đánh giá với xếp hạng %2$d sao</item>
+        <item quantity="one">%1$d bài đánh giá với xếp hạng %2$d sao</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s từ %2$s bài đánh giá</item>
+        <item quantity="one">%1$s từ %2$s bài đánh giá</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+        <item quantity="one">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d bản cập nhật cần phê duyệt</item>
+        <item quantity="one">%1$d bản cập nhật cần phê duyệt</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d bản cập nhật mới</item>
+        <item quantity="one">%1$d bản cập nhật mới</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">Hiện có %1$d bản cập nhật</item>
+        <item quantity="one">Hiện có %1$d bản cập nhật</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Cập nhật tất cả</item>
+        <item quantity="one">Cập nhật</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d ứng dụng đã được cập nhật</item>
+        <item quantity="one">%1$d ứng dụng đã được cập nhật</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s sao - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d người dùng thấy bài đánh giá này hữu ích. Đánh dấu nhận xét là hữu ích</item>
+        <item quantity="one">%1$d người dùng thấy bài đánh giá này hữu ích. Đánh dấu nhận xét là hữu ích</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d người dùng thấy bài đánh giá này hữu ích. Bỏ đánh dấu nhận xét là hữu ích</item>
+        <item quantity="one">%1$d người dùng thấy bài đánh giá này hữu ích. Bỏ đánh dấu nhận xét là hữu ích</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Đã xếp hạng &amp;lt;b>%1$s sao&amp;lt;/b></item>
+        <item quantity="one">Đã xếp hạng &amp;lt;b>%1$s sao&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">trong %1$s bài đánh giá</item>
+        <item quantity="one">trong %1$s bài đánh giá</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s sao&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s sao&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Không thể tải danh sách ứng dụng. Hãy thử một danh sách sao lưu khác.</item>
+        <item quantity="one">Không thể tải danh sách ứng dụng. Hãy thử lại sau.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Sử dụng lần cuối %1$d ngày trước</item>
+        <item quantity="one">Sử dụng lần cuối %1$d ngày trước</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Ứng dụng đã chọn</item>
+        <item quantity="one">Ứng dụng đã chọn</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">sao</item>
+        <item quantity="one">sao</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s người đang thảo luận về ý kiến này</item>
+        <item quantity="one">%1$s người đang thảo luận về ý kiến này</item>
+    </plurals>
+</resources>

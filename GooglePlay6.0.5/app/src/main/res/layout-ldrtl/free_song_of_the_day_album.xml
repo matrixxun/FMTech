@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.FreeSongOfTheDayAlbumView android:orientation="vertical" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <TextView android:id="@id/header" android:focusable="false" android:layout_width="fill_parent" android:text="@string/music_from_album" style="@style/Play_DetailsPage_HeaderText" />
+    <com.google.android.play.layout.PlayCardViewMedium android:id="@id/play_card" android:focusable="true" android:nextFocusRight="@id/li_overflow" android:layout_width="fill_parent" android:layout_height="@dimen/summary_thumbnail_small_size" android:foreground="@drawable/play_highlight_round_overlay_light" finsky:card_show_inline_creator_badge="true" finsky:card_supports_subtitle_and_rating="true" style="@style/PlayCardViewGroup">
+        <com.google.android.play.layout.PlayCardThumbnail android:id="@id/li_thumbnail_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" finsky:app_thumbnail_padding="@dimen/play_featured_grid_image_margin">
+            <include android:id="@id/li_thumbnail" layout="@layout/play_card_thumbnail" />
+        </com.google.android.play.layout.PlayCardThumbnail>
+        <com.google.android.play.layout.PlayTextView android:id="@id/li_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/play_card_content_vertical_inset" android:layout_alignParentTop="true" style="@style/PlayCardTitle" />
+        <com.google.android.play.layout.PlayCardLabelView android:id="@id/li_label" android:layout_below="@id/li_title" android:layout_alignBaseline="@id/li_subtitle" style="@style/PlayCardLabel" />
+        <com.google.android.finsky.layout.DecoratedTextView android:id="@id/li_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/li_title" style="@style/PlayCardSubtitle" />
+        <com.google.android.play.layout.StarRatingBar android:id="@id/li_rating" android:layout_marginTop="2.0dip" android:layout_below="@id/li_subtitle" style="@style/PlayRatingBarSmall" />
+        <ProgressBar android:id="@id/loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/li_overflow" android:nextFocusLeft="@id/play_card" android:layout_marginTop="@dimen/play_card_overflow_top_margin" android:layout_alignTop="@id/li_title" style="@style/PlayCardOverflow" />
+    </com.google.android.play.layout.PlayCardViewMedium>
+</com.google.android.finsky.layout.FreeSongOfTheDayAlbumView>

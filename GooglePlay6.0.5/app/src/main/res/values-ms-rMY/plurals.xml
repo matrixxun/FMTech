@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s kalangan</item>
+        <item quantity="one">%1$s kalangan</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">Penilaian anda: %1$s bintang</item>
+        <item quantity="one">Penilaian anda: %1$s bintang</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">%1$d ulasan</item>
+        <item quantity="one">%1$d ulasan</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">%1$d ulasan untuk penilaian bintang %2$d</item>
+        <item quantity="one">%1$d ulasan untuk penilaian bintang %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s daripada %2$s ulasan</item>
+        <item quantity="one">%1$s daripada %2$s ulasan</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">%1$d kemas kini memerlukan kelulusan</item>
+        <item quantity="one">%1$d kemas kini memerlukan kelulusan</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">%1$d kemas kini baharu</item>
+        <item quantity="one">%1$d kemas kini baharu</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">%1$d kemas kini tersedia</item>
+        <item quantity="one">%1$d kemas kini tersedia</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">Kemaskinikan semua</item>
+        <item quantity="one">Kemas kini</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">%1$d aplikasi dikemaskinikan</item>
+        <item quantity="one">%1$d aplikasi dikemaskinikan</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> %2$s bintang - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">%1$d pengguna mendapati ulasan ini berguna. Tandai ulasan sebagai berguna</item>
+        <item quantity="one">%1$d pengguna mendapati ulasan ini berguna. Tandai ulasan sebagai berguna</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">%1$d pengguna mendapati ulasan ini berguna. Nyahtandai ulasan sebagai berguna</item>
+        <item quantity="one">%1$d pengguna mendapati ulasan ini berguna. Nyahtandai ulasan sebagai berguna</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">Menilainya &amp;lt;b>%1$s bintang&amp;lt;/b></item>
+        <item quantity="one">Menilainya &amp;lt;b>%1$s bintang&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">dalam %1$s ulasan</item>
+        <item quantity="one">dalam %1$s ulasan</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s bintang&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s bintang&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">Tidak dapat memuatkan item. Cuba sandaran lain.</item>
+        <item quantity="one">Tidak dapat memuatkan item. Cuba sebentar lagi.</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">Terakhir digunakan %1$d hari yang lalu</item>
+        <item quantity="one">Terakhir digunakan %1$d hari yang lalu</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">Apl dipilih</item>
+        <item quantity="one">Apl dipilih</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">bintang</item>
+        <item quantity="one">bintang</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">%1$s orang mengatakan ini</item>
+        <item quantity="one">%1$s orang mengatakan ini</item>
+    </plurals>
+</resources>

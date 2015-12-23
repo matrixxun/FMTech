@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AccountSelector">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">8.0dip</item>
+        <item name="android:paddingStart">@dimen/details_new_content_margin</item>
+        <item name="android:paddingEnd">@dimen/details_new_content_margin</item>
+    </style>
+    <style name="BillingProfile_SectionHeader">
+        <item name="android:textSize">@dimen/play_purchase_secondary_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/play_secondary_text</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="BundleActionButton.TextView" parent="@style/BundleActionButton">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:background">@drawable/explore_button_bg</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+    <style name="BundleInstallPreviewImage">
+        <item name="android:layout_width">@dimen/bundle_install_image_size</item>
+        <item name="android:layout_height">@dimen/bundle_install_image_size</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginStart">5.0dip</item>
+        <item name="android:layout_marginEnd">5.0dip</item>
+    </style>
+    <style name="ButtonBarButtonDefaultStyle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/play_price_small_size</item>
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/play_highlight_overlay_light</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="ButtonBarDefaultStyle" parent="@android:style/ButtonBar">
+        <item name="android:background">@color/play_transparent</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingStart">2.0dip</item>
+        <item name="android:paddingEnd">2.0dip</item>
+    </style>
+    <style name="CirclesButton" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_price_small_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/standard_button_minwidth</item>
+        <item name="android:minHeight">@dimen/play_profile_button_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">30.0dip</item>
+        <item name="android:paddingEnd">30.0dip</item>
+    </style>
+    <style name="DiscoveryBadge">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/discovery_badge_gap_half</item>
+        <item name="android:layout_marginEnd">@dimen/discovery_badge_gap_half</item>
+        <item name="mark_as_button">true</item>
+        <item name="hide_separator">true</item>
+    </style>
+    <style name="FinskyInstrumentManagerButtonBarContainer">
+        <item name="android:paddingTop">@dimen/light_purchase_dialog_footer_top_bottom_padding</item>
+        <item name="android:paddingBottom">@dimen/light_purchase_dialog_footer_top_bottom_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/light_purchase_dialog_footer_left_right_padding</item>
+        <item name="android:paddingEnd">@dimen/light_purchase_dialog_footer_left_right_padding</item>
+    </style>
+    <style name="FinskyInstrumentManagerExpandButton">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:background">@drawable/play_highlight_overlay_light</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:drawableStart">@drawable/ic_more_details_light</item>
+        <item name="android:layout_marginStart">6.0dip</item>
+    </style>
+    <style name="GiftEmailPadding">
+        <item name="android:paddingTop">@dimen/gift_email_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/gift_email_vertical_padding</item>
+        <item name="android:paddingStart">@dimen/gift_email_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/gift_email_horizontal_padding</item>
+    </style>
+    <style name="HighlightBannerSubtitle" parent="@style/HighlightBannerOverlaySubtitle">
+        <item name="android:paddingStart">@dimen/highlight_banner_xpadding</item>
+        <item name="android:paddingEnd">@dimen/highlight_banner_xpadding</item>
+    </style>
+    <style name="HighlightBannerTitle" parent="@style/HighlightBannerOverlayTitle">
+        <item name="android:paddingStart">@dimen/highlight_banner_xpadding</item>
+        <item name="android:paddingEnd">@dimen/highlight_banner_xpadding</item>
+    </style>
+    <style name="ImButtonBarContainerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">?uicFormStartEndMargin</item>
+        <item name="android:layout_marginEnd">?uicFormStartEndMargin</item>
+    </style>
+    <style name="MyAccountAction" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/content_generic_small_size</item>
+        <item name="android:textColor">@color/my_account_action_fg</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/my_account_row_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">24.0dip</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="MyAccountCard" parent="@style/PlayCardViewGroup">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/my_account_card_xpadding</item>
+        <item name="android:paddingEnd">@dimen/my_account_card_xpadding</item>
+    </style>
+    <style name="MyAccountCardTitle" parent="@style/PlayClusterTitle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/base_row_height</item>
+        <item name="android:paddingStart">@dimen/my_account_row_xpadding</item>
+        <item name="android:paddingEnd">@dimen/my_account_row_xpadding</item>
+    </style>
+    <style name="MyAccountFamilyCardRow">
+        <item name="android:paddingTop">@dimen/my_account_row_ypadding</item>
+        <item name="android:paddingBottom">@dimen/my_account_row_ypadding</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">@drawable/play_highlight_overlay_light</item>
+        <item name="android:minHeight">@dimen/my_account_row_height</item>
+        <item name="android:paddingStart">20.0dip</item>
+        <item name="android:paddingEnd">@dimen/my_account_row_xpadding</item>
+    </style>
+    <style name="MyAccountListRow">
+        <item name="android:paddingTop">@dimen/my_account_row_ypadding</item>
+        <item name="android:paddingBottom">@dimen/my_account_row_ypadding</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/my_account_row_height</item>
+        <item name="android:foreground">@drawable/play_highlight_overlay_light</item>
+        <item name="android:paddingStart">@dimen/my_account_row_xpadding</item>
+    </style>
+    <style name="MyAccountRowButton" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/content_generic_small_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/my_account_row_ypadding</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:layout_marginStart">@dimen/my_account_row_xpadding</item>
+        <item name="android:layout_marginEnd">@dimen/my_account_row_xpadding</item>
+        <item name="draw_as_label">true</item>
+    </style>
+    <style name="MyAccountThumbnail">
+        <item name="android:paddingTop">@dimen/my_account_row_ypadding</item>
+        <item name="android:layout_width">@dimen/my_account_thumbnail_size</item>
+        <item name="android:layout_height">@dimen/my_account_thumbnail_size</item>
+        <item name="android:paddingEnd">@dimen/my_account_row_xpadding</item>
+    </style>
+    <style name="OnboardButton" parent="@style/PlayMediumBoldText">
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/play_white_action_button_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">@dimen/onboard_open_button_min_width</item>
+        <item name="android:minHeight">@dimen/onboard_open_button_min_height</item>
+        <item name="android:paddingStart">@dimen/play_action_button_xpadding</item>
+        <item name="android:paddingEnd">@dimen/play_action_button_xpadding</item>
+    </style>
+    <style name="OnboardText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_onboard__onboard_v2_tutorial_page_title_text_size</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">@dimen/play_onboard__onboard_v2_tutorial_page_title_extra_line_spacing</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="PaymentMethodsRowEditButton" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/content_generic_small_size</item>
+        <item name="android:textColor">@color/my_account_action_fg</item>
+        <item name="android:background">@drawable/play_highlight_overlay_light</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="PlatformMalwareDialogText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/content_generic_medium_size</item>
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="PlayAdLabelBaseline" parent="@style/PlayMediumPlainText">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:background">@drawable/play_ad_label</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">3.0dip</item>
+        <item name="android:paddingEnd">3.0dip</item>
+    </style>
+    <style name="PlayCardViewGroup">
+        <item name="android:paddingTop">@dimen/play_card_default_inset</item>
+        <item name="android:paddingBottom">@dimen/play_card_default_inset</item>
+        <item name="android:paddingStart">@dimen/play_card_default_inset</item>
+        <item name="android:paddingEnd">@dimen/play_card_default_inset</item>
+        <item name="playCardBackgroundColor">@color/play_card_light_background</item>
+        <item name="playCardCornerRadius">@dimen/play_card_default_radius</item>
+        <item name="playCardElevation">@dimen/play_card_default_elevation</item>
+        <item name="playCardInset">@dimen/play_card_default_inset</item>
+        <item name="playCardClipToOutline">true</item>
+    </style>
+    <style name="PlayClusterMore" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_cluster_header_more_size</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:paddingTop">@dimen/play_cluster_header_more_top_padding</item>
+        <item name="android:paddingBottom">@dimen/play_cluster_header_more_bottom_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/play_cluster_header_more_xpadding</item>
+        <item name="android:paddingEnd">@dimen/play_cluster_header_more_xpadding</item>
+        <item name="playCardBackgroundColor">@color/play_card_light_background</item>
+        <item name="playCardCornerRadius">@dimen/play_action_button_corner</item>
+        <item name="playCardElevation">1.0dip</item>
+        <item name="playCardInset">0.0dip</item>
+        <item name="playCardClipToOutline">true</item>
+    </style>
+    <style name="PlayDetailsTextTitle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/content_generic_small_size</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:paddingStart">@dimen/details_text_section_padding</item>
+        <item name="android:paddingEnd">@dimen/details_text_section_padding</item>
+    </style>
+    <style name="PlayDrawerAccountAvatar">
+        <item name="android:layout_width">@dimen/play_drawer_account_avatar_size</item>
+        <item name="android:layout_height">@dimen/play_drawer_account_avatar_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="PlayDrawerBaseText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/play_drawer_primary_size</item>
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/play_highlight_overlay_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/play_drawer_item_primary_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
+        <item name="android:paddingStart">@dimen/play_drawer_item_left_padding</item>
+        <item name="android:paddingEnd">@dimen/play_drawer_item_right_padding</item>
+    </style>
+    <style name="PlayEduCardDescription" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_edu_body_size</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:paddingStart">@dimen/play_edu_main_content_padding</item>
+        <item name="android:paddingEnd">@dimen/play_edu_main_content_padding</item>
+        <item name="allowsCompactLineSpacing">true</item>
+    </style>
+    <style name="PlayEduCardTitle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">@dimen/play_edu_title_size</item>
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.05</item>
+        <item name="android:paddingStart">@dimen/play_edu_main_content_padding</item>
+        <item name="android:paddingEnd">@dimen/play_edu_main_content_padding</item>
+    </style>
+    <style name="PlayHappinessSurveyPrompt" parent="@style/PlayCardViewGroup">
+        <item name="android:paddingTop">@dimen/play_happiness_survey_v2_padding</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">@dimen/play_happiness_survey_v2_padding</item>
+        <item name="android:paddingEnd">@dimen/play_happiness_survey_v2_padding</item>
+        <item name="playCardBackgroundColor">@color/play_white</item>
+        <item name="playCardCornerRadius">@dimen/play_happiness_survey_v2_card_radius</item>
+        <item name="playCardElevation">@dimen/play_happiness_survey_v2_elevation</item>
+        <item name="playCardInset">@dimen/play_happiness_survey_v2_card_inset</item>
+    </style>
+    <style name="PlayHeaderListTabScrollview">
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="PlayHeaderListTabText" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_header_list_text_size</item>
+        <item name="android:textColor">@color/play_header_list_tab_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/play_header_list_tab_padding_side</item>
+        <item name="android:paddingEnd">@dimen/play_header_list_tab_padding_side</item>
+    </style>
+    <style name="PlayImageClusterSubtitle" parent="@style/PlayClusterSubtitle">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingStart">@dimen/play_follow_cluster_text_padding</item>
+        <item name="android:paddingEnd">@dimen/play_follow_cluster_text_padding</item>
+    </style>
+    <style name="PlayImageClusterTitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_person_follow_cluster_header_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/play_follow_cluster_title_top_margin</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/play_follow_cluster_text_padding</item>
+        <item name="android:paddingEnd">@dimen/play_follow_cluster_text_padding</item>
+    </style>
+    <style name="PlayOnboardNavFooterButton">
+        <item name="android:textAppearance">@style/PlayCardAction</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/play_onboard_dark_button_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingStart">@dimen/play_onboard__onboard_nav_footer_button_padding</item>
+        <item name="android:paddingEnd">@dimen/play_onboard__onboard_nav_footer_button_padding</item>
+    </style>
+    <style name="PlayOnboardSimpleQuizCardListView">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">#ffeeeeee</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:paddingStart">@dimen/play_onboard__onboard_simple_quiz_list_side_padding</item>
+        <item name="android:paddingEnd">@dimen/play_onboard__onboard_simple_quiz_list_side_padding</item>
+    </style>
+    <style name="PlayPromoCardClusterView" parent="@style/PlayCardViewGroup">
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="PlaySearchPlate">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingStart">@dimen/play_search_plate_padding_side</item>
+        <item name="android:paddingEnd">@dimen/play_search_plate_padding_side</item>
+    </style>
+    <style name="PlaySearchPlateNavigationButton">
+        <item name="android:paddingTop">13.0dip</item>
+        <item name="android:paddingBottom">13.0dip</item>
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:transformPivotX">28.0dip</item>
+        <item name="android:transformPivotY">24.0dip</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="PlaySearchPlateTextContainer">
+        <item name="android:layout_marginStart">@dimen/play_search_plate_text_container_margin</item>
+        <item name="android:layout_marginEnd">@dimen/play_search_plate_text_container_margin</item>
+    </style>
+    <style name="Play_DetailsPage_HeaderText" parent="@style/PlayLightText">
+        <item name="android:textSize">@dimen/play_details_section_title_size</item>
+        <item name="android:textColor">@color/play_primary_text</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/play_cluster_header_height</item>
+        <item name="android:lineSpacingExtra">1.0sp</item>
+        <item name="android:paddingStart">@dimen/details_content_margin</item>
+        <item name="android:paddingEnd">@dimen/details_content_margin</item>
+    </style>
+    <style name="Play_DetailsPage_SubheaderText" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_details_subtitle_size</item>
+        <item name="android:textColor">@color/play_fg_secondary</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">1.0sp</item>
+        <item name="android:paddingStart">@dimen/details_content_margin</item>
+        <item name="android:paddingEnd">@dimen/details_content_margin</item>
+    </style>
+    <style name="Play_Purchase_TextViewButton" parent="@style/Play_Purchase_Button">
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="ProfileActionButtonBase" parent="@style/PlayPlainText">
+        <item name="android:textSize">@dimen/play_price_small_size</item>
+        <item name="android:textColor">@color/play_fg_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="QuicklinksPillTitle" parent="@style/PlayCardAction">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="QuicklinksPillView">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:foreground">@drawable/play_highlight_overlay_dark</item>
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:paddingStart">6.0dip</item>
+        <item name="android:paddingEnd">6.0dip</item>
+    </style>
+    <style name="SetupWizardAppsRowEntry">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeightSmall</item>
+        <item name="android:drawablePadding">10.0dip</item>
+        <item name="android:drawableStart">?android:listChoiceIndicatorMultiple</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_apps_row_xpadding</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_apps_row_xpadding</item>
+    </style>
+    <style name="SetupWizardCardTitle" parent="@style/SetupWizardTitle">
+        <item name="android:paddingTop">@dimen/setup_wizard_card_title_top_padding</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_card_title_left_padding</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_card_title_right_padding</item>
+    </style>
+    <style name="SetupWizardContentFrame">
+        <item name="android:paddingTop">@dimen/setup_wizard_content_top_padding</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_content_xpadding</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_content_xpadding</item>
+    </style>
+    <style name="SetupWizardHeaderTitle" parent="@style/SetupWizardTitle">
+        <item name="android:paddingTop">@dimen/setup_wizard_header_title_top_padding</item>
+        <item name="android:paddingBottom">@dimen/setup_wizard_header_title_bottom_padding</item>
+        <item name="android:lineSpacingExtra">@dimen/setup_wizard_header_title_line_spacing_extra</item>
+        <item name="android:paddingStart">@dimen/setup_wizard_header_title_xpadding</item>
+        <item name="android:paddingEnd">@dimen/setup_wizard_header_title_xpadding</item>
+    </style>
+    <style name="SetupWizardListDialogTitle">
+        <item name="android:textSize">@dimen/setup_wizard_dialog_title_size</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+        <item name="android:paddingStart">26.0dip</item>
+        <item name="android:paddingEnd">26.0dip</item>
+    </style>
+    <style name="SetupWizardNavbar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?setup_wizard_navbar_bg_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="SetupWizardNavbarButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?setup_wizard_navbar_text_color</item>
+        <item name="android:background">@drawable/setup_wizard_navbar_btn_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="WarmWelcomeV2CardAction" parent="@style/PlayMediumBoldText">
+        <item name="android:textSize">@dimen/play_card_action_size</item>
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="playAccessibilityClassOverride">android.widget.Button</item>
+    </style>
+    <style name="WarmWelcomeV2CardDescription" parent="@style/PlayEduCardDescription">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:paddingStart">@dimen/warm_welcome_v2_card_text_padding</item>
+        <item name="android:paddingEnd">@dimen/warm_welcome_v2_card_text_padding</item>
+    </style>
+    <style name="WarmWelcomeV2CardTitle" parent="@style/PlayEduCardTitle">
+        <item name="android:textColor">@color/play_white</item>
+        <item name="android:paddingStart">@dimen/warm_welcome_v2_card_text_padding</item>
+        <item name="android:paddingEnd">@dimen/warm_welcome_v2_card_text_padding</item>
+    </style>
+    <style name="WidgetTitleText" parent="@style/PlayLightText">
+        <item name="android:textSize">@dimen/widget_title_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:paddingStart">4.0dip</item>
+    </style>
+    <style name="FinskyInstrumentManagerButtonBarContainerSetupWizard">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:layout_marginStart">@dimen/setup_wizard_im_form_start_end_margin</item>
+        <item name="android:layout_marginEnd">@dimen/setup_wizard_im_form_start_end_margin</item>
+    </style>
+</resources>

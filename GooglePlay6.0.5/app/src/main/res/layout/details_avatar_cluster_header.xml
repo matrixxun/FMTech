@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.DetailsAvatarClusterHeader android:id="@id/cluster_header" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/play_highlight_overlay_dark" finsky:min_header_height="@dimen/play_cluster_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <com.google.android.finsky.layout.play.CircularBackgroundView android:id="@id/cluster_image" android:layout_width="fill_parent" android:layout_height="@dimen/hero_image_height" android:layout_marginTop="@dimen/details_talent_entry_avatar_peek" android:scaleType="centerCrop" finsky:fixed_bounds="true" />
+    <com.google.android.play.image.FifeImageView android:id="@id/avatar" android:focusable="true" android:layout_width="@dimen/play_profile_avatar_size" android:layout_height="@dimen/play_profile_avatar_size" android:scaleType="fitStart" android:layout_centerHorizontal="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cluster_title" android:paddingBottom="@dimen/details_talent_entry_title_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.google.android.finsky.layout.DecoratedTextView android:textColor="@color/play_white" android:layout_gravity="center" android:id="@id/header_title_main" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:singleLine="true" android:drawablePadding="4.0dip" style="@style/PlayClusterTitle" />
+        <TextView android:textColor="@color/play_fg_tertiary" android:layout_gravity="center" android:id="@id/header_title_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:maxLines="1" android:singleLine="true" style="@style/Play_DetailsPage_SubheaderText" />
+    </LinearLayout>
+    <com.google.android.finsky.layout.play.CardTextView android:id="@id/header_more" style="@style/PlayClusterMore" />
+</com.google.android.finsky.layout.DetailsAvatarClusterHeader>

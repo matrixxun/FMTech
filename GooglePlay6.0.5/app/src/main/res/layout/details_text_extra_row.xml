@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.SeparatorLinearLayout android:orientation="horizontal" android:paddingTop="@dimen/details_text_section_extras_padding" android:paddingBottom="@dimen/details_text_section_extras_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" finsky:separator_position="top"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.detailspage.CreatorAvatarCardClusterModuleLayoutV2 android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:finsky="http://schemas.android.com/apk/res/com.android.vending">
+    <View android:id="@id/cover_fill" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.finsky.layout.FadingEdgeImageView android:id="@id/cover_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" finsky:fixed_bounds="true" />
+    <com.google.android.play.image.FifeImageView android:id="@id/avatar_image" android:layout_width="@dimen/creator_avatar_size" android:layout_height="@dimen/creator_avatar_size" android:scaleType="fitStart" android:layout_centerHorizontal="true" finsky:fixed_bounds="true" finsky:is_avatar="true" />
+    <com.google.android.finsky.layout.DecoratedTextView android:textColor="@color/play_white" android:layout_gravity="center" android:id="@id/title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:singleLine="true" android:drawablePadding="4.0dip" android:paddingStart="@dimen/creator_avatar_text_left_right_padding" android:paddingEnd="@dimen/creator_avatar_text_left_right_padding" style="@style/PlayClusterTitle" />
+    <TextView android:gravity="center" android:id="@id/more_button" android:background="@drawable/more_button_shape" android:minWidth="@dimen/creator_avatar_more_button_min_width" android:minHeight="@dimen/creator_avatar_more_button_min_height" android:paddingStart="@dimen/creator_avatar_more_button_left_right_padding" android:paddingEnd="@dimen/creator_avatar_more_button_left_right_padding" style="@style/PlayClusterMore" />
+    <include android:id="@id/bucket_row" layout="@layout/card_cluster_module_row" />
+</com.google.android.finsky.detailspage.CreatorAvatarCardClusterModuleLayoutV2>

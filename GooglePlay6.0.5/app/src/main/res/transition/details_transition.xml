@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet>
+        <changeBounds />
+        <changeTransform />
+        <changeClipBounds />
+        <changeImageTransform />
+        <fade />
+        <arcMotion />
+        <targets>
+            <target />
+            <target />
+        </targets>
+    </transitionSet>
+    <transitionSet>
+        <fade />
+        <targets>
+            <target />
+            <target />
+        </targets>
+    </transitionSet>
+</transitionSet>

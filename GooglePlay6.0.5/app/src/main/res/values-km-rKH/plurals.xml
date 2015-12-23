@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="circles_multiple">
+        <item quantity="other">%1$s រង្វង់</item>
+        <item quantity="one">%1$s រង្វង់</item>
+    </plurals>
+    <plurals name="content_description_rated">
+        <item quantity="other">ការវាយតម្លៃរបស់អ្នក៖ ផ្កាយ %1$s</item>
+        <item quantity="one">ការវាយតម្លៃរបស់អ្នក៖ ផ្កាយ %1$s</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_review_count">
+        <item quantity="other">យោបល់ %1$d</item>
+        <item quantity="one">យោបល់ %1$d</item>
+    </plurals>
+    <plurals name="content_description_review_histogram_row">
+        <item quantity="other">យោបល់ %1$d សម្រាប់ការវាយតម្លៃផ្កាយ %2$d</item>
+        <item quantity="one">យោបល់ %1$d សម្រាប់ការវាយតម្លៃផ្កាយ %2$d</item>
+    </plurals>
+    <plurals name="content_description_review_tip_review_count">
+        <item quantity="other">%1$s ពី %2$s យោបល់</item>
+        <item quantity="one">%1$s ពី %2$s យោបល់</item>
+    </plurals>
+    <plurals name="my_apps_selected">
+        <item quantity="other">បានជ្រើស %1$d</item>
+        <item quantity="one">បានជ្រើស %1$d</item>
+    </plurals>
+    <plurals name="notification_need_approval_message">
+        <item quantity="other">ការអាប់ដេត %1$d តម្រូវឲ្យមានការយល់ព្រម</item>
+        <item quantity="one">ការអាប់ដេត %1$d តម្រូវឲ្យមានការយល់ព្រម</item>
+    </plurals>
+    <plurals name="notification_new_updates_available_message">
+        <item quantity="other">បច្ចុប្បន្នភាពថ្មី %1$d</item>
+        <item quantity="one">បច្ចុប្បន្នភាពថ្មី %1$d</item>
+    </plurals>
+    <plurals name="notification_outstanding_updates_message">
+        <item quantity="other">មានការអាប់ដេត %1$d</item>
+        <item quantity="one">មានការអាប់ដេត %1$d</item>
+    </plurals>
+    <plurals name="notification_update_all_button_text">
+        <item quantity="other">ការអាប់ដេតទាំងអស់</item>
+        <item quantity="one">ការអាប់ដេត</item>
+    </plurals>
+    <plurals name="notification_update_success_message">
+        <item quantity="other">បានអាប់ដេតកម្មវិធី %1$d</item>
+        <item quantity="one">បានអាប់ដេតកម្មវិធី %1$d</item>
+    </plurals>
+    <plurals name="review_author_stars">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s - %3$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s - %3$s</item>
+    </plurals>
+    <plurals name="review_author_stars_title_comment">
+        <item quantity="other">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s - %3$s - %4$s</item>
+        <item quantity="one">&amp;lt;b>%1$s&amp;lt;/b> ផ្កាយ %2$s - %3$s - %4$s</item>
+    </plurals>
+    <plurals name="review_feedback_helpful_icon_description">
+        <item quantity="other">អ្នកប្រើ %1$d នាក់គិតថាយោបល់នេះមានប្រយោជន៍។ សម្គាល់មតិយោបល់ថាមានប្រយោជន៍</item>
+        <item quantity="one">អ្នកប្រើ %1$d នាក់គិតថាយោបល់នេះមានប្រយោជន៍ សម្គាល់មតិយោបល់ថាមានប្រយោជន៍</item>
+    </plurals>
+    <plurals name="review_feedback_unmark_helpful_icon_description">
+        <item quantity="other">អ្នកប្រើ %1$d នាក់គិតថាយោបល់នេះមានប្រយោជន៍។ ដកសម្គាល់មតិយោបល់ថាមានប្រយោជន៍</item>
+        <item quantity="one">អ្នកប្រើ %1$d នាក់គិតថាយោបល់នេះមានប្រយោជន៍ ដកសម្គាល់មតិយោបល់ថាមានប្រយោជន៍</item>
+    </plurals>
+    <plurals name="review_just_stars">
+        <item quantity="other">បានវាយតម្លៃ&amp;lt;b>ផ្កាយ %1$s&amp;lt;/b></item>
+        <item quantity="one">បានវាយតម្លៃ&amp;lt;b>ផ្កាយ %1$s&amp;lt;/b></item>
+    </plurals>
+    <plurals name="review_snippet_count">
+        <item quantity="other">ក្នុងយោបល់ %1$s</item>
+        <item quantity="one">ក្នុងយោបល់ %1$s</item>
+    </plurals>
+    <plurals name="review_stars_title">
+        <item quantity="other">&amp;lt;b>ផ្កាយ %1$s&amp;lt;/b> %2$s</item>
+        <item quantity="one">&amp;lt;b>ផ្កាយ %1$s&amp;lt;/b> %2$s</item>
+    </plurals>
+    <plurals name="setup_wizard_apps_loading_error_menu_title">
+        <item quantity="other">មិនអាចដំណើរការធាតុទេ។ សាកល្បងធ្វើការបម្រុងទុកផ្សេងទៀត។</item>
+        <item quantity="one">មិនអាចដំណើរការធាតុទេ។ ព្យាយាមម្តងទៀតពេលក្រោយ។</item>
+    </plurals>
+    <plurals name="setup_wizard_device_last_used_message">
+        <item quantity="other">ប្រើចុងក្រោយ %1$d ថ្ងៃមុន</item>
+        <item quantity="one">ប្រើចុងក្រោយ %1$d ថ្ងៃមុន</item>
+    </plurals>
+    <plurals name="setup_wizard_selected_apps">
+        <item quantity="other">កម្មវិធីដែលបានជ្រើស</item>
+        <item quantity="one">កម្មវិធីដែលបានជ្រើស</item>
+    </plurals>
+    <plurals name="stars_without_numbers">
+        <item quantity="other">ផ្កាយ</item>
+        <item quantity="one">ផ្កាយ</item>
+    </plurals>
+    <plurals name="tip_header_subtitle">
+        <item quantity="other">មនុស្ស %1$s នាក់កំពុងនិយាយពីវា</item>
+        <item quantity="one">មនុស្ស %1$s នាក់កំពុងនិយាយពីវា</item>
+    </plurals>
+</resources>
