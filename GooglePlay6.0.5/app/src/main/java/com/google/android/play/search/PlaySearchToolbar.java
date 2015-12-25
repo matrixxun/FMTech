@@ -22,6 +22,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewAnimationUtils;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+
+import com.android.vending.R;
 import com.google.android.play.R.dimen;
 import com.google.android.play.R.layout;
 import com.google.android.play.image.BitmapLoader;
@@ -530,8 +532,12 @@ public class PlaySearchToolbar
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.play.search.PlaySearchToolbar
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.play.search.PlaySearchToolbar
+
+ * JD-Core Version:    0.7.0.1
+
  */

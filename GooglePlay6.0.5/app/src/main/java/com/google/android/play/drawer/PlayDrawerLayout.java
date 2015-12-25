@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Build.VERSION;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout.DrawerListener;
@@ -18,6 +19,8 @@ import android.view.ViewGroup;
 import android.view.WindowInsets;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.android.vending.R;
 import com.google.android.finsky.protos.DocV2;
 import com.google.android.play.R.dimen;
 import com.google.android.play.R.drawable;
@@ -323,8 +326,12 @@ public class PlayDrawerLayout
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.play.drawer.PlayDrawerLayout
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.play.drawer.PlayDrawerLayout
+
+ * JD-Core Version:    0.7.0.1
+
  */

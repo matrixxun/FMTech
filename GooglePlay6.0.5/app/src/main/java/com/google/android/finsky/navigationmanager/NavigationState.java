@@ -16,14 +16,14 @@ public class NavigationState
   public final int pageType;
   public final String url;
   
-  NavigationState(int paramInt, String paramString1, String paramString2)
+  NavigationState(int paramInt, String paramString1, String url)
   {
     this.pageType = paramInt;
     if (paramString1 == null) {
       paramString1 = Integer.toString((int)(2147483646.0D * Math.random()));
     }
     this.backstackName = paramString1;
-    this.url = paramString2;
+    this.url = url;
   }
   
   public int describeContents()
@@ -74,8 +74,12 @@ public class NavigationState
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.navigationmanager.NavigationState
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.navigationmanager.NavigationState
+
+ * JD-Core Version:    0.7.0.1
+
  */

@@ -162,8 +162,7 @@
     <color name="play_header_list_tab_underline_color">#ffffffff</color>
     <color name="play_highlight_blue_fill">#8033b5e5</color>
     <color name="play_highlight_blue_outline">#ff0099cc</color>
-    <color name="play_highlight_grey_fill_dark">#40cccccc</color>
-    <color name="play_highlight_grey_fill_light">#33999999</color>
+
     <color name="play_main_background">#ffeeeeee</color>
     <color name="play_movies_light">#ffff8a80</color>
     <color name="play_movies_primary">#ffed3b3b</color>
@@ -172,7 +171,8 @@
     <color name="play_movies_secondary">#ffd23f31</color>
     <color name="play_multi_light">#ff90a4ae</color>
     <color name="play_multi_primary">#ff455a64</color>
-    <color name="play_multi_primary_disabled">#80455a64</color>
+    <color name="play_multi_primary_disabled">#80455a64</color><color name="play_highlight_grey_fill_dark">#40cccccc</color>
+    <color name="play_highlight_grey_fill_light">#33999999</color>
     <color name="play_multi_recents">#ff37474f</color>
     <color name="play_multi_secondary">#ff455a64</color>
     <color name="play_music_light">#ffffb74d</color>

@@ -52,6 +52,8 @@ import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.android.vending.R;
 import com.android.volley.AuthFailureError;
 import com.android.volley.RequestQueue;
 import com.android.volley.VolleyError;
@@ -2414,8 +2416,12 @@ public class MainActivity
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.activities.MainActivity
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.activities.MainActivity
+
+ * JD-Core Version:    0.7.0.1
+
  */

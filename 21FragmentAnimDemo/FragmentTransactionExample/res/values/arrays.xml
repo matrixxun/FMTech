@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_spinner">
+        <item>X轴缩放</item>
+        <item>Y轴缩放</item>
+        <item>XY轴绽放</item>
+        <item>淡入淡出</item>
+        <item>水平翻页</item>
+        <item>垂直翻页</item>
+        <item>垂直滑动</item>
+        <item>水平滑动</item>
+        <item>向上推的水平滑动</item>
+        <item>向左推的垂直滑动</item>
+        <item>交叉的滑动</item>
+        <item>会隐藏的滑动</item>
+        <item>弹出</item>
+        <item>魔方</item>
+        <item>向下旋转</item>
+        <item>向上旋转</item>
+        <item>手风琴</item>
+        <item>水平翻转</item>
+        <item>垂直翻转</item>
+        <item>左角落放大</item>
+        <item>右角落放大</item>
+    </string-array>
+
+</resources>
