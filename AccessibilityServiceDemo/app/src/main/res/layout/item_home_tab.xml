@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fmtech.empf.ui.component.ItemHomeTab xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/home_tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_home_tab_bottom"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:drawablePadding="0dp"
+        android:scaleType="matrix"
+        android:drawableTop="@drawable/home_tab_personal_account"
+        android:textColor="@color/item_home_tab_color"
+        android:text="Personal\nAccount"/>
+
+    <com.fmtech.empf.ui.component.MessageReminder
+        android:id="@+id/home_tab_message_reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/home_tab_title"
+        android:layout_marginRight="-10dp"
+        android:layout_marginTop="3dp"
+        android:minWidth="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/bg_message_reminder">
+
+        <TextView
+            android:id="@+id/home_tab_message_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:text="99"/>
+
+        <TextView
+            android:id="@+id/home_tab_message_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:includeFontPadding="false"
+            android:text="+"
+            android:visibility="visible"
+            android:textColor="#ffFFFFFF"
+            android:textSize="13sp" />
+        <!--android:layout_marginTop="-3dp"-->
+    </com.fmtech.empf.ui.component.MessageReminder>
+</com.fmtech.empf.ui.component.ItemHomeTab>

@@ -1,0 +1,2 @@
+include ':app', ':SlidingMenuLibrary'
+project(':SlidingMenuLibrary').projectDir = new File('ExtraLibs/SlidingMenuLibrary')

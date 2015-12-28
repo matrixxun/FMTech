@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/down_arrow.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_back.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_back_white.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_menu_white.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_myaccount.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_myaccount_selected.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_person.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_web_back.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navigation_dot_normal.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navigation_dot_pressed.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/navigation_dot_selected.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/screen.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-v16" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dim_screen_confirmation_dialog.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dimming_overlay_exit_instruction.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/keyboard_shortcut_dialog.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/label_addedit_dialog.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/suspend_talkback_dialog.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_context_menu_button.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_context_menu_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_global_menu_button.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_key_combo_preference_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_key_list_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/switch_access_overlay_layout.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/web_activity.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/bools.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/donottranslate.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/integers.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings_apps.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings_tutorial.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/switchaccess_arrays.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/switchaccess_donottranslate.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/switchaccess_strings.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/switchaccess_styles.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/symbols.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/vibration.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/gesture_preferences.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/key_combo_preferences.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/switch_access_accessibilityservice.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/switch_access_preferences.xml" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

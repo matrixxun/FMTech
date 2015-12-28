@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--From Google Play-->
+    <color name="play_fg_primary">#ff212121</color>
+    <color name="play_disabled_grey">#ffd0d0d0</color>
+    <color name="play_highlight_blue_fill">#8033b5e5</color>
+    <color name="play_highlight_blue_outline">#ff0099cc</color>
+    <color name="play_highlight_grey_fill_dark">#40cccccc</color>
+    <color name="play_highlight_grey_fill_light">#33999999</color>
+
+    <!--From Google Play End-->
+
+    <color name="colorPrimary">#ff0097a7</color>
+    <color name="colorPrimaryDark">#ff0097a7</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="divider_color">#20ffffff</color>
+    <color name="title_color">#ff33b5e5</color>
+    <color name="accessibility_touch_guard">#66000000</color>
+    <color name="message_reminder_bg">#F24444</color>
+    <!-- For radial menu -->
+    <color name="center_fill">#D333</color>
+    <color name="center_text_fill">#FEEE</color>
+
+    <color name="outer_fill">#D333</color>
+    <color name="text_fill">#FEEE</color>
+
+    <color name="corner_fill">#D333</color>
+    <color name="corner_text_fill">#FEEE</color>
+
+    <color name="gradient_inner">#0000</color>
+    <color name="gradient_outer">#C000</color>
+
+    <color name="selection_fill">#FF40A5DA</color>
+    <color name="selection_text_fill">#FFFF</color>
+    <color name="selection_shadow">#9FFF</color>
+
+    <color name="submenu_overlay">#30F0</color>
+
+    <color name="dot_fill">#8333</color>
+    <color name="dot_stroke">#8FFF</color>
+
+    <color name="text_shadow">#A000</color>
+
+    <color name="light_gray">#DDDDDD</color>
+    <!-- end radial menu -->
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <dimen name="dot_size">20dp</dimen>
+    <dimen name="drawer_max_width">320.0dip</dimen>
+    <dimen name="play_drawer_primary_size">14.0sp</dimen>
+    <dimen name="play_drawer_item_left_padding">16.0dip</dimen>
+    <dimen name="play_drawer_item_right_padding">16.0dip</dimen>
+    <dimen name="play_drawer_item_primary_min_height">48.0dip</dimen>
+    <dimen name="play_highlight_outline_thickness">1.0dip</dimen>
+
+    <dimen name="text_size_home_tab_bottom">11sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="app_icon_size">56dip</dimen>
+    <dimen name="screen_margin_sides">64dip</dimen>
+    <dimen name="screen_margin_top">72dip</dimen>
+    <dimen name="screen_margin_bottom">48dip</dimen>
+    <dimen name="title_height">48dip</dimen>
+    <dimen name="content_margin_left">16dip</dimen>
+    <dimen name="button_bar_height">48dip</dimen>
+    <dimen name="tutorial_button_max_width">150dip</dimen>
+    <dimen name="search_text_font_size">30dp</dimen>
+
+    <!-- for radial menu -->
+    <dimen name="inner_radius">72dp</dimen>
+    <dimen name="outer_radius">80dp</dimen>
+    <dimen name="corner_radius">64dp</dimen>
+    <dimen name="extreme_radius">128dp</dimen>
+    <dimen name="spacing">2dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="text_shadow_radius">4dp</dimen>
+    <dimen name="shadow_radius">4dp</dimen>
+    <!-- end radial menu -->
+
+    <dimen name="dim_screen_bottom_offset">96dp</dimen>
+
+    <dimen name="tts_overlay_text_padding">8dp</dimen>
+    <dimen name="tts_overlay_text_bottom_margin">12dp</dimen>
+</resources>

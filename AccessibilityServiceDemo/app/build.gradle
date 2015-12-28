@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId 'com.fmtech.accessibilityservicedemo'
+        minSdkVersion 21
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+//        signingConfig signingConfigs.releaseKey
+    }
+//    signingConfigs{
+//        releaseKey {
+//            storeFile file('fmtech_release.keystore')
+//            storePassword "150783"
+//            keyAlias "fmtech"
+//            keyPassword "150783"
+//        }
+//        debugKey {
+//            storeFile file('fmtech_debug.keystore')
+//            storePassword "150783"
+//            keyAlias "fmtech"
+//            keyPassword "150783"
+//        }
+//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':SlidingMenuLibrary')
+    compile 'com.android.support:design:23.1.0'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+    compile 'com.google.android.gms:play-services-ads:8.1.0'
+}

@@ -11,6 +11,7 @@ import com.google.android.finsky.adapters.CardRecyclerViewAdapter;
 import com.google.android.finsky.adapters.EmptyRecyclerViewAdapter;
 import com.google.android.finsky.adapters.MyWishlistRecyclerViewAdapter;
 import com.google.android.finsky.analytics.FinskyEventLog;
+import com.google.android.finsky.analytics.PlayStore;
 import com.google.android.finsky.analytics.PlayStore.PlayStoreUiElement;
 import com.google.android.finsky.api.DfeApi;
 import com.google.android.finsky.api.model.ContainerList;
@@ -226,8 +227,12 @@ public final class MyWishlistFragment
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.activities.mywishlist.MyWishlistFragment
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.activities.mywishlist.MyWishlistFragment
+
+ * JD-Core Version:    0.7.0.1
+
  */

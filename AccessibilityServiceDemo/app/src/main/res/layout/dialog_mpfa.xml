@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9d000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_dialog_mpfa_title"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Dialog TITLE"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_dialog_mpfa_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="Dialog message content, show the detail of message.Copyright (C) 2015 MPFA All Rights Reserved.\n Please feel free to contact us!"/>
+
+            <Button
+                android:id="@+id/btn_dialog_mpfa1"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_background"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:text="Confirm"/>
+
+            <Button
+                android:id="@+id/btn_dialog_mpfa2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_above="@id/btn_dialog_mpfa1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"
+                android:background="@drawable/btn_background"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:text="Contact MPFA"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

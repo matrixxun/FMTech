@@ -5,6 +5,7 @@ import android.accounts.AccountManager;
 import android.content.Context;
 import android.text.TextUtils;
 import com.google.android.finsky.FinskyApp;
+import com.google.android.finsky.config.PreferenceFile;
 import com.google.android.finsky.config.PreferenceFile.SharedPreference;
 import com.google.android.finsky.utils.Utils;
 import com.google.android.gms.common.GooglePlayServicesUtil;
@@ -269,8 +270,12 @@ public final class AccountHandler
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.api.AccountHandler
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.api.AccountHandler
+
+ * JD-Core Version:    0.7.0.1
+
  */

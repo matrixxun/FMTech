@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Build.VERSION;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -1105,8 +1106,12 @@ public class NavigationManager
   public static abstract interface UsesGenericTransition {}
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.navigationmanager.NavigationManager
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.navigationmanager.NavigationManager
+
+ * JD-Core Version:    0.7.0.1
+
  */

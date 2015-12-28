@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/common_titlebar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:textColor="@android:color/white"
+                android:text="1"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_selected"
+                android:textColor="@android:color/white"
+                android:text="2"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:textColor="@android:color/white"
+                android:text="3"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:textColor="@android:color/white"
+                android:text="4"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="ENFORCE PASSWORD"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="First password must be changed. Password combination need to be at least six numbers,letters and punctuation marks like(! and &#038;)."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="* is a mandatory field"/>
+
+        <EditText
+            android:id="@+id/et_new_first_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:hint="Enter new first password*"
+            android:textColorHint="#ffbdbdbd"
+            android:background="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/et_confirm_new_first_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:hint="Re-enter new first password*"
+            android:textColorHint="#ffbdbdbd"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="Your password must be at least 6 characters"/>
+
+        <EditText
+            android:id="@+id/et_new_second_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:hint="Enter new second password*"
+            android:textColorHint="#ffbdbdbd"
+            android:background="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/et_confirm_new_second_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:hint="Re-enter new second password*"
+            android:textColorHint="#ffbdbdbd"
+            android:background="@android:color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <!--<Button-->
+            <!--style="@style/Style_MPFAButton"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="22dp"-->
+            <!--android:text="Skip"/>-->
+
+        <Button
+            style="@style/Style_MPFAButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Next"/>
+    </LinearLayout>
+
+</RelativeLayout>

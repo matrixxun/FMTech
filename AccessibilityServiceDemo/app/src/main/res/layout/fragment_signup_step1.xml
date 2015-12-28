@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <include layout="@layout/common_titlebar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_selected"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/dot_background_normal"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NTRODUCTORY AND AGREEMENT"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="[Introduction]
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Aenean congue ornare
+congue. Aliquam tincidunt hendrerit." />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="20dp"
+                android:text="T&#038;C]
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Aenean
+congue ornare congue. Aliquam
+tincidunt hendrerit.Lorem ipsum dolor
+sit amet, consectetur adipiscing elit.
+Aenean congue ornare congue.
+Aliquam tincidunt hendrerit.Lorem
+ipsum dolor sit amet, consectetur
+adipiscing elit. Aenean congue
+ornare congue. Aliquam tincidunt
+hendrerit.Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Aenean
+congue ornare congue. Aliquam
+tincidunt hendrerit." />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I had read, understood and agreed to
+the above registration procedures,
+Terms of Use Condition, Personal Information Collection Statement and
+the Privacy Policy Statement."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/Style_MPFAButton"
+            android:id="@+id/signup"
+            android:layout_marginTop="48dp"
+            android:text="Agree"/>
+
+        <Button
+            style="@style/Style_MPFAButton"
+            android:id="@+id/login"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="22dp"
+            android:onClick="toLogin"
+            android:text="Cancel"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="drawer_layout">false</item>
+    <item type="id" name="drawer_root">false</item>
+    <item type="id" name="content_frame">false</item>
+    <item type="id" name="outer_content_frame">false</item>
+    <item type="id" name="toolbar">false</item>
+</resources>
