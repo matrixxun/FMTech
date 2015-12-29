@@ -10,7 +10,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.fmtech.empf.util.DimenUtils;
+import com.fmtech.empf.utils.DimenUtils;
 import com.fmtech.accessibilityservicedemo.R;
 
 /**

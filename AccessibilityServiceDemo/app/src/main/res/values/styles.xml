@@ -111,4 +111,15 @@
     <style name="PlayDrawerDisabledText" parent="@style/PlayDrawerRegularText">
         <item name="android:textColor">@color/play_disabled_grey</item>
     </style>
+
+    <style name="DrawerList">
+        <item name="android:background">@color/play_white</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:cacheColorHint">@color/play_white</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
 </resources>

@@ -7,7 +7,7 @@
     <color name="play_highlight_blue_outline">#ff0099cc</color>
     <color name="play_highlight_grey_fill_dark">#40cccccc</color>
     <color name="play_highlight_grey_fill_light">#33999999</color>
-
+    <color name="play_white">#ffffffff</color>
     <!--From Google Play End-->
 
     <color name="colorPrimary">#ff0097a7</color>

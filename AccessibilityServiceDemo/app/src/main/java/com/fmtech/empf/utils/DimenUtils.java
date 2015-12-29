@@ -1,4 +1,4 @@
-package com.fmtech.empf.util;
+package com.fmtech.empf.utils;
 
 import android.content.Context;
 

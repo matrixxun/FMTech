@@ -10,19 +10,28 @@ import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.View;
 
+import com.fmtech.empf.image.BitmapLoader;
 import com.fmtech.empf.ui.activities.LoginActivity;
 import com.fmtech.empf.ui.component.MPFADialog;
+import com.fmtech.empf.ui.component.actionbar.ActionBarController;
+import com.fmtech.empf.ui.component.actionbar.ActionBarHelper;
 import com.fmtech.empf.ui.fragments.HomeFragment;
 import com.fmtech.empf.ui.fragments.LoginSignupFragment;
 import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.ui.fragments.PageFragmentHost;
+import com.fmtech.empf.ui.navigationmanager.NavigationManager;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ActionBarController ,PageFragmentHost {
 
     public int MY_DATA_CHECK_CODE = 0;
     private int mClickCount = 0;
     private MPFADialog mDialog;
     private Toolbar mToolbar;
     private DrawerLayout mDrawerLayout;
+    public boolean mStateSaved;
+    public NavigationManager mNavigationManager;
+    protected ActionBarHelper mActionBarHelper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,9 +42,19 @@ public class MainActivity extends AppCompatActivity {
 //        checkTTSIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
 //        startActivityForResult(checkTTSIntent, MY_DATA_CHECK_CODE);
 
+        initNavigationManager();
+        initActionBarHelper();
         initViews();
         initActionBar();
         setUpFragments();
+    }
+
+    private void initNavigationManager(){
+        mNavigationManager = new NavigationManager(this);
+    }
+
+    private void initActionBarHelper(){
+        mActionBarHelper = new ActionBarHelper(mNavigationManager, this, this);
     }
 
     protected void initViews(){
@@ -96,5 +115,108 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         return super.onKeyDown(keyCode, event);
+    }
+
+    @Override
+    protected void onDestroy() {
+        mNavigationManager.mActivity = null;
+        super.onDestroy();
+    }
+
+    /***************Methods implements from ActionBarController****************/
+    @Override
+    public void disableActionBarOverlay() {
+
+    }
+
+    @Override
+    public void disableStatusBarOverlay() {
+
+    }
+
+    @Override
+    public void enableActionBarOverlay() {
+
+    }
+
+    @Override
+    public void enableStatusBarOverlay() {
+
+    }
+
+    @Override
+    public void enterActionBarSearchMode() {
+
+    }
+
+    @Override
+    public void exitActionBarSearchMode() {
+
+    }
+
+    @Override
+    public void exitActionBarSectionExpandedMode() {
+
+    }
+
+    @Override
+    public Toolbar getToolbar() {
+        return null;
+    }
+
+    @Override
+    public void setActionBarSearchModeListener(ActionBarSearchModeListener actionBarSearchModeListener) {
+
+    }
+
+    @Override
+    public void setHomeAsUpIndicator(int param) {
+
+    }
+
+    /***************Methods implements from PageFragmentHost****************/
+    @Override
+    public ActionBarController getActionBarController() {
+        return null;
+    }
+
+    @Override
+    public BitmapLoader getBitmapLoader() {
+        return null;
+    }
+
+    @Override
+    public NavigationManager getNavigationManager() {
+        return null;
+    }
+
+    @Override
+    public void goBack() {
+
+    }
+
+    @Override
+    public void overrideSearchBoxWidth(int paramInt) {
+
+    }
+
+    @Override
+    public void showErrorDialog(String paramString1, String paramString2, boolean paramBoolean) {
+
+    }
+
+    @Override
+    public void switchToRegularActionBar() {
+
+    }
+
+    @Override
+    public void updateActionBarTitle(String titleName) {
+        mActionBarHelper.updateDefaultTitle(titleName);
+    }
+
+    @Override
+    public void updateCurrentBackendId(int paramInt, boolean paramBoolean) {
+
     }
 }

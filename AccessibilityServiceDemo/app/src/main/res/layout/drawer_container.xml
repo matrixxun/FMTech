@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_root"
     android:layout_width="300dip"
     android:layout_height="match_parent"
     android:layout_gravity="start"
@@ -7,7 +8,7 @@
     android:fitsSystemWindows="true"
     android:background="@android:color/white">
 
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0.0dp"
         android:layout_weight="1.0"
@@ -85,11 +86,14 @@
             android:textColor="#66000000"
             android:textSize="22sp"
             android:text="Setting"/>
-        <!--<include layout="@layout/drawer_primary_action_active"/>-->
+        &lt;!&ndash;<include layout="@layout/drawer_primary_action_active"/>&ndash;&gt;
 
         <include layout="@layout/drawer_action"/>
 
-    </LinearLayout>
+    </LinearLayout>-->
+    <ListView
+        android:id="@+id/drawer_list"
+        style="@style/DrawerList"/>
 
     <LinearLayout
         android:layout_width="match_parent"

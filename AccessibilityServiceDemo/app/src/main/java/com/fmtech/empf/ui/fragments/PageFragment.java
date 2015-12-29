@@ -9,6 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.ui.component.actionbar.ActionBarController;
+import com.fmtech.empf.ui.navigationmanager.NavigationManager;
+import com.fmtech.empf.utils.CorpusResourceUtils;
+
 /**
  * ==================================================================
  * Copyright (C) 2015 FMTech All Rights Reserved.
@@ -27,9 +32,12 @@ import android.view.ViewGroup;
  * ==================================================================
  */
 
-public abstract class PageFragment extends Fragment{
+public abstract class PageFragment extends Fragment {
 
-    public PageFragment(){
+    private NavigationManager mNavigationManager;
+    private ActionBarController mActionBarController;
+
+    public PageFragment() {
 
     }
 
@@ -92,4 +100,12 @@ public abstract class PageFragment extends Fragment{
     public abstract void rebindViews();
 
     public abstract void requestData();
+
+    public int getActionBarTitleColor() {
+        return this.mContext.getResources().getColor(R.color.colorPrimary);
+    }
+
+    public int getActionBarColor() {
+        return CorpusResourceUtils.getPrimaryColor(this.mContext, 0);
+    }
 }
