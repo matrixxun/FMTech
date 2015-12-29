@@ -19,6 +19,7 @@ import com.google.android.finsky.activities.DebugActivity;
 import com.google.android.finsky.activities.MainActivity;
 import com.google.android.finsky.activities.TabbedBrowseFragment;
 import com.google.android.finsky.analytics.FinskyEventLog;
+import com.google.android.finsky.analytics.PlayStore;
 import com.google.android.finsky.analytics.PlayStore.PlayStoreUiElement;
 import com.google.android.finsky.api.AccountHandler;
 import com.google.android.finsky.api.model.DfeToc;
@@ -906,8 +907,12 @@ public class FinskyDrawerLayout
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.finsky.layout.play.FinskyDrawerLayout
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.finsky.layout.play.FinskyDrawerLayout
+
+ * JD-Core Version:    0.7.0.1
+
  */

@@ -14,6 +14,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.Switch;
 import android.widget.TextView;
+
+import com.android.vending.R;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
@@ -99,7 +101,7 @@ public final class PlayDrawerAdapter
     {
       i = R.layout.play_drawer_primary_action_active;
       if (paramView == null) {
-        break label305;
+        localView = this.mInflater.inflate(i, paramViewGroup, false);
       }
       localView = paramView;
       localTextView = (TextView)localView;
@@ -174,7 +176,7 @@ public final class PlayDrawerAdapter
       i = R.layout.play_drawer_primary_action_regular;
       break;
       label305:
-      localView = this.mInflater.inflate(i, paramViewGroup, false);
+
       break label23;
       label321:
       localDrawable1 = localResources.getDrawable(paramPlayDrawerPrimaryAction.iconResId);
@@ -628,8 +630,12 @@ public final class PlayDrawerAdapter
   }
 }
 
-
-/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
- * Qualified Name:     com.google.android.play.drawer.PlayDrawerAdapter
- * JD-Core Version:    0.7.0.1
+
+
+/* Location:           F:\apktool\apktool\Google_Play_Store6.0.5\classes-dex2jar.jar
+
+ * Qualified Name:     com.google.android.play.drawer.PlayDrawerAdapter
+
+ * JD-Core Version:    0.7.0.1
+
  */

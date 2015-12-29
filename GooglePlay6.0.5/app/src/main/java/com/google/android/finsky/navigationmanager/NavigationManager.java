@@ -65,6 +65,7 @@ import com.google.android.finsky.protos.Containers.ContainerMetadata;
 import com.google.android.finsky.protos.DocV2;
 import com.google.android.finsky.protos.Link;
 import com.google.android.finsky.protos.RateSuggestedContentResponse;
+import com.google.android.finsky.protos.ResolveLink;
 import com.google.android.finsky.protos.ResolveLink.DirectPurchase;
 import com.google.android.finsky.protos.ResolveLink.HelpCenter;
 import com.google.android.finsky.protos.ResolveLink.RedeemGiftCard;
