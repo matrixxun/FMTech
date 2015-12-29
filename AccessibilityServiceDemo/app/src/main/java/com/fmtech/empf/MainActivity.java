@@ -115,6 +115,8 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
 
     @Override
     public void onBackPressed() {
+        //TODO
+        goBack();
         super.onBackPressed();
     }
 

@@ -102,6 +102,9 @@ public class NavigationManager {
     }
 
     public final void showPage(int pageType, String url, Fragment fragment, boolean isPopBackStack, View ... views){
+        //// TODO: 2015/12/29  要显示的页面为当前页时不进行切换
+        //解决实现逻辑
+
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         //** No animation for transition. */
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_NONE);
