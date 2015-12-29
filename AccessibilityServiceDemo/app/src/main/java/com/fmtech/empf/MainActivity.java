@@ -15,6 +15,8 @@ import com.fmtech.empf.ui.activities.LoginActivity;
 import com.fmtech.empf.ui.component.MPFADialog;
 import com.fmtech.empf.ui.component.actionbar.ActionBarController;
 import com.fmtech.empf.ui.component.actionbar.ActionBarHelper;
+import com.fmtech.empf.ui.component.drawer.DrawerAdapter;
+import com.fmtech.empf.ui.component.drawer.FMDrawerLayout;
 import com.fmtech.empf.ui.fragments.HomeFragment;
 import com.fmtech.empf.ui.fragments.LoginSignupFragment;
 import com.fmtech.accessibilityservicedemo.R;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     private int mClickCount = 0;
     private MPFADialog mDialog;
     private Toolbar mToolbar;
-    private DrawerLayout mDrawerLayout;
+    private FMDrawerLayout mDrawerLayout;
     public boolean mStateSaved;
     public NavigationManager mNavigationManager;
     protected ActionBarHelper mActionBarHelper;
@@ -58,8 +60,12 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     }
 
     protected void initViews(){
-        mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+        mDrawerLayout = (FMDrawerLayout)findViewById(R.id.drawer_layout);
         mToolbar = (Toolbar)findViewById(R.id.toolbar);
+        mDrawerLayout.mNavigationManager = mNavigationManager;
+        mDrawerLayout.mDrawerAdapter = new DrawerAdapter(this, mDrawerLayout, mDrawerLayout.mDrawerList, mDrawerLayout);
+        mDrawerLayout.mDrawerList.setAdapter(mDrawerLayout.mDrawerAdapter);
+        mDrawerLayout.refesh();
     }
 
     protected void initActionBar() {
