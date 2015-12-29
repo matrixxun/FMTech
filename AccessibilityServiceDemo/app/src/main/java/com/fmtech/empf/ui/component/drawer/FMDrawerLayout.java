@@ -75,7 +75,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction homeAction = new DrawerAction("Home", true, new Runnable() {
             @Override
             public void run() {
-                //跳转到对应的界面
                 mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), true, new View[0]);
             }
         });
@@ -83,7 +82,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction tutorialsAction = new DrawerAction("Tutorials", false, new Runnable() {
             @Override
             public void run() {
-                //跳转到对应的界面
                 mNavigationManager.showPage(FragmentConfig.FRAGMENT_TUTORIALS, null, TutorialsFragment.newInstance(), true, new View[0]);
             }
         });
@@ -91,7 +89,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction newsAction = new DrawerAction("News", false, new Runnable() {
             @Override
             public void run() {
-                //跳转到对应的界面
                 mNavigationManager.showPage(FragmentConfig.FRAGMENT_NEWS, null, NewsFragment.newInstance(), true, new View[0]);
             }
         });
@@ -99,7 +96,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction securityTipsAction = new DrawerAction("Security Tips", false, new Runnable() {
             @Override
             public void run() {
-                //跳转到对应的界面
                 mNavigationManager.showPage(FragmentConfig.FRAGMENT_SECURITY_TIPS, null, SecurityTipsFragment.newInstance(), true, new View[0]);
             }
         });
@@ -107,7 +103,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction contactUsAction = new DrawerAction("Contact Us", false, new Runnable() {
             @Override
             public void run() {
-                //跳转到对应的界面
                 mNavigationManager.showPage(FragmentConfig.FRAGMENT_CONTACT_US, null, ContactUsFragment.newInstance(), true, new View[0]);
             }
         });
@@ -115,7 +110,6 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction settingAction = new DrawerAction("Setting", false, new Runnable() {
             @Override
             public void run() {
-            //跳转到对应的界面
             mNavigationManager.showPage(FragmentConfig.FRAGMENT_SETTING, null, SettingFragment.newInstance(), true, new View[0]);
             }
         });

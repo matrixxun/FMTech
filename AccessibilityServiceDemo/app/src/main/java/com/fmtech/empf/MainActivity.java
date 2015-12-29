@@ -17,9 +17,11 @@ import com.fmtech.empf.ui.component.actionbar.ActionBarController;
 import com.fmtech.empf.ui.component.actionbar.ActionBarHelper;
 import com.fmtech.empf.ui.component.drawer.DrawerAdapter;
 import com.fmtech.empf.ui.component.drawer.FMDrawerLayout;
+import com.fmtech.empf.ui.fragments.FragmentConfig;
 import com.fmtech.empf.ui.fragments.HomeFragment;
 import com.fmtech.empf.ui.fragments.LoginSignupFragment;
 import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.ui.fragments.PageFragmentHost;
 import com.fmtech.empf.ui.navigationmanager.NavigationManager;
 
@@ -80,9 +82,11 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
         mDrawerLayout.setDrawerListener(actionBarDrawerToggle);
     }
     private void setUpFragments(){
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
-                .commit();
+//        getSupportFragmentManager().beginTransaction()
+//                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
+//                .addToBackStack(null)
+//                .commit();
+        mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
     }
 
     public void toLogin(View view){
@@ -116,7 +120,14 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     @Override
     public void onBackPressed() {
         //TODO
-        goBack();
+        if(mDrawerLayout.isDrawerOpen()){
+            mDrawerLayout.closeDrawer();
+            return;
+        }
+        PageFragment activePage = this.mNavigationManager.getActivePage();
+        if(((null != activePage) && (activePage.onBackPressed())) ||(mNavigationManager.goBack())) {
+            return;
+        }
         super.onBackPressed();
     }
 

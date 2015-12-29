@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.MainActivity;
+import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.utils.MainThreadStack;
 
 import java.util.Stack;
@@ -51,17 +52,25 @@ public class NavigationManager {
         return Build.VERSION.SDK_INT >= 22;
     }
 
-    private boolean goBack(){
+    public boolean goBack(){
         if(null == mActivity || mActivity.mStateSaved){
             return false;
         }
 
-        mBackStack.pop();
-        mFragmentManager.popBackStack();
-        mBackStack.peek();
-        return true;
+        try {
+            mBackStack.pop();
+            mFragmentManager.popBackStack();
+            mBackStack.peek();
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
+    public PageFragment getActivePage(){
+        return (PageFragment)mFragmentManager.findFragmentById(R.id.drawer_root);
+    }
     private boolean isHomeHome(){
         //TODO
         return false;

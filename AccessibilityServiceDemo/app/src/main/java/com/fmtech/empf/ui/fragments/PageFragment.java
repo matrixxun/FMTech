@@ -95,6 +95,10 @@ public abstract class PageFragment extends Fragment {
         super.onDestroy();
     }
 
+    public boolean onBackPressed() {
+        return false;
+    }
+
     public abstract int getLayoutRes();
 
     public abstract void rebindViews();
