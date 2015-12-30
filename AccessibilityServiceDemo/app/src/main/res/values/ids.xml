@@ -3,6 +3,11 @@
     <item type="id" name="drawer_layout">false</item>
     <item type="id" name="drawer_root">false</item>
     <item type="id" name="content_frame">false</item>
+    <item type="id" name="placeholder_loading">false</item>
     <item type="id" name="outer_content_frame">false</item>
     <item type="id" name="toolbar">false</item>
+    <item type="id" name="page_loading_indicator">false</item>
+    <item type="id" name="action_bar_container_container">false</item>
+    <item type="id" name="action_bar_container">false</item>
+
 </resources>

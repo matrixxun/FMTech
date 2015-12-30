@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@id/toolbar"
-    android:orientation="vertical"
+<com.fmtech.empf.ui.component.layout.InsetsFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/action_bar_container_container"
     android:layout_width="match_parent"
-    android:layout_height="?attr/actionBarSize"
-    android:gravity="center"
-    android:background="?attr/colorPrimary"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    app:layout_scrollFlags="scroll|enterAlways"
-    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+    android:layout_height="wrap_content"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
 
-</android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@id/action_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+        <!--android:id="@id/action_bar"-->
+    </FrameLayout>
+</com.fmtech.empf.ui.component.layout.InsetsFrameLayout>

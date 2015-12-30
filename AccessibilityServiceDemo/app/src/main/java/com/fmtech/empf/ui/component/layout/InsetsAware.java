@@ -1,4 +1,4 @@
-package com.fmtech.empf.ui.component.drawer;
+package com.fmtech.empf.ui.component.layout;
 
 /**
  * ==================================================================
@@ -7,17 +7,17 @@ package com.fmtech.empf.ui.component.drawer;
  * @author Drew.Chiang
  * @version v1.0.0
  * @email chiangchuna@gmail.com
- * @create_date 2015/12/29 11:30
+ * @create_date 2015/12/29 20:31
  * @description ${todo}
  * <p/>
  * Modification History:
  * Date            Author            Version         Description
  * -----------------------------------------------------------------
- * 2015/12/29 11:30  Drew.Chiang       v1.0.0          create
+ * 2015/12/29 20:31  Drew.Chiang       v1.0.0          create
  * <p/>
  * ==================================================================
  */
 
-public interface DrawerContentClickListener{
-    public abstract boolean onDrawActionClicked(FMDrawerLayout.DrawerAction drawerAction);
+public interface InsetsAware {
+    public abstract boolean shouldApplyWindowInsets();
 }

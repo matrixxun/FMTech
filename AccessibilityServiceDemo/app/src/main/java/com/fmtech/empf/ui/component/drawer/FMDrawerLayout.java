@@ -82,35 +82,35 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
         DrawerAction tutorialsAction = new DrawerAction("Tutorials", false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_TUTORIALS, null, TutorialsFragment.newInstance(), true, new View[0]);
+                mNavigationManager.showPage(FragmentConfig.FRAGMENT_TUTORIALS, null, TutorialsFragment.newInstance(), false, new View[0]);
             }
         });
 
         DrawerAction newsAction = new DrawerAction("News", false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_NEWS, null, NewsFragment.newInstance(), true, new View[0]);
+                mNavigationManager.showPage(FragmentConfig.FRAGMENT_NEWS, null, NewsFragment.newInstance(), false, new View[0]);
             }
         });
 
         DrawerAction securityTipsAction = new DrawerAction("Security Tips", false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_SECURITY_TIPS, null, SecurityTipsFragment.newInstance(), true, new View[0]);
+                mNavigationManager.showPage(FragmentConfig.FRAGMENT_SECURITY_TIPS, null, SecurityTipsFragment.newInstance(), false, new View[0]);
             }
         });
 
         DrawerAction contactUsAction = new DrawerAction("Contact Us", false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_CONTACT_US, null, ContactUsFragment.newInstance(), true, new View[0]);
+                mNavigationManager.showPage(FragmentConfig.FRAGMENT_CONTACT_US, null, ContactUsFragment.newInstance(), false, new View[0]);
             }
         });
 
         DrawerAction settingAction = new DrawerAction("Setting", false, new Runnable() {
             @Override
             public void run() {
-            mNavigationManager.showPage(FragmentConfig.FRAGMENT_SETTING, null, SettingFragment.newInstance(), true, new View[0]);
+            mNavigationManager.showPage(FragmentConfig.FRAGMENT_SETTING, null, SettingFragment.newInstance(), false, new View[0]);
             }
         });
         mDrawerAdapter.mDrawerActions.add(homeAction);
