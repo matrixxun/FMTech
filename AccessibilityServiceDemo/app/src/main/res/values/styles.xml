@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
         <!--<item name="android:fitsSystemWindows">false</item>-->
     </style>
 
@@ -96,6 +96,7 @@
         <item name="android:paddingRight">@dimen/play_drawer_item_right_padding</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/play_drawer_item_top_margin</item>
         <item name="android:minHeight">@dimen/play_drawer_item_primary_min_height</item>
         <item name="android:singleLine">true</item>
         <item name="android:drawablePadding">32.0dip</item>

@@ -3,13 +3,13 @@
     android:id="@id/outer_content_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    ><!--android:fitsSystemWindows="true"-->
 
     <com.fmtech.empf.ui.component.layout.InsetsFrameLayout
         android:id="@id/content_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        ><!--android:fitsSystemWindows="true"-->
 
         <include
             android:id="@id/placeholder_loading"

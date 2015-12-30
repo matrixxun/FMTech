@@ -1,6 +1,7 @@
 package com.fmtech.empf;
 
 import android.content.Intent;
+import android.os.Build;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -9,6 +10,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewTreeObserver;
+import android.view.WindowManager;
 
 import com.fmtech.empf.image.BitmapLoader;
 import com.fmtech.empf.ui.activities.LoginActivity;
@@ -25,7 +28,7 @@ import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.ui.fragments.PageFragmentHost;
 import com.fmtech.empf.ui.navigationmanager.NavigationManager;
 
-public class MainActivity extends AppCompatActivity implements ActionBarController ,PageFragmentHost {
+public class MainActivity extends AppCompatActivity implements ActionBarController, PageFragmentHost {
 
     public int MY_DATA_CHECK_CODE = 0;
     private int mClickCount = 0;
@@ -39,6 +42,11 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            //Translucent Status
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         setContentView(R.layout.activity_main);
 
         // check for TTS data
@@ -53,17 +61,17 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
         setUpFragments();
     }
 
-    private void initNavigationManager(){
+    private void initNavigationManager() {
         mNavigationManager = new NavigationManager(this);
     }
 
-    private void initActionBarHelper(){
+    private void initActionBarHelper() {
         mActionBarHelper = new ActionBarHelper(mNavigationManager, this, this);
     }
 
-    protected void initViews(){
-        mDrawerLayout = (FMDrawerLayout)findViewById(R.id.drawer_layout);
-        mToolbar = (Toolbar)findViewById(R.id.toolbar);
+    protected void initViews() {
+        mDrawerLayout = (FMDrawerLayout) findViewById(R.id.drawer_layout);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mDrawerLayout.mNavigationManager = mNavigationManager;
         mDrawerLayout.mDrawerAdapter = new DrawerAdapter(this, mDrawerLayout, mDrawerLayout.mDrawerList, mDrawerLayout);
         mDrawerLayout.mDrawerList.setAdapter(mDrawerLayout.mDrawerAdapter);
@@ -72,6 +80,14 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
 
     protected void initActionBar() {
 //        mToolbar.setLogo(R.mipmap.ic_launcher);
+        mToolbar.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                System.out.println("-------mToolbar.width: " + mToolbar.getWidth());
+                System.out.println("-------mToolbar.height: " + mToolbar.getHeight());
+                mToolbar.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+            }
+        });
         setSupportActionBar(mToolbar);
         final ActionBar ab = getSupportActionBar();
         ab.setHomeAsUpIndicator(R.drawable.ic_menu_white);
@@ -81,7 +97,8 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
         actionBarDrawerToggle.syncState();
         mDrawerLayout.setDrawerListener(actionBarDrawerToggle);
     }
-    private void setUpFragments(){
+
+    private void setUpFragments() {
 //        getSupportFragmentManager().beginTransaction()
 //                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
 //                .addToBackStack(null)
@@ -89,8 +106,8 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
         mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
     }
 
-    public void toLogin(View view){
-        switch (mClickCount){
+    public void toLogin(View view) {
+        switch (mClickCount) {
             case 0:
                 showMaintanceMessage();
                 mClickCount++;
@@ -120,12 +137,12 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     @Override
     public void onBackPressed() {
         //TODO
-        if(mDrawerLayout.isDrawerOpen()){
+        if (mDrawerLayout.isDrawerOpen()) {
             mDrawerLayout.closeDrawer();
             return;
         }
         PageFragment activePage = this.mNavigationManager.getActivePage();
-        if(((null != activePage) && (activePage.onBackPressed())) ||(mNavigationManager.goBack())) {
+        if (((null != activePage) && (activePage.onBackPressed())) || (mNavigationManager.goBack())) {
             return;
         }
         super.onBackPressed();
@@ -142,7 +159,9 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
         super.onDestroy();
     }
 
-    /***************Methods implements from ActionBarController****************/
+    /***************
+     * Methods implements from ActionBarController
+     ****************/
     @Override
     public void disableActionBarOverlay() {
 
@@ -193,7 +212,9 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
 
     }
 
-    /***************Methods implements from PageFragmentHost****************/
+    /***************
+     * Methods implements from PageFragmentHost
+     ****************/
     @Override
     public ActionBarController getActionBarController() {
         return null;

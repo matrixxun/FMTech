@@ -5,6 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.WindowInsets;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 
 import com.fmtech.accessibilityservicedemo.R;
 
@@ -26,16 +27,16 @@ import com.fmtech.accessibilityservicedemo.R;
  * ==================================================================
  */
 
-public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
-    public InsetsFrameLayout(Context context) {
+public class InsetsLinearLayout extends LinearLayout implements InsetsAware{
+    public InsetsLinearLayout(Context context) {
         this(context, null);
     }
 
-    public InsetsFrameLayout(Context context, AttributeSet attrs) {
+    public InsetsLinearLayout(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public InsetsFrameLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public InsetsLinearLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -61,7 +62,7 @@ public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
             for(int i=0; i< childCount; i++){
                 View child = getChildAt(i);
                 if(child.getId() == R.id.toolbar){
-//                    child.setPadding(0, 0 , 0 , 0);
+                    child.setPadding(0, 0 , 0 , 0);
                 }
             }
             return insets.consumeSystemWindowInsets();
@@ -81,10 +82,10 @@ public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
     @Override
     public boolean shouldApplyWindowInsets() {
         int childCount = getChildCount();
-        View child;
+        View view;
         for(int i=0; i< childCount; i++){
-            child = getChildAt(i);
-            if((child instanceof  InsetsAware)&&(((InsetsAware)child).shouldApplyWindowInsets())){
+            view = getChildAt(i);
+            if((view instanceof  InsetsAware)&&(((InsetsAware)view).shouldApplyWindowInsets())){
                 return true;
             }
         }
