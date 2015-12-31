@@ -32,11 +32,11 @@ import java.util.Locale;
  * ==================================================================
  */
 
-public class SelectLanguageActivity extends Activity implements View.OnClickListener{
+public class SelectLanguageActivity extends BaseActivity implements View.OnClickListener{
 
     private Button mBtnLanguageCN;
     private Button mBtnLanguageEN;
-    private MPFADialog dialog;
+    private MPFADialog mDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,10 +76,10 @@ public class SelectLanguageActivity extends Activity implements View.OnClickList
 
         resources.updateConfiguration(config, dm);
         //Two Buttons
-        dialog= new MPFADialog(SelectLanguageActivity.this, null, null, true, null, new View.OnClickListener() {
+        mDialog= new MPFADialog(SelectLanguageActivity.this, null, null, true, null, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.dismiss();
+                mDialog.dismiss();
                 finish();
                 Intent intent = new Intent(SelectLanguageActivity.this, GuidanceActivity.class);
                 startActivity(intent);
@@ -87,7 +87,7 @@ public class SelectLanguageActivity extends Activity implements View.OnClickList
         }, null, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dialog.dismiss();
+                mDialog.dismiss();
             }
         });
         //On Button
@@ -97,6 +97,17 @@ public class SelectLanguageActivity extends Activity implements View.OnClickList
 //                dialog.dismiss();
 //            }
 //        });
-        dialog.show();
+        mDialog.show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(null != mDialog){
+            if(mDialog.isShowing()){
+                mDialog.dismiss();
+            }
+            mDialog = null;
+        }
     }
 }

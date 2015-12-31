@@ -26,7 +26,7 @@ import com.fmtech.accessibilityservicedemo.R;
  * ==================================================================
  */
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends BaseActivity {
 
     private final static int MSG_TO_LANGUAGE_PAGE = 1;
 

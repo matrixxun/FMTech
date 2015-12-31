@@ -1,6 +1,7 @@
 package com.fmtech.empf.ui.component.layout;
 
 import android.content.Context;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.WindowInsets;
@@ -27,6 +28,16 @@ import com.fmtech.accessibilityservicedemo.R;
  */
 
 public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
+    public static boolean SUPPORTS_IMMERSIVE_MODE;
+
+    static {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {//21
+            SUPPORTS_IMMERSIVE_MODE = true;
+        }else{
+            SUPPORTS_IMMERSIVE_MODE = false;
+        }
+    }
+
     public InsetsFrameLayout(Context context) {
         this(context, null);
     }
@@ -44,7 +55,7 @@ public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
      * @param insets
      * @return
      */
-    @Override
+   /* @Override
     public WindowInsets onApplyWindowInsets(WindowInsets insets) {
         //Returns a copy of this WindowInsets with the system window insets fully consumed.
         int childCount = getChildCount();
@@ -75,7 +86,7 @@ public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
         }
         return insets.consumeSystemWindowInsets();
         //return super.onApplyWindowInsets(insets);
-    }
+    }*/
 
 
     @Override

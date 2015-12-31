@@ -25,7 +25,8 @@ import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.google.samples.apps.iosched.R;
+import com.fmtech.accessibilityservicedemo.R;
+
 
 /**
  * A layout that draws something in the insets passed to {@link #fitSystemWindows(Rect)}, i.e. the area above UI chrome
@@ -55,11 +56,11 @@ public class ScrimInsetsFrameLayout extends FrameLayout {
 
     private void init(Context context, AttributeSet attrs, int defStyle) {
         final TypedArray a = context.obtainStyledAttributes(attrs,
-                R.styleable.ScrimInsetsView, defStyle, 0);
+                R.styleable.FMScrimInsetsView, defStyle, 0);
         if (a == null) {
             return;
         }
-        mInsetForeground = a.getDrawable(R.styleable.ScrimInsetsView_insetForeground);
+        mInsetForeground = a.getDrawable(R.styleable.FMScrimInsetsView_insetForeground_FM);
         a.recycle();
 
         setWillNotDraw(true);

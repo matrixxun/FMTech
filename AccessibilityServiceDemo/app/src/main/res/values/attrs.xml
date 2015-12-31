@@ -5,4 +5,7 @@
         <attr name="navigationDotNormal" format="reference"/>
         <attr name="navigationDotCount" format="integer"/>
     </declare-styleable>
+    <declare-styleable name="FMScrimInsetsView">
+        <attr name="insetForeground_FM" format="reference|color" />
+    </declare-styleable>
 </resources>

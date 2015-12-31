@@ -5,7 +5,6 @@ import android.os.Build;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
@@ -14,6 +13,7 @@ import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 
 import com.fmtech.empf.image.BitmapLoader;
+import com.fmtech.empf.ui.activities.BaseActivity;
 import com.fmtech.empf.ui.activities.LoginActivity;
 import com.fmtech.empf.ui.component.MPFADialog;
 import com.fmtech.empf.ui.component.actionbar.ActionBarController;
@@ -28,7 +28,7 @@ import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.ui.fragments.PageFragmentHost;
 import com.fmtech.empf.ui.navigationmanager.NavigationManager;
 
-public class MainActivity extends AppCompatActivity implements ActionBarController, PageFragmentHost {
+public class MainActivity extends BaseActivity implements ActionBarController, PageFragmentHost {
 
     public int MY_DATA_CHECK_CODE = 0;
     private int mClickCount = 0;
@@ -42,11 +42,7 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            //Translucent Status
-            getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
-                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
+
         setContentView(R.layout.activity_main);
 
         // check for TTS data
@@ -80,14 +76,14 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
 
     protected void initActionBar() {
 //        mToolbar.setLogo(R.mipmap.ic_launcher);
-        mToolbar.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            @Override
-            public void onGlobalLayout() {
-                System.out.println("-------mToolbar.width: " + mToolbar.getWidth());
-                System.out.println("-------mToolbar.height: " + mToolbar.getHeight());
-                mToolbar.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-            }
-        });
+//        mToolbar.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+//            @Override
+//            public void onGlobalLayout() {
+//                System.out.println("-------mToolbar.width: " + mToolbar.getWidth());
+//                System.out.println("-------mToolbar.height: " + mToolbar.getHeight());
+//                mToolbar.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+//            }
+//        });
         setSupportActionBar(mToolbar);
         final ActionBar ab = getSupportActionBar();
         ab.setHomeAsUpIndicator(R.drawable.ic_menu_white);
@@ -99,11 +95,11 @@ public class MainActivity extends AppCompatActivity implements ActionBarControll
     }
 
     private void setUpFragments() {
-//        getSupportFragmentManager().beginTransaction()
-//                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
-//                .addToBackStack(null)
-//                .commit();
-        mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
+                .addToBackStack(null)
+                .commit();
+//        mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
     }
 
     public void toLogin(View view) {

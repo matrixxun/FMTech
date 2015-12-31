@@ -27,8 +27,7 @@ import com.fmtech.accessibilityservicedemo.R;
  * ==================================================================
  */
 
-public class GuidanceActivity extends Activity{
-
+public class GuidanceActivity extends BaseActivity{
     private MPFADialog mDialog;
 
     @Override
@@ -48,5 +47,16 @@ public class GuidanceActivity extends Activity{
             }
         });
         mDialog.show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(null != mDialog){
+            if(mDialog.isShowing()){
+                mDialog.dismiss();
+            }
+            mDialog = null;
+        }
     }
 }
