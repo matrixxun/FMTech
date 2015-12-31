@@ -59,7 +59,7 @@ public final class ActionBarHelper {
 //            mToolbar.setCurrentBackendId(mCurrentBackendId);
 //            mToolbar.setNavigationManager(mNavigationManager);
 //            mToolbar.setActionBarController(mActionBarController);
-            mToolbar.setVisibility(View.INVISIBLE);
+//            mToolbar.setVisibility(View.INVISIBLE);
         }
 //        if (mToolbar != null) {
 //            if ((!DotNotificationUtils.shouldShowAccountCompletionDotNotification()) || (((Integer) FinskyPreferences.accountCompletionMainMenuDotTapCount.get(FinskyApp.get().getCurrentAccountName()).get()).intValue() != 0)) {

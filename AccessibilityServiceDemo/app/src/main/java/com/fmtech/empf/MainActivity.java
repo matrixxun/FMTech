@@ -20,9 +20,7 @@ import com.fmtech.empf.ui.component.actionbar.ActionBarController;
 import com.fmtech.empf.ui.component.actionbar.ActionBarHelper;
 import com.fmtech.empf.ui.component.drawer.DrawerAdapter;
 import com.fmtech.empf.ui.component.drawer.FMDrawerLayout;
-import com.fmtech.empf.ui.fragments.FragmentConfig;
 import com.fmtech.empf.ui.fragments.HomeFragment;
-import com.fmtech.empf.ui.fragments.LoginSignupFragment;
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.ui.fragments.PageFragmentHost;
@@ -54,7 +52,7 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
         initActionBarHelper();
         initViews();
         initActionBar();
-        setUpFragments();
+//        setUpFragments();
     }
 
     private void initNavigationManager() {
@@ -75,15 +73,7 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
     }
 
     protected void initActionBar() {
-//        mToolbar.setLogo(R.mipmap.ic_launcher);
-//        mToolbar.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-//            @Override
-//            public void onGlobalLayout() {
-//                System.out.println("-------mToolbar.width: " + mToolbar.getWidth());
-//                System.out.println("-------mToolbar.height: " + mToolbar.getHeight());
-//                mToolbar.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-//            }
-//        });
+        mToolbar.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         setSupportActionBar(mToolbar);
         final ActionBar ab = getSupportActionBar();
         ab.setHomeAsUpIndicator(R.drawable.ic_menu_white);

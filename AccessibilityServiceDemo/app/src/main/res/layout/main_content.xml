@@ -23,4 +23,5 @@
     </com.fmtech.empf.ui.component.layout.InsetsFrameLayout>
     
     <include layout="@layout/action_bar"/>
+
 </com.fmtech.empf.ui.component.layout.InsetsFrameLayout>

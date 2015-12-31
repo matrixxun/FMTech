@@ -13,6 +13,5 @@
         android:layout_height="wrap_content">
 
         <include layout="@layout/toolbar" />
-        <!--android:id="@id/action_bar"-->
     </FrameLayout>
 </com.fmtech.empf.ui.component.layout.InsetsFrameLayout>
