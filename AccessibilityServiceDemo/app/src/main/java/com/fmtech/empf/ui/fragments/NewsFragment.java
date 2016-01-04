@@ -1,5 +1,6 @@
 package com.fmtech.empf.ui.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.model.NewsInfo;
+import com.fmtech.empf.ui.activities.NewsDetailActivity;
 import com.fmtech.empf.ui.adapter.NewsAdapter;
 import com.fmtech.empf.ui.decorator.DividerItemDecoration;
 
@@ -34,7 +36,7 @@ import java.util.List;
  * ==================================================================
  */
 
-public class NewsFragment extends PageFragment{
+public class NewsFragment extends PageFragment implements NewsAdapter.NewsItemClickListener{
 
     private RecyclerView mRecyclerList;
     private List<NewsInfo> mNewsInfos = new ArrayList<NewsInfo>();;
@@ -53,6 +55,7 @@ public class NewsFragment extends PageFragment{
         mRecyclerList = (RecyclerView)view.findViewById(R.id.rv_news);
         mRecyclerList.setLayoutManager(new LinearLayoutManager(getActivity()));
         mNewsAdapter = new NewsAdapter(getActivity(), mNewsInfos);
+        mNewsAdapter.setNewsItemClickListener(this);
         mRecyclerList.setAdapter(mNewsAdapter);
         mRecyclerList.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
         return view;
@@ -69,6 +72,14 @@ public class NewsFragment extends PageFragment{
     }
 
     @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if(null != mNewsAdapter){
+            mNewsAdapter = null;
+        }
+    }
+
+    @Override
     public int getLayoutRes() {
         return R.layout.fragment_news;
     }
@@ -81,5 +92,11 @@ public class NewsFragment extends PageFragment{
     @Override
     public void requestData() {
 
+    }
+
+    @Override
+    public void onNewsItemClick(View v, int position) {
+        Intent intent = new Intent(getActivity(), NewsDetailActivity.class);
+        startActivity(intent);
     }
 }

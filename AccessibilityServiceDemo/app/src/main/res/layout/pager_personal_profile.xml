@@ -7,240 +7,241 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/personal_profile_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:visibility="gone">
 
-        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-        <!--android:id="@+id/personal_profile_detail"-->
-        <!--android:orientation="vertical"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_marginLeft="16dp"-->
-        <!--android:layout_marginRight="16dp"-->
-        <!--android:paddingLeft="5dp"-->
-        <!--android:visibility="gone">-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Profile"
+                android:textSize="22sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Personal Profile"-->
-        <!--android:textSize="22sp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HKID Card Number*:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="HKID Card Number*:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="A123***"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="A123***"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name*:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Name*:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="CHAN TAI MAN 陳大文"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="CHAN TAI MAN 陳大文"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Password:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:text="A123***"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:inputType="textPassword"-->
-        <!--android:text="A123***"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Email Address:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="abc@mpfa.org.hk"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="abc@mpfa.org.hk"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number*:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Contact Number*:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="91234567"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="91234567"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Account name:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Account name:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="ePARtest"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="ePARtest"-->
-        <!--android:textSize="20sp"/>-->
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="*Account name must be unique and can-->
-        <!--only be set once"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="*Account name must be unique and can
+        only be set once"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Security Question:"-->
-        <!--android:textSize="20sp"/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Security Question:"
+                    android:textSize="20sp" />
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="Question"-->
-        <!--android:textSize="20sp"/>-->
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="Answer"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Question"
+                    android:textSize="20sp" />
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Answer"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Email Notification:"-->
-        <!--android:textSize="20sp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text=""-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Notification:"
+                    android:textSize="20sp" />
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="20sp"/>
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="When the number of personal-->
-        <!--account(s) held by me increase /-->
-        <!--decrease"-->
-        <!--android:textSize="20sp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:text=""&ndash;&gt;-->
-        <!--&lt;!&ndash;android:textSize="20sp"/>&ndash;&gt;-->
-        <!--</LinearLayout>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When the number of personal
+        account(s) held by me increase /
+        decrease"
+                    android:textSize="20sp" />
 
-        <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="24dp"-->
-        <!--android:layout_marginBottom="24dp"-->
-        <!--android:orientation="vertical">-->
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text=""-->
+                <!--android:textSize="20sp"/>-->
+            </LinearLayout>
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Email Language :"-->
-        <!--android:textSize="20sp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical">
 
-        <!--<TextView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="5dp"-->
-        <!--android:text="English"-->
-        <!--android:textSize="20sp"/>-->
-        <!--</LinearLayout>-->
-        <!--</LinearLayout>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email Language :"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="English"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
 
         <!--Personal Profile Edit-->
         <LinearLayout
@@ -248,42 +249,46 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="visible">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Password:"/>
-            <EditText
-                style="@style/EditTextPassword"
-                android:layout_marginTop="16dp"
-                android:hint="Enter new first password"/>
+                android:text="Password:" />
 
             <EditText
                 style="@style/EditTextPassword"
                 android:layout_marginTop="16dp"
-                android:hint="Re-enter new first password"/>
+                android:hint="Enter new first password" />
 
             <EditText
                 style="@style/EditTextPassword"
                 android:layout_marginTop="16dp"
-                android:hint="Enter new second password"/>
+                android:hint="Re-enter new first password" />
 
             <EditText
                 style="@style/EditTextPassword"
                 android:layout_marginTop="16dp"
-                android:hint="Re-enter new second password"/>
+                android:hint="Enter new second password" />
+
+            <EditText
+                style="@style/EditTextPassword"
+                android:layout_marginTop="16dp"
+                android:hint="Re-enter new second password" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Email Address:"/>
+                android:text="Email Address:" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="abc@mpfa.org.hk"/>
+                android:text="abc@mpfa.org.hk" />
+
             <EditText
                 style="@style/CommonEditText"
                 android:hint="New Email Address" />
@@ -297,11 +302,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Contact Number*:"/>
+                android:text="Contact Number*:" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="91234567"/>
+                android:text="91234567" />
+
             <EditText
                 style="@style/CommonEditText"
                 android:hint="New Contact Number" />
@@ -310,7 +317,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Security Question:"/>
+                android:text="Security Question:" />
 
 
             <RelativeLayout
@@ -321,18 +328,18 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:background="@android:color/white"
                     android:hint="Question"
-                    android:textColorHint="#ffbdbdbd"
-                    android:background="@android:color/white"/>
+                    android:padding="10dp"
+                    android:textColorHint="#ffbdbdbd" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:background="@drawable/down_arrow"
-                    android:layout_alignParentRight="true"/>
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/down_arrow" />
 
             </RelativeLayout>
 
@@ -341,17 +348,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:singleLine="true"
-                android:padding="10dp"
+                android:background="@android:color/white"
                 android:hint="Answer"
-                android:textColorHint="#ffbdbdbd"
-                android:background="@android:color/white"/>
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHint="#ffbdbdbd" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Email Notification:"/>
+                android:text="Email Notification:" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -362,13 +369,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Last Action Type: Opt-in"/>
+                    android:text="Last Action Type: Opt-in" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:text="13/05/2015 11:00"/>
+                    android:text="13/05/2015 11:00" />
             </LinearLayout>
 
             <LinearLayout
@@ -380,14 +387,14 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:checked="true"/>
+                    android:checked="true" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="When the number of personal
 account(s) held by me increase /
-decrease"/>
+decrease" />
             </LinearLayout>
 
             <LinearLayout
@@ -399,13 +406,13 @@ decrease"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Last Action Type: Opt-in"/>
+                    android:text="Last Action Type: Opt-in" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:text="16/05/2015 14:06"/>
+                    android:text="16/05/2015 14:06" />
             </LinearLayout>
 
             <LinearLayout
@@ -423,14 +430,14 @@ decrease"/>
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="corporate publicity materials of the
-MPFA"/>
+MPFA" />
             </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Email Language"/>
+                android:text="Email Language" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -441,46 +448,47 @@ MPFA"/>
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:checked="true"
-                    android:textSize="20sp"
-                    android:text="English"/>
+                    android:text="English"
+                    android:textSize="20sp" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:textSize="20sp"
-                    android:text="繁體"/>
+                    android:text="繁體"
+                    android:textSize="20sp" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:text="Email Language"/>
+                android:text="Email Language" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[Instruction] Lorem ipsum dolor sit amet,
-consectetur adipiscing elit. Sed dfring ..."/>
+consectetur adipiscing elit. Sed dfring ..." />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="@string/account_de_registration"/>
+                android:text="@string/account_de_registration" />
 
             <Button
-                style="@style/Style_MPFAButton"
                 android:id="@+id/signup"
+                style="@style/Style_MPFAButton"
                 android:layout_marginTop="48dp"
-                android:text="Confirm"/>
+                android:text="Confirm" />
 
             <Button
-                style="@style/Style_MPFAButton"
                 android:id="@+id/login"
-                android:layout_marginTop="18dp"
+                style="@style/Style_MPFAButton"
                 android:layout_marginBottom="22dp"
-                android:text="Cancel"/>
+                android:layout_marginTop="18dp"
+                android:text="Cancel" />
         </LinearLayout>
 
     </FrameLayout>

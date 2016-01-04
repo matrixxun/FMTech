@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.fmtech.accessibilityservicedemo.R;
@@ -31,13 +32,14 @@ import java.util.List;
  * ==================================================================
  */
 
-public class NewsAdapter extends RecyclerView.Adapter{
+public class NewsAdapter extends RecyclerView.Adapter implements View.OnClickListener{
 
     private static final int TYPE_ITEM_NORMAL = 0;
     private static final int TYPE_ITEM_WITH_BG = 1;
 
     private Context mContext;
     private List<NewsInfo> mNewsInfos;
+    private NewsItemClickListener mNewsItemClickListener;
 
     public NewsAdapter(Context context, List<NewsInfo> newsInfos){
         mContext = context;
@@ -63,6 +65,8 @@ public class NewsAdapter extends RecyclerView.Adapter{
 //            ((NewsViewHolder)holder).newsPic;
             ((NewsViewHolder)holder).newsTitle.setText(newsInfo.getNewsTitle());
             ((NewsViewHolder)holder).newsTime.setText(newsInfo.getNewsTime());
+            ((NewsViewHolder)holder).newsItem.setTag(position);
+            ((NewsViewHolder)holder).newsItem.setOnClickListener(this);
         }
 
     }
@@ -81,17 +85,35 @@ public class NewsAdapter extends RecyclerView.Adapter{
         }
     }
 
+    public void setNewsItemClickListener(NewsItemClickListener listener){
+        mNewsItemClickListener = listener;
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.ll_item_news:
+                if(null != mNewsItemClickListener){
+                    mNewsItemClickListener.onNewsItemClick(view, (Integer)view.getTag());
+                }
+                break;
+        }
+
+    }
+
     public class NewsViewHolder extends RecyclerView.ViewHolder{
 
         public ImageView newsPic;
         public TextView newsTitle;
         public TextView newsTime;
+        public LinearLayout newsItem;
 
         public NewsViewHolder(View itemView) {
             super(itemView);
             newsPic = (ImageView)itemView.findViewById(R.id.iv_news_pic);
             newsTitle = (TextView)itemView.findViewById(R.id.tv_news_title);
             newsTime = (TextView)itemView.findViewById(R.id.tv_news_time);
+            newsItem = (LinearLayout)itemView.findViewById(R.id.ll_item_news);
         }
     }
 

@@ -52,7 +52,7 @@ public class DrawerAdapter extends BaseAdapter{
 
     @Override
     public int getCount() {
-        return null == mDrawerActions ? 0:mDrawerActions.size();
+        return null == mDrawerActions ? 0:mDrawerActions.size()+1;
     }
 
     @Override
@@ -67,29 +67,33 @@ public class DrawerAdapter extends BaseAdapter{
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        FMDrawerLayout.DrawerAction drawerAction = mDrawerActions.get(position);
-        TextView actionTextView;
-        if(drawerAction.isActive){
-            actionTextView = (TextView)mInflater.inflate(R.layout.drawer_action_active, parent, false);
-        }else{
-            actionTextView = (TextView)mInflater.inflate(R.layout.drawer_action_regular, parent, false);
-        }
-        actionTextView.setText(drawerAction.actionText);
-        actionTextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(null != mDrawerContentClickListener){
-                    mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
-                    mDrawerContentClickListener.onDrawActionClicked(mDrawerActions.get(position));
-                    mCurrActionIndex = position;
-                    mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
-                    notifyDataSetChanged();
-                }
-                mDrawerLayout.closeDrawer();
+        if(position == 0){
+            return mInflater.inflate(R.layout.drawer_action_top_spacing, parent, false);
+        }else {
+            FMDrawerLayout.DrawerAction drawerAction = mDrawerActions.get(position - 1);
+            TextView actionTextView;
+            if (drawerAction.isActive) {
+                actionTextView = (TextView) mInflater.inflate(R.layout.drawer_action_active, parent, false);
+            } else {
+                actionTextView = (TextView) mInflater.inflate(R.layout.drawer_action_regular, parent, false);
             }
-        });
+            actionTextView.setText(drawerAction.actionText);
+            actionTextView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (null != mDrawerContentClickListener) {
+                        mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
+                        mDrawerContentClickListener.onDrawActionClicked(mDrawerActions.get(position - 1));
+                        mCurrActionIndex = position - 1;
+                        mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
+                        notifyDataSetChanged();
+                    }
+                    mDrawerLayout.closeDrawer();
+                }
+            });
 //        setPaddingStart(localTextView, localResources.getDimensionPixelSize(R.dimen.play_drawer_item_left_padding));
-        return actionTextView;
+            return actionTextView;
+        }
     }
 
 
