@@ -7,7 +7,7 @@
     <dimen name="play_drawer_item_primary_min_height">48.0dip</dimen>
     <dimen name="play_highlight_outline_thickness">1.0dip</dimen>
     <dimen name="play_drawer_item_top_margin">32.0dip</dimen>
-    <dimen name="separator_line_height">2.0dip</dimen>
+    <dimen name="separator_line_height">1.0dip</dimen>
 
     <dimen name="text_size_home_tab_bottom">11sp</dimen>
 

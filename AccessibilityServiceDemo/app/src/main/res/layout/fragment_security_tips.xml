@@ -2,63 +2,117 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
     android:orientation="vertical">
 
     <!--<include layout="@layout/action_bar"/>-->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Step 1: Sign up &#038; Register" />
+            android:text="Tip 1:" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="0.0dp"
             android:layout_height="wrap_content"
-            android:text="In in finibus justo, at mattis magna. Vestibu
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:text="Vestibulum cursus at dui nec In
+In in finibus justo, at mattis mag
 lum diam libero." />
 
-        <TextView
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Step 2: Confirm your identity" />
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_down"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="In in finibus justo, at mattis magna. Vestibu
+            android:text="Tip 2:" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:text="Vestibulum cursus at dui nec In
+In in finibus justo, at mattis mag
 lum diam libero." />
 
-        <TextView
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Step 3: Login" />
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_down"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="In in finibus justo, at mattis magna. Vestibu
+            android:text="Tip 3:" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:text="Vestibulum cursus at dui nec In
+In in finibus justo, at mattis mag
 lum diam libero." />
 
-        <TextView
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Step 4: Download the PDF" />
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_down"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="In in finibus justo, at mattis magna. Vestibu
+            android:text="Tip 4:" />
+
+        <TextView
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="10dp"
+            android:text="Vestibulum cursus at dui nec In
+In in finibus justo, at mattis mag
 lum diam libero." />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_down"/>
     </LinearLayout>
 </LinearLayout>

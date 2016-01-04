@@ -136,7 +136,6 @@
     <style name="CommonEditText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">16dp</item>
         <item name="android:background">@android:color/white</item>
         <item name="android:paddingBottom">10dp</item>
         <item name="android:paddingLeft">10dp</item>
@@ -144,5 +143,9 @@
         <item name="android:paddingTop">10dp</item>
         <item name="android:singleLine">true</item>
         <item name="android:textColorHint">#ffbdbdbd</item>
+    </style>
+
+    <style name="EditTextPassword" parent="CommonEditText">
+        <item name="android:layout_width">match_parent</item>
     </style>
 </resources>

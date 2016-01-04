@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.fmtech.empf.ui.component.layout.InsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<com.fmtech.empf.ui.component.layout.InsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@id/outer_content_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:fitsSystemWindows="true">
+
+    <include layout="@layout/action_bar"/>
 
     <com.fmtech.empf.ui.component.layout.InsetsFrameLayout
         android:id="@id/content_frame"
@@ -22,6 +26,7 @@
             <!--android:visibility="gone" />-->
     </com.fmtech.empf.ui.component.layout.InsetsFrameLayout>
     
-    <include layout="@layout/action_bar"/>
+    <!--<include layout="@layout/action_bar"/>-->
 
-</com.fmtech.empf.ui.component.layout.InsetsFrameLayout>
+<!--</com.fmtech.empf.ui.component.layout.InsetsFrameLayout>-->
+</LinearLayout>

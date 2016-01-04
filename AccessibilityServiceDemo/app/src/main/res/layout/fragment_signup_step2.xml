@@ -78,22 +78,27 @@ as HKID card for identification purpose." />
 
         <EditText
            style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Surname in English*"/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Other names in English"/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Surname in Chinese"/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Other names in Chinese"/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="HKID Card Number*" />
 
         <TextView
@@ -105,14 +110,17 @@ A123456(7)."/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Email Address*"/>
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Re-Enter Email Address*" />
 
         <EditText
             style="@style/CommonEditText"
+            android:layout_marginTop="16dp"
             android:hint="Contact Number" />
 
         <TextView

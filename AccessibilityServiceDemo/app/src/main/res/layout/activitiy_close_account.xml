@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your account has been cancelled"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Your account has been cancelled.
+You will not receive any further emails or
+communication from us related to your
+cancelled account." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Thanks again for trying.
+We’ll be here if you ever want to give it
+another shot." />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/close_account_confirm"
+        style="@style/Style_MPFAButton"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:text="Back to Home" />
+
+</RelativeLayout>
+

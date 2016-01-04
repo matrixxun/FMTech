@@ -1,149 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="16dp">
+    android:layout_height="match_parent">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        style="@style/SettingTextView"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:text="System Setting"/>
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
 
-    <include layout="@layout/view_separator_line" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
         <TextView
             style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Language"/>
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:layout_alignParentRight="true"
-            android:textColor="@color/text_gray"
-            android:text="English"/>
-    </RelativeLayout>
-    <include layout="@layout/view_separator_line" />
+            android:layout_width="match_parent"
+            android:text="System Setting" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Font Size"/>
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:layout_alignParentRight="true"
-            android:textColor="@color/text_gray"
-            android:text="Medium"/>
-    </RelativeLayout>
+        <include layout="@layout/view_separator_line" />
 
-    <include layout="@layout/view_separator_line" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="High Contract"/>
-    </RelativeLayout>
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Language" />
 
-    <include layout="@layout/view_separator_line" />
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="English"
+                android:textColor="@color/text_gray" />
+        </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Push notification"/>
-    </RelativeLayout>
+        <include layout="@layout/view_separator_line" />
 
-    <include layout="@layout/view_separator_line" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@id/version_name_title"
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Version"/>
-        <TextView
-            android:id="@id/version_name"
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:layout_toRightOf="@id/version_name_title"
-            android:layout_marginLeft="5dp"
-            android:text="1.1"/>
-    </RelativeLayout>
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Font Size" />
 
-    <include layout="@layout/view_separator_line" />
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Medium"
+                android:textColor="@color/text_gray" />
+        </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Disclaimer"/>
-    </RelativeLayout>
+        <include layout="@layout/view_separator_line" />
 
-    <include layout="@layout/view_separator_line" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="System Requirement"/>
-    </RelativeLayout>
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="High Contract" />
+        </RelativeLayout>
 
-    <include layout="@layout/view_separator_line" />
+        <include layout="@layout/view_separator_line" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="System Maintenance Schedule"/>
-    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <include layout="@layout/view_separator_line" />
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Push notification" />
+        </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Privacy Policy"/>
-    </RelativeLayout>
+        <include layout="@layout/view_separator_line" />
 
-    <include layout="@layout/view_separator_line" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            style="@style/SettingTextView"
-            android:layout_width="wrap_content"
-            android:text="Terms And Conditions"/>
-    </RelativeLayout>
+            <TextView
+                android:id="@id/version_name_title"
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Version" />
 
-    <include layout="@layout/view_separator_line" />
-</LinearLayout>
+            <TextView
+                android:id="@id/version_name"
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/version_name_title"
+                android:text="1.1" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Disclaimer" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="System Requirement" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="System Maintenance Schedule" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Privacy Policy" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/SettingTextView"
+                android:layout_width="wrap_content"
+                android:text="Terms And Conditions" />
+        </RelativeLayout>
+
+        <include layout="@layout/view_separator_line" />
+    </LinearLayout>
 </ScrollView>
