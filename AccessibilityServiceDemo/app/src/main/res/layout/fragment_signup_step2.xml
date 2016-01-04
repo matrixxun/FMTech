@@ -77,69 +77,24 @@ as HKID card for identification purpose." />
             android:text="* is a mandatory field"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Surname in English*"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+           style="@style/CommonEditText"
+            android:hint="Surname in English*"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Other names in English"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Other names in English"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Surname in Chinese"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Surname in Chinese"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Other names in Chinese"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Other names in Chinese"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="HKID Card Number*"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="HKID Card Number*" />
 
         <TextView
             android:layout_width="match_parent"
@@ -149,43 +104,16 @@ as HKID card for identification purpose." />
 A123456(7)."/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Email Address*"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Email Address*"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Re-Enter Email Address*"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Re-Enter Email Address*" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@android:color/white"
-            android:hint="Contact Number"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:paddingTop="10dp"
-            android:singleLine="true"
-            android:textColorHint="#ffbdbdbd" />
+            style="@style/CommonEditText"
+            android:hint="Contact Number" />
 
         <TextView
             android:layout_width="match_parent"

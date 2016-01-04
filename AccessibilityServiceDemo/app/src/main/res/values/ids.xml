@@ -9,5 +9,7 @@
     <item type="id" name="page_loading_indicator">false</item>
     <item type="id" name="action_bar_container_container">false</item>
     <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="version_name_title">false</item>
+    <item type="id" name="version_name">false</item>
 
 </resources>

@@ -72,13 +72,13 @@ public class InsetsFrameLayout extends FrameLayout implements InsetsAware{
             for(int i=0; i< childCount; i++){
                 View child = getChildAt(i);
                 if(child.getId() == R.id.toolbar){
-//                    child.setPadding(0, 0 , 0 , 0);
+                    child.setPadding(0, 0 , 0 , 0);
                 }
             }
             return insets.consumeSystemWindowInsets();
         }
         setPadding(0, 0 , 0 , 0);
-        for(int i = 0x0; i < childCount; i = i + 0x1) {
+        for(int i = 1; i < childCount; i++) {
             View child = getChildAt(i);
 //            if((isActionBar) || (wantsWindowInsets)) {
 //                child.dispatchApplyWindowInsets(insets);

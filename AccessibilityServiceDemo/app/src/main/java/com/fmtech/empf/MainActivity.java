@@ -52,7 +52,7 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
         initActionBarHelper();
         initViews();
         initActionBar();
-//        setUpFragments();
+        setUpFragments();
     }
 
     private void initNavigationManager() {

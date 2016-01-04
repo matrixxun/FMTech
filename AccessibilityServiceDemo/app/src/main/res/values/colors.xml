@@ -43,5 +43,7 @@
     <color name="text_shadow">#A000</color>
 
     <color name="light_gray">#DDDDDD</color>
+
+    <color name="text_gray">#ffbdbdbd</color>
     <!-- end radial menu -->
 </resources>
