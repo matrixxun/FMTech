@@ -103,13 +103,14 @@ public final class ActionBarHelper {
 
     public final void syncState(){
         CharSequence title = ((ActionBarState) mActionBarStateStack.peek()).title;
+
         setTitle(title);
         //TODO Many things to do.
 
     }
 
     private void setTitle(CharSequence title){
-        if(null != mActionBar) {
+        if(null != mActionBar) {System.out.println("-------ActionBarHelper#setTitle: "+title.toString());
             mCurrentTitle = title;
             mActionBar.setTitle(mCurrentTitle);
         }

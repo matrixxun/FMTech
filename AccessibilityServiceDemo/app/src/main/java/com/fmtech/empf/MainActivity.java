@@ -49,19 +49,16 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
 //        checkTTSIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
 //        startActivityForResult(checkTTSIntent, MY_DATA_CHECK_CODE);
 
+
         initNavigationManager();
-        initActionBarHelper();
         initViews();
         initActionBar();
+        initActionBarHelper();
         setUpFragments();
     }
 
     private void initNavigationManager() {
         mNavigationManager = new NavigationManager(this);
-    }
-
-    private void initActionBarHelper() {
-        mActionBarHelper = new ActionBarHelper(mNavigationManager, this, this);
     }
 
     protected void initViews() {
@@ -83,6 +80,10 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, mToolbar, R.string.drawer_open, R.string.drawer_close);
         actionBarDrawerToggle.syncState();
         mDrawerLayout.setDrawerListener(actionBarDrawerToggle);
+    }
+
+    private void initActionBarHelper() {
+        mActionBarHelper = new ActionBarHelper(mNavigationManager, this, this);
     }
 
     private void setUpFragments() {
@@ -250,7 +251,8 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
     }
 
     @Override
-    public void updateCurrentBackendId(int paramInt, boolean paramBoolean) {
-
+    public void updateCurrentBackendId(int backend, boolean ignoreActionBarBackground) {
+//        mActionBarHelper.updateCurrentBackendId(backend, ignoreActionBarBackground);
+//        mDrawerLayout.updateCurrentBackendId(backend);
     }
 }

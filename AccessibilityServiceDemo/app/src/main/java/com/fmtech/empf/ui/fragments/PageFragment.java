@@ -65,6 +65,7 @@ public abstract class PageFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        mPageFragmentHost = (PageFragmentHost)getActivity();
         mContext = getActivity();
     }
 

@@ -45,6 +45,7 @@ public class HomeFragment extends PageFragment implements View.OnClickListener{
     private ItemHomeTab mPersonalProfileTab;
     private ArrayList<ItemHomeTab> mTabs;
     private ViewPager mViewPager;
+    private String mBreadcrumb;
     private static int mCurrentIndex = -1;
 
     private HomeFragmentPagerAdapter mPagerAdapter;
@@ -131,6 +132,20 @@ public class HomeFragment extends PageFragment implements View.OnClickListener{
     private void syncTab(int preIndex, int currIndex){
         mTabs.get(preIndex).setSelected(false);
         mTabs.get(currIndex).setSelected(true);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mBreadcrumb = mContext.getString(R.string.app_name);
+        rebindActionBar();
+    }
+
+    @Override
+    public void rebindActionBar() {
+        this.mPageFragmentHost.updateActionBarTitle(mBreadcrumb);
+        mPageFragmentHost.updateCurrentBackendId(0, true);
+        mPageFragmentHost.switchToRegularActionBar();
     }
 
     @Override

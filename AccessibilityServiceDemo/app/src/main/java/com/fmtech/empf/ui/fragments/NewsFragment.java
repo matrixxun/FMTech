@@ -42,6 +42,8 @@ public class NewsFragment extends PageFragment implements NewsAdapter.NewsItemCl
     private List<NewsInfo> mNewsInfos = new ArrayList<NewsInfo>();;
     private NewsAdapter mNewsAdapter;
 
+    private String mBreadcrumb;
+
     public static NewsFragment newInstance(){
         NewsFragment newsFragment = new NewsFragment();
         return newsFragment;
@@ -61,6 +63,13 @@ public class NewsFragment extends PageFragment implements NewsAdapter.NewsItemCl
         return view;
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mBreadcrumb = mContext.getString(R.string.fragment_title_news);
+        rebindActionBar();
+    }
+
     private void initData(){
         for(int i=0; i<10; i++){
             NewsInfo newsInfo = new NewsInfo("Praesent volutpat eros neqe\n" +
@@ -77,6 +86,13 @@ public class NewsFragment extends PageFragment implements NewsAdapter.NewsItemCl
         if(null != mNewsAdapter){
             mNewsAdapter = null;
         }
+    }
+
+    @Override
+    public void rebindActionBar() {
+        this.mPageFragmentHost.updateActionBarTitle(mBreadcrumb);
+        mPageFragmentHost.updateCurrentBackendId(0, true);
+        mPageFragmentHost.switchToRegularActionBar();
     }
 
     @Override
@@ -99,4 +115,6 @@ public class NewsFragment extends PageFragment implements NewsAdapter.NewsItemCl
         Intent intent = new Intent(getActivity(), NewsDetailActivity.class);
         startActivity(intent);
     }
+
+
 }
