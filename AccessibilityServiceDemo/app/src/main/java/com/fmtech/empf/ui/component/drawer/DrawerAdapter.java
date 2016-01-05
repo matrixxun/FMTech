@@ -82,11 +82,13 @@ public class DrawerAdapter extends BaseAdapter{
                 @Override
                 public void onClick(View v) {
                     if (null != mDrawerContentClickListener) {
-                        mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
-                        mDrawerContentClickListener.onDrawActionClicked(mDrawerActions.get(position - 1));
-                        mCurrActionIndex = position - 1;
-                        mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
-                        notifyDataSetChanged();
+                        if(mCurrActionIndex != position - 1){
+                            mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
+                            mDrawerContentClickListener.onDrawActionClicked(mDrawerActions.get(position - 1));
+                            mCurrActionIndex = position - 1;
+                            mDrawerActions.get(mCurrActionIndex).isActive = !mDrawerActions.get(mCurrActionIndex).isActive;
+                            notifyDataSetChanged();
+                        }
                     }
                     mDrawerLayout.closeDrawer();
                 }

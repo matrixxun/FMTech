@@ -9,9 +9,14 @@ import android.view.View;
 
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.MainActivity;
+import com.fmtech.empf.ui.fragments.ContactUsFragment;
 import com.fmtech.empf.ui.fragments.FragmentConfig;
 import com.fmtech.empf.ui.fragments.HomeFragment;
+import com.fmtech.empf.ui.fragments.NewsFragment;
 import com.fmtech.empf.ui.fragments.PageFragment;
+import com.fmtech.empf.ui.fragments.SecurityTipsFragment;
+import com.fmtech.empf.ui.fragments.SettingFragment;
+import com.fmtech.empf.ui.fragments.TutorialsFragment;
 import com.fmtech.empf.utils.MainThreadStack;
 
 import java.util.Stack;
@@ -59,6 +64,11 @@ public class NavigationManager {
             return false;
         }
 
+        if(mShouldFallBackToAppsHome){
+            gotoHome();
+            mShouldFallBackToAppsHome = false;
+            return true;
+        }
         try {
             mBackStack.pop();
             mFragmentManager.popBackStack();
@@ -67,6 +77,40 @@ public class NavigationManager {
         } catch (Exception e) {
             e.printStackTrace();
             return false;
+        }
+    }
+
+    public void gotoHome(){
+        if(canNavigate()){
+            showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), true, new View[0]);
+        }
+    }
+
+    public void gotoTutorials(){
+        if(canNavigate()){
+            showPage(FragmentConfig.FRAGMENT_TUTORIALS, null, TutorialsFragment.newInstance(), false, new View[0]);
+        }
+    }
+
+    public void gotoNews(){
+        if(canNavigate()){
+            showPage(FragmentConfig.FRAGMENT_NEWS, null, NewsFragment.newInstance(), false, new View[0]);
+        }
+    }
+
+    public void gotoSecurityTips(){
+        if(canNavigate()){
+            showPage(FragmentConfig.FRAGMENT_SECURITY_TIPS, null, SecurityTipsFragment.newInstance(), false, new View[0]);
+        }
+    }
+
+    public void gotoContactUs(){
+        showPage(FragmentConfig.FRAGMENT_CONTACT_US, null, ContactUsFragment.newInstance(), false, new View[0]);
+    }
+
+    public void gotoSetting(){
+        if(canNavigate()){
+            showPage(FragmentConfig.FRAGMENT_SETTING, null, SettingFragment.newInstance(), false, new View[0]);
         }
     }
 
@@ -84,7 +128,7 @@ public class NavigationManager {
     }
 
     public final boolean canNavigate(){
-        return (mActivity != null) && (mActivity.mStateSaved);
+        return (mActivity != null) && (!mActivity.mStateSaved);
     }
 
     public final void clear(){
@@ -113,10 +157,14 @@ public class NavigationManager {
         mFragmentManager.popBackStack();
     }
 
-    public final void showPage(int pageType, String url, Fragment fragment, boolean replaceTop, View ... sharedViews){
-        //// TODO: 2015/12/29  要显示的页面为当前页时不进行切换
-        //解决实现逻辑
+    public void resetBackstackToAppsHome(){
+        if (!isHomeHome()) {
+            clearInternal();
+        }
+        mShouldFallBackToAppsHome = true;
+    }
 
+    public final void showPage(int pageType, String url, Fragment fragment, boolean replaceTop, View ... sharedViews){
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         //** No animation for transition. */
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_NONE);

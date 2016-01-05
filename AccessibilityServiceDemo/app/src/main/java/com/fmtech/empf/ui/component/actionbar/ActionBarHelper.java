@@ -110,7 +110,7 @@ public final class ActionBarHelper {
     }
 
     private void setTitle(CharSequence title){
-        if(null != mActionBar) {System.out.println("-------ActionBarHelper#setTitle: "+title.toString());
+        if(null != mActionBar) {
             mCurrentTitle = title;
             mActionBar.setTitle(mCurrentTitle);
         }

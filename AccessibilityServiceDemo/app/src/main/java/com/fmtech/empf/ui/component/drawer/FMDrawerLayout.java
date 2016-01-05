@@ -6,23 +6,12 @@ import android.os.Build;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.util.AttributeSet;
-import android.view.Gravity;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.fmtech.accessibilityservicedemo.R;
-import com.fmtech.empf.ui.fragments.ContactUsFragment;
-import com.fmtech.empf.ui.fragments.FragmentConfig;
-import com.fmtech.empf.ui.fragments.HomeFragment;
-import com.fmtech.empf.ui.fragments.NewsFragment;
-import com.fmtech.empf.ui.fragments.SecurityTipsFragment;
-import com.fmtech.empf.ui.fragments.SettingFragment;
-import com.fmtech.empf.ui.fragments.TutorialsFragment;
 import com.fmtech.empf.ui.navigationmanager.NavigationManager;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.fmtech.empf.utils.CommonResourceUtils;
 
 /**
  * ==================================================================
@@ -72,47 +61,54 @@ public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickLi
     }
 
     public void refesh() {
-        DrawerAction homeAction = new DrawerAction("Home", true, new Runnable() {
+        DrawerAction homeAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_home), true, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), true, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoHome();
             }
         });
 
-        DrawerAction tutorialsAction = new DrawerAction("Tutorials", false, new Runnable() {
+        DrawerAction tutorialsAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_tutorials), false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_TUTORIALS, null, TutorialsFragment.newInstance(), false, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoTutorials();
             }
         });
 
-        DrawerAction newsAction = new DrawerAction("News", false, new Runnable() {
+        DrawerAction newsAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_news), false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_NEWS, null, NewsFragment.newInstance(), false, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoNews();
             }
         });
 
-        DrawerAction securityTipsAction = new DrawerAction("Security Tips", false, new Runnable() {
+        DrawerAction securityTipsAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_security_tips), false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_SECURITY_TIPS, null, SecurityTipsFragment.newInstance(), false, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoSecurityTips();
             }
         });
 
-        DrawerAction contactUsAction = new DrawerAction("Contact Us", false, new Runnable() {
+        DrawerAction contactUsAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_contact_us), false, new Runnable() {
             @Override
             public void run() {
-                mNavigationManager.showPage(FragmentConfig.FRAGMENT_CONTACT_US, null, ContactUsFragment.newInstance(), false, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoContactUs();
             }
         });
 
-        DrawerAction settingAction = new DrawerAction("Setting", false, new Runnable() {
+        DrawerAction settingAction = new DrawerAction(CommonResourceUtils.getString(R.string.fragment_title_setting), false, new Runnable() {
             @Override
             public void run() {
-            mNavigationManager.showPage(FragmentConfig.FRAGMENT_SETTING, null, SettingFragment.newInstance(), false, new View[0]);
+                mNavigationManager.resetBackstackToAppsHome();
+                mNavigationManager.gotoSetting();
             }
         });
+
         mDrawerAdapter.mDrawerActions.add(homeAction);
         mDrawerAdapter.mDrawerActions.add(tutorialsAction);
         mDrawerAdapter.mDrawerActions.add(newsAction);

@@ -4,6 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.fmtech.empf.ui.fragments.PageFragment;
+
 import java.util.List;
 
 /**
@@ -26,15 +28,15 @@ import java.util.List;
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter{
 
-    private List<Fragment> mFragments;
+    private List<PageFragment> mFragments;
 
-    public HomeFragmentPagerAdapter(FragmentManager fragmentManager, List<Fragment> fragments){
+    public HomeFragmentPagerAdapter(FragmentManager fragmentManager, List<PageFragment> fragments){
         super(fragmentManager);
         mFragments = fragments;
     }
 
     @Override
-    public Fragment getItem(int position) {
+    public PageFragment getItem(int position) {
         return mFragments.get(position);
     }
 

@@ -2,34 +2,29 @@ package com.fmtech.empf.utils;
 
 import android.content.Context;
 
-import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.FMApplication;
 
 /**
  * ==================================================================
- * Copyright (C) 2015 FMTech All Rights Reserved.
+ * Copyright (C) 2016 FMTech All Rights Reserved.
  *
  * @author Drew.Chiang
  * @version v1.0.0
  * @email chiangchuna@gmail.com
- * @create_date 2015/12/28 12:20
+ * @create_date 2016/1/5 14:25
  * @description ${todo}
  * <p/>
  * Modification History:
  * Date            Author            Version         Description
  * -----------------------------------------------------------------
- * 2015/12/28 12:20  Drew.Chiang       v1.0.0          create
+ * 2016/1/5 14:25  Drew.Chiang       v1.0.0          create
  * <p/>
  * ==================================================================
  */
 
-public final class CorpusResourceUtils {
+public class CommonResourceUtils {
 
-    public static int getPrimaryColor(Context context, int paramInt) {
-        return context.getResources().getColor(getPrimaryColorResId(paramInt));
+    public static String getString(int resId){
+        return FMApplication.getApplication().getResources().getString(resId);
     }
-
-    public static int getPrimaryColorResId(int paramInt) {
-        return R.color.colorPrimary;
-    }
-
 }

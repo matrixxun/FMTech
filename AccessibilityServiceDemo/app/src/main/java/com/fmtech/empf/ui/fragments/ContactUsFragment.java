@@ -1,5 +1,8 @@
 package com.fmtech.empf.ui.fragments;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+
 import com.fmtech.accessibilityservicedemo.R;
 
 /**
@@ -22,9 +25,25 @@ import com.fmtech.accessibilityservicedemo.R;
 
 public class ContactUsFragment extends PageFragment{
 
+    private String mBreadcrumb;
+
     public static ContactUsFragment newInstance() {
         ContactUsFragment settingFragment = new ContactUsFragment();
         return settingFragment;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mBreadcrumb = mContext.getString(R.string.fragment_title_contact_us);
+        rebindActionBar();
+    }
+
+    @Override
+    public void rebindActionBar() {
+        this.mPageFragmentHost.updateActionBarTitle(mBreadcrumb);
+        mPageFragmentHost.updateCurrentBackendId(0, true);
+        mPageFragmentHost.switchToRegularActionBar();
     }
 
     @Override

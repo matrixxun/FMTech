@@ -2,7 +2,6 @@ package com.fmtech.empf.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +14,7 @@ import com.fmtech.empf.ui.fragments.homepages.MessageBoxFragment;
 import com.fmtech.empf.ui.fragments.homepages.PersonalAccountFragment;
 import com.fmtech.empf.ui.fragments.homepages.PersonalProfileFragment;
 import com.fmtech.empf.ui.fragments.homepages.TrusteeContactFragment;
+import com.fmtech.empf.utils.CommonResourceUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class HomeFragment extends PageFragment implements View.OnClickListener{
     private static int mCurrentIndex = -1;
 
     private HomeFragmentPagerAdapter mPagerAdapter;
-    private List<Fragment> mFragments = new ArrayList<Fragment>();
+    private List<PageFragment> mFragments = new ArrayList<PageFragment>();
 
     public static HomeFragment newInstance() {
         HomeFragment homeFragment = new HomeFragment();
@@ -91,6 +91,7 @@ public class HomeFragment extends PageFragment implements View.OnClickListener{
             public void onPageSelected(int position) {
                 syncTab(mCurrentIndex, position);
                 mCurrentIndex = position;
+                mFragments.get(position).rebindActionBar();
             }
 
             @Override
@@ -99,24 +100,25 @@ public class HomeFragment extends PageFragment implements View.OnClickListener{
             }
         });
         mViewPager.setCurrentItem(0);
+//        mFragments.get(0).rebindActionBar();
     }
 
     private void initTabs(){
         mPresonalAccountTab.setOnClickListener(this);
         mPresonalAccountTab.setMessageCount(0);
         mPresonalAccountTab.setSelected(true);
-        mPresonalAccountTab.setTabTitle("Personal Account");
+        mPresonalAccountTab.setTabTitle(CommonResourceUtils.getString(R.string.fragment_title_personal_account));
 
         mTrusteeContactTab.setOnClickListener(this);
         mTrusteeContactTab.setMessageCount(0);
-        mTrusteeContactTab.setTabTitle("Trustee Contact");
+        mTrusteeContactTab.setTabTitle(CommonResourceUtils.getString(R.string.fragment_title_trustee_contact));
 
         mMessageBoxTab.setOnClickListener(this);
-        mMessageBoxTab.setTabTitle("Message Box");
+        mMessageBoxTab.setTabTitle(CommonResourceUtils.getString(R.string.fragment_title_message_box));
 
         mPersonalProfileTab.setOnClickListener(this);
         mPersonalProfileTab.setMessageCount(0);
-        mPersonalProfileTab.setTabTitle("Personal Profile");
+        mPersonalProfileTab.setTabTitle(CommonResourceUtils.getString(R.string.fragment_title_personal_profile));
 
         if(null == mTabs){
             mTabs = new ArrayList<ItemHomeTab>();

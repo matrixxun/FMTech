@@ -3,11 +3,16 @@
     <string name="language_cn">繁體</string>
     <string name="language_en">English</string>
     <string name="setting_language">Select Language</string>
+    <string name="fragment_title_home">Home</string>
     <string name="fragment_title_news">News</string>
     <string name="fragment_title_tutorials">Tutorials</string>
     <string name="fragment_title_security_tips">Security Tips</string>
     <string name="fragment_title_contact_us">Contact Us</string>
     <string name="fragment_title_setting">Setting</string>
+    <string name="fragment_title_personal_account">Personal Account</string>
+    <string name="fragment_title_trustee_contact">Trustee Contact</string>
+    <string name="fragment_title_message_box">Message Box</string>
+    <string name="fragment_title_personal_profile">Personal Profile</string>
     <!--<string name="forgot_password"><u>Forgot Password</u></string>-->
     <string name="forgot_password">Forgot Password</string>
     <string name="account_de_registration"><u>Account De-Registration</u></string>

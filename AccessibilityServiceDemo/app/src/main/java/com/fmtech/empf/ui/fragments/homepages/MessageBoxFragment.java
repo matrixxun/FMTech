@@ -1,5 +1,8 @@
 package com.fmtech.empf.ui.fragments.homepages;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.ui.fragments.PageFragment;
 
@@ -23,9 +26,25 @@ import com.fmtech.empf.ui.fragments.PageFragment;
 
 public class MessageBoxFragment extends PageFragment{
 
+    private String mBreadcrumb;
+
     public static MessageBoxFragment newInstance(){
         MessageBoxFragment messageBoxFragment= new MessageBoxFragment();
         return messageBoxFragment;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mBreadcrumb = mContext.getString(R.string.fragment_title_message_box);
+//        rebindActionBar();
+    }
+
+    @Override
+    public void rebindActionBar() {
+        this.mPageFragmentHost.updateActionBarTitle(mBreadcrumb);
+        mPageFragmentHost.updateCurrentBackendId(0, true);
+        mPageFragmentHost.switchToRegularActionBar();
     }
 
     @Override
