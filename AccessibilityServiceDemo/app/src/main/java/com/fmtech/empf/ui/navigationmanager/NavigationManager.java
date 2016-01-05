@@ -64,11 +64,11 @@ public class NavigationManager {
             return false;
         }
 
-        if(mShouldFallBackToAppsHome){
-            gotoHome();
-            mShouldFallBackToAppsHome = false;
-            return true;
-        }
+//        if(mShouldFallBackToAppsHome){
+//            gotoHome();
+//            mShouldFallBackToAppsHome = false;
+//            return true;
+//        }
         try {
             mBackStack.pop();
             mFragmentManager.popBackStack();
@@ -120,6 +120,7 @@ public class NavigationManager {
 
     private boolean isHomeHome(){
         int currPageType = getCurrentPageType();
+        System.out.println("-------getActivePage() instanceof HomeFragment: "+(getActivePage() instanceof HomeFragment)+" , currPageType: "+currPageType);
         return ((getActivePage() instanceof HomeFragment) && (currPageType == FragmentConfig.FRAGMENT_HOME));
     }
 
@@ -137,8 +138,11 @@ public class NavigationManager {
     }
 
     public final void clearInternal(){
-        mBackStack.removeAllElements();
-        while(mFragmentManager.getBackStackEntryCount() > 0){
+//        mBackStack.removeAllElements();
+        while(mBackStack.size() > 1){
+            mBackStack.pop();
+        }
+        while(mFragmentManager.getBackStackEntryCount() > 1){
             mFragmentManager.popBackStackImmediate();
         }
     }
