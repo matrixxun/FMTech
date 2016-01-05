@@ -796,7 +796,8 @@ public class TalkBackPreferencesActivity extends PreferenceActivity {
             return true;
         }
         if(requestedState && MyAccessibilityService.getInstance() != null) {
-            MyAccessibilityService.getInstance().showTutorial();
+            //TODO
+//            MyAccessibilityService.getInstance().showTutorial();
         }
 
         // If accessibility is on, we should wait for the "actual" state to

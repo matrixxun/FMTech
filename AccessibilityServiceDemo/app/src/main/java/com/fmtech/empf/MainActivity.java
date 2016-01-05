@@ -20,6 +20,7 @@ import com.fmtech.empf.ui.component.actionbar.ActionBarController;
 import com.fmtech.empf.ui.component.actionbar.ActionBarHelper;
 import com.fmtech.empf.ui.component.drawer.DrawerAdapter;
 import com.fmtech.empf.ui.component.drawer.FMDrawerLayout;
+import com.fmtech.empf.ui.fragments.FragmentConfig;
 import com.fmtech.empf.ui.fragments.HomeFragment;
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.ui.fragments.PageFragment;
@@ -85,11 +86,11 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
     }
 
     private void setUpFragments() {
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
-                .addToBackStack(null)
-                .commit();
-//        mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
+//        getSupportFragmentManager().beginTransaction()
+//                .add(R.id.content_frame, new HomeFragment(), "HOME_FRAGMENT")
+//                .addToBackStack(null)
+//                .commit();
+        mNavigationManager.showPage(FragmentConfig.FRAGMENT_HOME, null, HomeFragment.newInstance(), false, new View[0]);
     }
 
     public void toLogin(View view) {
@@ -127,11 +128,18 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
             mDrawerLayout.closeDrawer();
             return;
         }
-        PageFragment activePage = this.mNavigationManager.getActivePage();
-        if (((null != activePage) && (activePage.onBackPressed())) || (mNavigationManager.goBack())) {
-            return;
+//        PageFragment activePage = this.mNavigationManager.getActivePage();
+//        if (((null != activePage) && (activePage.onBackPressed())) || (mNavigationManager.goBack())) {
+//            return;
+//        }
+//        super.onBackPressed();
+
+        PageFragment currPage = mNavigationManager.getActivePage();
+        if((currPage == null) || (!currPage.onBackPressed())) {
+            if(!mNavigationManager.goBack()) {
+                super.onBackPressed();
+            }
         }
-        super.onBackPressed();
     }
 
     @Override
@@ -218,7 +226,7 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
 
     @Override
     public void goBack() {
-
+        onBackPressed();
     }
 
     @Override
@@ -227,7 +235,7 @@ public class MainActivity extends BaseActivity implements ActionBarController, P
     }
 
     @Override
-    public void showErrorDialog(String paramString1, String paramString2, boolean paramBoolean) {
+    public void showErrorDialog(String title, String message, boolean goBack) {
 
     }
 

@@ -9,6 +9,8 @@ import android.view.View;
 
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.MainActivity;
+import com.fmtech.empf.ui.fragments.FragmentConfig;
+import com.fmtech.empf.ui.fragments.HomeFragment;
 import com.fmtech.empf.ui.fragments.PageFragment;
 import com.fmtech.empf.utils.MainThreadStack;
 
@@ -69,11 +71,12 @@ public class NavigationManager {
     }
 
     public PageFragment getActivePage(){
-        return (PageFragment)mFragmentManager.findFragmentById(R.id.drawer_root);
+        return (PageFragment)mFragmentManager.findFragmentById(R.id.content_frame);
     }
+
     private boolean isHomeHome(){
-        //TODO
-        return false;
+        int currPageType = getCurrentPageType();
+        return ((getActivePage() instanceof HomeFragment) && (currPageType == FragmentConfig.FRAGMENT_HOME));
     }
 
     public boolean isBackStackEmpty(){
@@ -98,7 +101,7 @@ public class NavigationManager {
 
     public final int getCurrentPageType(){
         if(mBackStack.isEmpty()){
-            return 0;
+            return FragmentConfig.FRAGMENT_HOME;
         }
         return ((NavigationState)mBackStack.peek()).pageType;
     }
@@ -110,7 +113,7 @@ public class NavigationManager {
         mFragmentManager.popBackStack();
     }
 
-    public final void showPage(int pageType, String url, Fragment fragment, boolean isPopBackStack, View ... views){
+    public final void showPage(int pageType, String url, Fragment fragment, boolean replaceTop, View ... sharedViews){
         //// TODO: 2015/12/29  要显示的页面为当前页时不进行切换
         //解决实现逻辑
 
@@ -118,13 +121,14 @@ public class NavigationManager {
         //** No animation for transition. */
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_NONE);
         fragmentTransaction.replace(R.id.content_frame, fragment);
-        if (isPopBackStack) {
+        if (replaceTop) {
             popBackStack();
         }
         NavigationState navigationState = new NavigationState(pageType, null, url);
         fragmentTransaction.addToBackStack(navigationState.backstackName);
         mBackStack.push(navigationState);
         fragmentTransaction.commit();
+        System.out.println("-------mFragmentManager.getBackStackEntryCount(): "+mFragmentManager.getBackStackEntryCount());
     }
 
     /*public final void showPage(int paramInt, String paramString, Fragment paramFragment, boolean paramBoolean, View... paramVarArgs)

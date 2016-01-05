@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.fmtech.accessibilityservicedemo.R;
 import com.fmtech.empf.ui.component.actionbar.ActionBarController;
+import com.fmtech.empf.ui.component.layout.LayoutSwitcher;
 import com.fmtech.empf.ui.navigationmanager.NavigationManager;
 import com.fmtech.empf.utils.CorpusResourceUtils;
 
@@ -34,8 +35,10 @@ import com.fmtech.empf.utils.CorpusResourceUtils;
 
 public abstract class PageFragment extends Fragment {
 
-    private NavigationManager mNavigationManager;
-    private ActionBarController mActionBarController;
+    public ActionBarController mActionBarController;
+    public LayoutSwitcher mLayoutSwitcher;
+    public NavigationManager mNavigationManager;
+    public PageFragmentHost mPageFragmentHost;
 
     public PageFragment() {
 
@@ -98,6 +101,10 @@ public abstract class PageFragment extends Fragment {
     public boolean onBackPressed() {
         return false;
     }
+
+    public void rebindActionBar(){
+
+    };
 
     public abstract int getLayoutRes();
 
