@@ -38,6 +38,8 @@ public class PersonalAccountFragment extends PageFragment{
         super.onActivityCreated(savedInstanceState);
         mBreadcrumb = mContext.getString(R.string.fragment_title_personal_account);
         rebindActionBar();
+
+        requestData();
     }
 
     @Override

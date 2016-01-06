@@ -14,6 +14,7 @@ import android.widget.Button;
 
 import com.fmtech.empf.ui.component.MPFADialog;
 import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.utils.PreferenceUtils;
 
 import java.util.Locale;
 
@@ -67,7 +68,7 @@ public class SelectLanguageActivity extends BaseActivity implements View.OnClick
     }
 
     private void changeLanguage(String lang){
-        //应用内配置语言
+//        //应用内配置语言
         Resources resources =getResources();//获得res资源对象
         Configuration config = resources.getConfiguration();//获得设置对象
         DisplayMetrics dm = resources.getDisplayMetrics();//获得屏幕参数：主要是分辨率，像素等。
@@ -78,19 +79,25 @@ public class SelectLanguageActivity extends BaseActivity implements View.OnClick
         }
 
         resources.updateConfiguration(config, dm);
+
+        PreferenceUtils.shareInstance().putString("language", lang).commit();
+
         //Two Buttons
         mDialog= new MPFADialog(SelectLanguageActivity.this, null, null, true, null, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mDialog.dismiss();
                 finish();
-                Intent intent = new Intent(SelectLanguageActivity.this, GuidanceActivity.class);
+                Intent intent = new Intent(SelectLanguageActivity.this, SelectLanguageActivity.class);
                 startActivity(intent);
             }
         }, null, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mDialog.dismiss();
+                finish();
+                Intent intent = new Intent(SelectLanguageActivity.this, GuidanceActivity.class);
+                startActivity(intent);
             }
         });
         //On Button

@@ -2,6 +2,8 @@ package com.fmtech.empf;
 
 import android.app.Application;
 
+import com.fmtech.empf.utils.PreferenceUtils;
+
 /**
  * ==================================================================
  * Copyright (C) 2016 FMTech All Rights Reserved.
@@ -28,6 +30,7 @@ public class FMApplication extends Application{
     public void onCreate() {
         super.onCreate();
         mContext = this;
+        PreferenceUtils.init(mContext);
     }
 
     public static FMApplication getApplication(){

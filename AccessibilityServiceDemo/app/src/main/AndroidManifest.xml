@@ -30,6 +30,7 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
     <!-- Hardware compatibility. -->
     <uses-feature
         android:name="android.hardware.touchscreen"
@@ -59,12 +60,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.fmtech.empf.ui.activities.SelectLanguageActivity">
+        <activity android:name="com.fmtech.empf.ui.activities.SelectLanguageActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTop">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.fmtech.empf.ui.activities.GuidanceActivity">
+        <activity android:name="com.fmtech.empf.ui.activities.GuidanceActivity"
+            android:configChanges="locale">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
