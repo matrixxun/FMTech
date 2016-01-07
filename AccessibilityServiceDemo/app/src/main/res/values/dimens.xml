@@ -1,13 +1,14 @@
 <resources>
     <dimen name="dot_size">20dp</dimen>
     <dimen name="drawer_max_width">300.0dip</dimen>
-    <dimen name="play_drawer_primary_size">18.0sp</dimen>
+    <dimen name="play_drawer_primary_size">20.0sp</dimen>
     <dimen name="play_drawer_item_left_padding">16.0dip</dimen>
     <dimen name="play_drawer_item_right_padding">16.0dip</dimen>
-    <dimen name="play_drawer_item_primary_min_height">48.0dip</dimen>
+    <dimen name="play_drawer_item_primary_min_height">56.0dip</dimen>
     <dimen name="play_highlight_outline_thickness">1.0dip</dimen>
     <dimen name="play_drawer_item_top_margin">32.0dip</dimen>
     <dimen name="separator_line_height">1.0dip</dimen>
+    <dimen name="drawer_action_top_spacing_height">22.0dip</dimen>
 
     <dimen name="text_size_home_tab_bottom">11sp</dimen>
 

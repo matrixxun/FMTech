@@ -2,5 +2,5 @@
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="20.0dip"
+    android:layout_height="@dimen/drawer_action_top_spacing_height"
     android:focusable="false" />
