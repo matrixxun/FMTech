@@ -8,6 +8,7 @@ import android.view.View;
 import com.fmtech.empf.MainActivity;
 import com.fmtech.empf.ui.component.MPFADialog;
 import com.fmtech.accessibilityservicedemo.R;
+import com.fmtech.empf.ui.component.MPFASimpleDialog;
 
 /**
  * ==================================================================
@@ -28,7 +29,7 @@ import com.fmtech.accessibilityservicedemo.R;
  */
 
 public class GuidanceActivity extends BaseActivity{
-    private MPFADialog mDialog;
+    private MPFASimpleDialog mDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class GuidanceActivity extends BaseActivity{
     }
 
     public void onSkip(View view){
-        mDialog = new MPFADialog(this, "Important Message", "To protect your interest, please never disclose your password to anyone.", "OK", new View.OnClickListener() {
+        mDialog = new MPFASimpleDialog(this, "Important Message", "To protect your interest, please never disclose your password to anyone.", "OK", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mDialog.dismiss();

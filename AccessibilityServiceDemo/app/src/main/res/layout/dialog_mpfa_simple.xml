@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="300dp"
-        android:layout_height="370dp"
+        android:layout_height="310dp"
         android:orientation="vertical"
         android:layout_marginTop="56dp"
         android:layout_centerHorizontal="true"
@@ -24,7 +24,6 @@
             android:textSize="22sp"
             android:textStyle="bold"
             android:text="Dialog TITLE"/>
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -42,7 +41,7 @@
                 android:text="Dialog message content, show the detail of message.Copyright (C) 2015 MPFA All Rights Reserved.\n Please feel free to contact us!"/>
 
             <Button
-                android:id="@+id/btn_dialog_mpfa1"
+                android:id="@+id/btn_dialog_mpfa_simple"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_alignParentBottom="true"
@@ -54,21 +53,7 @@
                 android:textColor="@android:color/white"
                 android:textAllCaps="false"
                 android:textSize="16sp"
-                android:text="Confirm"/>
-
-            <Button
-                android:id="@+id/btn_dialog_mpfa2"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_above="@id/btn_dialog_mpfa1"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:visibility="gone"
-                android:background="@drawable/btn_background"
-                android:textColor="@android:color/white"
-                android:textAllCaps="false"
-                android:textSize="16sp"
-                android:text="Skip"/>
+                android:text="OK"/>
 
         </RelativeLayout>
 
