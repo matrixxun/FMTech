@@ -35,25 +35,16 @@
             android:layout_margin="32dp"
             android:gravity="center">
 
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:background="@drawable/navigation_dot_selected"/>
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:layout_marginLeft="16dp"
-                android:background="@drawable/navigation_dot_normal"/>
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:layout_marginLeft="16dp"
-                android:background="@drawable/navigation_dot_normal"/>
-            <View
-                android:layout_width="10dp"
-                android:layout_height="10dp"
-                android:layout_marginLeft="16dp"
-                android:background="@drawable/navigation_dot_normal"/>
+            <com.fmtech.empf.ui.view.NavigationDot
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/navigationdot_guidance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                app:navigationDotNormal="@drawable/navigation_dot_normal"
+                app:navigationDotSelected="@drawable/navigation_dot_selected"
+                app:navigationDotCount="4"
+                app:navigationDotPadding="16dp"/>
 
         </LinearLayout>
     </LinearLayout>

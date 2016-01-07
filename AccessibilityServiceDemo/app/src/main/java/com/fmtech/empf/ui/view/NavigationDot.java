@@ -56,7 +56,9 @@ public class NavigationDot extends View {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.NavigationDot);
         mDotNormalResId = typedArray.getResourceId(R.styleable.NavigationDot_navigationDotNormal, -1);
         mDotSelectedResId =typedArray.getResourceId(R.styleable.NavigationDot_navigationDotSelected, -1);
-        mDotCount = typedArray.getResourceId(R.styleable.NavigationDot_navigationDotCount, 3);
+        mDotCount = typedArray.getInt(R.styleable.NavigationDot_navigationDotCount, 3);
+//        float dotPadding = typedArray.getDimension(R.styleable.NavigationDot_navigationDotPadding, 6.0F);
+        mPadding = (int)typedArray.getDimension(R.styleable.NavigationDot_navigationDotPadding, 6.0F);
         typedArray.recycle();
 
         if(mDotNormalResId != -1){
@@ -73,7 +75,7 @@ public class NavigationDot extends View {
 
         mDotHeight = mDotNormal.getHeight();
         mDotWidth = mDotNormal.getWidth();
-        mPadding = DimenUtils.dip2px(context, 6.0F);
+//        mPadding = DimenUtils.dip2px(context, dotPadding);
     }
 
     public NavigationDot(Context paramContext, boolean loop)
