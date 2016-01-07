@@ -4,5 +4,6 @@
         <attr name="navigationDotSelected" format="reference"/>
         <attr name="navigationDotNormal" format="reference"/>
         <attr name="navigationDotCount" format="reference"/>
+        <attr name="navigationDotPadding" format="dimension"/>
     </declare-styleable>
 </resources>
