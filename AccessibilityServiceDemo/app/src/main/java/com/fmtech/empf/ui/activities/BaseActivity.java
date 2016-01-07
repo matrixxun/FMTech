@@ -49,6 +49,8 @@ public class BaseActivity extends AppCompatActivity{
         Resources resources =getResources();//获得res资源对象
         Configuration config = resources.getConfiguration();//获得设置对象
         DisplayMetrics dm = resources.getDisplayMetrics();//获得屏幕参数：主要是分辨率，像素等。
+        System.out.println("-------DisplayMetrics.densityDpi: "+dm.densityDpi);
+        System.out.println("-------DisplayMetrics.density: "+dm.density);
         if(locale.equals("CN")){
             config.locale = Locale.TRADITIONAL_CHINESE; //繁体中文
         }else{

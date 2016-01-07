@@ -444,6 +444,7 @@ MPFA" />
                 android:layout_height="wrap_content">
 
                 <RadioButton
+                    android:id="@+id/rbtn_lang_en"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
@@ -452,6 +453,7 @@ MPFA" />
                     android:textSize="20sp" />
 
                 <RadioButton
+                    android:id="@+id/rbtn_lang_cn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"

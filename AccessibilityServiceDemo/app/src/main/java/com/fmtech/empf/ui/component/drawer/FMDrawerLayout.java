@@ -33,7 +33,6 @@ import com.fmtech.empf.utils.CommonResourceUtils;
 
 public class FMDrawerLayout extends DrawerLayout implements DrawerContentClickListener {
 
-    //    public List<DrawerAction> mDrawerActions = new ArrayList<DrawerAction>();
     public DrawerAdapter mDrawerAdapter;
     public ListView mDrawerList;
     public ViewGroup mDrawerRoot;

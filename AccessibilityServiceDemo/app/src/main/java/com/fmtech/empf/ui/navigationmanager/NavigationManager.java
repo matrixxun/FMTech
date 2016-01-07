@@ -120,7 +120,6 @@ public class NavigationManager {
 
     private boolean isHomeHome(){
         int currPageType = getCurrentPageType();
-        System.out.println("-------getActivePage() instanceof HomeFragment: "+(getActivePage() instanceof HomeFragment)+" , currPageType: "+currPageType);
         return ((getActivePage() instanceof HomeFragment) && (currPageType == FragmentConfig.FRAGMENT_HOME));
     }
 
@@ -139,6 +138,7 @@ public class NavigationManager {
 
     public final void clearInternal(){
 //        mBackStack.removeAllElements();
+        //Keeep HomeFragment
         while(mBackStack.size() > 1){
             mBackStack.pop();
         }
